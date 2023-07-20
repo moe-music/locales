@@ -118,9 +118,7 @@
 			"online": "Elérhető",
 			"offline": "Nem elérhető"
 		}
-	}
-},
-{
+	},
 	"autoplay": {
 		"description": "Engedélyezi vagy letiltja az automatikus lejátszási módot.",
 		"enabled": "### Az automatikus lejátszási mód sikeresen engedélyezve.\nA bot mostantól automatikusan hozzáad hasonló dalokat a várólistához.",
@@ -224,222 +222,215 @@
 		"requester": "Kérte",
 		"duration": "Hossz",
 		"progress": "Előrehaladás"
-	}
-}
-{
+	},
 	"pause": {
-	  "description": "Szünetelteti az aktuális dalt.",
-	  "alreadyPaused": "### Az aktuális dal már szünetelve van.",
-	  "paused": "### Szünetelve: [{{{title}}}]({{{uri}}})"
+		"description": "Szünetelteti az aktuális dalt.",
+		"alreadyPaused": "### Az aktuális dal már szünetelve van.",
+		"paused": "### Szünetelve: [{{{title}}}]({{{uri}}})"
 	},
 	"play": {
-	  "description": "Lejátszik egy dalt a Spotifyról, SoundCloudról, Deezer-ről, stb...",
-	  "options": {
-		"query": "A keresett szó",
-		"source": "A keresés forrása"
-	  },
-	  "no-query": "Kérlek adj meg egy dal nevét a kereséshez.",
-	  "no-results": "### Nincs találat a `{{{query}}}` keresésre.",
-	  "playlist-loaded": "### Betöltve `{{{count}}}` szám a lejátszási listából: **[{{{name}}}]({{{url}}})**",
-	  "footer": "Köszönöm, hogy használod a(z) {{{bot}}} botot!",
-	  "added": "### Hozzáadva a lejátszási sorhoz: **[{{{title}}}]({{{uri}}})** (kérte: <@{{{requester}}}>) a sorban a(z) `#{{{position}}}` helyen"
+		"description": "Lejátszik egy dalt a Spotifyról, SoundCloudról, Deezer-ről, stb...",
+		"options": {
+			"query": "A keresett szó",
+			"source": "A keresés forrása"
+		},
+		"no-query": "Kérlek adj meg egy dal nevét a kereséshez.",
+		"no-results": "### Nincs találat a `{{{query}}}` keresésre.",
+		"playlist-loaded": "### Betöltve `{{{count}}}` szám a lejátszási listából: **[{{{name}}}]({{{url}}})**",
+		"footer": "Köszönöm, hogy használod a(z) {{{bot}}} botot!",
+		"added": "### Hozzáadva a lejátszási sorhoz: **[{{{title}}}]({{{uri}}})** (kérte: <@{{{requester}}}>) a sorban a(z) `#{{{position}}}` helyen"
 	},
 	"playprevious": {
-	  "description": "Lejátssza az előző dalt.",
-	  "noPreviousTrack": "### {{{emoji}}} Nincs előző dal a lejátszási sorban.",
-	  "success": "### {{{emoji}}} Most az előző dalt játsszuk a lejátszási sorból!"
+		"description": "Lejátssza az előző dalt.",
+		"noPreviousTrack": "### {{{emoji}}} Nincs előző dal a lejátszási sorban.",
+		"success": "### {{{emoji}}} Most az előző dalt játsszuk a lejátszási sorból!"
 	},
 	"queue": {
-	  "description": "Megmutatja a jelenlegi szerver lejátszási sorát.",
-	  "options": {
-		"page": "Az oldalszám, amit meg szeretnél nézni"
-	  },
-	  "queue": "### Lejátszási sor a(z) {{{guild}}} szerveren ({{{songs}}} szám)",
-	  "nowPlaying": "### Most játszott: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-	  "upNext": "### Következik: {{{str}}}",
-	  "noSongs": "### Még nincsenek dalok a lejátszási sorban! Adj hozzá egyet a(z) {{{cmd}}} paranccsal",
-	  "page": "Oldal {{{page}}} | {{{songs}}} dal | Összesített hossz: {{{duration}}}",
-	  "notNumber": "### {{{emoji}}} Az oldalszám csak szám lehet.",
-	  "pageLimit": "### {{{emoji}}} Az oldalszám nem lehet nagyobb, mint {{{pages}}}.",
-	  "clearQueue": "Lejátszási sor törlése",
-	  "noTracks": "### Nincsenek dalok a lejátszási sorban.",
-	  "noDjRole": "### Az ehhez a művelethez szükséged van a DJ szerepkörre.",
-	  "clearedQueue": "### {{{user}}} Törölte a lejátszási sort."
+		"description": "Megmutatja a jelenlegi szerver lejátszási sorát.",
+		"options": {
+			"page": "Az oldalszám, amit meg szeretnél nézni"
+		},
+		"queue": "### Lejátszási sor a(z) {{{guild}}} szerveren ({{{songs}}} szám)",
+		"nowPlaying": "### Most játszott: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+		"upNext": "### Következik: {{{str}}}",
+		"noSongs": "### Még nincsenek dalok a lejátszási sorban! Adj hozzá egyet a(z) {{{cmd}}} paranccsal",
+		"page": "Oldal {{{page}}} | {{{songs}}} dal | Összesített hossz: {{{duration}}}",
+		"notNumber": "### {{{emoji}}} Az oldalszám csak szám lehet.",
+		"pageLimit": "### {{{emoji}}} Az oldalszám nem lehet nagyobb, mint {{{pages}}}.",
+		"clearQueue": "Lejátszási sor törlése",
+		"noTracks": "### Nincsenek dalok a lejátszási sorban.",
+		"noDjRole": "### Az ehhez a művelethez szükséged van a DJ szerepkörre.",
+		"clearedQueue": "### {{{user}}} Törölte a lejátszási sort."
 	},
 	"remove": {
-	  "description": "Egy dalt eltávolít a lejátszási sorból.",
-	  "options": {
-		"track": "A törlendő dal.",
-		"number": "A dal száma vagy címe, amit törölni szeretnél.",
-		"dupes": "Az összes többszörözött szám eltávolítása."
-	  },
-	  "trackNotFound": "### Nincs a megadott számmal dal a lejátszási sorban",
-	  "invalidNumber": "### Kérlek adj meg egy számot 1 és {{{length}}} között.",
-	  "removed": "### Törölve a lejátszási sorból: **[{{{title}}}]({{{uri}}})**",
-	  "noDupes": "### Nincsenek többszörözött dalok a lejátszási sorban.",
-	  "removedDupes": "### Eltávolítva a többszörözött számok: **{{{length}}}** dal a lejátszási sorból."
+		"description": "Egy dalt eltávolít a lejátszási sorból.",
+		"options": {
+			"track": "A törlendő dal.",
+			"number": "A dal száma vagy címe, amit törölni szeretnél.",
+			"dupes": "Az összes többszörözött szám eltávolítása."
+		},
+		"trackNotFound": "### Nincs a megadott számmal dal a lejátszási sorban",
+		"invalidNumber": "### Kérlek adj meg egy számot 1 és {{{length}}} között.",
+		"removed": "### Törölve a lejátszási sorból: **[{{{title}}}]({{{uri}}})**",
+		"noDupes": "### Nincsenek többszörözött dalok a lejátszási sorban.",
+		"removedDupes": "### Eltávolítva a többszörözött számok: **{{{length}}}** dal a lejátszási sorból."
 	},
 	"replay": {
-	  "description": "Az aktuális dalt újrajátssza.",
-	  "replaying": "### Újra játszva: [{{{title}}}]({{{uri}}})"
+		"description": "Az aktuális dalt újrajátssza.",
+		"replaying": "### Újra játszva: [{{{title}}}]({{{uri}}})"
 	},
 	"resume": {
-	  "description": "Folytatja az aktuális dalt.",
-	  "notPaused": "### Az aktuális dal nem szünetel.",
-	  "resumed": "### Folytatva: [{{{title}}}]({{{uri}}})"
+		"description": "Folytatja az aktuális dalt.",
+		"notPaused": "### Az aktuális dal nem szünetel.",
+		"resumed": "### Folytatva: [{{{title}}}]({{{uri}}})"
 	},
 	"rewind": {
-	  "description": "Visszatekeri az aktuális dalt.",
-	  "options": {
-		"time": "Az az időpont, ahová visszatekered a dalt."
-	  },
-	  "notSeekable": "### {{{emoji}}} Az aktuális dal nem tekerhető vissza.",
-	  "negativePosition": "### {{{emoji}}} Az időpontnak 0 és {{{length}}} között kell lennie.",
-	  "success": "### {{{emoji}}} Visszatekerve a dal: {{{length}}}."
+		"description": "Visszatekeri az aktuális dalt.",
+		"options": {
+			"time": "Az az időpont, ahová visszatekered a dalt."
+		},
+		"notSeekable": "### {{{emoji}}} Az aktuális dal nem tekerhető vissza.",
+		"negativePosition": "### {{{emoji}}} Az időpontnak 0 és {{{length}}} között kell lennie.",
+		"success": "### {{{emoji}}} Visszatekerve a dal: {{{length}}}."
 	},
 	"search": {
-	  "description": "Keres egy dalt a Spotifyról, SoundCloudról vagy Deezer-ről",
-	  "options": {
-		"query": "A keresett szó",
-		"source": "A keresés forrása"
-	  },
-	  "no-playlist": "### {{{emoji}}} A lejátszási listák nem támogatottak! A keresés parancs használatához használd a(z) {{{cmd}}} parancsot",
-	  "no-track": "### {{{emoji}}} A számok nem támogatottak! A keresés parancs használatához használd a(z) {{{cmd}}} parancsot",
-	  "results": "## Keresési találatok: `{{{query}}}`\n\n{{{results}}}",
-	  "footer": "Válassz egy számot az alábbi lenyíló menüből.",
-	  "placeholder": "Válassz egy számot a listából, hogy lejátsszuk.",
-	  "footerTimeout": "A keresési eredmények időkorlátba ütköztek.",
-	  "no-voice": "### {{{emoji}}} Egy hangcsatornában kell lenned a menü használatához.",
-	  "wrong-voice": "### {{{emoji}}} Ugyanabban a hangcsatornában kell lenned, mint én, hogy használd ezt a menüt.",
-	  "added": "### {{{emoji}}} Hozzáadva: {{{count}}} szám a lejátszási sorhoz."
+		"description": "Keres egy dalt a Spotifyról, SoundCloudról vagy Deezer-ről",
+		"options": {
+			"query": "A keresett szó",
+			"source": "A keresés forrása"
+		},
+		"no-playlist": "### {{{emoji}}} A lejátszási listák nem támogatottak! A keresés parancs használatához használd a(z) {{{cmd}}} parancsot",
+		"no-track": "### {{{emoji}}} A számok nem támogatottak! A keresés parancs használatához használd a(z) {{{cmd}}} parancsot",
+		"results": "## Keresési találatok: `{{{query}}}`\n\n{{{results}}}",
+		"footer": "Válassz egy számot az alábbi lenyíló menüből.",
+		"placeholder": "Válassz egy számot a listából, hogy lejátsszuk.",
+		"footerTimeout": "A keresési eredmények időkorlátba ütköztek.",
+		"no-voice": "### {{{emoji}}} Egy hangcsatornában kell lenned a menü használatához.",
+		"wrong-voice": "### {{{emoji}}} Ugyanabban a hangcsatornában kell lenned, mint én, hogy használd ezt a menüt.",
+		"added": "### {{{emoji}}} Hozzáadva: {{{count}}} szám a lejátszási sorhoz."
 	},
 	"seek": {
-	  "description": "Az aktuális dalban egy adott időpontra ugorhatsz.",
-	  "options": {
-		"time": "Az az időpont, ahová ugrani szeretnél a dalban."
-	  },
-	  "invalidPosition": "### Az időnek 0 és {{{length}}} között kell lennie.",
-	  "seeked": "### Ugrás `{{{position}}}` időpontra: `{{{time}}}`"
+		"description": "Az aktuális dalban egy adott időpontra ugorhatsz.",
+		"options": {
+			"time": "Az az időpont, ahová ugrani szeretnél a dalban."
+		},
+		"invalidPosition": "### Az időnek 0 és {{{length}}} között kell lennie.",
+		"seeked": "### Ugrás `{{{position}}}` időpontra: `{{{time}}}`"
 	},
 	"shuffle": {
-	  "description": "Az aktuális lejátszási sort összekeveri.",
-	  "success": "### A szerver lejátszási sorát sikeresen összekevertük ({{{length}}} szám).",
-	  "unshuffle": "### A szerver lejátszási sorát sikeresen visszaállítottuk az eredeti sorrendre ({{{length}}} szám)."
-	}
-  }
-  
-  {
+		"description": "Az aktuális lejátszási sort összekeveri.",
+		"success": "### A szerver lejátszási sorát sikeresen összekevertük ({{{length}}} szám).",
+		"unshuffle": "### A szerver lejátszási sorát sikeresen visszaállítottuk az eredeti sorrendre ({{{length}}} szám)."
+	},
 	"skip": {
-	  "description": "Ugorj a jelenlegi számra.",
-	  "nothing": "### Nincs több dal a sorban. Használd a(z) {{{queue}}} parancsot a szerver lejátszási sorának megtekintéséhez.\nPróbálkoznál az automatikus lejátszással? Add ki ezt a parancsot: {{{autoplay}}}",
-	  "paused": "### A lejátszó szünetel. Folytatáshoz használd a folytatás parancsot.\nSzeretnél folytatni? Add ki ezt a parancsot: {{{resume}}}",
-	  "voteSkip": "### {{{user}}} kért egy ugrást a jelenlegi számon.\n\n{{{voted}}}",
-	  "skip": "### A **{{{title}}}** szám kihagyása."
+		"description": "Ugorj a jelenlegi számra.",
+		"nothing": "### Nincs több dal a sorban. Használd a(z) {{{queue}}} parancsot a szerver lejátszási sorának megtekintéséhez.\nPróbálkoznál az automatikus lejátszással? Add ki ezt a parancsot: {{{autoplay}}}",
+		"paused": "### A lejátszó szünetel. Folytatáshoz használd a folytatás parancsot.\nSzeretnél folytatni? Add ki ezt a parancsot: {{{resume}}}",
+		"voteSkip": "### {{{user}}} kért egy ugrást a jelenlegi számon.\n\n{{{voted}}}",
+		"skip": "### A **{{{title}}}** szám kihagyása."
 	},
 	"skipto": {
-	  "description": "Ugrás egy adott dalra a sorban.",
-	  "options": {
-		"number": "Az ugráshoz megadott szám vagy számcím."
-	  },
-	  "invalidNumber": "### {{{emoji}}} Kérlek, adj meg egy számot 1 és {{{length}}} között.",
-	  "success": "### {{{emoji}}} Átléptem a **[{{{title}}}]({{{uri}}})** számra."
+		"description": "Ugrás egy adott dalra a sorban.",
+		"options": {
+			"number": "Az ugráshoz megadott szám vagy számcím."
+		},
+		"invalidNumber": "### {{{emoji}}} Kérlek, adj meg egy számot 1 és {{{length}}} között.",
+		"success": "### {{{emoji}}} Átléptem a **[{{{title}}}]({{{uri}}})** számra."
 	},
 	"stop": {
-	  "description": "Megállítja a lejátszót és törli a sorban lévő dalokat.",
-	  "stopped": "### {{{emoji}}} Megállítottam a lejátszót és töröltem a lejátszási sort."
+		"description": "Megállítja a lejátszót és törli a sorban lévő dalokat.",
+		"stopped": "### {{{emoji}}} Megállítottam a lejátszót és töröltem a lejátszási sort."
 	},
 	"topsongs": {
-	  "description": "A bot által legtöbbször lejátszott számok megjelenítése.",
-	  "noTopSongs": "### Nincsenek számok a top listában.",
-	  "timesPlayed": "Lejátszott Idők",
-	  "selectSong": "Válassz egy számot az alábbi listából a lejátszáshoz.",
-	  "added": "### **[{{{title}}}]({{{uri}}})** hozzáadva a lejátszási sorhoz."
+		"description": "A bot által legtöbbször lejátszott számok megjelenítése.",
+		"noTopSongs": "### Nincsenek számok a top listában.",
+		"timesPlayed": "Lejátszott Idők",
+		"selectSong": "Válassz egy számot az alábbi listából a lejátszáshoz.",
+		"added": "### **[{{{title}}}]({{{uri}}})** hozzáadva a lejátszási sorhoz."
 	},
 	"volume": {
-	  "description": "Állítsd a lejátszó hangerősségét.",
-	  "options": {
-		"volume": "A kívánt hangerősség."
-	  },
-	  "invalidVolume": "### {{{emoji}}} Kérlek, adj meg egy számot 0 és 100 között.",
-	  "success": "### {{{emoji}}} A hangerősség beállítva: **{{{volume}}}**."
+		"description": "Állítsd a lejátszó hangerősségét.",
+		"options": {
+			"volume": "A kívánt hangerősség."
+		},
+		"invalidVolume": "### {{{emoji}}} Kérlek, adj meg egy számot 0 és 100 között.",
+		"success": "### {{{emoji}}} A hangerősség beállítva: **{{{volume}}}**."
 	},
 	"voteskip": {
-	  "description": "Szavazz az aktuális szám kihagyására."
+		"description": "Szavazz az aktuális szám kihagyására."
 	},
 	"filters": {
-	  "filters": "### Az aktuálisan lejátszott számra alkalmazott összes szűrő:\n\n{{{filters}}}",
-	  "pitchNaN": "### {{{emoji}}} A hangmagasságnak 1 és 5 közötti számnak kell lennie.",
-	  "description": {
-		"8d": "Az 8D-szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"bassboost": "A mélyhangkiemelő szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"channelmix": "A csatorna keverése szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"electronic": "Az elektronikus szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"filters": "Szűrők listájának lekérdezése, amelyek alkalmazhatók az aktuálisan lejátszott számra.",
-		"jazz": "A jazz szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"karaoke": "A karaoke szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"lowpass": "A mélyszűrő alkalmazása az aktuálisan lejátszott számra.",
-		"nightcore": "A nightcore szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"pitch": "A hangmagasság szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"pop": "A pop szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"radio": "A rádiószűrő alkalmazása az aktuálisan lejátszott számra.",
-		"rock": "A rock szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"rotation": "A forgatás szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"soft": "A soft szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"speed": "A sebesség szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"treblebass": "A magas- és mélyhangkiemelő szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"tremolo": "A tremolo szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"vaporwave": "A vaporwave szűrő alkalmazása az aktuálisan lejátszott számra.",
-		"vibrato": "A vibrato szűrő alkalmazása az aktuálisan lejátszott számra."
-	  },
-	  "enabled": "### {{{emoji}}} A(z) {{{name}}} szűrő engedélyezve lett.",
-	  "disabled": "### {{{emoji}}} A(z) {{{name}}} szűrő letiltva lett.",
-	  "speed": "### {{{emoji}}} A sebességet beállítottam: **{{{value}}}**.",
-	  "options": {
-		"speed": "A kívánt sebesség.",
-		"pitch": "A hangmagasság, amit alkalmazni szeretnél."
-	  }
+		"filters": "### Az aktuálisan lejátszott számra alkalmazott összes szűrő:\n\n{{{filters}}}",
+		"pitchNaN": "### {{{emoji}}} A hangmagasságnak 1 és 5 közötti számnak kell lennie.",
+		"description": {
+			"8d": "Az 8D-szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"bassboost": "A mélyhangkiemelő szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"channelmix": "A csatorna keverése szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"electronic": "Az elektronikus szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"filters": "Szűrők listájának lekérdezése, amelyek alkalmazhatók az aktuálisan lejátszott számra.",
+			"jazz": "A jazz szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"karaoke": "A karaoke szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"lowpass": "A mélyszűrő alkalmazása az aktuálisan lejátszott számra.",
+			"nightcore": "A nightcore szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"pitch": "A hangmagasság szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"pop": "A pop szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"radio": "A rádiószűrő alkalmazása az aktuálisan lejátszott számra.",
+			"rock": "A rock szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"rotation": "A forgatás szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"soft": "A soft szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"speed": "A sebesség szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"treblebass": "A magas- és mélyhangkiemelő szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"tremolo": "A tremolo szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"vaporwave": "A vaporwave szűrő alkalmazása az aktuálisan lejátszott számra.",
+			"vibrato": "A vibrato szűrő alkalmazása az aktuálisan lejátszott számra."
+		},
+		"enabled": "### {{{emoji}}} A(z) {{{name}}} szűrő engedélyezve lett.",
+		"disabled": "### {{{emoji}}} A(z) {{{name}}} szűrő letiltva lett.",
+		"speed": "### {{{emoji}}} A sebességet beállítottam: **{{{value}}}**.",
+		"options": {
+			"speed": "A kívánt sebesség.",
+			"pitch": "A hangmagasság, amit alkalmazni szeretnél."
+		}
 	},
 	"announce": {
-	  "description": "Beállítja a szám kezdeténél megjelenő üzenet bejelentését.",
-	  "options": {
-		"set": "Beállítja a csatornát, ahova a szám kezdeténél megjelenő üzenetet küldeni szeretnéd.",
-		"channel": "A kívánt csatorna.",
-		"toggle": "Átkapcsolja a szám kezdeténél megjelenő üzenet bejelentését.",
-		"prunning": "Átkapcsolja a szám kezdeténél megjelenő üzenet tisztítását.",
-		"reset": "Visszaállítja a szám kezdeténél megjelenő üzenet küldési csatornáját."
-	  },
-	  "noChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
-	  "noTextChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
-	  "sameChannel": "### {{{emoji}}} A megadott csatorna már a adatbázisban van.",
-	  "setChannel": "### {{{emoji}}} Sikeresen beállítottam a bejelentő csatornát: {{{channel}}}.",
-	  "noChannelInDB": "### {{{emoji}}} A bejelentő csatorna még nincs beállítva az adatbázisban.",
-	  "toggle": "### {{{emoji}}} A szám kezdeténél megjelenő üzenet bejelentése sikeresen: {{{status}}}.",
-	  "enabled": "engedélyezve",
-	  "disabled": "letiltva",
-	  "reset": "### {{{emoji}}} A bejelentő csatorna sikeresen visszaállítva."
+		"description": "Beállítja a szám kezdeténél megjelenő üzenet bejelentését.",
+		"options": {
+			"set": "Beállítja a csatornát, ahova a szám kezdeténél megjelenő üzenetet küldeni szeretnéd.",
+			"channel": "A kívánt csatorna.",
+			"toggle": "Átkapcsolja a szám kezdeténél megjelenő üzenet bejelentését.",
+			"prunning": "Átkapcsolja a szám kezdeténél megjelenő üzenet tisztítását.",
+			"reset": "Visszaállítja a szám kezdeténél megjelenő üzenet küldési csatornáját."
+		},
+		"noChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
+		"noTextChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
+		"sameChannel": "### {{{emoji}}} A megadott csatorna már a adatbázisban van.",
+		"setChannel": "### {{{emoji}}} Sikeresen beállítottam a bejelentő csatornát: {{{channel}}}.",
+		"noChannelInDB": "### {{{emoji}}} A bejelentő csatorna még nincs beállítva az adatbázisban.",
+		"toggle": "### {{{emoji}}} A szám kezdeténél megjelenő üzenet bejelentése sikeresen: {{{status}}}.",
+		"enabled": "engedélyezve",
+		"disabled": "letiltva",
+		"reset": "### {{{emoji}}} A bejelentő csatorna sikeresen visszaállítva."
 	},
 	"botchannel": {
-	  "description": "Beállítja a bot csatornáját a parancsok végrehajtásához.",
-	  "options": {
-		"add": "Hozzáad egy csatornát a bot csatornalistához.",
-		"channel": "A kívánt csatorna.",
-		"remove": "Eltávolít egy csatornát a bot csatornalistájából.",
-		"clear": "Törli a bot csatornalistát.",
-		"info": "Lekéri a bot csatornalistáját és információt a bot csatornáról."
-	  },
-	  "noChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
-	  "noTextChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
-	  "sameChannel": "### {{{emoji}}} A megadott csatorna már a adatbázisban van.",
-	  "maxChannel": "### {{{emoji}}} Nem adhatsz hozzá több mint 5 csatornát a bot csatornalistájához.",
-	  "addedChannel": "### {{{emoji}}} Sikeresen hozzáadtam a következő csatornát a bot csatornalistához: {{{channel}}}.",
-	  "noChannelInDB": "### {{{emoji}}} Nincsenek bot csatornák az adatbázisban.",
-	  "removedChannel": "### {{{emoji}}} Sikeresen eltávolítottam a következő csatornát a bot csatornalistájából: {{{channel}}}.",
-	  "clearedChannel": "### {{{emoji}}} Sikeresen töröltem a bot csatornalistát.",
-	  "info": ">>> **Csatorna:** {{{channel}}}\n**Moderátor:** {{{moderator}}}\n**Hozzáadás dátuma:** {{{addedAt}}}",
-	  "title": "Bot csatornák ({{count}})"
-	}
-  }
-  {
+		"description": "Beállítja a bot csatornáját a parancsok végrehajtásához.",
+		"options": {
+			"add": "Hozzáad egy csatornát a bot csatornalistához.",
+			"channel": "A kívánt csatorna.",
+			"remove": "Eltávolít egy csatornát a bot csatornalistájából.",
+			"clear": "Törli a bot csatornalistát.",
+			"info": "Lekéri a bot csatornalistáját és információt a bot csatornáról."
+		},
+		"noChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
+		"noTextChannel": "### {{{emoji}}} Kérlek, adj meg egy érvényes szöveges csatornát.",
+		"sameChannel": "### {{{emoji}}} A megadott csatorna már a adatbázisban van.",
+		"maxChannel": "### {{{emoji}}} Nem adhatsz hozzá több mint 5 csatornát a bot csatornalistájához.",
+		"addedChannel": "### {{{emoji}}} Sikeresen hozzáadtam a következő csatornát a bot csatornalistához: {{{channel}}}.",
+		"noChannelInDB": "### {{{emoji}}} Nincsenek bot csatornák az adatbázisban.",
+		"removedChannel": "### {{{emoji}}} Sikeresen eltávolítottam a következő csatornát a bot csatornalistájából: {{{channel}}}.",
+		"clearedChannel": "### {{{emoji}}} Sikeresen töröltem a bot csatornalistát.",
+		"info": ">>> **Csatorna:** {{{channel}}}\n**Moderátor:** {{{moderator}}}\n**Hozzáadás dátuma:** {{{addedAt}}}",
+		"title": "Bot csatornák ({{count}})"
+	},
 	"clean": {
 		"description": "Törli az üzeneteimet a csatornában.",
 		"success": "### {{{emoji}}} Sikeresen törölve **{{{count}}}** üzenet."
@@ -544,9 +535,7 @@
 		"noPerm": "### Nincs megfelelő engedélyed ennek a parancsnak használatához.",
 		"disabledServer": "### {{{emoji}}} Sikeresen letiltva a prefixet a szerveren.",
 		"enabledServer": "### {{{emoji}}} Sikeresen engedélyezve a prefixet a szerveren."
-	}
-}
-{
+	},
 	"prefix": {
 		"description": "Állítsd be a szerver előtagját",
 		"options": {
@@ -651,256 +640,255 @@
 			"disable": "Letiltás",
 			"cancel": "Mégse"
 		}
-	}
-}
-
-		"add": {
-			"description": "Add a song to a playlist.",
-			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
-			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+	},
+	"add": {
+		"description": "Egy dal hozzáadása lejátszási listához.",
+		"options": {
+			"playlist": "A lejátszási lista, amelyhez hozzá szeretnéd adni a dalt.",
+			"song": "A dal (név/url), amelyet hozzá szeretnél adni a lejátszási listához."
 		},
-		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
-			"options": {
-				"playlist": "The playlist you want to add the song to."
-			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+		"playlistLength": "### {{{emoji}}} A lejátszási lista neve 3 és 50 karakter között kell legyen.",
+		"noPlaylists": "### {{{emoji}}} Nem találtam lejátszási listát a fiókodban, először hozz létre egyet.",
+		"noResults": "### {{{emoji}}} Nem találtam eredményt a(z) `{{{song}}}` keresésre.",
+		"playlistFull": "### {{{emoji}}} A lejátszási listád megtelt, törölj le néhány dalt, mielőtt újakat adsz hozzá.",
+		"playlistAdded": "### {{{emoji}}} Sikeresen hozzáadva **{{{count}}}** dal a **{{{playlist}}}** lejátszási listához."
+	},
+	"addnowplaying": {
+		"description": "A jelenlegi dalt hozzáadása egy lejátszási listához.",
+		"options": {
+			"playlist": "A lejátszási lista, amelyhez hozzá szeretnéd adni a dalt."
 		},
-		"addqueue": {
-			"description": "Add a playlist to the queue.",
-			"options": {
-				"name": "The name of the playlist you want to add to the queue."
-			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+		"noSong": "### {{{emoji}}} Nincs éppen játszott dal.",
+		"songAlreadyInPlaylist": "### {{{emoji}}} Ez a dal már szerepel a lejátszási listán.",
+		"success": "### {{{emoji}}} Hozzáadva: **{{{song}}}** a **{{{playlist}}}** lejátszási listához."
+	},
+	"addqueue": {
+		"description": "Egy lejátszási lista hozzáadása a várólistához.",
+		"options": {
+			"name": "A lejátszási lista neve, amelyet hozzá szeretnél adni a várólistához."
 		},
-		"create": {
-			"description": "Create a playlist.",
-			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
-			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+		"noQueue": "### {{{emoji}}} Nincs várólista.",
+		"success": "### {{{emoji}}} A várólistában lévő **{{{queueLength}}}** dal hozzáadva a **{{{playlistName}}}** lejátszási listához."
+	},
+	"create": {
+		"description": "Lejátszási lista létrehozása.",
+		"options": {
+			"playlist": "A létrehozni kívánt lejátszási lista neve.",
+			"visibility": "A lejátszási lista láthatósága."
 		},
-		"delete": {
-			"description": "Delete a playlist.",
-			"options": {
-				"playlist": "The name of the playlist you want to delete."
-			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
-			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+		"playlist": "### {{{emoji}}} Kérlek adj meg egy lejátszási lista nevet.",
+		"visibility": "### {{{emoji}}} A láthatóság csak `public` vagy `private` lehet.",
+		"maxPlaylists": "### {{{emoji}}} Legfeljebb 10 lejátszási listát hozhatsz létre.",
+		"playlistExists": "### {{{emoji}}} Már van egy lejátszási listád a **{{{playlist}}}** névvel.",
+		"success": "### {{{emoji}}} Sikeresen létrehozva: **{{{playlist}}}** lejátszási lista."
+	},
+	"delete": {
+		"description": "Lejátszási lista törlése.",
+		"options": {
+			"playlist": "A törölni kívánt lejátszási lista neve."
 		},
-		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
-			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
-			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+		"noPlaylists": "### {{{emoji}}} Nincs **{{{playlist}}}** nevű lejátszási listád.",
+		"buttons": {
+			"confirm": "Megerősítés",
+			"cancel": "Mégse"
 		},
-		"edit": {
-			"description": "Edit a playlist.",
-			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
-			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
-			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
-			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+		"confirm": "### Biztosan törölni szeretnéd a(z) **{{{playlist}}}** lejátszási listát?",
+		"success": "### {{{emoji}}} Sikeresen törölve: **{{{playlist}}}** lejátszási lista.",
+		"cancel": "### {{{emoji}}} Lemondtad a(z) **{{{playlist}}}** lejátszási lista törlését."
+	},
+	"dupes": {
+		"description": "Az összes ismétlődő dal eltávolítása a lejátszási listáról.",
+		"options": {
+			"playlist": "A lejátszási lista neve, amelyről az ismétlődő dalokat eltávolítanád."
 		},
-		"import": {
-			"description": "Import a playlist from playlist id.",
-			"options": {
-				"id": "The id of the playlist you want to import."
-			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+		"noDupes": "### {{{emoji}}} Nincsenek ismétlődő dalok a **{{{playlist}}}** lejátszási listában.",
+		"success": "### {{{emoji}}} Sikeresen eltávolítva: **{{{count}}}** ismétlődő dal a **{{{playlist}}}** lejátszási listáról."
+	},
+	"edit": {
+		"description": "Lejátszási lista szerkesztése.",
+		"options": {
+			"playlist": "A szerkeszteni kívánt lejátszási lista neve.",
+			"old-name": "A régi lejátszási lista neve.",
+			"new-name": "Az új lejátszási lista neve.",
+			"playlist-visibility": "A lejátszási lista láthatóságának megváltoztatása.",
+			"visibility": "A lejátszási lista láthatósága."
 		},
+		"sameName": "### {{{emoji}}} Az új név nem lehet ugyanaz, mint az előző név.",
+		"successName": "### {{{emoji}}} Sikeresen átnevezve: **{{{oldName}}}** --> **{{{newName}}}** lejátszási lista.",
+		"sameVisibility": "### {{{emoji}}} A(z) **{{{playlist}}}** lejátszási lista már **{{{visibility}}}** láthatóságú.",
+		"successVisibility": "### {{{emoji}}} Sikeresen megváltoztatva a(z) **{{{playlist}}}** lejátszási lista láthatóságát: **{{{visibility}}}**.",
+		"buttons": {
+			"playlist": "Lejátszási lista neve",
+			"visibility": "Lejátszási lista láthatósága",
+			"public": "Nyilvános",
+			"private": "Privát"
+		},
+		"selectOption": "### Válaszd ki, hogy melyik opciót szeretnéd szerkeszteni a lejátszási listádban az alábbi gombok közül.",
+		"oldName": "### Add meg a régi lejátszási lista nevét.",
+		"newName": "### Add meg az új lejátszási lista nevét.",
+		"cancelled": "### {{{emoji}}} Lemondtad a lejátszási lista nevének megváltoztatását.",
+		"playlist": "### Add meg a lejátszási lista nevét.",
+		"selectVisibility": "### Válaszd ki a lejátszási lista láthatóságát az alábbi gombok közül."
+	},
+	"import": {
+		"description": "Lejátszási lista importálása lejátszási lista azonosítója alapján.",
+		"options": {
+			"id": "A lejátszási lista azonosítója, amelyet importálni szeretnél."
+		},
+		"noPlaylist": "### {{{emoji}}} Nem találtam lejátszási listát az azonosítóval: **{{{id}}}**.",
+		"sameUser": "### {{{emoji}}} Saját lejátszási listádat nem importálhatod.",
+		"privatePlaylist": "### {{{emoji}}} Privát lejátszási listát nem importálhatsz.",
+		"success": "### {{{emoji}}} Sikeresen importálva: **{{{playlist}}}** lejátszási lista."
+	},
+	"parancsok": {
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"leírás": "Listázza az összes lejátszási listádat.",
+			"számok": "Zeneszám(ok): {{{tracks}}}"
 		},
-		"load": {
-			"description": "Load a playlist to the queue.",
-			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+		"betöltés": {
+			"leírás": "Lejátszási listát tölt a várólistára.",
+			"opciók": {
+				"szám": "Egy konkrét zeneszám betöltése egy lejátszási listáról.",
+				"név": "A betöltendő lejátszási lista neve.",
+				"sáv": "A betöltendő számszám vagy cím."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"nincsLejátszásiLista": "### {{{emoji}}} Nincs **{{{playlist}}}** nevű lejátszási listád.",
+			"nincsSzám": "### {{{emoji}}} Nincsenek zeneszámok a **{{{playlist}}}** lejátszási listában.",
+			"nemTalálhatóSzám": "### {{{emoji}}} Nincs találat a(z) `{{{track}}}` sávra.",
+			"sávBetöltve": "### {{{emoji}}} Betöltve: **{{{track}}}** a(z) **{{{playlist}}}** lejátszási listáról.",
+			"magánLejátszásiLista": "### {{{emoji}}} Nem tölthetsz be más felhasználó privát lejátszási listáját.",
+			"lejátszásiListaBetöltve": "### {{{emoji}}} **{{{count}}}** zeneszám betöltve a(z) **{{{playlist}}}** lejátszási listáról."
 		},
-		"pl-remove": {
-			"description": "Remove a song from a playlist.",
-			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+		"lejátszásiListaTörlése": {
+			"leírás": "Egy szám eltávolítása egy lejátszási listáról.",
+			"opciók": {
+				"lejátszásiLista": "A lejátszási lista neve, amelyről eltávolítod a számot.",
+				"sáv": "Az eltávolítandó számszám vagy cím."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"nemTalálható": "### {{{emoji}}} Nem található a megadott sáv szám vagy cím alapján.",
+			"sikerült": "### {{{emoji}}} Sikeresen eltávolítottad a(z) **{{{track}}}** zeneszámot a(z) **{{{playlist}}}** lejátszási listáról."
 		},
-		"view": {
-			"description": "View a playlist.",
-			"options": {
-				"playlist": "The name of the playlist you want to view."
+		"lejátszásiListaMegtekintése": {
+			"leírás": "Lejátszási lista megtekintése.",
+			"opciók": {
+				"lejátszásiLista": "A megtekintendő lejátszási lista neve."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
-			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+			"lábjegyzet": "Oldal {{{page}}} / {{{pages}}} | Zeneszámok: {{{tracks}}} | Időtartam: {{{duration}}}",
+			"gombok": {
+				"előző": "Előző",
+				"megállítás": "Megállítás",
+				"következő": "Következő"
 			}
 		}
 	},
-	"player": {
-		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+	"lejátszó": {
+		"beágyazott": {
+			"247": "### Valaki kizárta a hangcsatornából, de még mindig itt vagyok a **24/7 mód** miatt!\n\nEzt kikapcsolhatod a(z) {{{cmd}}} parancs vagy a(z) {{{cmd2}}} parancs használatával!",
+			"jelenlegLejátszott": "Jelenleg lejátszás alatt",
+			"jelenlegLejátszottLeírás": "## **[{{{songName}}}]({{{songUrl}}})** Előadó: [{{{songAuthor}}}]({{{songAuthorUrl}}}) - Kérte: {{{requester}}}",
+			"lábjegyzet": "Időtartam: {{{duration}}} | Várólista: {{{queue}}} | Hangerő: {{{volume}}}%",
+			"vége": "### Senki sem hallgatott az elmúlt 1 percben, elhagyom a csatornát.\n\nEzt kikapcsolhatod a(z) {{{cmd}}} parancs használatával!",
+			"végeCím": "Várólista lezárva",
+			"végeLeírás": "### A zenei várólistád most véget ért. Újra hozzáadhatsz zenét a(z) {{{cmd}}} parancs használatával! Tetszik a zenélés velem? Fontold meg, hogy [szavazz rám]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
-		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+		"hiba": "Zeneszám hiba",
+		"leírás": "### [{{{title}}}]({{{uri}}}) nem érhető el az országodban, mert korhatáros!",
+		"gombok": {
+			"folytatás": "Folytatás",
+			"szünet": "Szünet",
+			"előző": "Előző",
+			"vegyes": "Vegyes",
+			"ugrás": "Ugrás",
+			"megállítás": "Megállítás",
+			"hangcsökkentés": "Hangerő csökkentés",
+			"hangnövelés": "Hangerő növelés",
+			"hurok": "Hurok",
+			"kedvelés": "Kedvelés"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"nincsRendelkezésreÁllóRész": "### Jelenleg semmi sem játszódik le.",
+		"nincsLejátszottRész": "### Jelenleg semmi sem játszódik le."
 	},
-	"events": {
-		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+	"események": {
+		"gombKezelés": {
+			"nincsHangcsatorna": "A gomb használatához csatlakoznod kell egy hang {{{channel}}} csatornához!",
+			"nincsElőző": "Nincs előző szám a várólistán.",
+			"előzőJátszik": "{{{user}}} éppen a korábbi számot játsza.",
+			"nincsMitÁtugrani": "Nincs semmi a várólistán, amit át lehetne ugrani.",
+			"márSzavaztál": "{{{user}}} Már van szavazat ebben a szerveren. Kérlek, várd meg, amíg befejeződik vagy töröld.",
+			"szavazásAzÁtugrásra": "{{{user}}} kért egy szám átugrását. Meg akartad állítani a szavazást az átugrásra? Írd be: {{{cmd}}}",
+			"szavazásCímke": "Szavazat az aktuális szám átugrására!",
+			"márSzavaztál2": "{{{user}}} már szavazott az aktuális szám átugrására.",
+			"szavazásAzÁtugrásra2": "{{{user}}} kért egy szám átugrását.",
+			"szavazásCímke2": "Szavazat az aktuális szám átugrására! ({{{count}}}/{{{n}}})",
+			"hangcsatornaSzükséges": "{{{user}}} Hangcsatornához kell csatlakoznod, hogy használhasd ezt a gombot!",
+			"szavazásASzámÁtugrására": "{{{user}}} átugratja a számot, miután pozitív szavazatok száma eléri a következőt: {{{count}}}!",
+			"nincsElegendőSzavazat": "### Nincs elegendő szavazat az aktuális szám átugrásához.",
+			"sikeresÁtugrás": "{{{user}}} átugratta az aktuális számot.",
+			"számLejátszása": "{{{user}}} {{{paused}}} az aktuális számot.",
+			"szüneteltetve": "Szüneteltetve",
+			"folytatva": "Folytatva",
+			"számLeállítása": "{{{user}}} leállította az aktuális számot.",
+			"hangerőMaximális": "### A hangerő már a maximumon van.",
+			"hangerőNövelése": "{{{user}}} növelte a hangerőt **{{{vol}}}**%-ra.",
+			"hangerőMinimum": "### A hangerő már a minimumon van.",
+			"hangerőCsökkentése": "{{{user}}} csökkentette a hangerőt **{{{vol}}}**%-ra.",
+			"vegyesHiba": "{{{user}}} Nem áll rendelkezésre elég zeneszám a várólistán a vegyes lejátszáshoz.",
+			"vegyesLetiltva": "{{{user}}} A vegyes lejátszás letiltva.",
+			"vegyesEngedélyezve": "{{{user}}} A vegyes lejátszás engedélyezve.",
+			"számHurok": "{{{user}}} Az aktuális szám ismétlésén van.",
+			"várólistaHurok": "{{{user}}} A várólista ismétlésén van.",
+			"hurokLetiltva": "{{{user}}} Az ismétlés letiltva.",
+			"nincsSzám": "{{{user}}} Jelenleg nincs semmi lejátszva.",
+			"tetszett": "{{{user}}} Tetszett a(z) **{{{title}}}**.",
+			"nemTetszett": "{{{user}}} Mégsem tetszett a(z) **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+			"nincsÜzenetKüldés": "### Hé! Megpróbáltam válaszüzenetet küldeni a parancsodra, de nincs jogosultságom ehhez. Kérlek, engedélyezd nekem a `Üzenetek küldése` Discord-jogosultságot.\n\nSzerver: **{{{guildName}}}**\nParancs: **{{{commandName}}}**\nSzeretnél segítséget a jogosultságokkal kapcsolatban? Csatlakozz a támogatói szerverre: {{{supportServer}}}",
+			"nincsBeágyazottLinkek": "### {{{emoji}}} A botnak engedélyre van szüksége a `Beágyazott linkek` Discord-jogosultsághoz, hogy megfelelően működjön! Kérlek, add meg ezt a jogosultságot valakinek a szerveren.",
+			"nincsBotCsatorna": "### Nem vagyok hozzájárulva a parancsok ezen a csatornán történő válaszolásához. Kérlek, használd a(z) {{{emoji}}} <#{{{botChannel}}}> csatornát a bot parancsokhoz. Köszönöm a segítségedet.",
+			"lábTörlése": "• Ez az üzenet 5 másodperc múlva törlődik",
+			"letiltottParancs": "### Ez a parancs letiltva van ezen a szerveren mindenki számára. Csak DJ-k használhatják ezt a parancsot.",
+			"letiltottParancsLista": "Letiltott lista",
+			"nincsBotJogosultság": "### {{{emoji}}} Nincsenek meg a szükséges **{{{permissions}}}** jogosultságok a parancs végrehajtásához.",
+			"nincsFelhasználóiJogosultság": "### {{{emoji}}} Nincsenek meg a szükséges **{{{permissions}}}** jogosultságok a parancs végrehajtásához.",
+			"szavazatZárak": [
+				"### Szavaznod kell rám, hogy használhasd ezt a parancsot. Szavazhatsz [Top.gg-n]({{{link}}})",
+				"### Szavaznod kell rám, hogy használhasd ezt a parancsot. Szavazhatsz [Top.gg-n]({{{link}}}) vagy\nPrémiumot is kaphatsz, ha adományozol [itt]({{{link2}}})"
 			],
-			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+			"gombok": {
+				"szavazás": "Szavazás",
+				"adományozás": "Adományozás",
+				"meghívás": "Meghívás",
+				"támogatás": "Támogatás"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"hűtés": "### Kérlek, várj **{{{timeLeft}}}** másodpercet, mielőtt újra használnád a(z) **{{{command}}}** parancsot.",
+			"nincsDjSzerep": "### {{{emoji}}} Ehhez a parancshoz szükséged van a DJ szerepre.",
+			"nincsPrémium": "### Ehhez a parancshoz szükséges a bot prémium. Prémiumot kaphatsz, ha adományozol [itt]({{{link}}})",
+			"hangengedély": "### {{{emoji}}} Nincs meg a szükséges jogosultságom, hogy csatlakozzak a hangcsatornádhoz! A `Csatornák megtekintése`, `Csatlakozás` és `Beszélés` jogosultságokra van szükségem. [Jogosultság példa](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nHa a probléma fennáll, változtasd meg a hangcsatorna régióját `Europe`-ra.",
+			"hangcsatornaCsatlakozás": "### {{{emoji}}} Csatlakozva kell lenned egy hangcsatornához a szerveren, hogy használhasd ezt a parancsot!\n\nHogyan csatlakozz egy hangcsatornához? Kattints egy hangszóró ikonra jelölt csatornára (például ide:  {{{channel}}}) [Lásd a hivatalos Discord útmutatót](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"hangcsatorna": "### {{{emoji}}} A(z) **{{{channel}}}** hangcsatornában kell lenned ahhoz, hogy használhasd ezt a parancsot.",
+			"nincsLejátszó": "### {{{emoji}}} Nincs csatlakozva hangcsatornához. Kérlek, használd a(z) {{{command}}} parancsot, hogy meghívj engem.",
+			"nincsVárólista": "### {{{emoji}}} Nincs várólista. Kérlek, használd a(z) {{{command}}} parancsot, hogy hozzáadj egy számot a várólistához.",
+			"nincsSzám": "### {{{emoji}}} Jelenleg nincs zeneszám lejátszva. Kérlek, használd a(z) {{{command}}} parancsot, hogy hozzáadj egy számot a várólistához.",
+			"hiba": "### {{{emoji}}} Hiba történt a parancs végrehajtása közben. Kérlek, jelentsd ezt a hibát a [Támogatói Szerveren]({{{link}}})"
 		}
 	},
-	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+	"elindítás": {
+		"beágyazottCím": "Moe Bot | Elindulás",
+		"beágyazottLeírás": "### Helló <@{{{user}}}>! A parancs előtagjaim: `{{{prefixList}}}`\nPéldául: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"beágyazottLeírás2": "### Helló <@{{{user}}}>! Az előtagom: `nincs előtag`, tehát bármelyik parancsot használhatod előtag nélkül is.\nPéldául: `help`, `ping`"
 	},
-	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+	"opciók": {
+		"cím": "Opciók a(z) {{{commandName}}} parancshoz",
+		"nincs_leírás": "Nincs leírás",
+		"opciók": "Opciók",
+		"példák": "Példa(k)",
+		"hosszú_leírás": "A navigáláshoz ezt használd",
+		"példák_gomb": "Példák",
+		"láb": "<Kötelező> | [Nem kötelező] {{{hosszú_leírás}}} Oldal {{{page}}} / {{{total_pages}}}",
+		"cím2": "Példák a(z) {{{commandName}}} parancshoz"
 	},
-	"Evaluate JavaScript code": "Evaluate JavaScript code",
-	"Generate a premium key": "Generate a premium key",
-	"Give a user premium.": "Give a user premium."
+	"JavaScript kód értékelése": "JavaScript kód értékelése",
+	"Prémium kulcs generálása": "Prémium kulcs generálása",
+	"Prémium adása egy felhasználónak.": "Prémium adása egy felhasználónak."
 }

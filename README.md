@@ -1,8 +1,5 @@
 # locales of MoE bot
 
-<!-- https://discord.gg/2kmntjCscn -->
-<!-- https://github.com/moe-music/locales -->
-
 [![Discord](https://img.shields.io/discord/871329074046435338?color=7289da&logo=discord&logoColor=white)](https://discord.gg/2kmntjCscn)
 [![Issues](https://img.shields.io/github/issues/moe-music/locales)](
     https://github.com/moe-music/locales/issues
