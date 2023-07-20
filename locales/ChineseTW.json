@@ -519,7 +519,7 @@
 			"info": "### 這個伺服器目前使用的語言是: **{{{language}}}** `({{{languageCode}}})`。",
 			"reset": "### {{{emoji}}} 成功將機器人的語言重設為預設語言。",
 			"translationProgress": "翻譯進度: {{{progress}}}",
-			"selectLanguage": "### 請從下方選單中選擇您想設置的語言。"
+			"selectLanguage": "請從下方選單中選擇您想設置的語言。"
 		},
 		"noprefix": {
 			"description": "切換使用者或伺服器的無指令前綴功能",

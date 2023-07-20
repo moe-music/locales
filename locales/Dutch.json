@@ -519,7 +519,7 @@
 			"info": "### De huidige taal in deze server is: **{{{language}}}** `({{{languageCode}}})`.",
 			"reset": "### {{{emoji}}} De taal van de bot is succesvol opnieuw ingesteld op de standaardtaal.",
 			"translationProgress": "Vertaalvoortgang: {{{progress}}}",
-			"selectLanguage": "### Selecteer de taal die je wilt instellen uit het onderstaande menu."
+			"selectLanguage": "Selecteer de taal die je wilt instellen uit het onderstaande menu."
 		},
 		"noprefix": {
 			"description": "Schakel de 'geen prefix'-modus in of uit voor de gebruiker of server.",
@@ -872,19 +872,19 @@
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Aan de slag",
+		"embed_description": "### Hey <@{{{user}}}>! Mijn prefix(en) is/zijn: `{{{prefixList}}}`\nBijvoorbeeld: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Hey <@{{{user}}}>! Mijn prefix is: `geen prefix`, wat betekent dat je elk commando zonder prefix kunt gebruiken.\nBijvoorbeeld: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Opties voor {{{commandName}}}",
+		"no_description": "Geen beschrijving",
+		"options": "Opties",
+		"examples": "Voorbeeld(en)",
+		"long_des": "Dit is om tussen pagina's te navigeren",
+		"examples_button": "Voorbeelden",
+		"footer": "<Vereist> | [Optioneel] {{{long_des}}} Pagina {{{page}}} van {{{total_pages}}}",
+		"title2": "Voorbeelden voor {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

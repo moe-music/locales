@@ -519,7 +519,7 @@
 			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
 			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
 			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"selectLanguage": "Please select the language you want to set from the menu below."
 		},
 		"noprefix": {
 			"description": "Toggles the no prefix for the user or server.",

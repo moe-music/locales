@@ -519,7 +519,7 @@
 			"info": "### Det nuværende sprog på denne server er: **{{{language}}}** `({{{languageCode}}})`.",
 			"reset": "### {{{emoji}}} Sproget for robotten er nu nulstillet til standardsproget.",
 			"translationProgress": "Oversættelsesfremskridt: {{{progress}}}",
-			"selectLanguage": "### Vælg venligst det sprog, du vil indstille, fra menuen nedenfor."
+			"selectLanguage": "Vælg venligst det sprog, du vil indstille, fra menuen nedenfor."
 		},
 		"noprefix": {
 			"description": "Aktivér/deaktivér intet præfiks for brugeren eller serveren.",

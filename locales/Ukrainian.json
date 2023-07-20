@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "Увімкнути або вимкнути режим 24/7.",
+			"enabled": "### {{{emoji}}} Режим 24/7 був увімкнений.",
+			"disabled": "### {{{emoji}}} Режим 24/7 був вимкнений."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
-			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"description": "Показати затримку бота.",
+			"author": "Затримка бота",
+			"content": "**Шард**: `{{{shardPing}}} мс`\n**API**: `{{{latency}}} мс`",
+			"footer": "• Отримайте більше інформації на каналі статусу сервера підтримки"
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Запросити бота на свій сервер.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "Запросити MoE",
+				"invite2": "Запросити MoE2",
+				"invite3": "Запросити MoE3",
+				"support": "Підтримка"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Якщо вам сподобалося зі мною користуватися, то розгляньте можливість [запросити мене]({{{invite}}}) на свій сервер зараз. Також, не забудьте приєднатися до [сервера підтримки]({{{support}}})."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Показати список команд або інформацію про конкретну команду",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Ім'я команди або категорії, для якої отримати довідку"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": " Команда",
+			"footer": "Сторінка {{{page}}} із {{{pagesNum}}}",
+			"title2": "Довідка - {{{cmd}}}",
+			"title3": "Довідка",
+			"manContent": "### Ось список всіх категорій\n{{{catagory}}}\n\n- Посилання:\n[Сервер підтримки]({{{server}}}) | [Запросити]({{{invite}}}) | [Голосувати]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Веб-сайт]({{{website}}}) | [Документація]({{{docs}}})",
+			"footer2": "- Для отримання додаткової інформації про команду: {{{prefix}}}довідка <команда> або {{{prefix}}}довідка <категорія>",
+			"cooldown": "Затримка",
+			"aliases": "Синоніми",
+			"category": "Категорія",
+			"examples": "Приклад(и)",
+			"userPerms": "Права користувача",
+			"botPerms": "Права бота",
+			"requirements": "Вимоги",
+			"subCommands": "Дочірні команди",
+			"subSubCommands": "Дочірні-дочірні команди",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "Назад",
+				"stop": "Зупинити",
+				"next": "Далі",
+				"home": "Головна",
+				"config": "Налаштування",
+				"music": "Музика",
+				"filter": "Фільтри",
+				"general": "Загальне",
+				"playlists": "Плейлисти"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}` - неприпустима команда або категорія!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Потрібно бути в голосовому каналі",
+				"sameVoice": "- Потрібно бути в тому ж голосовому каналі",
+				"playing": "- Потрібно відтворювати музику на цьому сервері"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Потрібно [проголосувати]({{{link}}}), щоб використовувати цю команду",
+			"premiumCmd": "- Потрібен [преміум]({{{link}}}), щоб використовувати цю команду"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
-			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"description": "Показати статус преміуму користувача або сервера.",
+			"guildPremiumStatus": "Статус преміуму сервера",
+			"userPremiumStatus": "Статус преміуму користувача",
+			"premium": "Преміум",
+			"notPremium": "Не преміум",
+			"guildPremiumExpires": "Закінчення преміуму сервера",
+			"userPremiumExpires": "Закінчення преміуму користувача"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Використати преміум-код.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Преміум-код для використання"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "Будь ласка, надайте преміум-код для використання.",
+			"invalidCode": "Недійсний наданий преміум-код.",
+			"confirmation": "### Ви впевнені, що хочете використати преміум-код `{{{code}}}`?",
+			"type": "Тип",
+			"expiresAt": "Закінчується",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "Так",
+				"no": "Ні"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "Ви вже є преміум користувачем.",
+			"success": "### Ви успішно використали свій преміум-код. Тепер ви можете використовувати команди преміуму!",
+			"canceled": "Відмінено використання преміум-коду."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "Показати статистику бота."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "Посилання на сервер підтримки",
+			"content": "### Якщо вам потрібна допомога з ботом або ви просто хочете спілкуватися з нами, приєднуйтесь до [сервера підтримки]({{{link}}}).",
 			"buttons": {
-				"support": "Support Server"
+				"support": "Сервер підтримки"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "Посилання для голосування за бота",
+			"content": "### Якщо вам сподобався бот, будь ласка, подумайте про голосування за нього на [top.gg]({{{link}}}).",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "Голосувати"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"description": "Показати статус плеєра.",
+			"nowPlaying": "Зараз відтворюється",
+			"noSong": "Наразі не відтворюється жодна пісня.",
+			"volume": "Гучність",
+			"totalDuration": "Загальна тривалість",
+			"loopMode": "Режим повтору",
+			"filters": "Фільтри",
+			"noFilters": "Зараз немає застосованих фільтрів.",
+			"title": "Плеєр: {{{status}}}",
+			"online": "Онлайн",
+			"offline": "Офлайн"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "Увімкнути або вимкнути режим автоматичного відтворення.",
+			"enabled": "### Успішно увімкнуто режим автовідтворення `Enabled`\nБот тепер автоматично додає схожі пісні до черги.",
+			"disabled": "### Успішно вимкнуто режим автовідтворення `Disabled`\nБот більше не буде автоматично додавати схожі пісні до черги."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "Очистити чергу або фільтри з плеєра.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "Черга або фільтри для очищення"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "### Будь ласка, виберіть чергу або фільтри для очищення. (черга/фільтри)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "Немає пісень у черзі для очищення.",
+				"success": "### Успішно очищено чергу."
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "Немає фільтрів для очищення.",
+				"success": "### Успішно очищено фільтри."
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "Черга",
+				"filters": "Фільтри"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "Примусово пропустити поточну пісню.",
+			"success": "### Примусово пропущено пісню {{{title}}}."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "Прокрутити поточну пісню.",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "Кількість секунд для перемотки"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} Поточну пісню не можна перемотати.",
+			"tooLong": "{{{emoji}}} Ви не можете перемотати більше, ніж тривалість пісні.",
+			"success": "### {{{emoji}}} Успішно прокручено пісню на `{{{time}}}`."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "Зберегти поточну пісню.",
+			"dm": "{{{emoji}}} Я не можу вислати вам пісню, оскільки ви вимкнули особисті повідомлення.",
+			"grabbed": "### {{{emoji}}} Успішно збережено пісню."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "Запросити бота у ваш голосовий канал.",
+			"no-perms": "{{{emoji}}} У мене немає необхідних дозволів для входу в ваш голосовий канал! Мені потрібні дозволи `Перегляд каналів`, `Підключення` та `Розмова`. [Приклад дозволів](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Якщо проблема продовжується, змініть регіон голосового каналу на `Європа`.",
+			"already-in": "{{{emoji}}} Я вже знаходжусь у голосовому каналі!",
+			"joined": "### Успішно приєднався до голосового каналу {{{channel}}}"
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "Вийти з голосового каналу.",
+			"not-playing": "{{{emoji}}} Зараз я нічого не граю!",
+			"success": "### {{{emoji}}} Успішно залишив голосовий канал."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "Видалити всі пісні від користувачів, яких немає у голосовому каналі.",
+			"removing": "## Видалення пісень від користувачів, яких більше немає у VC. Будь ласка, зачекайте",
+			"removed": "### Успішно видалено `{{{count}}}` пісень від користувачів, яких більше немає у VC."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "Зацикліть поточну пісню або чергу.",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "Режим зациклювання"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### Будь ласка, вкажіть режим для зациклювання. (пісня, черга, вимк.) з нижче наведених кнопок.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "Пісня",
+				"queue": "Черга",
+				"off": "Вимк."
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} Успішно зациклено поточну пісню.",
+			"queue": "### {{{emoji}}} Успішно зациклено чергу.",
+			"off": "### {{{emoji}}} Зациклювання вимкнено.",
+			"song_already": "### {{{emoji}}} Поточну пісню вже зациклено.",
+			"queue_already": "### {{{emoji}}} Чергу вже зациклено.",
+			"off_already": "### {{{emoji}}} Зациклювання вже вимкнено.",
+			"invalid_mode": "### {{{emoji}}} Надано недійсний режим зациклення. Будь ласка, вкажіть дійсний режим зациклення. (пісня, черга, вимк.)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "Показати тексти поточної пісні або пісні за назвою.",
 			"options": {
-				"song": "The song name to search for"
+				"song": "Назва пісні для пошуку"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### Будь ласка, вкажіть назву пісні для пошуку.",
+			"noLyrics": "### Я не зміг знайти текст для цієї пісні.",
+			"page": "Сторінка {{{page}}} з {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "Перемістіть пісню на певну позицію в черзі.",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "Пісня для переміщення",
+				"position": "Позиція для переміщення пісні"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### Будь ласка, вкажіть дійсне число для позиції.",
+			"invalidPosition": "### Надано недійсну позицію. Будь ласка, вкажіть дійсну позицію.",
+			"success": "### Переміщено **[{{{title}}}]({{{uri}}})** з позиції **{{{from}}}** на **{{{to}}}**."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "Показати поточну граючу пісню.",
+			"nowplaying": "### Зараз грає: [{{{title}}}]({{{uri}}})",
+			"author": "Автор",
+			"requester": "Запитав",
+			"duration": "Тривалість",
+			"progress": "Прогрес"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "Призупинити поточну пісню.",
+			"alreadyPaused": "### Поточна пісня вже призупинена.",
+			"paused": "### Призупинено [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Відтворіть пісню з Spotify, SoundCloud, Deezer та інших джерел...",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Запит для пошуку",
+				"source": "Джерело для пошуку"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "Будь ласка, вкажіть назву пісні для пошуку.",
+			"no-results": "### Немає результатів для `{{{query}}}`.",
+			"playlist-loaded": "### Завантажено `{{{count}}}` треків з плейлисту **[{{{name}}}]({{{url}}})**",
+			"footer": "Дякуємо за використання {{{bot}}}",
+			"added": "### Додано **[{{{title}}}]({{{uri}}})** у чергу (запитав <@{{{requester}}}>) на позицію в черзі `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "Відтворіть попередню пісню.",
+			"noPreviousTrack": "### {{{emoji}}} Немає попередньої пісні для відтворення.",
+			"success": "### {{{emoji}}} Зараз грає попередній трек з вашої черги!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "Показати чергу для поточного сервера.",
 			"options": {
-				"page": "The page number to view"
+				"page": "Номер сторінки для перегляду"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### Черга для {{{guild}}} ({{{songs}}} пісень)",
+			"nowPlaying": "### Зараз грає: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### Далі: {{{str}}}",
+			"noSongs": "### Поки що немає пісень у черзі! Додайте одну, використовуючи команду {{{cmd}}}",
+			"page": "Сторінка {{{page}}} | {{{songs}}} пісень | Загальна тривалість: {{{duration}}}",
+			"notNumber": "### {{{emoji}}} Номер сторінки повинен бути числом.",
+			"pageLimit": "### {{{emoji}}} Номер сторінки повинен бути менше або дорівнювати {{{pages}}}.",
+			"clearQueue": "Очистити чергу",
+			"noTracks": "### Немає треків у черзі.",
+			"noDjRole": "### Вам потрібна роль DJ для використання цієї кнопки.",
+			"clearedQueue": "### {{{user}}} Очистив чергу."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "Для видалення пісні з черги.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "Пісня для видалення.",
+				"number": "Номер або назва пісні для видалення.",
+				"dupes": "Видалити всі дублікати пісні."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### Немає пісні з таким номером у черзі",
+			"invalidNumber": "### Введіть число від 1 до {{{length}}}.",
+			"removed": "### Вилучено **[{{{title}}}]({{{uri}}})** з черги.",
+			"noDupes": "### Немає дублікатів пісень у черзі.",
+			"removedDupes": "### Видалено **{{{length}}}** дублікатів пісень з черги."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "Повторити поточну пісню.",
+			"replaying": "### Повторюємо [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "Продовжити поточну пісню.",
+			"notPaused": "### Поточна пісня не на паузі.",
+			"resumed": "### Продовжено [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "Перемотати поточну пісню.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "Час, на який ви хочете перемотати пісню."
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} Поточну пісню не можна перемотати.",
+			"negativePosition": "### {{{emoji}}} Позиція повинна бути від 0 до {{{length}}}.",
+			"success": "### {{{emoji}}} Пісню перемотано до {{{length}}}."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "Шукати пісню на Spotify, SoundCloud або Deezer",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Запит для пошуку",
+				"source": "Джерело пошуку"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} Плейлисти не підтримуються! Використовуйте команду {{{cmd}}} у пошуковій команді.",
+			"no-track": "### {{{emoji}}} Пісні не підтримуються! Використовуйте команду {{{cmd}}} у пошуковій команді.",
+			"results": "## Результати пошуку для `{{{query}}}`\n\n{{{results}}}",
+			"footer": "Будь ласка, виберіть пісню зі списку нижче.",
+			"placeholder": "Виберіть пісню зі списку нижче, щоб відтворити її.",
+			"footerTimeout": "Час пошуку пісень минув.",
+			"no-voice": "### {{{emoji}}} Ви повинні бути в голосовому каналі, щоб використовувати це меню.",
+			"wrong-voice": "### {{{emoji}}} Ви повинні бути в тому ж голосовому каналі, що й я, щоб використовувати це меню.",
+			"added": "### {{{emoji}}} Додано {{{count}}} пісень у чергу."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "Пошук за часом у поточній пісні.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "Час, на який ви хочете пошукати пісню."
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### Час повинен бути від 0 до {{{length}}}.",
+			"seeked": "### Пошук `{{{position}}}` до `{{{time}}}`"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "Перемішати чергу.",
+			"success": "### Чергу на сервері перемішано успішно (**{{{length}}}** пісень).",
+			"unshuffle": "### Чергу на сервері розібрано успішно (**{{{length}}}** пісень)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "Пропустити поточну пісню.",
+			"nothing": "### В черзі немає наступних пісень. Використовуйте {{{queue}}}, щоб переглянути чергу сервера.\nХочете спробувати автовідтворення? Виконайте команду {{{autoplay}}}",
+			"paused": "### Програвач призупинено. Використовуйте команду продовження (resume) для продовження програвання.\nБажаєте продовжити? Виконайте команду {{{resume}}}",
+			"voteSkip": "### {{{user}}} звернувся з проханням пропустити поточну пісню.\n\n{{{voted}}}",
+			"skip": "### Пропускаємо пісню **{{{title}}}**."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "Перейти до певної пісні у черзі.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "Номер або назва пісні для переходу."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} Будь ласка, введіть номер пісні від 1 до {{{length}}}.",
+			"success": "### {{{emoji}}} Перейдено до **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "Зупинити програвач та очистити чергу.",
+			"stopped": "### {{{emoji}}} Програвач зупинено і чергу очищено."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "Показати топові пісні, які відтворює бот.",
+			"noTopSongs": "### В базі даних немає топових пісень.",
+			"timesPlayed": "Кількість відтворень",
+			"selectSong": "Виберіть пісню зі списку нижче, щоб відтворити її.",
+			"added": "### Додано **[{{{title}}}]({{{uri}}})** у чергу."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "Змінити гучність програвача.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "Гучність, яку ви хочете встановити."
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} Будь ласка, введіть число від 0 до 100.",
+			"success": "### {{{emoji}}} Гучність встановлено на **{{{volume}}}**."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "Проголосувати за пропуск поточної пісні."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### Всі фільтри, застосовані до поточної пісні:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} Тон повинен бути числом від 1 до 5.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "Застосувати фільтр 8D до поточної пісні.",
+				"bassboost": "Застосувати фільтр бас-підсилення до поточної пісні.",
+				"channelmix": "Застосувати фільтр змішування каналів до поточної пісні.",
+				"electronic": "Застосувати фільтр електронних звуків до поточної пісні.",
+				"filters": "Отримати список фільтрів, які можна застосувати до поточної пісні.",
+				"jazz": "Застосувати фільтр джазу до поточної пісні.",
+				"karaoke": "Застосувати караоке-фільтр до поточної пісні.",
+				"lowpass": "Застосувати нижньочастотний фільтр до поточної пісні.",
+				"nightcore": "Застосувати фільтр nightcore до поточної пісні.",
+				"pitch": "Застосувати тоновий фільтр до поточної пісні.",
+				"pop": "Застосувати фільтр поп-музики до поточної пісні.",
+				"radio": "Застосувати радіо-фільтр до поточної пісні.",
+				"rock": "Застосувати фільтр року до поточної пісні.",
+				"rotation": "Застосувати фільтр обертання до поточної пісні.",
+				"soft": "Застосувати фільтр м'якості до поточної пісні.",
+				"speed": "Застосувати фільтр швидкості до поточної пісні.",
+				"treblebass": "Застосувати фільтр високих та низьких частот до поточної пісні.",
+				"tremolo": "Застосувати фільтр трімоло до поточної пісні.",
+				"vaporwave": "Застосувати фільтр вейпору до поточної пісні.",
+				"vibrato": "Застосувати фільтр вібрато до поточної пісні."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} Фільтр {{{name}}} ввімкнено.",
+			"disabled": "### {{{emoji}}} Фільтр {{{name}}} вимкнено.",
+			"speed": "### {{{emoji}}} Швидкість встановлена на **{{{value}}}**.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "Швидкість, яку ви хочете встановити.",
+				"pitch": "Тон, який ви хочете застосувати."
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "Для налаштування повідомлення про початок відтворення треку.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "Встановити канал, в який буде відправлено повідомлення про початок треку.",
+				"channel": "Канал, який ви хочете встановити.",
+				"toggle": "Перемкнути повідомлення про початок треку.",
+				"prunning": "Перемкнути обрізку повідомлення про початок треку.",
+				"reset": "Скинути канал, в який буде відправлено повідомлення про початок треку."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} Будь ласка, вкажіть дійсний текстовий канал.",
+			"noTextChannel": "### {{{emoji}}} Будь ласка, вкажіть дійсний текстовий канал.",
+			"sameChannel": "### {{{emoji}}} Канал, який ви вказали, вже є в базі даних.",
+			"setChannel": "### {{{emoji}}} Успішно встановлено канал для повідомлення: {{{channel}}}.",
+			"noChannelInDB": "### {{{emoji}}} Канал для повідомлення не був налаштований в базі даних.",
+			"toggle": "### {{{emoji}}} Успішно {{{status}}} повідомлення про початок треку.",
+			"enabled": "включено",
+			"disabled": "вимкнено",
+			"reset": "### {{{emoji}}} Успішно скинуто канал для повідомлення про початок."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "Встановлює канал для прослуховування команд бота.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "Додати канал до списку каналів бота.",
+				"channel": "Канал, який ви хочете встановити.",
+				"remove": "Видалити канал із списку каналів бота.",
+				"clear": "Очистити список каналів бота.",
+				"info": "Отримати список каналів бота та інформацію про канал."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} Будь ласка, вкажіть дійсний текстовий канал.",
+			"noTextChannel": "### {{{emoji}}} Будь ласка, вкажіть дійсний текстовий канал.",
+			"sameChannel": "### {{{emoji}}} Канал, який ви вказали, вже є в базі даних.",
+			"maxChannel": "### {{{emoji}}} Ви не можете додати більше 5 каналів до списку каналів бота.",
+			"addedChannel": "### {{{emoji}}} Успішно додано канал {{{channel}}} до списку каналів бота.",
+			"noChannelInDB": "### {{{emoji}}} В базі даних немає каналів бота.",
+			"removedChannel": "### {{{emoji}}} Успішно видалено канал {{{channel}}} із списку каналів бота.",
+			"clearedChannel": "### {{{emoji}}} Успішно очищено список каналів бота.",
+			"info": ">>> **Канал:** {{{channel}}}\n**Модератор:** {{{moderator}}}\n**Додано:** {{{addedAt}}}",
+			"title": "Канали бота ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "Очистити мої повідомлення в каналі.",
+			"success": "### {{{emoji}}} Успішно видалено **{{{count}}}** повідомлення."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "Встановлює типовий гучність для серверу.",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "Число для встановлення типової гучності."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} Будь ласка, введіть число від 0 до 200.",
+			"success": "### {{{emoji}}} Успішно встановлено типову гучність на **{{{volume}}}**."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "Вимкнути команди для серверу.",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "Додати команду до списку вимкнених команд.",
+				"command": "Назва команди",
+				"remove": "Видалити команду зі списку вимкнених команд.",
+				"list": "Отримати список вимкнених команд.",
+				"clear": "Очистити список вимкнених команд."
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} Будь ласка, вкажіть назву команди для вимкнення/увімкнення.",
+			"commandNotExist": "### {{{emoji}}} Такої команди не існує у боті.",
+			"commandAlreadyDisabled": "### {{{emoji}}} Ця команда вже вимкнена.",
+			"commandDisabled": "### {{{emoji}}} Успішно вимкнено команду **{{{command}}}**.",
+			"noDisabledCommands": "### {{{emoji}}} Ця команда не вимкнена.",
+			"commandEnabled": "### {{{emoji}}} Успішно увімкнено команду **{{{command}}}**.",
+			"disabledCommands": "Вимкнені команди",
+			"disabledCommandsForThisServer": "Вимкнені команди для цього серверу",
+			"total": "Всього: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} Успішно очищено список вимкнених команд."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "Встановлює роль DJ для серверу.",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "Додати роль до списку ролей DJ.",
+				"role": "Роль, яку ви хочете (додати/видалити).",
+				"remove": "Видалити роль із списку ролей DJ.",
+				"list": "Отримати список ролей DJ.",
+				"clear": "Очистити список ролей DJ.",
+				"toggle": "Перемкнути роль DJ.",
+				"info": "Отримати список ролей DJ та інформацію про них."
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} Будь ласка, вкажіть дійсну роль для (додавання/видалення).",
+			"maxRoles": "### {{{emoji}}} Ви не можете додати більше 5 ролей до списку ролей DJ.",
+			"alreadyInList": "### {{{emoji}}} Роль, яку ви вказали, вже є в базі даних.",
+			"addedRole": "### {{{emoji}}} Успішно додано роль {{{role}}} до списку ролей DJ.",
+			"noRolesSetup": "### {{{emoji}}} В цьому сервері не налаштовано жодних ролей DJ.",
+			"notInList": "### {{{emoji}}} Цієї ролі немає в списку ролей DJ.",
+			"removedRole": "### {{{emoji}}} Успішно видалено роль {{{role}}} із списку ролей DJ.",
+			"list": ">>> **Роль:** {{{role}}}\n**Модератор:** {{{moderator}}}\n**Додано:** {{{addedAt}}}",
+			"listTotal": "## Всього ролей DJ: {{{total}}}",
+			"clearedList": "### {{{emoji}}} Успішно очищено список ролей DJ.",
+			"enabledToggle": "### {{{emoji}}} Успішно увімкнено режим перемикання ролей DJ.",
+			"disabledToggle": "### {{{emoji}}} Успішно вимкнено режим перемикання ролей DJ.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "Ролі DJ",
+				"enabled": "Увімкнено",
+				"disabled": "Вимкнено",
+				"djMode": "Режим DJ",
+				"djMembers": "Учасник(и) DJ",
+				"description": "Інформація про ролі DJ для {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "Виправити з'єднання з голосом, якщо бот не відтворює музику.",
+			"joining": "### Приєднання до голосового каналу та продовження відтворення музики.",
+			"failed": "### Не вдалося змінити регіон голосу. Будь ласка, спробуйте ще раз пізніше.",
+			"error": "{{{emoji}}} Наразі не знайдено жодного виправлення. Можливо, зверніться за допомогою на [сервері підтримки]({{{server}}})).",
+			"success": "### {{{emoji}}} Успішно змінено регіон голосу на **{{{region}}}**."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "Примусити бота приєднатися до голосового каналу.",
+			"already-in": "{{{emoji}}} Я вже знаходжусь у голосовому каналі!",
+			"joined": "### {{{emoji}}} Успішно приєднано до голосового каналу **{{{channel}}}**."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "Встановлює мову бота для серверу.",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "Додати мову для серверу",
+				"language": "Мова, яку ви хочете встановити.",
+				"info": "Отримати інформацію про мови",
+				"reset": "Скинути мову на типову",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} Успішно встановлено мову бота на {{{language}}} `({{{languageCode}}})`.",
+			"info": "### Поточна мова на цьому сервері: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} Успішно скинуто мову бота на типову.",
+			"translationProgress": "Прогрес перекладу: {{{progress}}}",
+			"selectLanguage": "Будь ласка, виберіть мову, яку ви хочете встановити, зі списку нижче."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "Перемикання режиму без префікса для користувача або серверу.",
+			"toggle": "### Перемикнути режим без префікса для користувача або серверу.",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "Сервер",
+				"user": "Користувач"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### Вам потрібно мати преміум-статус, щоб використовувати цю команду.",
+			"disabledUser": "### {{{emoji}}} Успішно вимкнено режим без префікса для користувача.",
+			"enabledUser": "### {{{emoji}}} Успішно увімкнено режим без префікса для користувача.",
+			"noPerm": "### Ви не маєте необхідних дозволів для використання цієї команди.",
+			"disabledServer": "### {{{emoji}}} Успішно вимкнено режим без префікса для серверу.",
+			"enabledServer": "### {{{emoji}}} Успішно увімкнено режим без префікса для серверу."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "Встановлює префікс для серверу.",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "Встановити префікс для серверу",
+				"prefix": "Префікс, який ви хочете (встановити/видалити)",
+				"info": "Отримати префікс для серверу",
+				"clear": "Очистити префікс для серверу",
+				"remove": "Видалити префікс для серверу"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **Префікс:** `{{{prefix}}}`\n**Модератор:** {{{moderator}}}\n**Додано:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} Будь ласка, вкажіть префікс для встановлення.",
+			"noPrefixAdded": "### {{{emoji}}} На сервері не встановлено жодного префіксу.",
+			"prefixLength": "### {{{emoji}}} Префікс не може бути довше 5 символів.",
+			"prefixLimit": "### {{{emoji}}} Обмеження префіксу - 4 символи. Будь ласка, видаліть деякі префікси за допомогою `prefix remove`.",
+			"prefixCharacters": "### {{{emoji}}} Префікс не може містити такі символи: `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} Префікс `{{{prefix}}}` вже додано користувачем {{{moderator}}}.",
+			"prefixCleared": "### {{{emoji}}} Успішно очищено всі префікси до типових.",
+			"prefixNotExists": "### {{{emoji}}} Префікс `{{{prefix}}}` не додано.",
+			"prefixRemoved": "### {{{emoji}}} Успішно видалено префікс `{{{prefix}}}`.",
+			"prefixAdded": "### {{{emoji}}} Успішно додано префікс `{{{prefix}}}`."
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "Показати ваш профіль або профіль іншої особи.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "Встановити колір, колір або видимість вашого профілю.",
+				"bio": "Встановити біографію вашого профілю.",
+				"color": "Встановити колір вашого профілю.",
+				"visibility": "Встановити видимість вашого профілю.",
+				"view": "Переглянути ваш профіль або профіль іншої особи.",
+				"user": "Користувач, профіль якого ви хочете переглянути."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} Вам потрібно вказати біографію",
+			"bioLength": "### {{{emoji}}} Ваша біографія не може бути довше 50 символів",
+			"bioSet": "### {{{emoji}}} Вашу біографію успішно встановлено на `{{{bio}}}`",
+			"noColor": "### {{{emoji}}} Будь ласка, вкажіть код кольору у форматі hex [Приклад: #FF0000](https://g.co/kgs/q5nhF7)\n\nВи також можете використовувати такі назви кольорів: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} Ваш колір вже встановлено на `{{{color}}}`",
+			"colorSet": "### {{{emoji}}} Ваш колір успішно встановлено на `{{{color}}}`",
+			"sameVisibility": "### {{{emoji}}} Ваша видимість вже встановлена на `{{{visibility}}}`",
+			"noVisibility": "### {{{emoji}}} Будь ласка, вкажіть видимість (публічна/приватна)",
+			"visibilitySet": "### {{{emoji}}} Вашу видимість успішно встановлено на `{{{visibility}}}`",
+			"privateProfile": "### {{{emoji}}} Профіль цього користувача є приватним"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "Змінити налаштування сервера або отримати інформацію про налаштування сервера",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "Скинути всі налаштування сервера до значень за замовчуванням",
+				"info": "Отримати інформацію про налаштування сервера"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} У вас немає права `manageGuild`, щоб використовувати цю команду.",
+			"isSure": "### Ви впевнені, що хочете скинути налаштування сервера?\nЦе скине всі налаштування до значення за замовчуванням\n\n**якщо ви впевнені, натисніть кнопку нижче**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "Скинути"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "Кнопка слідування",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
+				"botChannel": "Канал бота",
+				"disableCommand": "Вимкнені команди",
+				"defaultVolume": "Гучність за замовчуванням",
+				"announce": "Оголошення",
 				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"noPrefix": "Без префікса",
+				"prefix": "Префікс",
+				"djRole": "Роль DJ",
+				"setup": "Налаштування",
+				"voteSkip": "Пропустити за голосуванням",
+				"language": "Мова",
+				"trackButtonValue": "Режим: {{{mode}}}\nМодератор: {{{moderator}}}\nДодано: {{{added}}}",
+				"setupValue": "Модератор: {{{moderator}}}\nДодано: {{{added}}}\n\n**Канали:**\n{{{channels}}}",
+				"djValue": "Режим: {{{mode}}}\nРолі: {{{roles}}}\nДодано: {{{added}}}",
+				"defaultvolumeValue": "Гучність: {{{volume}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"announceValue": "Режим: {{{mode}}}\nКанал: {{{channel}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"prunningValue": "Режим: {{{mode}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"disableCommandValue": "Команди: {{{commands}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"prefixValue": "Префікс: {{{prefix}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"voteSkipValue": "Режим: {{{mode}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"247Value": "Режим: {{{mode}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}\nКанал: {{{channel}}}",
+				"botChannelValue": "Канал: {{{channel}}}\nДодано: {{{added}}}\nМодератор: {{{moderator}}}",
+				"languageValue": "Мова: {{{language}}}",
+				"enabled": "Включено",
+				"disabled": "Вимкнено",
+				"none": "Відсутнє"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} Налаштування сервера успішно скинуто до значень за замовчуванням.",
+			"info": "## Ось інформація про налаштування цього сервера",
+			"noSettings": "### {{{emoji}}} Немає налаштувань для цього сервера."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "Налаштувати параметри voteskip.",
 			"options": {
-				"set": "Set the voteskip mode.",
+				"set": "Встановити режим voteskip.",
 				"action": "cmd.voteskipsetting.options.action"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} Успішно {{{action}}} voteskip.",
+			"isConfirm": "### Ви хочете увімкнути або вимкнути voteskip?",
+			"canceled": "### {{{emoji}}} Налаштування voteskip було скасовано.",
+			"alreadyEnabled": "### Voteskip вже увімкнено.",
+			"alreadyDisabled": "### Voteskip вже вимкнено.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "Увімкнути",
+				"disable": "Вимкнути",
+				"cancel": "Скасувати"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "Додати пісню до плейлиста.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "Плейлист, до якого ви хочете додати пісню.",
+				"song": "Пісня (ім'я/URL), яку ви хочете додати до плейлиста."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} Ім'я плейлиста повинно бути від 3 до 50 символів.",
+			"noPlaylists": "### {{{emoji}}} Я не зміг знайти жодного плейлиста в вашому акаунті, будь ласка, спочатку створіть один.",
+			"noResults": "### {{{emoji}}} Я не зміг знайти результати для `{{{song}}}`.",
+			"playlistFull": "### {{{emoji}}} Ваш плейлист заповнений, будь ласка, видаліть деякі пісні перед додаванням нових.",
+			"playlistAdded": "### {{{emoji}}} Успішно додано **{{{count}}}** пісень до плейлиста **{{{playlist}}}**."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "Додати поточну пісню до плейлиста.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "Плейлист, до якого ви хочете додати поточну пісню."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} Немає граючої пісні.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} Ця пісня вже є в плейлисті.",
+			"success": "### {{{emoji}}} Додано **{{{song}}}** до **{{{playlist}}}**."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "Додати плейлист у чергу.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "Ім'я плейлиста, який ви хочете додати у чергу."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} Немає черги.",
+			"success": "### {{{emoji}}} Додано **{{{queueLength}}}** пісень із черги до плейлиста **{{{playlistName}}}**."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "Створити плейлист.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Ім'я плейлиста, який ви хочете створити.",
+				"visibility": "Видимість плейлиста."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} Будь ласка, вкажіть ім'я плейлиста.",
+			"visibility": "### {{{emoji}}} Видимість повинна бути або `public`, або `private`.",
+			"maxPlaylists": "### {{{emoji}}} Ви можете створити до 10 плейлистів.",
+			"playlistExists": "### {{{emoji}}} У вас вже є плейлист із ім'ям **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Успішно створено плейлист **{{{playlist}}}**."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "Видалити плейлист.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "Назва плейлиста, який ви хочете видалити."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} У вас немає плейлиста з назвою **{{{playlist}}}**.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "Підтвердити",
+				"cancel": "Скасувати"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### Ви впевнені, що хочете видалити плейлист **{{{playlist}}}**?",
+			"success": "### {{{emoji}}} Плейлист **{{{playlist}}}** успішно видалено.",
+			"cancel": "### {{{emoji}}} Ви скасували видалення плейлиста **{{{playlist}}}**."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "Видалити всі дублікати пісень із плейлиста.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "Назва плейлиста, з якого ви хочете видалити дублікати."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} У плейлисті **{{{playlist}}}** немає дублікатів пісень.",
+			"success": "### {{{emoji}}} Успішно видалено **{{{count}}}** дублікат(и) пісень із плейлиста **{{{playlist}}}**."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "Редагувати плейлист.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Назва плейлиста, який ви хочете відредагувати.",
+				"old-name": "Стара назва плейлиста.",
+				"new-name": "Нова назва плейлиста.",
+				"playlist-visibility": "Змінити видимість плейлиста.",
+				"visibility": "Видимість плейлиста."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} Нова назва має відрізнятися від старої.",
+			"successName": "### {{{emoji}}} Успішно перейменовано плейлист **{{{oldName}}}** на **{{{newName}}}**.",
+			"sameVisibility": "### {{{emoji}}} Плейлист **{{{playlist}}}** вже має видимість **{{{visibility}}}**.",
+			"successVisibility": "### {{{emoji}}} Успішно змінено видимість плейлиста **{{{playlist}}}** на **{{{visibility}}}**.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "Назва плейлиста",
+				"visibility": "Видимість плейлиста",
+				"public": "Публічний",
+				"private": "Приватний"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### Виберіть опцію для редагування вашого плейлиста з кнопок нижче.",
+			"oldName": "### Введіть стару назву плейлиста.",
+			"newName": "### Введіть нову назву плейлиста.",
+			"cancelled": "### {{{emoji}}} Скасовано зміну назви плейлиста.",
+			"playlist": "### Введіть назву плейлиста.",
+			"selectVisibility": "### Виберіть видимість плейлиста з кнопок нижче."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "Імпортувати плейлист за ідентифікатором.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "Ідентифікатор плейлиста, який ви хочете імпортувати."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} Не вдалося знайти плейлист із ідентифікатором **{{{id}}}**.",
+			"sameUser": "### {{{emoji}}} Ви не можете імпортувати свій власний плейлист.",
+			"privatePlaylist": "### {{{emoji}}} Ви не можете імпортувати приватний плейлист.",
+			"success": "### {{{emoji}}} Успішно імпортовано плейлист **{{{playlist}}}**."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "Список всіх ваших плейлистів.",
+			"tracks": "Пісні: {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "Додати плейлист до черги.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "Завантажити конкретну пісню із плейлиста.",
+				"name": "Назва плейлиста, який ви хочете завантажити.",
+				"track": "Номер пісні або назва для завантаження."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} У вас немає плейлиста з назвою **{{{playlist}}}**.",
+			"noTracks": "### {{{emoji}}} У плейлисті **{{{playlist}}}** немає пісень.",
+			"noTrackFound": "### {{{emoji}}} Не знайдено пісні з номером або назвою `{{{track}}}`.",
+			"trackLoaded": "### {{{emoji}}} Завантажено **{{{track}}}** із плейлиста **{{{playlist}}}**.",
+			"privatePlaylist": "### {{{emoji}}} Ви не можете завантажити приватний плейлист іншого користувача.",
+			"playlistLoaded": "### {{{emoji}}} Завантажено **{{{count}}}** пісень із плейлиста **{{{playlist}}}**."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "Видалити пісню з плейлиста.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "Назва плейлиста, з якого ви хочете видалити пісню.",
+				"track": "Номер пісні або назва для видалення."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} Не вдалося знайти пісню з таким номером або назвою.",
+			"success": "### {{{emoji}}} Успішно видалено **{{{track}}}** із плейлиста **{{{playlist}}}**."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "Переглянути плейлист.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "Назва плейлиста, який ви хочете переглянути."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "Сторінка {{{page}}} із {{{pages}}} | {{{tracks}}} пісень | {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "Попередній",
+				"stop": "Зупинити",
+				"next": "Наступний"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### Хтось відключив мене від голосового каналу, але я все ще тут завдяки **режиму 24/7**!\n\nВи можете вимкнути це, відключивши **режим 24/7** за допомогою команди {{{cmd}}} або використовуючи команду {{{cmd2}}}!",
+			"nowPlaying": "Зараз грає",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Виконавець: [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"footer": "Тривалість: {{{duration}}} | Черга: {{{queue}}} | Гучність: {{{volume}}}%",
+			"end": "### Ніхто не слухав протягом останньої хвилини, покидаю канал.\n\nВи можете вимкнути це, активувавши **режим 24/7** за допомогою команди {{{cmd}}}!",
+			"endTitle": "Черга завершена",
+			"endDesc": "### Ваша музична черга завершилась. Ви можете знову додати музику, використовуючи команду {{{cmd}}}! Насолоджуєтесь музикою зі мною? Розгляньте можливість [проголосувати за мене]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "Помилка треку",
+		"description": "### [{{{title}}}]({{{uri}}}) недоступний у вашій країні через обмеження за віком!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "Продовжити",
+			"pause": "Пауза",
+			"previous": "Попередній",
+			"shuffle": "Випадковий порядок",
+			"skip": "Пропустити",
+			"stop": "Зупинити",
+			"voldown": "Зменшити гучність",
+			"volup": "Збільшити гучність",
+			"loop": "Зациклити",
+			"like": "Подобається"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### Зараз нічого не грає..",
+		"nothingPlaying": "### Зараз нічого не грає.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "Вам потрібно приєднатись до голосового каналу {{{channel}}}, щоб використовувати цю кнопку!",
+			"noPrevious": "В черзі немає попередньої пісні.",
+			"playingPrevious": "{{{user}}} грає попередню пісню.",
+			"nothingToSkip": "Немає пісень у черзі для пропуску.",
+			"alreadyVote": "{{{user}}} У цьому сервері вже є голосування. Зачекайте, поки воно закінчиться, або скасуйте його.",
+			"voteSkip": "{{{user}}} хоче пропустити поточну пісню. Ви хочете зупинити голосування за пропуск? Введіть команду {{{cmd}}}",
+			"voteSkipLabel": "Голосуйте за пропуск поточної пісні!",
+			"alreadyVoted": "{{{user}}} Ви вже проголосували за пропуск поточної пісні.",
+			"voteSkip2": "{{{user}}} хоче пропустити поточну пісню.",
+			"voteSkipLabel2": "Голосуйте за пропуск поточної пісні! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Вам потрібно приєднатись до голосового каналу {{{channel}}}, щоб використовувати цю кнопку!",
+			"voteSkipTrack": "{{{user}}} пропускає пісню після отримання {{{count}}} позитивних голосів!",
+			"notEnoughVote": "### Недостатньо голосів для пропуску поточної пісні.",
+			"skipTrack": "{{{user}}} пропустив поточну пісню.",
+			"playTrack": "{{{user}}} {{{paused}}} поточну пісню.",
+			"paused": "Призупинено",
+			"resumed": "Відновлено",
+			"stopTrack": "{{{user}}} зупинив поточну пісню.",
+			"volMax": "### Гучність вже максимальна.",
+			"volUp": "{{{user}}} збільшив гучність до **{{{vol}}}**%.",
+			"volMin": "### Гучність вже мінімальна.",
+			"volDown": "{{{user}}} знизив гучність до **{{{vol}}}**%.",
+			"shuffleError": "{{{user}}} У черзі недостатньо пісень для перемішування.",
+			"shuffleDisabled": "{{{user}}} Випадковий порядок вимкнено.",
+			"shuffleEnabled": "{{{user}}} Випадковий порядок увімкнено.",
+			"loopSong": "{{{user}}} Зациклюю поточну пісню.",
+			"loopQueue": "{{{user}}} Зациклюю чергу.",
+			"loopDisabled": "{{{user}}} Зациклювання вимкнено.",
+			"noTrack": "{{{user}}} Зараз нічого не грає.",
+			"liked": "{{{user}}} Подобається **{{{title}}}**.",
+			"unliked": "{{{user}}} Вам більше не подобається **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### Привіт! Я спробував відправити відповідь на вашу команду, але мені не вистачає прав на це. Будь ласка, дайте кому-небудь із персоналу право `Send Messages` в Discord.\n\nСервер: **{{{guildName}}}**\nКоманда: **{{{commandName}}}**\nПотрібна допомога з правами? Приєднуйтесь до сервера підтримки: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Боту потрібно дозвіл `Embed links` в Discord, щоб працювати належним чином! Будь ласка, надайте мені цей дозвіл.",
+			"noBotChannel": "### Я не можу відповідати на команди у цьому каналі. Використовуйте {{{emoji}}} <#{{{botChannel}}}> для команд бота. Дякуємо за співпрацю.",
+			"deleteFooter": "• Це повідомлення буде видалено через 5 секунд",
+			"disabledCommand": "### Ця команда вимкнена для всіх на цьому сервері. Тільки діджеї можуть використовувати цю команду.",
+			"disabledCommandList": "Список вимкнених команд",
+			"noBotPermissions": "### {{{emoji}}} У мене немає дозволів **{{{permissions}}}** для виконання цієї команди.",
+			"noUserPermissions": "### {{{emoji}}} У вас немає дозволів **{{{permissions}}}** для виконання цієї команди.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### Вам потрібно проголосувати за мене, щоб використовувати цю команду. Ви можете проголосувати [Top.gg]({{{link}}})",
+				"### Вам потрібно проголосувати за мене, щоб використовувати цю команду. Ви можете проголосувати [Top.gg]({{{link}}}) або\nВи також можете отримати преміум, пожертвувавши [тут]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "Проголосувати",
+				"donate": "Пожертвувати",
+				"invite": "Запросити",
+				"support": "Підтримка"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### Будь ласка, зачекайте ще **{{{timeLeft}}}** секунд(-и), перш ніж знову використовувати команду **{{{command}}}**.",
+			"noDjRole": "### {{{emoji}}} Вам потрібно мати роль DJ, щоб використовувати цю команду.",
+			"noPremium": "### Вам потрібен преміум-акаунт бота, щоб використовувати цю команду. Ви можете отримати преміум, пожертвувавши [тут]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} У мене недостатньо прав, щоб приєднатись до вашого голосового каналу! Мені потрібні дозволи `View Channels`, `Connect` та `Speak`. [Приклад дозволів](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nЯкщо проблема не зникає, змініть регіон голосового каналу на `Europe`.",
+			"voiceJoin": "### {{{emoji}}} Ви повинні бути підключені до голосового каналу на цьому сервері, щоб використовувати цю команду!\n\nЯк приєднатися до голосового каналу? Просто натисніть на канал із іконкою динаміка (наприклад, клікніть тут: {{{channel}}}) [Дивіться офіційний посібник Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Вам потрібно знаходитись в голосовому каналі **{{{channel}}}**, щоб використовувати цю команду.",
+			"noPlayer": "### {{{emoji}}} Я не підключений до жодного голосового каналу. Використовуйте команду {{{command}}} для запросу моєї присутності.",
+			"noQueue": "### {{{emoji}}} Немає черги. Використовуйте команду {{{command}}} для додавання пісні до черги.",
+			"noSong": "### {{{emoji}}} Нічого не грає. Використовуйте команду {{{command}}} для додавання пісні до черги.",
+			"error": "### {{{emoji}}} Під час виконання команди сталася помилка. Будь ласка, повідомте про це на [Сервері підтримки]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Початок",
+		"embed_description": "### Привіт, <@{{{user}}}>! Мій(Мої) префікс(и): `{{{prefixList}}}`\nНаприклад: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Привіт, <@{{{user}}}>! Мій префікс: `без префіксу`, це означає, що ви можете використовувати будь-яку команду без префіксу.\nНаприклад: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Опції для {{{commandName}}}",
+		"no_description": "Без опису",
+		"options": "Опції",
+		"examples": "Приклад(и)",
+		"long_des": "Це для перемикання між сторінками",
+		"examples_button": "Приклади",
+		"footer": "<Обов'язково> | [Необов'язково] {{{long_des}}} Сторінка {{{page}}} з {{{total_pages}}}",
+		"title2": "Приклади для {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

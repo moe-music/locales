@@ -519,7 +519,7 @@
 			"info": "### 此服务器当前的语言为：**{{{language}}}** `({{{languageCode}}})`。",
 			"reset": "### {{{emoji}}} 成功将机器人的语言重置为默认语言。",
 			"translationProgress": "翻译进度：{{{progress}}}",
-			"selectLanguage": "### 请选择您想要设置的语言。"
+			"selectLanguage": "请选择您想要设置的语言。"
 		},
 		"noprefix": {
 			"description": "切换用户或服务器的无前缀模式。",

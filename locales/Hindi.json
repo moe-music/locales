@@ -1,37 +1,37 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "On ya Off karne ke liye 24/7 mode.",
+			"enabled": "### {{{emoji}}} 24/7 mode ko On kar diya hai.",
+			"disabled": "### {{{emoji}}} 24/7 mode ko Off kar  diya hai."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
+			"description": "Bot ka latency dhako.",
+			"author": "Bot ka latency",
 			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"footer": "• Or jankaari ke liye join kare hamare support server me."
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Invite karne ke liye bot ka link.",
 			"buttons": {
 				"invite": "Invite MoE",
 				"invite2": "Invite MoE2",
 				"invite3": "Invite MoE3",
 				"support": "Support"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Agar aapko MoE pasand aaya toh [invite kare]({{{invite}}}) apne server me. Aur hamare [support server]({{{support}}}) ko join karna na bhule."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Ek category ya command ke baare me or ak command ke baare me jankari.",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Command ya category ka naam"
 			},
 			"title": " Command",
 			"footer": "Page {{{page}}} of {{{pagesNum}}}",
 			"title2": "Help - {{{cmd}}}",
 			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
+			"manContent": "### Yaha par aapko sabhi categories ki list milegi\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
+			"footer2": "- Or jankari ke liye: {{{prefix}}}help <command> ya {{{prefix}}}help <category>",
 			"cooldown": "Cooldown",
 			"aliases": "Aliases",
 			"category": "Category",
@@ -42,27 +42,27 @@
 			"subCommands": "Sub Command(s)",
 			"subSubCommands": "Sub Sub Command(s)",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
+				"previous": "Pichla",
+				"stop": "Band",
+				"next": "Aagla",
 				"home": "Home",
 				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
+				"music": "Gaane",
+				"filter": "filtar",
 				"general": "General",
 				"playlists": "Playlists"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}` ek valid command ya category nahi hai!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Aapko ek voice channel me hona chahiye",
+				"sameVoice": "- Aapko ek hi voice channel me hona chahiye jisme bot hai",
+				"playing": "- Bot music play hona chahiye is server me"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Aapko [vote]({{{link}}}) karna hoga is command ko use karne ke liye",
+			"premiumCmd": "- Aapko [premium]({{{link}}}) hona chahiye is command ko use karne ke liye"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
+			"description": "User ya guild ka premium status dekho.",
 			"guildPremiumStatus": "Guild Premium Status",
 			"userPremiumStatus": "User Premium Status",
 			"premium": "Premium",
@@ -71,9 +71,9 @@
 			"userPremiumExpires": "User Premium Expires"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Premium code ko redeem kare.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Code dalo jo redeem karna hai premium ka"
 			},
 			"noArg": "Please provide a premium code to redeem.",
 			"invalidCode": "Invalid premium code provided.",
@@ -519,7 +519,7 @@
 			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
 			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
 			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"selectLanguage": "Please select the language you want to set from the menu below."
 		},
 		"noprefix": {
 			"description": "Toggles the no prefix for the user or server.",

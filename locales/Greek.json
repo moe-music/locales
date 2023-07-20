@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "Ενεργοποίηση ή απενεργοποίηση της λειτουργίας 24/7.",
+			"enabled": "### {{{emoji}}} Η λειτουργία 24/7 έχει ενεργοποιηθεί.",
+			"disabled": "### {{{emoji}}} Η λειτουργία 24/7 έχει απενεργοποιηθεί."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
+			"description": "Εμφάνιση της καθυστέρησης του bot.",
+			"author": "Καθυστέρηση bot",
 			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"footer": "• Λάβετε περισσότερες πληροφορίες στο κανάλι κατάστασης του διακομιστή υποστήριξης"
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Προσκαλέστε το bot στον δικό σας διακομιστή.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "Πρόσκληση MoE",
+				"invite2": "Πρόσκληση MoE2",
+				"invite3": "Πρόσκληση MoE3",
+				"support": "Υποστήριξη"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Εάν σας άρεσε η χρήση μου, τότε σκεφτείτε να [με προσκαλέσετε]({{{invite}}}) στον δικό σας διακομιστή τώρα. Και μην ξεχάσετε να ενταχθείτε στο [διακομιστή υποστήριξης]({{{support}}})."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Εμφάνιση μιας λίστας εντολών ή πληροφορίες για μια συγκεκριμένη εντολή",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Το όνομα ή η κατηγορία της εντολής για την οποία θέλετε βοήθεια"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": "Εντολή",
+			"footer": "Σελίδα {{{page}}} από {{{pagesNum}}}",
+			"title2": "Βοήθεια - {{{cmd}}}",
+			"title3": "Βοήθεια",
+			"manContent": "### Εδώ είναι μια λίστα όλων των κατηγοριών\n{{{catagory}}}\n\n- Σύνδεσμοι:\n[Διακομιστής Υποστήριξης]({{{server}}}) | [Πρόσκληση]({{{invite}}}) | [Ψήφος]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Ιστοσελίδα]({{{website}}}) | [Τεκμηρίωση]({{{docs}}})",
+			"footer2": "- Για περισσότερες πληροφορίες για μια εντολή: {{{prefix}}}help <εντολή> ή {{{prefix}}}help <κατηγορία>",
+			"cooldown": "Χρόνος Αναμονής",
+			"aliases": "Ψευδώνυμα",
+			"category": "Κατηγορία",
+			"examples": "Παραδείγματα",
+			"userPerms": "Δικαιώματα Χρήστη",
+			"botPerms": "Δικαιώματα Bot",
+			"requirements": "Απαιτήσεις",
+			"subCommands": "Υπο-εντολές",
+			"subSubCommands": "Υπο-υπο-εντολές",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "Προηγούμενο",
+				"stop": "Σταμάτημα",
+				"next": "Επόμενο",
+				"home": "Αρχική",
+				"config": "Διαμόρφωση",
+				"music": "Μουσική",
+				"filter": "Φίλτρο",
+				"general": "Γενικά",
+				"playlists": "Λίστες Αναπαραγωγής"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "Η εντολή ή η κατηγορία `{{{cmd}}}` δεν είναι έγκυρη!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Πρέπει να βρίσκεστε σε κανάλι φωνής",
+				"sameVoice": "- Πρέπει να βρίσκεστε στο ίδιο κανάλι φωνής",
+				"playing": "- Πρέπει να παίζετε μουσική σε αυτόν τον διακομιστή"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Πρέπει να έχετε [ψηφίσει]({{{link}}}) για να χρησιμοποιήσετε αυτήν την εντολή",
+			"premiumCmd": "- Πρέπει να έχετε [premium]({{{link}}}) για να χρησιμοποιήσετε αυτήν την εντολή"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
+			"description": "Εμφάνιση της κατάστασης premium του χρήστη ή του διακομιστή.",
+			"guildPremiumStatus": "Κατάσταση Premium Διακομιστή",
+			"userPremiumStatus": "Κατάσταση Premium Χρήστη",
 			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"notPremium": "Χωρίς Premium",
+			"guildPremiumExpires": "Λήξη Premium Διακομιστή",
+			"userPremiumExpires": "Λήξη Premium Χρήστη"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Εξαργύρωση ενός κωδικού premium.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Ο κωδικός premium που θέλετε να εξαργυρώσετε"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "Παρακαλούμε δώστε έναν κωδικό premium προς εξαργύρωση.",
+			"invalidCode": "Παρεχόμενος μη έγκυρος κωδικός premium.",
+			"confirmation": "### Είστε σίγουροι ότι θέλετε να εξαργυρώσετε τον κωδικό premium `{{{code}}}`;",
+			"type": "Τύπος",
+			"expiresAt": "Λήγει Στις",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "Ναι",
+				"no": "Όχι"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "Είστε ήδη μέλος του premium.",
+			"success": "### Επιτυχής εξαργύρωση του κωδικού premium σας. Τώρα μπορείτε να χρησιμοποιήσετε εντολές premium!",
+			"canceled": "Ακυρώθηκε η εξαργύρωση του κωδικού premium."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "Εμφάνιση στατιστικών του bot."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "Σύνδεσμος διακομιστή υποστήριξης",
+			"content": "### Εάν χρειάζεστε βοήθεια με το bot ή απλά θέλετε να κάνετε παρέα μαζί μας, ενταχθείτε στον [διακομιστή υποστήριξης]({{{link}}}).",
 			"buttons": {
-				"support": "Support Server"
+				"support": "Διακομιστής Υποστήριξης"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "Σύνδεσμος ψήφου bot",
+			"content": "### Εάν σας αρέσει το bot, παρακαλώ σκεφτείτε να ψηφίσετε για αυτό στο [top.gg]({{{link}}}).",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "Ψήφος"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
+			"description": "Εμφάνιση κατάστασης του player.",
+			"nowPlaying": "Τώρα Παίζει",
+			"noSong": "Δεν υπάρχει καμία τραγούδι που παίζεται αυτήν τη στιγμή.",
+			"volume": "Ένταση",
+			"totalDuration": "Συνολική Διάρκεια",
+			"loopMode": "Λειτουργία Επανάληψης",
+			"filters": "Φίλτρα",
+			"noFilters": "Δεν έχουν εφαρμοστεί φίλτρα.",
 			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"online": "Συνδεδεμένος",
+			"offline": "Αποσυνδεδεμένος"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "Ενεργοποίηση ή απενεργοποίηση της λειτουργίας αυτόματης αναπαραγωγής.",
+			"enabled": "### Επιτυχής εναλλαγή της λειτουργίας αυτόματης αναπαραγωγής σε `Ενεργοποιημένη`\nΤο bot θα προσθέτει αυτόματα παρόμοια τραγούδια στην ουρά τώρα.",
+			"disabled": "### Επιτυχής εναλλαγή της λειτουργίας αυτόματης αναπαραγωγής σε `Απενεργοποιημένη`\nΤο bot δεν θα προσθέτει πλέον αυτόματα παρόμοια τραγούδια στην ουρά."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "Καθαρισμός της ουράς ή των φίλτρων από τον player.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "Η ουρά ή τα φίλτρα που θέλετε να καθαρίσετε"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "### Παρακαλώ επιλέξτε μια ουρά ή ένα φίλτρο για καθαρισμό. (ουρά/φίλτρα)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "Δεν υπάρχουν τραγούδια στην ουρά για να καθαρίσετε.",
+				"success": "### Επιτυχής καθαρισμός της ουράς."
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "Δεν υπάρχουν φίλτρα για καθαρισμό.",
+				"success": "### Επιτυχής καθαρισμός των φίλτρων."
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "Ουρά",
+				"filters": "Φίλτρα"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "Εξαναγκασμός προς προώθηση του τρέχοντος τραγουδιού.",
+			"success": "### Επιτυχής εξαναγκασμός προώθησης του τραγουδιού {{{title}}}."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "Προώθηση του τρέχοντος τραγουδιού.",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "Η ποσότητα των δευτερολέπτων για προώθηση"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} Το τρέχον τραγούδι δεν μπορεί να προωθηθεί.",
+			"tooLong": "{{{emoji}}} Δεν μπορείτε να προωθήσετε περισσότερο από τη διάρκεια του τραγουδιού.",
+			"success": "### {{{emoji}}} Επιτυχής προώθηση του τραγουδιού κατά `{{{time}}}`."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "Λήψη του τρέχοντος τραγουδιού.",
+			"dm": "{{{emoji}}} δεν μπορώ να σας στείλω το τραγούδι επειδή έχετε απενεργοποιήσει τα DM σας.",
+			"grabbed": "### {{{emoji}}} Επιτυχής λήψη του τραγουδιού."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "Κλήση του bot στο κανάλι φωνής σας.",
+			"no-perms": "{{{emoji}}} Δεν έχω τα απαιτούμενα δικαιώματα για να μπω στο κανάλι φωνής σας! Χρειάζομαι τα δικαιώματα `Προβολή Καναλιών`, `Σύνδεση` και `Ομιλία`. [Παράδειγμα Δικαιωμάτων](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Εάν το πρόβλημα παραμένει, αλλάξτε την περιοχή του καναλιού φωνής σε `Ευρώπη`",
+			"already-in": "{{{emoji}}} Ήδη είμαι σε ένα κανάλι φωνής!",
+			"joined": "### Επιτυχής κλήση του bot στο κανάλι φωνής {{{channel}}}"
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "Αποχώρηση από το κανάλι φωνής.",
+			"not-playing": "{{{emoji}}} Δεν παίζω τίποτα αυτήν τη στιγμή!",
+			"success": "### {{{emoji}}} Επιτυχής αποχώρηση από το κανάλι φωνής."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "Κατάργηση όλων των τραγουδιών από χρήστες που δεν βρίσκονται στο κανάλι φωνής.",
+			"removing": "## Κατάργηση τραγουδιών από χρήστες που δεν είναι πλέον στο κανάλι φωνής. Παρακαλώ περιμένετε",
+			"removed": "### Επιτυχής κατάργηση των `{{{count}}}` τραγουδιών από χρήστες που δεν βρίσκονται πλέον στο κανάλι φωνής."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "Επανάληψη του τρέχοντος τραγουδιού ή της ουράς.",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "Η λειτουργία επανάληψης που θέλετε να ορίσετε"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### Παρακαλώ καθορίστε τη λειτουργία επανάληψης. (τραγούδι, ουρά, ανενεργή) από τα κουμπιά παρακάτω.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "Τραγούδι",
+				"queue": "Ουρά",
+				"off": "Ανενεργή"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} Επιτυχής επανάληψη του τρέχοντος τραγουδιού.",
+			"queue": "### {{{emoji}}} Επιτυχής επανάληψη της ουράς.",
+			"off": "### {{{emoji}}} Επιτυχής απενεργοποίηση της επανάληψης.",
+			"song_already": "### {{{emoji}}} Το τρέχον τραγούδι είναι ήδη σε επανάληψη.",
+			"queue_already": "### {{{emoji}}} Η ουρά είναι ήδη σε επανάληψη.",
+			"off_already": "### {{{emoji}}} Η επανάληψη είναι ήδη απενεργοποιημένη.",
+			"invalid_mode": "### {{{emoji}}} Παρεχόμενη μη έγκυρη λειτουργία επανάληψης. παρακαλώ δώστε μια έγκυρη λειτουργία επανάληψης. (τραγούδι, ουρά, ανενεργή)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "Εμφανίζει τους στίχους του τρέχοντος τραγουδιού ή ενός τραγουδιού με βάση το όνομα του.",
 			"options": {
-				"song": "The song name to search for"
+				"song": "Το όνομα του τραγουδιού για αναζήτηση"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### Παρακαλώ δώστε ένα όνομα τραγουδιού για αναζήτηση.",
+			"noLyrics": "### Δεν μπόρεσα να βρω στίχους για αυτό το τραγούδι.",
+			"page": "Σελίδα {{{page}}} από {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "Μετακίνηση ενός τραγουδιού σε συγκεκριμένη θέση στην ουρά.",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "Το τραγούδι που θέλετε να μετακινήσετε",
+				"position": "Η θέση στην οποία θέλετε να μετακινήσετε το τραγούδι"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### Παρακαλώ δώστε ένα έγκυρο αριθμό για τη θέση.",
+			"invalidPosition": "### Παρέχεται μη έγκυρη θέση. Παρακαλώ δώστε μια έγκυρη θέση.",
+			"success": "### Μετακινήθηκε **[{{{title}}}]({{{uri}}})** από τη θέση **{{{from}}}** στη θέση **{{{to}}}**."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "Εμφανίζει το τραγούδι που αναπαράγεται αυτή τη στιγμή.",
+			"nowplaying": "### Τώρα παίζει: [{{{title}}}]({{{uri}}})",
+			"author": "Συντελεστής",
+			"requester": "Ζητηθέν από",
+			"duration": "Διάρκεια",
+			"progress": "Πρόοδος"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "Παύση του τρέχοντος τραγουδιού.",
+			"alreadyPaused": "### Το τρέχον τραγούδι είναι ήδη παυσμένο.",
+			"paused": "### Το τραγούδι [{{{title}}}]({{{uri}}}) έχει παύσει."
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Αναπαραγωγή ενός τραγουδιού από Spotify, SoundCloud, Deezer κλπ.",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Το ερώτημα αναζήτησης",
+				"source": "Η πηγή αναζήτησης"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "Παρακαλώ δώστε το όνομα ενός τραγουδιού για αναζήτηση.",
+			"no-results": "### Δεν βρέθηκαν αποτελέσματα για `{{{query}}}`.",
+			"playlist-loaded": "### Φορτώθηκαν `{{{count}}}` κομμάτια από τη λίστα αναπαραγωγής **[{{{name}}}]({{{url}}})**",
+			"footer": "Ευχαριστούμε που χρησιμοποιείτε το {{{bot}}}",
+			"added": "### Προστέθηκε το **[{{{title}}}]({{{uri}}})** στην ουρά (ζητήθηκε από <@{{{requester}}}>), στη θέση ουράς `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "Αναπαραγωγή του προηγούμενου τραγουδιού.",
+			"noPreviousTrack": "### {{{emoji}}} Δεν υπάρχει προηγούμενο τραγούδι για αναπαραγωγή.",
+			"success": "### {{{emoji}}} Τώρα παίζει το προηγούμενο κομμάτι από την ουρά σας!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "Εμφανίζει την ουρά για τον τρέχοντα διακομιστή.",
 			"options": {
-				"page": "The page number to view"
+				"page": "Ο αριθμός σελίδας για προβολή"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### Ουρά για τον διακομιστή {{{guild}}} ({{{songs}}} τραγούδια)",
+			"nowPlaying": "### Τώρα Παίζει: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### Επόμενα: {{{str}}}",
+			"noSongs": "### Δεν υπάρχουν ακόμα τραγούδια στην ουρά! Προσθέστε ένα χρησιμοποιώντας την εντολή {{{cmd}}}",
+			"page": "Σελίδα {{{page}}} | {{{songs}}} τραγούδια | συνολική διάρκεια {{{duration}}}",
+			"notNumber": "### {{{emoji}}} Ο αριθμός σελίδας πρέπει να είναι αριθμός.",
+			"pageLimit": "### {{{emoji}}} Ο αριθμός σελίδας πρέπει να είναι μικρότερος ή ίσος του {{{pages}}}.",
+			"clearQueue": "Εκκαθάριση Ουράς",
+			"noTracks": "### Δεν υπάρχουν κομμάτια στην ουρά.",
+			"noDjRole": "### Χρειάζεστε τον ρόλο DJ για να χρησιμοποιήσετε αυτό το κουμπί.",
+			"clearedQueue": "### {{{user}}} Απέκλεισε την ουρά."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "Αφαίρεση ενός τραγουδιού από την ουρά.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "Το τραγούδι προς αφαίρεση.",
+				"number": "Ο αριθμός του τραγουδιού ή ο τίτλος του τραγουδιού προς αφαίρεση.",
+				"dupes": "Αφαιρέστε όλα τα διπλότυπα του τραγουδιού."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### Δεν υπάρχει κομμάτι με αυτόν τον αριθμό στην ουρά",
+			"invalidNumber": "### Παρακαλώ εισάγετε έναν αριθμό ανάμεσα στο 1 και το {{{length}}}.",
+			"removed": "### Αφαιρέθηκε το **[{{{title}}}]({{{uri}}})** από την ουρά.",
+			"noDupes": "### Δεν υπάρχουν διπλά τραγούδια στην ουρά.",
+			"removedDupes": "### Αφαιρέθηκαν **{{{length}}}** διπλά τραγούδια από την ουρά."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "Επανάληψη του τρέχοντος τραγουδιού.",
+			"replaying": "### Επανάληψη του [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "Συνέχεια του τρέχοντος τραγουδιού.",
+			"notPaused": "### Το τρέχον τραγούδι δεν είναι παυσμένο.",
+			"resumed": "### Συνέχιση του [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "Προς τα πίσω του τρέχοντος τραγουδιού.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "Ο χρόνος που θέλετε να προχωρήσετε προς τα πίσω το τραγούδι."
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} Το τρέχον τραγούδι δεν μπορεί να προωθηθεί προς τα πίσω.",
+			"negativePosition": "### {{{emoji}}} Η θέση πρέπει να είναι ανάμεσα στο 0 και το {{{length}}}.",
+			"success": "### {{{emoji}}} Προωθήστε το τραγούδι προς τα πίσω στο {{{length}}}."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "Αναζήτηση ενός τραγουδιού από Spotify, SoundCloud ή Deezer.",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Το ερώτημα αναζήτησης",
+				"source": "Η πηγή αναζήτησης"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} Δεν υποστηρίζονται λίστες αναπαραγωγής! Χρησιμοποιήστε την εντολή {{{cmd}}} για να προσθέσετε ένα τραγούδι.",
+			"no-track": "### {{{emoji}}} Δεν υποστηρίζονται κομμάτια! Χρησιμοποιήστε την εντολή {{{cmd}}} για να προσθέσετε ένα τραγούδι.",
+			"results": "## Αποτελέσματα αναζήτησης για `{{{query}}}`\n\n{{{results}}}",
+			"footer": "Επιλέξτε ένα τραγούδι από το μενού επιλογής παρακάτω.",
+			"placeholder": "Επιλέξτε ένα τραγούδι από τη λίστα παρακάτω για να το παίξετε.",
+			"footerTimeout": "Το χρονικό όριο αναζήτησης έληξε.",
+			"no-voice": "### {{{emoji}}} Πρέπει να βρίσκεστε σε φωνητικό κανάλι για να χρησιμοποιήσετε αυτό το μενού.",
+			"wrong-voice": "### {{{emoji}}} Πρέπει να βρίσκεστε στο ίδιο φωνητικό κανάλι με εμένα για να χρησιμοποιήσετε αυτό το μενού.",
+			"added": "### {{{emoji}}} Προστέθηκαν {{{count}}} κομμάτια στην ουρά."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "Προχωρήστε σε μια συγκεκριμένη χρονική στιγμή στο τρέχον τραγούδι.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "Η χρονική στιγμή που θέλετε να προχωρήσετε στο τραγούδι."
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### Ο χρόνος πρέπει να είναι ανάμεσα στο 0 και το {{{length}}}.",
+			"seeked": "### Προχωρήστε σε `{{{position}}}` στο `{{{time}}}`"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "Ανακάτεμα της ουράς.",
+			"success": "### Η ουρά του διακομιστή έχει ανακατευθυνθεί με επιτυχία (**{{{length}}}** τραγούδια).",
+			"unshuffle": "### Η ουρά του διακομιστή έχει επαναφερθεί με επιτυχία (**{{{length}}}** τραγούδια)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "Παράλειψη του τρέχοντος τραγουδιού.",
+			"nothing": "### Δεν υπάρχει τίποτα επόμενο στην ουρά. Χρησιμοποιήστε την εντολή {{{queue}}} για να δείτε την ουρά του διακομιστή.\nΘέλετε να δοκιμάσετε το autoplay; κάντε {{{autoplay}}}",
+			"paused": "### Ο παίκτης είναι σε παύση. Χρησιμοποιήστε την εντολή επαναφοράς για να συνεχίσετε τον παίκτη.\nΘέλετε να συνεχίσετε; κάντε {{{resume}}}",
+			"voteSkip": "### Ο χρήστης {{{user}}} ζήτησε να παραλείψει το τρέχον κομμάτι.\n\n{{{voted}}}",
+			"skip": "### Παράκαμψη του τραγουδιού **{{{title}}}**."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "Παράλειψη σε ένα συγκεκριμένο τραγούδι στην ουρά.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "Ο αριθμός του κομματιού ή ο τίτλος του τραγουδιού για παράλειψη."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} Παρακαλώ εισάγετε έναν αριθμό κομματιού μεταξύ 1 και {{{length}}}.",
+			"success": "### {{{emoji}}} Παράλειψη στο **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "Διακοπή του παίκτη και καθαρισμός της ουράς.",
+			"stopped": "### {{{emoji}}} Διακόπηκε ο παίκτης και εκκαθαρίστηκε η ουρά."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "Εμφάνιση των κορυφαίων τραγουδιών που έχουν αναπαραχθεί από το bot.",
+			"noTopSongs": "### Δεν υπάρχουν κορυφαία τραγούδια στη βάση δεδομένων.",
+			"timesPlayed": "Φορές παιχνιδιού",
+			"selectSong": "Επιλέξτε ένα τραγούδι από τη λίστα παρακάτω για να το παίξετε.",
+			"added": "### Προστέθηκε το **[{{{title}}}]({{{uri}}})** στην ουρά."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "Αλλαγή της έντασης του player.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "Η ένταση που θέλετε να ορίσετε."
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} Παρακαλώ εισάγετε έναν αριθμό μεταξύ 0 και 100.",
+			"success": "### {{{emoji}}} Ορίστηκε η ένταση σε **{{{volume}}}**."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "Ψηφίστε για να προσπεράσετε το τρέχον τραγούδι."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### Όλα τα φίλτρα που εφαρμόζονται στο τρέχον τραγούδι:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} Η τονικότητα πρέπει να είναι αριθμός μεταξύ 1 και 5.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "Εφαρμόστε το φίλτρο 8D στο τρέχον τραγούδι.",
+				"bassboost": "Εφαρμόστε το φίλτρο bassboost στο τρέχον τραγούδι.",
+				"channelmix": "Εφαρμόστε το φίλτρο channelmix στο τρέχον τραγούδι.",
+				"electronic": "Εφαρμόστε το φίλτρο electronic στο τρέχον τραγούδι.",
+				"filters": "Λάβετε μια λίστα με τα φίλτρα που μπορούν να εφαρμοστούν στο τρέχον τραγούδι.",
+				"jazz": "Εφαρμόστε το φίλτρο jazz στο τρέχον τραγούδι.",
+				"karaoke": "Εφαρμόστε το φίλτρο karaoke στο τρέχον τραγούδι.",
+				"lowpass": "Εφαρμόστε το φίλτρο lowpass στο τρέχον τραγούδι.",
+				"nightcore": "Εφαρμόστε το φίλτρο nightcore στο τρέχον τραγούδι.",
+				"pitch": "Εφαρμόστε το φίλτρο pitch στο τρέχον τραγούδι.",
+				"pop": "Εφαρμόστε το φίλτρο pop στο τρέχον τραγούδι.",
+				"radio": "Εφαρμόστε το φίλτρο radio στο τρέχον τραγούδι.",
+				"rock": "Εφαρμόστε το φίλτρο rock στο τρέχον τραγούδι.",
+				"rotation": "Εφαρμόστε το φίλτρο rotation στο τρέχον τραγούδι.",
+				"soft": "Εφαρμόστε το φίλτρο soft στο τρέχον τραγούδι.",
+				"speed": "Εφαρμόστε το φίλτρο speed στο τρέχον τραγούδι.",
+				"treblebass": "Εφαρμόστε το φίλτρο treblebass στο τρέχον τραγούδι.",
+				"tremolo": "Εφαρμόστε το φίλτρο tremolo στο τρέχον τραγούδι.",
+				"vaporwave": "Εφαρμόστε το φίλτρο vaporwave στο τρέχον τραγούδι.",
+				"vibrato": "Εφαρμόστε το φίλτρο vibrato στο τρέχον τραγούδι."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} Το φίλτρο {{{name}}} έχει ενεργοποιηθεί.",
+			"disabled": "### {{{emoji}}} Το φίλτρο {{{name}}} έχει απενεργοποιηθεί.",
+			"speed": "### {{{emoji}}} Ο φίλτρος ταχύτητας έχει οριστεί σε **{{{value}}}**.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "Η ταχύτητα που θέλετε να ορίσετε.",
+				"pitch": "Η τονικότητα που θα εφαρμοστεί."
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "Για να ρυθμίσετε την ανακοίνωση του μηνύματος έναρξης του τραγουδιού.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "Ορίστε το κανάλι όπου θα σταλεί το μήνυμα έναρξης του τραγουδιού.",
+				"channel": "Το κανάλι που θέλετε να ορίσετε.",
+				"toggle": "Εναλλαγή της ανακοίνωσης του μηνύματος έναρξης του τραγουδιού.",
+				"prunning": "Εναλλαγή της περικοπής του μηνύματος έναρξης του τραγουδιού.",
+				"reset": "Επαναφορά του καναλιού όπου θα σταλεί το μήνυμα έναρξης του τραγουδιού."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} Παρακαλώ εισάγετε ένα έγκυρο κανάλι κειμένου.",
+			"noTextChannel": "### {{{emoji}}} Παρακαλώ εισάγετε ένα έγκυρο κανάλι κειμένου.",
+			"sameChannel": "### {{{emoji}}} Το κανάλι που παρέχετε υπάρχει ήδη στη βάση δεδομένων.",
+			"setChannel": "### {{{emoji}}} Το κανάλι ανακοίνωσης ορίστηκε με επιτυχία στο {{{channel}}}.",
+			"noChannelInDB": "### {{{emoji}}} Το κανάλι ανακοίνωσης δεν έχει οριστεί στη βάση δεδομένων.",
+			"toggle": "### {{{emoji}}} Η ανακοίνωση του μηνύματος έναρξης του τραγουδιού έχει ενεργοποιηθεί/απενεργοποιηθεί με επιτυχία.",
+			"enabled": "ενεργοποιημένη",
+			"disabled": "απενεργοποιημένη",
+			"reset": "### {{{emoji}}} Η επαναφορά του καναλιού ανακοίνωσης έγινε με επιτυχία."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "Ορίστε το κανάλι του bot για την ακρόαση των εντολών.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "Προσθήκη ενός καναλιού στη λίστα καναλιών του bot.",
+				"channel": "Το κανάλι που θέλετε να ορίσετε.",
+				"remove": "Αφαίρεση καναλιού από τη λίστα καναλιών του bot.",
+				"clear": "Εκκαθάριση της λίστας καναλιών του bot.",
+				"info": "Λήψη της λίστας καναλιών του bot και πληροφοριών σχετικά με το κανάλι."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} Παρακαλώ εισάγετε ένα έγκυρο κανάλι κειμένου.",
+			"noTextChannel": "### {{{emoji}}} Παρακαλώ εισάγετε ένα έγκυρο κανάλι κειμένου.",
+			"sameChannel": "### {{{emoji}}} Το κανάλι που παρέχετε υπάρχει ήδη στη βάση δεδομένων.",
+			"maxChannel": "### {{{emoji}}} Δεν μπορείτε να προσθέσετε περισσότερα από 5 κανάλια στη λίστα καναλιών του bot.",
+			"addedChannel": "### {{{emoji}}} Προστέθηκε με επιτυχία το κανάλι {{{channel}}} στη λίστα καναλιών του bot.",
+			"noChannelInDB": "### {{{emoji}}} Δεν υπάρχουν κανάλια του bot στη βάση δεδομένων.",
+			"removedChannel": "### {{{emoji}}} Αφαιρέθηκε με επιτυχία το κανάλι {{{channel}}} από τη λίστα καναλιών του bot.",
+			"clearedChannel": "### {{{emoji}}} Καθαρίστηκε με επιτυχία η λίστα καναλιών του bot.",
+			"info": ">>> **Κανάλι:** {{{channel}}}\n**Διαχειριστής:** {{{moderator}}}\n**Προστέθηκε στις:** {{{addedAt}}}",
+			"title": "Κανάλια του Bot ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "Καθαρίστε τα δικά μου μηνύματα στο κανάλι.",
+			"success": "### {{{emoji}}} Καθαρίστηκαν επιτυχώς **{{{count}}}** μηνύματα."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "Ορίστε την προεπιλεγμένη ένταση για τον server.",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "Ο αριθμός για να ορίσετε την προεπιλεγμένη ένταση."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} Παρακαλώ εισάγετε έναν αριθμό μεταξύ 0 και 200.",
+			"success": "### {{{emoji}}} Ορίστηκε επιτυχώς η προεπιλεγμένη ένταση σε **{{{volume}}}**."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "Απενεργοποίηση εντολών για τον server.",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "Προσθήκη μιας εντολής στη λίστα απενεργοποιημένων εντολών.",
+				"command": "Το όνομα της εντολής",
+				"remove": "Αφαίρεση μιας εντολής από τη λίστα απενεργοποιημένων εντολών.",
+				"list": "Λήψη της λίστας απενεργοποιημένων εντολών.",
+				"clear": "Εκκαθάριση της λίστας απενεργοποιημένων εντολών."
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} Παρακαλώ εισάγετε το όνομα μιας εντολής για να την απενεργοποιήσετε/ενεργοποιήσετε.",
+			"commandNotExist": "### {{{emoji}}} Η εντολή αυτή δεν υπάρχει στο bot.",
+			"commandAlreadyDisabled": "### {{{emoji}}} Αυτή η εντολή είναι ήδη απενεργοποιημένη.",
+			"commandDisabled": "### {{{emoji}}} Η εντολή **{{{command}}}** απενεργοποιήθηκε με επιτυχία.",
+			"noDisabledCommands": "### {{{emoji}}} Αυτή η εντολή δεν είναι απενεργοποιημένη.",
+			"commandEnabled": "### {{{emoji}}} Η εντολή **{{{command}}}** ενεργοποιήθηκε με επιτυχία.",
+			"disabledCommands": "Απενεργοποιημένες Εντολές",
+			"disabledCommandsForThisServer": "Απενεργοποιημένες εντολές για αυτόν τον server",
+			"total": "Σύνολο: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} Εκκαθαρίστηκε με επιτυχία η λίστα απενεργοποιημένων εντολών."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "Ορίστε τον ρόλο DJ για τον server.",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "Προσθήκη ενός ρόλου στη λίστα ρόλων DJ.",
+				"role": "Ο ρόλος που θέλετε να (προσθέσετε/αφαιρέσετε)",
+				"remove": "Αφαίρεση ενός ρόλου από τη λίστα ρόλων DJ.",
+				"list": "Λίστα με τους ρόλους DJ.",
+				"clear": "Εκκαθάριση της λίστας ρόλων DJ.",
+				"toggle": "Εναλλαγή του ρόλου DJ",
+				"info": "Λήψη της λίστας ρόλων DJ και πληροφοριών σχετικά με τον ρόλο DJ"
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} Παρακαλώ εισάγετε έναν έγκυρο ρόλο για να (προσθέσετε/αφαιρέσετε).",
+			"maxRoles": "### {{{emoji}}} Δεν μπορείτε να προσθέσετε περισσότερους από 5 ρόλους στη λίστα ρόλων DJ.",
+			"alreadyInList": "### {{{emoji}}} Ο ρόλος που παρέχετε υπάρχει ήδη στη βάση δεδομένων.",
+			"addedRole": "### {{{emoji}}} Προστέθηκε με επιτυχία ο ρόλος {{{role}}} στη λίστα ρόλων DJ.",
+			"noRolesSetup": "### {{{emoji}}} Δεν έχουν οριστεί ρόλοι DJ για αυτόν τον server.",
+			"notInList": "### {{{emoji}}} Αυτός ο ρόλος δεν υπάρχει στη λίστα ρόλων DJ.",
+			"removedRole": "### {{{emoji}}} Αφαιρέθηκε με επιτυχία ο ρόλος {{{role}}} από τη λίστα ρόλων DJ.",
+			"list": ">>> **Ρόλος:** {{{role}}}\n**Διαχειριστής:** {{{moderator}}}\n**Προστέθηκε στις:** {{{addedAt}}}",
+			"listTotal": "## Σύνολο ρόλων DJ: {{{total}}}",
+			"clearedList": "### {{{emoji}}} Εκκαθαρίστηκε με επιτυχία η λίστα ρόλων DJ.",
+			"enabledToggle": "### {{{emoji}}} Ενεργοποιήθηκε με επιτυχία η λειτουργία εναλλαγής του ρόλου DJ.",
+			"disabledToggle": "### {{{emoji}}} Απενεργοποιήθηκε με επιτυχία η λειτουργία εναλλαγής του ρόλου DJ.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "Ρόλοι DJ",
+				"enabled": "Ενεργοποιημένο",
+				"disabled": "Απενεργοποιημένο",
+				"djMode": "Λειτουργία DJ",
+				"djMembers": "Μέλη DJ",
+				"description": "Πληροφορίες ρόλου DJ για τον server {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "Επιδιόρθωση της φωνητικής σύνδεσης αν το bot δεν παίζει μουσική.",
+			"joining": "### Επανασύνδεση στο φωνητικό κανάλι και συνέχιση της μουσικής.",
+			"failed": "### Αποτυχία αλλαγής περιοχής φωνής. Παρακαλώ προσπαθήστε ξανά αργότερα.",
+			"error": "{{{emoji}}} Δεν μπόρεσα να βρω κάποια λύση αυτήν τη στιγμή. Ίσως ζητήσετε βοήθεια στο [server υποστήριξης]({{{server}}}).",
+			"success": "### {{{emoji}}} Επιτυχής αλλαγή της περιοχής φωνής σε **{{{region}}}**."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "Εξαναγκασμός του bot να μπει στο φωνητικό κανάλι.",
+			"already-in": "{{{emoji}}} Ήδη είμαι σε φωνητικό κανάλι!",
+			"joined": "### {{{emoji}}} Επιτυχής σύνδεση στο φωνητικό κανάλι **{{{channel}}}**."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "Ορισμός της γλώσσας του bot για τον διακομιστή",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "Προσθήκη γλώσσας για τον διακομιστή",
+				"language": "Η γλώσσα που θέλετε να ορίσετε",
+				"info": "Λήψη πληροφοριών για τις γλώσσες",
+				"reset": "Επαναφορά της γλώσσας στην προεπιλεγμένη γλώσσα",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} Επιτυχής ορισμός της γλώσσας του bot σε {{{language}}} `({{{languageCode}}})`.",
+			"info": "### Η τρέχουσα γλώσσα σε αυτόν τον διακομιστή είναι: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} Επιτυχής επαναφορά της γλώσσας του bot στην προεπιλεγμένη γλώσσα.",
+			"translationProgress": "Πρόοδος μετάφρασης: {{{progress}}}",
+			"selectLanguage": "Παρακαλώ επιλέξτε τη γλώσσα που θέλετε να ορίσετε από το μενού παρακάτω."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "Εναλλαγή για τον χρήστη ή τον διακομιστή χωρίς πρόθεμα.",
+			"toggle": "### Εναλλαγή για τον χρήστη ή τον διακομιστή χωρίς πρόθεμα.",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "Διακομιστής",
+				"user": "Χρήστης"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### Χρειάζεστε να είστε premium χρήστης για να χρησιμοποιήσετε αυτήν την εντολή.",
+			"disabledUser": "### {{{emoji}}} Επιτυχής απενεργοποίηση του χωρίς πρόθεμα για τον χρήστη.",
+			"enabledUser": "### {{{emoji}}} Επιτυχής ενεργοποίηση του χωρίς πρόθεμα για τον χρήστη.",
+			"noPerm": "### Δεν έχετε τις απαιτούμενες άδειες για να χρησιμοποιήσετε αυτήν την εντολή.",
+			"disabledServer": "### {{{emoji}}} Επιτυχής απενεργοποίηση του χωρίς πρόθεμα για τον διακομιστή.",
+			"enabledServer": "### {{{emoji}}} Επιτυχής ενεργοποίηση του χωρίς πρόθεμα για τον διακομιστή."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "Ορίστε το πρόθεμα για τον διακομιστή",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "Ορίστε το πρόθεμα για τον διακομιστή",
+				"prefix": "Το πρόθεμα που θέλετε να (ορίσετε/αφαιρέσετε)",
+				"info": "Λήψη του πρόθεματος για τον διακομιστή",
+				"clear": "Καθαρισμός του πρόθεματος για τον διακομιστή",
+				"remove": "Αφαίρεση του πρόθεματος για τον διακομιστή"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **Πρόθεμα:** `{{{prefix}}}`\n**Διαχειριστής:** {{{moderator}}}\n**Προστέθηκε στις:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} Παρακαλώ καθορίστε ένα πρόθεμα για να ορίσετε.",
+			"noPrefixAdded": "### {{{emoji}}} Δεν υπάρχει προστιθέμενο πρόθεμα στον διακομιστή.",
+			"prefixLength": "### {{{emoji}}} Το πρόθεμα δεν μπορεί να είναι περισσότερο από 5 χαρακτήρες.",
+			"prefixLimit": "### {{{emoji}}} Το όριο προθεμάτων είναι 4, παρακαλώ αφαιρέστε κάποια πρόθεμα με την εντολή `prefix remove`",
+			"prefixCharacters": "### {{{emoji}}} Το πρόθεμα δεν μπορεί να περιέχει τους παρακάτω χαρακτήρες: `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} Το πρόθεμα `{{{prefix}}}` έχει ήδη προστεθεί από τον/την {{{moderator}}}",
+			"prefixCleared": "### {{{emoji}}} Επιτυχής επαναφορά όλων των προθεμάτων στις προεπιλεγμένες ρυθμίσεις",
+			"prefixNotExists": "### {{{emoji}}} Το πρόθεμα `{{{prefix}}}` δεν έχει προστεθεί",
+			"prefixRemoved": "### {{{emoji}}} Επιτυχής αφαίρεση του προθέματος `{{{prefix}}}`",
+			"prefixAdded": "### {{{emoji}}} Επιτυχής προσθήκη του προθέματος `{{{prefix}}}`"
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "Εμφάνιση του προφίλ σας ή του προφίλ κάποιου άλλου.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "Ορίστε το χρώμα, το χρώμα του προφίλ σας ή την ορατότητα του προφίλ σας.",
+				"bio": "Ορίστε το περιεχόμενο του προφίλ σας.",
+				"color": "Ορίστε το χρώμα του προφίλ σας.",
+				"visibility": "Ορίστε την ορατότητα του προφίλ σας.",
+				"view": "Προβολή του προφίλ σας ή του προφίλ κάποιου άλλου.",
+				"user": "Ο χρήστης που θέλετε να προβάλλετε το προφίλ του."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} Παρακαλώ καθορίστε ένα περιεχόμενο (bio).",
+			"bioLength": "### {{{emoji}}} Το bio σας δεν μπορεί να είναι μεγαλύτερο από 50 χαρακτήρες.",
+			"bioSet": "### {{{emoji}}} Επιτυχής ορισμός του bio σας σε `{{{bio}}}`",
+			"noColor": "### {{{emoji}}} Παρακαλώ καθορίστε έναν κωδικό χρώματος [Παράδειγμα: #FF0000](https://g.co/kgs/q5nhF7)\n\nΜπορείτε επίσης να χρησιμοποιήσετε τα παρακάτω ονόματα χρωμάτων: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} Το χρώμα σας είναι ήδη ορισμένο σε `{{{color}}}`",
+			"colorSet": "### {{{emoji}}} Επιτυχής ορισμός του χρώματός σας σε `{{{color}}}`",
+			"sameVisibility": "### {{{emoji}}} Η ορατότητά σας είναι ήδη ορισμένη σε `{{{visibility}}}`",
+			"noVisibility": "### {{{emoji}}} Παρακαλώ καθορίστε μια ορατότητα (public/private)",
+			"visibilitySet": "### {{{emoji}}} Επιτυχής ορισμός της ορατότητάς σας σε `{{{visibility}}}`",
+			"privateProfile": "### {{{emoji}}} Το προφίλ αυτού του χρήστη είναι ιδιωτικό"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "Αλλαγή των ρυθμίσεων του διακομιστή ή λήψη πληροφοριών για τις ρυθμίσεις του διακομιστή",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "Επαναφορά όλων των ρυθμίσεων του διακομιστή στις προεπιλεγμένες ρυθμίσεις",
+				"info": "Λήψη πληροφοριών για τις ρυθμίσεις του διακομιστή"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} Δεν έχετε την άδεια `manageGuild` για να χρησιμοποιήσετε αυτήν την εντολή.",
+			"isSure": "### Είστε σίγουροι ότι θέλετε να επαναφέρετε τις ρυθμίσεις του διακομιστή;\nΑυτό θα επαναφέρει όλες τις ρυθμίσεις στις προεπιλεγμένες τιμές.\n\n**Εάν είστε σίγουροι, πατήστε το παρακάτω κουμπί**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "Επαναφορά"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "Κουμπί Κομματιού",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
-				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"botChannel": "Κανάλι Bot",
+				"disableCommand": "Απενεργοποίηση Εντολής",
+				"defaultVolume": "Προεπιλεγμένη Ένταση",
+				"announce": "Ανακοίνωση",
+				"prunning": "Αποκοπή",
+				"noPrefix": "Χωρίς Πρόθεμα",
+				"prefix": "Πρόθεμα",
+				"djRole": "Ρόλος DJ",
+				"setup": "Ρύθμιση",
+				"voteSkip": "Ψηφοφορία Παράκαμψης",
+				"language": "Γλώσσα",
+				"trackButtonValue": "Λειτουργία: {{{mode}}}\nΔιαχειριστής: {{{moderator}}}\nΠροστέθηκε: {{{added}}}",
+				"setupValue": "Διαχειριστής: {{{moderator}}}\nΠροστέθηκε: {{{added}}}\n\n**Κανάλια:**\n{{{channels}}}",
+				"djValue": "Λειτουργία: {{{mode}}}\nΡόλοι: {{{roles}}}\nΠροστέθηκε: {{{added}}}",
+				"defaultvolumeValue": "Ένταση: {{{volume}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"announceValue": "Λειτουργία: {{{mode}}}\nΚανάλι: {{{channel}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"prunningValue": "Λειτουργία: {{{mode}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"disableCommandValue": "Εντολές: {{{commands}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"prefixValue": "Πρόθεμα: {{{prefix}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"voteSkipValue": "Λειτουργία: {{{mode}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"247Value": "Λειτουργία: {{{mode}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}\nΚανάλι: {{{channel}}}",
+				"botChannelValue": "Κανάλι: {{{channel}}}\nΠροστέθηκε: {{{added}}}\nΔιαχειριστής: {{{moderator}}}",
+				"languageValue": "Γλώσσα: {{{language}}}",
+				"enabled": "Ενεργοποιημένο",
+				"disabled": "Απενεργοποιημένο",
+				"none": "Κανένα"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} Επιτυχής επαναφορά των ρυθμίσεων του διακομιστή στις προεπιλεγμένες ρυθμίσεις.",
+			"info": "## Εδώ είναι οι πληροφορίες διαμόρφωσης για αυτόν τον διακομιστή",
+			"noSettings": "### {{{emoji}}} Δεν υπάρχουν ρυθμίσεις για αυτόν τον διακομιστή."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "Ρύθμιση ψηφοφορίας για αλλαγή τραγουδιού.",
 			"options": {
-				"set": "Set the voteskip mode.",
+				"set": "Ορισμός λειτουργίας ψηφοφορίας.",
 				"action": "cmd.voteskipsetting.options.action"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} Επιτυχής {{{action}}} της ψηφοφορίας.",
+			"isConfirm": "### Θέλετε να ενεργοποιήσετε ή να απενεργοποιήσετε τη ψηφοφορία;",
+			"canceled": "### {{{emoji}}} Η ρύθμιση ψηφοφορίας ακυρώθηκε.",
+			"alreadyEnabled": "### Η ψηφοφορία για αλλαγή τραγουδιού είναι ήδη ενεργοποιημένη.",
+			"alreadyDisabled": "### Η ψηφοφορία για αλλαγή τραγουδιού είναι ήδη απενεργοποιημένη.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "Ενεργοποίηση",
+				"disable": "Απενεργοποίηση",
+				"cancel": "Ακύρωση"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "Προσθήκη τραγουδιού σε μια λίστα αναπαραγωγής.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "Η λίστα αναπαραγωγής στην οποία θέλετε να προσθέσετε το τραγούδι.",
+				"song": "Το τραγούδι (όνομα/URL) που θέλετε να προσθέσετε στη λίστα αναπαραγωγής."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} Το όνομα της λίστας αναπαραγωγής πρέπει να είναι από 3 έως 50 χαρακτήρες.",
+			"noPlaylists": "### {{{emoji}}} Δεν βρήκα καμία λίστα αναπαραγωγής στον λογαριασμό σας, παρακαλώ δημιουργήστε μία πρώτα.",
+			"noResults": "### {{{emoji}}} Δεν βρήκα αποτελέσματα για `{{{song}}}`.",
+			"playlistFull": "### {{{emoji}}} Η λίστα αναπαραγωγής σας είναι γεμάτη, παρακαλώ αφαιρέστε μερικά τραγούδια πριν προσθέσετε άλλα.",
+			"playlistAdded": "### {{{emoji}}} Προστέθηκαν με επιτυχία **{{{count}}}** τραγούδια στη λίστα αναπαραγωγής **{{{playlist}}}**."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "Προσθήκη του τρέχοντος τραγουδιού σε μια λίστα αναπαραγωγής.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "Η λίστα αναπαραγωγής στην οποία θέλετε να προσθέσετε το τραγούδι."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} Δεν υπάρχει κανένα τραγούδι που παίζει αυτή τη στιγμή.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} Αυτό το τραγούδι υπάρχει ήδη στη λίστα αναπαραγωγής.",
+			"success": "### {{{emoji}}} Προστέθηκε το **{{{song}}}** στη λίστα αναπαραγωγής **{{{playlist}}}**."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "Προσθήκη μιας λίστας αναπαραγωγής στην ουρά.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "Το όνομα της λίστας αναπαραγωγής που θέλετε να προσθέσετε στην ουρά."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} Δεν υπάρχει ουρά.",
+			"success": "### {{{emoji}}} Προστέθηκαν τα **{{{queueLength}}}** τραγούδια στη λίστα αναπαραγωγής **{{{playlistName}}}**."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "Δημιουργία μιας λίστας αναπαραγωγής.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Το όνομα της λίστας αναπαραγωγής που θέλετε να δημιουργήσετε.",
+				"visibility": "Η ορατότητα της λίστας αναπαραγωγής."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} Παρακαλώ δώστε ένα όνομα για τη λίστα αναπαραγωγής.",
+			"visibility": "### {{{emoji}}} Η ορατότητα πρέπει να είναι είτε `public` ή `private`.",
+			"maxPlaylists": "### {{{emoji}}} Μπορείτε να δημιουργήσετε έως και 10 λίστες αναπαραγωγής.",
+			"playlistExists": "### {{{emoji}}} Έχετε ήδη μια λίστα αναπαραγωγής με το όνομα **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Η λίστα αναπαραγωγής **{{{playlist}}}** δημιουργήθηκε με επιτυχία."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "Διαγραφή μιας λίστας αναπαραγωγής.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "Το όνομα της λίστας αναπαραγωγής που θέλετε να διαγράψετε."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} Δεν έχετε μια λίστα αναπαραγωγής με το όνομα **{{{playlist}}}**.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "Επιβεβαίωση",
+				"cancel": "Ακύρωση"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### Είστε σίγουροι ότι θέλετε να διαγράψετε τη λίστα αναπαραγωγής **{{{playlist}}}**;",
+			"success": "### {{{emoji}}} Η λίστα αναπαραγωγής **{{{playlist}}}** διαγράφηκε με επιτυχία.",
+			"cancel": "### {{{emoji}}} Ακυρώθηκε η διαγραφή της λίστας αναπαραγωγής **{{{playlist}}}**."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "Αφαίρεση όλων των διπλών τραγουδιών από μια λίστα αναπαραγωγής.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "Το όνομα της λίστας αναπαραγωγής από την οποία θέλετε να αφαιρέσετε τις διπλές εγγραφές."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} Δεν υπάρχουν διπλά τραγούδια στη λίστα αναπαραγωγής **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Αφαιρέθηκαν με επιτυχία **{{{count}}}** διπλά τραγούδια από τη λίστα αναπαραγωγής **{{{playlist}}}**."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "Επεξεργασία μιας λίστας αναπαραγωγής.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Το όνομα της λίστας αναπαραγωγής που θέλετε να επεξεργαστείτε.",
+				"old-name": "Το παλιό όνομα της λίστας αναπαραγωγής.",
+				"new-name": "Το νέο όνομα της λίστας αναπαραγωγής.",
+				"playlist-visibility": "Αλλαγή ορατότητας της λίστας αναπαραγωγής.",
+				"visibility": "Η ορατότητα της λίστας αναπαραγωγής."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} Το νέο όνομα πρέπει να είναι διαφορετικό από το παλιό όνομα.",
+			"successName": "### {{{emoji}}} Η λίστα αναπαραγωγής με το όνομα **{{{oldName}}}** μετονομάστηκε επιτυχώς σε **{{{newName}}}**.",
+			"sameVisibility": "### {{{emoji}}} Η λίστα αναπαραγωγής **{{{playlist}}}** έχει ήδη την ορατότητα **{{{visibility}}}**.",
+			"successVisibility": "### {{{emoji}}} Η ορατότητα της λίστας αναπαραγωγής **{{{playlist}}}** άλλαξε επιτυχώς σε **{{{visibility}}}**.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "Όνομα λίστας",
+				"visibility": "Ορατότητα λίστας",
+				"public": "Δημόσια",
+				"private": "Ιδιωτική"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### Επιλέξτε μια επιλογή για να επεξεργαστείτε τη λίστα αναπαραγωγής από τα παρακάτω κουμπιά.",
+			"oldName": "### Εισαγάγετε το παλιό όνομα της λίστας αναπαραγωγής.",
+			"newName": "### Εισαγάγετε το νέο όνομα της λίστας αναπαραγωγής.",
+			"cancelled": "### {{{emoji}}} Ακυρώθηκε η αλλαγή του ονόματος της λίστας.",
+			"playlist": "### Εισαγάγετε το όνομα της λίστας.",
+			"selectVisibility": "### Επιλέξτε την ορατότητα της λίστας από τα παρακάτω κουμπιά."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "Εισαγωγή μιας λίστας αναπαραγωγής από το αναγνωριστικό της λίστας.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "Το αναγνωριστικό της λίστας αναπαραγωγής που θέλετε να εισαγάγετε."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} Δεν βρήκα καμία λίστα αναπαραγωγής με το αναγνωριστικό **{{{id}}}**.",
+			"sameUser": "### {{{emoji}}} Δεν μπορείτε να εισάγετε μια λίστα αναπαραγωγής που ανήκει σε εσάς.",
+			"privatePlaylist": "### {{{emoji}}} Δεν μπορείτε να εισάγετε μια ιδιωτική λίστα αναπαραγωγής.",
+			"success": "### {{{emoji}}} Εισήχθη η λίστα αναπαραγωγής **{{{playlist}}}** με επιτυχία."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "Εμφάνιση όλων των λιστών αναπαραγωγής σας.",
+			"tracks": "Τραγούδι(α): {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "Φόρτωση μιας λίστας αναπαραγωγής στην ουρά.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "Φόρτωση ενός συγκεκριμένου τραγουδιού από μια λίστα αναπαραγωγής.",
+				"name": "Το όνομα της λίστας αναπαραγωγής που θέλετε να φορτώσετε.",
+				"track": "Ο αριθμός του τραγουδιού ή ο τίτλος του τραγουδιού προς φόρτωση."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} Δεν έχετε μια λίστα αναπαραγωγής με το όνομα **{{{playlist}}}**.",
+			"noTracks": "### {{{emoji}}} Δεν υπάρχουν κομμάτια στη λίστα αναπαραγωγής **{{{playlist}}}**.",
+			"noTrackFound": "### {{{emoji}}} Δεν βρέθηκε κομμάτι με αυτό το αριθμό ή τίτλο `{{{track}}}`.",
+			"trackLoaded": "### {{{emoji}}} Φορτώθηκε το **{{{track}}}** από τη λίστα αναπαραγωγής **{{{playlist}}}**.",
+			"privatePlaylist": "### {{{emoji}}} Δεν μπορείτε να φορτώσετε μια ιδιωτική λίστα αναπαραγωγής από άλλο χρήστη.",
+			"playlistLoaded": "### {{{emoji}}} Φορτώθηκαν **{{{count}}}** τραγούδια από τη λίστα αναπαραγωγής **{{{playlist}}}**."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "Αφαίρεση ενός τραγουδιού από μια λίστα αναπαραγωγής.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "Το όνομα της λίστας αναπαραγωγής από την οποία θέλετε να αφαιρέσετε το τραγούδι.",
+				"track": "Ο αριθμός του τραγουδιού ή ο τίτλος του τραγουδιού προς αφαίρεση."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} Δεν βρέθηκε κομμάτι με αυτόν τον αριθμό ή τίτλο.",
+			"success": "### {{{emoji}}} Αφαιρέθηκε με επιτυχία το **{{{track}}}** από τη λίστα αναπαραγωγής **{{{playlist}}}**."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "Προβολή μιας λίστας αναπαραγωγής.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "Το όνομα της λίστας αναπαραγωγής που θέλετε να προβάλετε."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "Σελίδα {{{page}}} από {{{pages}}} | Τραγούδια: {{{tracks}}} | Διάρκεια: {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "Προηγούμενο",
+				"stop": "Διακοπή",
+				"next": "Επόμενο"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### Κάποιος με αποσύνδεσε από το φωνητικό κανάλι, αλλά είμαι εδώ λόγω της **λειτουργίας 24/7**!\n\nΜπορείτε να την απενεργοποιήσετε χρησιμοποιώντας την εντολή {{{cmd}}} ή με την εντολή {{{cmd2}}}!",
+			"nowPlaying": "Τώρα Παίζει",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Από τον/την [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"footer": "Διάρκεια: {{{duration}}} | Ουρά: {{{queue}}} | Ένταση: {{{volume}}}%",
+			"end": "### Κανείς δεν έχει ακούσει τις τελευταίες 1 λεπτό, αποχωρώ από το κανάλι.\n\nΜπορείτε να το απενεργοποιήσετε ενεργοποιώντας την **λειτουργία 24/7** χρησιμοποιώντας την εντολή {{{cmd}}}!",
+			"endTitle": "Ουρά Ολοκληρώθηκε",
+			"endDesc": "### Η μουσική ουρά σας ολοκληρώθηκε. Μπορείτε να προσθέσετε πάλι μουσική χρησιμοποιώντας την εντολή {{{cmd}}}! Απολαμβάνετε τη μουσική μαζί μου; Σκεφτείτε να ψηφίσετε για μένα [εδώ]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "Σφάλμα Κομματιού",
+		"description": "### Το κομμάτι [{{{title}}}]({{{uri}}}) δεν είναι διαθέσιμο στη χώρα σας λόγω περιορισμού ηλικίας!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "Συνέχισε",
+			"pause": "Παύση",
+			"previous": "Προηγούμενο",
+			"shuffle": "Ανακάτεμα",
+			"skip": "Παράβλεψη",
+			"stop": "Διακοπή",
+			"voldown": "Μείωση Έντασης",
+			"volup": "Αύξηση Έντασης",
+			"loop": "Επανάληψη",
+			"like": "Μου Αρέσει"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### Προς το παρόν δεν υπάρχει κάτι που παίζει..",
+		"nothingPlaying": "### Προς το παρόν δεν υπάρχει κάτι που παίζει.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "Πρέπει να συνδεθείτε σε φωνητικό κανάλι {{{channel}}} για να χρησιμοποιήσετε αυτό το κουμπί!",
+			"noPrevious": "Δεν υπάρχει προηγούμενο τραγούδι στην ουρά.",
+			"playingPrevious": "{{{user}}} παίζει το προηγούμενο κομμάτι.",
+			"nothingToSkip": "Δεν υπάρχει τίποτα στην ουρά για παράβλεψη.",
+			"alreadyVote": "{{{user}}} Υπάρχει ήδη μια ψηφοφορία σε αυτό το διακομιστή. Περιμένετε να τελειώσει ή ακυρώστε την.",
+			"voteSkip": "{{{user}}} ζήτησε να παραλείψει το τρέχον κομμάτι. Θέλατε να σταματήσετε την ψηφοφορία; Κάντε {{{cmd}}}",
+			"voteSkipLabel": "Ψηφίστε για παράλειψη του τρέχοντος κομματιού!",
+			"alreadyVoted": "{{{user}}} Έχετε ήδη ψηφίσει για παράλειψη του τρέχοντος κομματιού.",
+			"voteSkip2": "{{{user}}} ζήτησε να παραλείψει το τρέχον κομμάτι.",
+			"voteSkipLabel2": "Ψηφίστε για παράλειψη του τρέχοντος κομματιού! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Πρέπει να συνδεθείτε στο φωνητικό κανάλι {{{channel}}} για να χρησιμοποιήσετε αυτό το κουμπί!",
+			"voteSkipTrack": "{{{user}}} παραλείπει το κομμάτι μετά από {{{count}}} θετικές ψήφους!",
+			"notEnoughVote": "### Δεν υπάρχουν αρκετές ψήφοι για να παραλειφθεί το τρέχον κομμάτι.",
+			"skipTrack": "{{{user}}} παράλειψε το τρέχον κομμάτι.",
+			"playTrack": "{{{user}}} {{{paused}}} το τρέχον κομμάτι.",
+			"paused": "Σε παύση",
+			"resumed": "Συνεχίστηκε",
+			"stopTrack": "{{{user}}} σταμάτησε το τρέχον κομμάτι.",
+			"volMax": "### Η ένταση είναι ήδη στο μέγιστο.",
+			"volUp": "{{{user}}} αύξησε την ένταση σε **{{{vol}}}**%.",
+			"volMin": "### Η ένταση είναι ήδη στο ελάχιστο.",
+			"volDown": "{{{user}}} μείωσε την ένταση σε **{{{vol}}}**%.",
+			"shuffleError": "{{{user}}} Δεν υπάρχουν αρκετά τραγούδια στην ουρά για ανακάτεμα.",
+			"shuffleDisabled": "{{{user}}} Απενεργοποίηση του ανακάτεμα.",
+			"shuffleEnabled": "{{{user}}} Ενεργοποίηση του ανακάτεμα.",
+			"loopSong": "{{{user}}} Επανάληψη του τρέχοντος τραγουδιού.",
+			"loopQueue": "{{{user}}} Επανάληψη της ουράς.",
+			"loopDisabled": "{{{user}}} Απενεργοποίηση της επανάληψης.",
+			"noTrack": "{{{user}}} Προς το παρόν δεν παίζει τίποτα.",
+			"liked": "{{{user}}} Αρέσει το **{{{title}}}**.",
+			"unliked": "{{{user}}} Δεν αρέσει το **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### Έλα! Προσπάθησα να στείλω μια απάντηση στην εντολή σας, αλλά λείπει η άδεια για να το κάνω. Παρακαλώ ζητήστε από κάποιον από το προσωπικό να μου δώσει την άδεια `Αποστολή Μηνυμάτων` στο Discord.\n\nΔιακομιστής: **{{{guildName}}}**\nΕντολή: **{{{commandName}}}**\nΧρειάζεστε βοήθεια με τα δικαιώματα; Ελάτε στον διακομιστή υποστήριξης: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Ο ρομπότ πρέπει να έχει την άδεια `Σύνδεσμοι Ενσωμάτωσης` στο Discord για να λειτουργεί σωστά! Παρακαλώ ζητήστε από κάποιον από το προσωπικό να μου δώσει αυτήν την άδεια.",
+			"noBotChannel": "### Δεν μου επιτρέπεται να απαντώ σε εντολές σε αυτό το κανάλι. Παρακαλώ χρησιμοποιήστε το {{{emoji}}} <#{{{botChannel}}}> για εντολές προς το ρομπότ. Σας ευχαριστούμε για την συνεργασία σας.",
+			"deleteFooter": "• Αυτό το μήνυμα θα διαγραφεί σε 5 δευτερόλεπτα",
+			"disabledCommand": "### Αυτή η εντολή είναι απενεργοποιημένη σε αυτόν τον διακομιστή για όλους. Μόνο οι DJs μπορούν να χρησιμοποιήσουν αυτήν την εντολή.",
+			"disabledCommandList": "Λίστα απενεργοποιημένων εντολών",
+			"noBotPermissions": "### {{{emoji}}} Δεν έχω την άδεια **{{{permissions}}}** για να εκτελέσω αυτήν την εντολή.",
+			"noUserPermissions": "### {{{emoji}}} Δεν έχετε την άδεια **{{{permissions}}}** για να εκτελέσετε αυτήν την εντολή.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### Πρέπει να ψηφίσετε για εμένα για να χρησιμοποιήσετε αυτήν την εντολή. Μπορείτε να ψηφίσετε [στο Top.gg]({{{link}}})",
+				"### Πρέπει να ψηφίσετε για εμένα για να χρησιμοποιήσετε αυτήν την εντολή. Μπορείτε να ψηφίσετε [στο Top.gg]({{{link}}}) ή\nΜπορείτε επίσης να αποκτήσετε premium δωρίζοντας [εδώ]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "Ψηφίστε",
+				"donate": "Δωρεά",
+				"invite": "Πρόσκληση",
+				"support": "Υποστήριξη"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### Παρακαλώ περιμένετε **{{{timeLeft}}}** ακόμα δευτερόλεπτα πριν ξαναχρησιμοποιήσετε την εντολή **{{{command}}}**.",
+			"noDjRole": "### {{{emoji}}} Χρειάζεστε τον ρόλο του DJ για να χρησιμοποιήσετε αυτήν την εντολή.",
+			"noPremium": "### Χρειάζεστε premium για να χρησιμοποιήσετε αυτήν την εντολή. Μπορείτε να αποκτήσετε premium δωρίζοντας [εδώ]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} Δεν έχω τις απαιτούμενες άδειες για να ενταχθώ στο φωνητικό σας κανάλι! Χρειάζομαι τις άδειες `Προβολή Καναλιών`, `Σύνδεση` και `Μιλάω`. [Παράδειγμα Αδειών](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nΑν το πρόβλημα επιμένει, αλλάξτε την περιοχή του φωνητικού καναλιού σε `Ευρώπη`.",
+			"voiceJoin": "### {{{emoji}}} Πρέπει να είστε συνδεδεμένοι σε ένα φωνητικό κανάλι σε αυτόν τον διακομιστή για να χρησιμοποιήσετε αυτήν την εντολή!\n\nΠώς να συνδεθείτε σε ένα φωνητικό κανάλι; Απλά κάντε κλικ σε ένα κανάλι με το εικονίδιο ηχείου (για παράδειγμα, κάντε κλικ εδώ: {{{channel}}}) [Δείτε το επίσημο οδηγό του Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Πρέπει να βρίσκεστε στο φωνητικό κανάλι **{{{channel}}}** για να χρησιμοποιήσετε αυτήν την εντολή.",
+			"noPlayer": "### {{{emoji}}} Δεν είμαι συνδεδεμένος σε κανένα φωνητικό κανάλι. Χρησιμοποιήστε την εντολή {{{command}}} για να με καλέσετε.",
+			"noQueue": "### {{{emoji}}} Δεν υπάρχει ουρά. Παρακαλώ χρησιμοποιήστε την εντολή {{{command}}} για να προσθέσετε ένα τραγούδι στην ουρά.",
+			"noSong": "### {{{emoji}}} Δεν υπάρχει κομμάτι που να παίζει. Παρακαλώ χρησιμοποιήστε την εντολή {{{command}}} για να προσθέσετε ένα τραγούδι στην ουρά.",
+			"error": "### {{{emoji}}} Παρουσιάστηκε ένα σφάλμα κατά την εκτέλεση της εντολής. Παρακαλώ αναφέρετε αυτό το σφάλμα στο [Διακομιστή Υποστήριξης]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Ξεκινήστε",
+		"embed_description": "### Γειά σας <@{{{user}}}>! Τα πρόθεμά(τα) μου είναι: `{{{prefixList}}}`\nΓια παράδειγμα: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Γειά σας <@{{{user}}}>! Το πρόθεμά μου είναι: `no prefix`, που σημαίνει ότι μπορείτε να χρησιμοποιείτε οποιαδήποτε εντολή χωρίς πρόθεμα.\nΓια παράδειγμα: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Επιλογές για την εντολή {{{commandName}}}",
+		"no_description": "Χωρίς περιγραφή",
+		"options": "Επιλογές",
+		"examples": "Παραδείγματα",
+		"long_des": "Αυτό είναι για την πλοήγηση μεταξύ των σελίδων",
+		"examples_button": "Παραδείγματα",
+		"footer": "<Υποχρεωτικό> | [Προαιρετικό] {{{long_des}}} Σελίδα {{{page}}} από {{{total_pages}}}",
+		"title2": "Παραδείγματα για την εντολή {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

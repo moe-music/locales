@@ -519,7 +519,7 @@
 			"info": "### Trenutni jezik na ovom serveru je: **{{{language}}}** `({{{languageCode}}})`.",
 			"reset": "### {{{emoji}}} Uspješno vraćen jezik bota na zadanu postavku.",
 			"translationProgress": "Napredak prijevoda: {{{progress}}}",
-			"selectLanguage": "### Odaberite jezik koji želite postaviti iz izbornika ispod."
+			"selectLanguage": "Odaberite jezik koji želite postaviti iz izbornika ispod."
 		},
 		"noprefix": {
 			"description": "Prebacuje no-prefix način rada za korisnika ili server.",

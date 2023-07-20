@@ -519,7 +519,7 @@
 			"info": "### Aktuální jazyk na tomto serveru je: **{{{language}}}** `({{{languageCode}}})`.",
 			"reset": "### {{{emoji}}} Úspěšně jsem obnovil jazyk bota na výchozí nastavení.",
 			"translationProgress": "Pokrok překladu: {{{progress}}}",
-			"selectLanguage": "### Vyberte prosím požadovaný jazyk z následující nabídky."
+			"selectLanguage": "Vyberte prosím požadovaný jazyk z následující nabídky."
 		},
 		"noprefix": {
 			"description": "Povolit nebo zakázat použití předpony uživatele nebo serveru.",

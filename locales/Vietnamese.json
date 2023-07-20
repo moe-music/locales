@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "bật hoặc tắt chế độ 24/7.",
+			"enabled": "### {{{emoji}}} Chế độ 24/7 đã được bật.",
+			"disabled": "### {{{emoji}}} Chế độ 24/7 đã được tắt."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
+			"description": "Hiển thị độ trễ của bot.",
+			"author": "Độ trễ Bot",
 			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"footer": "• Xem thông tin chi tiết trên kênh trạng thái của máy chủ hỗ trợ"
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Mời bot vào máy chủ của bạn.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "Mời MoE",
+				"invite2": "Mời MoE2",
+				"invite3": "Mời MoE3",
+				"support": "Hỗ trợ"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Nếu bạn thích tôi, hãy [mời tôi]({{{invite}}}) vào máy chủ của bạn ngay bây giờ. Đừng quên tham gia [máy chủ hỗ trợ]({{{support}}})."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Hiển thị danh sách lệnh hoặc thông tin về một lệnh cụ thể",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Tên lệnh hoặc danh mục cần trợ giúp"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": " Lệnh",
+			"footer": "Trang {{{page}}} của {{{pagesNum}}}",
+			"title2": "Trợ giúp - {{{cmd}}}",
+			"title3": "Trợ giúp",
+			"manContent": "### Dưới đây là danh sách tất cả các danh mục\n{{{catagory}}}\n\n- Liên kết:\n[Máy chủ Hỗ trợ]({{{server}}}) | [Mời]({{{invite}}}) | [Bỏ phiếu]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Trang web]({{{website}}}) | [Tài liệu]({{{docs}}})",
+			"footer2": "- Để biết thông tin chi tiết về một lệnh: {{{prefix}}}help <lệnh> hoặc {{{prefix}}}help <danh mục>",
+			"cooldown": "Thời gian chờ",
+			"aliases": "Bí danh",
+			"category": "Danh mục",
+			"examples": "Ví dụ",
+			"userPerms": "Quyền người dùng",
+			"botPerms": "Quyền Bot",
+			"requirements": "Yêu cầu",
+			"subCommands": "Lệnh phụ",
+			"subSubCommands": "Lệnh phụ phụ",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "Trước",
+				"stop": "Dừng",
+				"next": "Tiếp",
+				"home": "Trang chủ",
+				"config": "Cấu hình",
+				"music": "Âm nhạc",
+				"filter": "Bộ lọc",
+				"general": "Chung",
+				"playlists": "Danh sách nhạc"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}` không phải là lệnh hoặc danh mục hợp lệ!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Phải ở trong kênh thoại",
+				"sameVoice": "- Phải ở trong cùng một kênh thoại",
+				"playing": "- Phải đang phát nhạc trong máy chủ này"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Phải [bỏ phiếu]({{{link}}}) để sử dụng lệnh này",
+			"premiumCmd": "- Phải có [tài khoản premium]({{{link}}}) để sử dụng lệnh này"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
+			"description": "Hiển thị trạng thái premium của người dùng hoặc máy chủ.",
+			"guildPremiumStatus": "Trạng thái Premium của Máy chủ",
+			"userPremiumStatus": "Trạng thái Premium của Người dùng",
 			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"notPremium": "Không có Premium",
+			"guildPremiumExpires": "Hết hạn Premium của Máy chủ",
+			"userPremiumExpires": "Hết hạn Premium của Người dùng"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Rút mã premium.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Mã premium để rút"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "Vui lòng cung cấp mã premium để rút.",
+			"invalidCode": "Mã premium không hợp lệ được cung cấp.",
+			"confirmation": "### Bạn có chắc chắn muốn rút mã premium `{{{code}}}` không?",
+			"type": "Loại",
+			"expiresAt": "Hết hạn lúc",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "Có",
+				"no": "Không"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "Bạn đã là thành viên premium.",
+			"success": "### Rút mã premium thành công. Bây giờ bạn có thể sử dụng các lệnh premium!",
+			"canceled": "Đã hủy rút mã premium."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "Hiển thị thống kê bot."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "Liên kết máy chủ hỗ trợ",
+			"content": "### Nếu bạn cần trợ giúp với bot hoặc chỉ muốn tham gia cùng chúng tôi, hãy tham gia [máy chủ hỗ trợ]({{{link}}}).",
 			"buttons": {
-				"support": "Support Server"
+				"support": "Máy chủ Hỗ trợ"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "Liên kết bỏ phiếu cho bot",
+			"content": "### Nếu bạn thích tôi, hãy cân nhắc bỏ phiếu cho tôi trên [top.gg]({{{link}}}).",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "Bỏ phiếu"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"description": "Hiển thị bài hát đang phát bây giờ.",
+			"nowPlaying": "Đang Phát",
+			"noSong": "Không có bài hát đang phát.",
+			"volume": "Âm lượng",
+			"totalDuration": "Tổng Thời lượng",
+			"loopMode": "Chế độ Lặp",
+			"filters": "Bộ lọc",
+			"noFilters": "Hiện không áp dụng bộ lọc nào.",
+			"title": "Đang phát: {{{status}}}",
+			"online": "Trực tuyến",
+			"offline": "Ngoại tuyến"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "Bật hoặc tắt chế độ tự động phát.",
+			"enabled": "### Đã chuyển chế độ tự động phát thành `Bật`\nTôi sẽ tự động thêm nhạc tương tự vào hàng đợi.",
+			"disabled": "### Đã chuyển chế độ tự động phát tiếp thành `Tắt`\nTôi sẽ không tự động thêm nhạc tương tự vào hàng đợi nữa."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "Xóa hàng đợi hoặc bộ lọc khỏi trình phát.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "Hàng đợi hoặc bộ lọc để xóa"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "### Vui lòng chọn hàng đợi hoặc bộ lọc để xóa. (queue/filters)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "Không có bài hát trong hàng đợi để xóa.",
+				"success": "### Đã xóa hàng đợi thành công."
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "Không có bộ lọc để xóa.",
+				"success": "### Đã xóa bộ lọc thành công."
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "Hàng đợi",
+				"filters": "Bộ lọc"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "Bỏ qua bài hát hiện tại.",
+			"success": "### Đã bỏ qua bài hát {{{title}}}."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "Tiến tới bài hát hiện tại.",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "Số giây để tiến tới"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} Bài hát hiện tại không thể tiến tới.",
+			"tooLong": "{{{emoji}}} Bạn không thể tiến tới quá độ dài của bài hát.",
+			"success": "### {{{emoji}}} Đã tiến tới bài hát thành công `{{{time}}}`."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "Lấy thông tin bài hát hiện tại.",
+			"dm": "{{{emoji}}} tôi không thể gửi cho bạn bài hát vì bạn đã tắt tin nhắn riêng.",
+			"grabbed": "### {{{emoji}}} Đã lấy thành công bài hát."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "Gọi bot vào kênh thoại của bạn.",
+			"no-perms": "{{{emoji}}} Tôi không có đủ quyền để tham gia kênh thoại của bạn! Tôi cần quyền `Xem kênh`, `Kết nối` và `Nói`. [Ví dụ về quyền](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nNếu vấn đề vẫn tiếp tục, hãy thay đổi khu vực kênh thoại thành `Europe`",
+			"already-in": "{{{emoji}}} Tôi đã ở trong một kênh thoại rồi!",
+			"joined": "### Tham gia thành công vào kênh thoại {{{channel}}}"
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "Rời khỏi kênh thoại.",
+			"not-playing": "{{{emoji}}} Hiện tại tôi không phát bất cứ điều gì!",
+			"success": "### {{{emoji}}} Đã rời khỏi kênh thoại thành công."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "Xóa tất cả các bài hát của người dùng không còn ở trong kênh thoại.",
+			"removing": "## Đang xóa bài hát của những người dùng không còn ở trong kênh thoại. Xin vui lòng đợi",
+			"removed": "### Đã xóa thành công `{{{count}}}` bài hát của người dùng không còn ở trong kênh thoại."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "Lặp lại bài hát hiện tại hoặc danh sách phát.",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "Chế độ lặp lại cần thiết"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### Vui lòng chỉ định chế độ lặp lại. (bài hát, danh sách phát, tắt) từ các nút bên dưới.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "Bài hát",
+				"queue": "Danh sách phát",
+				"off": "Tắt"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} Đã lặp lại bài hát hiện tại thành công.",
+			"queue": "### {{{emoji}}} Đã lặp lại danh sách phát thành công.",
+			"off": "### {{{emoji}}} Đã tắt chế độ lặp lại thành công.",
+			"song_already": "### {{{emoji}}} Bài hát hiện tại đã được lặp lại.",
+			"queue_already": "### {{{emoji}}} Danh sách phát đã được lặp lại.",
+			"off_already": "### {{{emoji}}} Chế độ lặp lại đã bị tắt.",
+			"invalid_mode": "### {{{emoji}}} Chế độ lặp lại không hợp lệ được cung cấp. Hãy cung cấp chế độ lặp lại hợp lệ. (bài hát, danh sách phát, tắt)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "Hiển thị lời bài hát hiện tại hoặc theo tên bài hát.",
 			"options": {
-				"song": "The song name to search for"
+				"song": "Tên bài hát để tìm kiếm"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### Vui lòng cung cấp tên bài hát để tìm kiếm.",
+			"noLyrics": "### Tôi không thể tìm thấy lời bài hát này.",
+			"page": "Trang {{{page}}} của {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "Di chuyển bài hát đến vị trí cụ thể trong danh sách phát.",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "Bài hát để di chuyển",
+				"position": "Vị trí để di chuyển bài hát đến"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### Vui lòng cung cấp một số hợp lệ cho vị trí.",
+			"invalidPosition": "### Vị trí cung cấp không hợp lệ. Vui lòng cung cấp vị trí hợp lệ.",
+			"success": "### Đã di chuyển **[{{{title}}}]({{{uri}}})** từ vị trí **{{{from}}}** đến **{{{to}}}**."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "Hiển thị bài hát hiện đang phát.",
+			"nowplaying": "### Đang phát: [{{{title}}}]({{{uri}}})",
+			"author": "Tác giả",
+			"requester": "Yêu cầu bởi",
+			"duration": "Thời lượng",
+			"progress": "Tiến độ"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "Tạm dừng bài hát hiện tại.",
+			"alreadyPaused": "### Bài hát hiện tại đã được tạm dừng.",
+			"paused": "### Đã tạm dừng [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Phát bài hát từ Spotify, SoundCloud, Deezer, v.v...",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Từ khóa để tìm kiếm",
+				"source": "Nguồn tìm kiếm"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "Vui lòng cung cấp tên bài hát để tìm kiếm.",
+			"no-results": "### Không tìm thấy kết quả nào cho `{{{query}}}`.",
+			"playlist-loaded": "### Đã tải `{{{count}}}` bài hát từ danh sách phát **[{{{name}}}]({{{url}}})**",
+			"footer": "Cảm ơn bạn đã sử dụng {{{bot}}}",
+			"added": "### Đã thêm **[{{{title}}}]({{{uri}}})** vào danh sách phát (yêu cầu bởi <@{{{requester}}}>) ở vị trí `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "Phát bài hát trước đó.",
+			"noPreviousTrack": "### {{{emoji}}} Không có bài hát trước đó để phát.",
+			"success": "### {{{emoji}}} Đang phát bài hát trước đó từ danh sách phát của bạn!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "Hiển thị danh sách phát cho máy chủ hiện tại.",
 			"options": {
-				"page": "The page number to view"
+				"page": "Số trang để xem"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### Danh sách phát cho {{{guild}}} ({{{songs}}} bài hát)",
+			"nowPlaying": "### Đang phát: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### Tiếp theo: {{{str}}}",
+			"noSongs": "### Chưa có bài hát nào trong danh sách phát! Thêm một bài hát bằng cách sử dụng {{{cmd}}}",
+			"page": "Trang {{{page}}} | {{{songs}}} bài hát | Tổng thời lượng: {{{duration}}}",
+			"notNumber": "### {{{emoji}}} Số trang phải là một số.",
+			"pageLimit": "### {{{emoji}}} Số trang phải nhỏ hơn hoặc bằng {{{pages}}}.",
+			"clearQueue": "Xóa Danh sách phát",
+			"noTracks": "### Không có bài hát nào trong danh sách phát.",
+			"noDjRole": "### Bạn cần vai trò DJ để sử dụng nút này.",
+			"clearedQueue": "### {{{user}}} Đã xóa danh sách phát."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "Xóa bài hát khỏi danh sách phát.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "Bài hát để xóa.",
+				"number": "Số bài hát hoặc tên bài hát để xóa.",
+				"dupes": "Xóa tất cả các bản sao của bài hát."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### Không có bài hát nào với số này trong danh sách phát",
+			"invalidNumber": "### Vui lòng nhập một số từ 1 đến {{{length}}}.",
+			"removed": "### Đã xóa **[{{{title}}}]({{{uri}}})** khỏi danh sách phát.",
+			"noDupes": "### Không có bài hát trùng lặp trong danh sách phát.",
+			"removedDupes": "### Đã xóa **{{{length}}}** bài hát trùng lặp khỏi danh sách phát."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "Chơi lại bài hát hiện tại.",
+			"replaying": "### Đang chơi lại [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "Tiếp tục bài hát hiện tại.",
+			"notPaused": "### Bài hát hiện tại không bị tạm dừng.",
+			"resumed": "### Tiếp tục phát [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "Tua lại bài hát hiện tại.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "Thời điểm bạn muốn tua lại bài hát đến."
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} Bài hát hiện tại không thể tua lại.",
+			"negativePosition": "### {{{emoji}}} Vị trí phải nằm trong khoảng từ 0 đến {{{length}}}.",
+			"success": "### {{{emoji}}} Đã tua lại bài hát đến {{{length}}}."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "tìm kiếm một bài hát từ Spotify, Soundcloud hoặc Deezer",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Từ khóa tìm kiếm",
+				"source": "Nguồn tìm kiếm"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} Hãy sử dụng lệnh {{{cmd}}} trong tìm kiếm, không hỗ trợ danh sách phát!",
+			"no-track": "### {{{emoji}}} Hãy sử dụng lệnh {{{cmd}}} trong tìm kiếm, không hỗ trợ bài hát!",
+			"results": "## Kết quả tìm kiếm cho `{{{query}}}`\n\n{{{results}}}",
+			"footer": "Vui lòng chọn một bài hát từ menu chọn bên dưới.",
+			"placeholder": "Chọn một bài hát từ danh sách bên dưới để phát.",
+			"footerTimeout": "Hết thời gian kết quả tìm kiếm.",
+			"no-voice": "### {{{emoji}}} Bạn phải đang ở trong kênh thoại để sử dụng menu này.",
+			"wrong-voice": "### {{{emoji}}} Bạn phải ở cùng kênh thoại với tôi để sử dụng menu này.",
+			"added": "### {{{emoji}}} Đã thêm {{{count}}} bài hát vào hàng đợi."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "Chuyển đến thời gian cụ thể trong bài hát hiện tại.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "Thời gian bạn muốn chuyển đến trong bài hát."
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### Thời gian phải nằm trong khoảng từ 0 đến {{{length}}}.",
+			"seeked": "### Chuyển đến `{{{position}}}` vào `{{{time}}}`"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "Trộn hàng đợi.",
+			"success": "### Hàng đợi của máy chủ đã được trộn thành công (**{{{length}}}** bài hát).",
+			"unshuffle": "### Hàng đợi của máy chủ đã được gỡ bỏ trạng thái trộn (**{{{length}}}** bài hát)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "Bỏ qua bài hát hiện tại.",
+			"nothing": "### Không có bài hát tiếp theo trong hàng đợi. Sử dụng lệnh {{{queue}}} để xem hàng đợi của máy chủ.\nMuốn thử autoplay? thực hiện lệnh {{{autoplay}}}",
+			"paused": "### Trình phát đang bị tạm dừng. Sử dụng lệnh tiếp tục để tiếp tục phát.\nMuốn tiếp tục? thực hiện lệnh {{{resume}}}",
+			"voteSkip": "### {{{user}}} yêu cầu bỏ qua bài hát hiện tại.\n\n{{{voted}}}",
+			"skip": "### Bỏ qua bài hát **{{{title}}}**."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "Bỏ qua đến một bài hát cụ thể trong hàng đợi.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "Số bài hát hoặc tiêu đề bài hát để bỏ qua đến."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} Vui lòng nhập số bài hát trong khoảng từ 1 đến {{{length}}}.",
+			"success": "### {{{emoji}}} Bỏ qua đến **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "Dừng trình phát và xóa hàng đợi.",
+			"stopped": "### {{{emoji}}} Đã dừng trình phát và xóa hàng đợi."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "Hiển thị danh sách nhạc hot được phát bởi bot.",
+			"noTopSongs": "### Không có bài hát hot nào trong cơ sở dữ liệu.",
+			"timesPlayed": "Lượt phát",
+			"selectSong": "Chọn một bài hát từ danh sách bên dưới để phát.",
+			"added": "### Đã thêm **[{{{title}}}]({{{uri}}})** vào hàng đợi."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "Thay đổi âm lượng của trình phát.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "Âm lượng bạn muốn đặt."
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} Vui lòng nhập một số từ 0 đến 100.",
+			"success": "### {{{emoji}}} Đã đặt âm lượng thành **{{{volume}}}**."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "Bình chọn để bỏ qua bài hát hiện tại."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### Tất cả các bộ lọc được áp dụng cho bài hát đang phát:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} Giá trị pitch phải là một số từ 1 đến 5.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "Áp dụng bộ lọc 8D cho bài hát đang phát.",
+				"bassboost": "Áp dụng bộ lọc bassboost cho bài hát đang phát.",
+				"channelmix": "Áp dụng bộ lọc channelmix cho bài hát đang phát.",
+				"electronic": "Áp dụng bộ lọc electronic cho bài hát đang phát.",
+				"filters": "Lấy danh sách các bộ lọc có thể áp dụng cho bài hát đang phát.",
+				"jazz": "Áp dụng bộ lọc jazz cho bài hát đang phát.",
+				"karaoke": "Áp dụng bộ lọc karaoke cho bài hát đang phát.",
+				"lowpass": "Áp dụng bộ lọc lowpass cho bài hát đang phát.",
+				"nightcore": "Áp dụng bộ lọc nightcore cho bài hát đang phát.",
+				"pitch": "Áp dụng bộ lọc pitch cho bài hát đang phát.",
+				"pop": "Áp dụng bộ lọc pop cho bài hát đang phát.",
+				"radio": "Áp dụng bộ lọc radio cho bài hát đang phát.",
+				"rock": "Áp dụng bộ lọc rock cho bài hát đang phát.",
+				"rotation": "Áp dụng bộ lọc rotation cho bài hát đang phát.",
+				"soft": "Áp dụng bộ lọc soft cho bài hát đang phát.",
+				"speed": "Áp dụng bộ lọc speed cho bài hát đang phát.",
+				"treblebass": "Áp dụng bộ lọc treblebass cho bài hát đang phát.",
+				"tremolo": "Áp dụng bộ lọc tremolo cho bài hát đang phát.",
+				"vaporwave": "Áp dụng bộ lọc vaporwave cho bài hát đang phát.",
+				"vibrato": "Áp dụng bộ lọc vibrato cho bài hát đang phát."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} Bộ lọc {{{name}}} đã được kích hoạt.",
+			"disabled": "### {{{emoji}}} Bộ lọc {{{name}}} đã được tắt.",
+			"speed": "### {{{emoji}}} Bộ lọc tốc độ đã được đặt thành **{{{value}}}**.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "Tốc độ bạn muốn đặt.",
+				"pitch": "Giá trị pitch để áp dụng."
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "Cấu hình thông báo khi bắt đầu phát bài hát.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "Đặt kênh nơi thông báo sẽ được gửi.",
+				"channel": "Kênh bạn muốn đặt.",
+				"toggle": "Chuyển đổi thông báo khi bắt đầu phát bài hát.",
+				"prunning": "Chuyển đổi loại bỏ thông báo khi bắt đầu phát bài hát.",
+				"reset": "Đặt lại kênh thông báo khi bắt đầu phát bài hát."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} Vui lòng cung cấp một kênh văn bản hợp lệ.",
+			"noTextChannel": "### {{{emoji}}} Vui lòng cung cấp một kênh văn bản hợp lệ.",
+			"sameChannel": "### {{{emoji}}} Kênh bạn cung cấp đã có trong cơ sở dữ liệu.",
+			"setChannel": "### {{{emoji}}} Đã đặt kênh thông báo thành công: {{{channel}}}.",
+			"noChannelInDB": "### {{{emoji}}} Chưa cài đặt kênh thông báo trong cơ sở dữ liệu.",
+			"toggle": "### {{{emoji}}} Đã {{{status}}} thông báo khi bắt đầu phát bài hát.",
+			"enabled": "bật",
+			"disabled": "tắt",
+			"reset": "### {{{emoji}}} Đã đặt lại kênh thông báo thành công."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "Thiết lập kênh bot để lắng nghe các lệnh.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "Thêm một kênh vào danh sách kênh bot",
+				"channel": "Kênh bạn muốn đặt.",
+				"remove": "Xóa một kênh khỏi danh sách kênh bot",
+				"clear": "Xóa danh sách kênh bot",
+				"info": "Lấy danh sách kênh bot và thông tin về kênh bot"
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} Vui lòng cung cấp một kênh văn bản hợp lệ.",
+			"noTextChannel": "### {{{emoji}}} Vui lòng cung cấp một kênh văn bản hợp lệ.",
+			"sameChannel": "### {{{emoji}}} Kênh bạn cung cấp đã có trong cơ sở dữ liệu.",
+			"maxChannel": "### {{{emoji}}} Bạn không thể thêm nhiều hơn 5 kênh vào danh sách kênh bot.",
+			"addedChannel": "### {{{emoji}}} Đã thêm thành công kênh {{{channel}}} vào danh sách kênh bot.",
+			"noChannelInDB": "### {{{emoji}}} Không có kênh bot nào trong cơ sở dữ liệu.",
+			"removedChannel": "### {{{emoji}}} Đã xóa thành công kênh {{{channel}}} khỏi danh sách kênh bot.",
+			"clearedChannel": "### {{{emoji}}} Đã xóa thành công danh sách kênh bot.",
+			"info": ">>> **Kênh:** {{{channel}}}\n**Người điều hành:** {{{moderator}}}\n**Thêm vào lúc:** {{{addedAt}}}",
+			"title": "Các kênh bot ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "Xoá các tin nhắn của tôi trong kênh.",
+			"success": "### {{{emoji}}} Đã xoá thành công **{{{count}}}** tin nhắn."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "Thiết lập âm lượng mặc định cho máy chủ",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "Số để thiết lập âm lượng mặc định"
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} Vui lòng nhập một số trong khoảng từ 0 đến 200.",
+			"success": "### {{{emoji}}} Đã thiết lập thành công âm lượng mặc định là **{{{volume}}}**."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "Vô hiệu hóa các lệnh cho máy chủ",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "Thêm một lệnh vào danh sách lệnh bị vô hiệu hóa",
+				"command": "Tên lệnh",
+				"remove": "Gỡ bỏ một lệnh khỏi danh sách lệnh bị vô hiệu hóa",
+				"list": "Lấy danh sách các lệnh bị vô hiệu hóa",
+				"clear": "Xoá danh sách các lệnh bị vô hiệu hóa"
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} Vui lòng cung cấp tên lệnh để vô hiệu hóa/khôi phục.",
+			"commandNotExist": "### {{{emoji}}} Lệnh đó không tồn tại trong bot",
+			"commandAlreadyDisabled": "### {{{emoji}}} Lệnh đó đã bị vô hiệu hóa.",
+			"commandDisabled": "### {{{emoji}}} Đã vô hiệu hóa thành công lệnh **{{{command}}}**.",
+			"noDisabledCommands": "### {{{emoji}}} Lệnh này chưa bị vô hiệu hóa.",
+			"commandEnabled": "### {{{emoji}}} Đã khôi phục thành công lệnh **{{{command}}}**.",
+			"disabledCommands": "Các lệnh bị vô hiệu hóa",
+			"disabledCommandsForThisServer": "Các lệnh bị vô hiệu hóa cho máy chủ này",
+			"total": "Tổng: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} Đã xoá thành công danh sách các lệnh bị vô hiệu hóa."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "Thiết lập vai trò DJ cho máy chủ",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "Thêm một vai trò vào danh sách vai trò DJ",
+				"role": "Vai trò bạn muốn (thêm/xóa)",
+				"remove": "Gỡ bỏ một vai trò khỏi danh sách vai trò DJ",
+				"list": "Liệt kê danh sách vai trò DJ",
+				"clear": "Xoá danh sách vai trò DJ",
+				"toggle": "Bật/tắt chế độ vai trò DJ",
+				"info": "Lấy danh sách vai trò DJ và thông tin về vai trò DJ"
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} Vui lòng cung cấp một vai trò hợp lệ để (thêm/xóa).",
+			"maxRoles": "### {{{emoji}}} Bạn không thể thêm nhiều hơn 5 vai trò vào danh sách DJ.",
+			"alreadyInList": "### {{{emoji}}} Vai trò bạn cung cấp đã có trong cơ sở dữ liệu.",
+			"addedRole": "### {{{emoji}}} Đã thêm thành công vai trò **{{{role}}}** vào danh sách DJ.",
+			"noRolesSetup": "### {{{emoji}}} Không có vai trò DJ nào được thiết lập trong máy chủ này.",
+			"notInList": "### {{{emoji}}} Vai trò này không có trong danh sách DJ.",
+			"removedRole": "### {{{emoji}}} Đã gỡ bỏ thành công vai trò **{{{role}}}** khỏi danh sách DJ.",
+			"list": ">>> **Vai trò:** {{{role}}}\n**Người quản lý:** {{{moderator}}}\n**Được thêm vào lúc:** {{{addedAt}}}",
+			"listTotal": "## Tổng số vai trò DJ: {{{total}}}",
+			"clearedList": "### {{{emoji}}} Đã xoá thành công danh sách DJ.",
+			"enabledToggle": "### {{{emoji}}} Đã bật chế độ chuyển đổi vai trò DJ thành công.",
+			"disabledToggle": "### {{{emoji}}} Đã tắt chế độ chuyển đổi vai trò DJ thành công.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "Vai trò DJ",
+				"enabled": "Đã bật",
+				"disabled": "Đã tắt",
+				"djMode": "Chế độ DJ",
+				"djMembers": "Thành viên DJ",
+				"description": "Thông tin về vai trò DJ cho {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "Sửa kết nối âm thanh nếu bot không phát nhạc.",
+			"joining": "### Đang tham gia kênh âm thanh và tiếp tục phát nhạc.",
+			"failed": "### Không thể thay đổi khu vực âm thanh. Vui lòng thử lại sau.",
+			"error": "{{{emoji}}} Tôi không thể tìm thấy bất kỳ giải pháp nào lúc này. Có thể hỏi về sự trợ giúp trong [máy chủ hỗ trợ]({{{server}}}).",
+			"success": "### {{{emoji}}} Đã thay đổi khu vực âm thanh thành công thành **{{{region}}}**."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "Bắt buộc bot tham gia kênh âm thanh.",
+			"already-in": "{{{emoji}}} Tôi đã ở trong một kênh âm thanh!",
+			"joined": "### {{{emoji}}} Đã tham gia thành công vào kênh âm thanh **{{{channel}}}**."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "Thiết lập ngôn ngữ của bot cho máy chủ",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "Thêm một ngôn ngữ cho máy chủ",
+				"language": "Ngôn ngữ bạn muốn thiết lập",
+				"info": "Lấy thông tin về các ngôn ngữ",
+				"reset": "Đặt lại ngôn ngữ thành ngôn ngữ mặc định",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} Đã thiết lập thành công ngôn ngữ của bot là {{{language}}} `({{{languageCode}}})`.",
+			"info": "### Ngôn ngữ hiện tại trong máy chủ này là: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} Đã đặt lại thành công ngôn ngữ của bot về ngôn ngữ mặc định.",
+			"translationProgress": "Tiến độ dịch: {{{progress}}}",
+			"selectLanguage": "Vui lòng chọn ngôn ngữ mà bạn muốn thiết lập từ menu dưới đây."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "Chuyển đổi chế độ không có tiền tố cho người dùng hoặc máy chủ.",
+			"toggle": "### Chuyển đổi chế độ không có tiền tố cho người dùng hoặc máy chủ.",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "Máy chủ",
+				"user": "Người dùng"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### Bạn cần là người dùng cao cấp để sử dụng lệnh này.",
+			"disabledUser": "### {{{emoji}}} Đã vô hiệu hóa thành công chế độ không có tiền tố cho người dùng.",
+			"enabledUser": "### {{{emoji}}} Đã kích hoạt thành công chế độ không có tiền tố cho người dùng.",
+			"noPerm": "### Bạn không có quyền sử dụng lệnh này.",
+			"disabledServer": "### {{{emoji}}} Đã vô hiệu hóa thành công chế độ không có tiền tố cho máy chủ.",
+			"enabledServer": "### {{{emoji}}} Đã kích hoạt thành công chế độ không có tiền tố cho máy chủ."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "Thiết lập tiền tố cho máy chủ",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "Thiết lập tiền tố cho máy chủ",
+				"prefix": "Tiền tố bạn muốn (thiết lập/xóa)",
+				"info": "Lấy tiền tố cho máy chủ",
+				"clear": "Xoá tiền tố cho máy chủ",
+				"remove": "Gỡ bỏ tiền tố cho máy chủ"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **Tiền tố:** `{{{prefix}}}`\n**Người quản lý:** {{{moderator}}}\n**Được thêm vào lúc:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} Vui lòng cung cấp một tiền tố để thiết lập.",
+			"noPrefixAdded": "### {{{emoji}}} Không có tiền tố nào được thêm vào máy chủ.",
+			"prefixLength": "### {{{emoji}}} Tiền tố không thể dài hơn 5 ký tự.",
+			"prefixLimit": "### {{{emoji}}} Giới hạn tiền tố là 4, vui lòng gỡ bỏ một số tiền tố bằng `prefix remove`",
+			"prefixCharacters": "### {{{emoji}}} Tiền tố không thể chứa bất kỳ ký tự nào sau `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} Tiền tố `{{{prefix}}}` đã được thêm bởi {{{moderator}}}",
+			"prefixCleared": "### {{{emoji}}} Đã xoá thành công tất cả các tiền tố về mặc định",
+			"prefixNotExists": "### {{{emoji}}} Tiền tố `{{{prefix}}}` không được thêm",
+			"prefixRemoved": "### {{{emoji}}} Đã gỡ bỏ thành công tiền tố `{{{prefix}}}`",
+			"prefixAdded": "### {{{emoji}}} Đã thêm thành công tiền tố `{{{prefix}}}`"
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "Hiển thị hồ sơ của bạn hoặc hồ sơ của người khác.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "Thiết lập màu sắc, màu sắc hoặc khả năng hiển thị của hồ sơ của bạn.",
+				"bio": "Thiết lập tiểu sử của hồ sơ của bạn.",
+				"color": "Thiết lập màu sắc của hồ sơ của bạn.",
+				"visibility": "Thiết lập khả năng hiển thị của hồ sơ của bạn.",
+				"view": "Xem hồ sơ của bạn hoặc hồ sơ của người khác.",
+				"user": "Người dùng mà bạn muốn xem hồ sơ của họ."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} Bạn cần cung cấp tiểu sử",
+			"bioLength": "### {{{emoji}}} Tiểu sử của bạn không được dài hơn 50 ký tự",
+			"bioSet": "### {{{emoji}}} Đã thiết lập tiểu sử của bạn thành `{{{bio}}}`",
+			"noColor": "### {{{emoji}}} Vui lòng cung cấp mã màu hex [Ví dụ: #FF0000](https://g.co/kgs/q5nhF7)\n\nBạn cũng có thể sử dụng tên màu sau: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} Màu sắc của bạn đã được thiết lập thành `{{{color}}}`",
+			"colorSet": "### {{{emoji}}} Đã thiết lập màu sắc của bạn thành `{{{color}}}`",
+			"sameVisibility": "### {{{emoji}}} Khả năng hiển thị của bạn đã được thiết lập thành `{{{visibility}}}`",
+			"noVisibility": "### {{{emoji}}} Vui lòng cung cấp khả năng hiển thị (công khai/riêng tư)",
+			"visibilitySet": "### {{{emoji}}} Đã thiết lập khả năng hiển thị của bạn thành `{{{visibility}}}`",
+			"privateProfile": "### {{{emoji}}} Hồ sơ của người dùng này là riêng tư"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "Thay đổi cài đặt máy chủ hoặc lấy thông tin cài đặt máy chủ",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "Đặt lại tất cả cài đặt máy chủ về giá trị mặc định",
+				"info": "Lấy thông tin cài đặt máy chủ"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} Bạn không có quyền `manageGuild` để sử dụng lệnh này.",
+			"isSure": "### Bạn có chắc chắn muốn đặt lại cài đặt máy chủ không?\nĐiều này sẽ đặt lại tất cả các cài đặt về giá trị mặc định\n\n**nếu bạn chắc chắn, hãy nhấn nút bên dưới**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "Đặt lại"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "Nút Theo Dõi",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
-				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"botChannel": "Kênh Bot",
+				"disableCommand": "Tắt Lệnh",
+				"defaultVolume": "Âm Lượng Mặc Định",
+				"announce": "Thông Báo",
+				"prunning": "Làm Sạch",
+				"noPrefix": "Không Tiền Tố",
+				"prefix": "Tiền Tố",
+				"djRole": "Vai Trò DJ",
+				"setup": "Cài Đặt",
+				"voteSkip": "Bỏ Qua Bằng Bỏ Phiếu",
+				"language": "Ngôn Ngữ",
+				"trackButtonValue": "Chế Độ: {{{mode}}}\nNgười Kiểm Duyệt: {{{moderator}}}\nĐã Thêm: {{{added}}}",
+				"setupValue": "Người Kiểm Duyệt: {{{moderator}}}\nĐã Thêm: {{{added}}}\n\n**Các Kênh:**\n{{{channels}}}",
+				"djValue": "Chế Độ: {{{mode}}}\nVai Trò: {{{roles}}}\nĐã Thêm: {{{added}}}",
+				"defaultvolumeValue": "Âm Lượng: {{{volume}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"announceValue": "Chế Độ: {{{mode}}}\nKênh: {{{channel}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"prunningValue": "Chế Độ: {{{mode}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"disableCommandValue": "Lệnh: {{{commands}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"prefixValue": "Tiền Tố: {{{prefix}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"voteSkipValue": "Chế Độ: {{{mode}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"247Value": "Chế Độ: {{{mode}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}\nKênh: {{{channel}}}",
+				"botChannelValue": "Kênh: {{{channel}}}\nĐã Thêm: {{{added}}}\nNgười Kiểm Duyệt: {{{moderator}}}",
+				"languageValue": "Ngôn Ngữ: {{{language}}}",
+				"enabled": "Bật",
+				"disabled": "Tắt",
+				"none": "Không Có"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} Đã đặt lại thành công cài đặt máy chủ về giá trị mặc định.",
+			"info": "## Đây là thông tin cấu hình cho máy chủ này",
+			"noSettings": "### {{{emoji}}} Không có cài đặt nào cho máy chủ này."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "Cấu hình cài đặt bỏ qua bằng bỏ phiếu.",
 			"options": {
-				"set": "Set the voteskip mode.",
+				"set": "Thiết lập chế độ bỏ qua bằng bỏ phiếu.",
 				"action": "cmd.voteskipsetting.options.action"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} Đã {{{action}}} thành công bỏ qua bằng bỏ phiếu.",
+			"isConfirm": "### Bạn muốn bật hoặc tắt chế độ bỏ qua bằng bỏ phiếu?",
+			"canceled": "### {{{emoji}}} Cài đặt bỏ qua bằng bỏ phiếu đã bị hủy.",
+			"alreadyEnabled": "### Chế độ bỏ qua bằng bỏ phiếu đã được bật.",
+			"alreadyDisabled": "### Chế độ bỏ qua bằng bỏ phiếu đã được tắt.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "Bật",
+				"disable": "Tắt",
+				"cancel": "Hủy"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "Thêm một bài hát vào danh sách phát.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "Danh sách phát mà bạn muốn thêm bài hát vào.",
+				"song": "Bài hát (tên/url) mà bạn muốn thêm vào danh sách phát."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} Tên danh sách phát phải có từ 3 đến 50 ký tự.",
+			"noPlaylists": "### {{{emoji}}} Tôi không thể tìm thấy bất kỳ danh sách phát nào trong tài khoản của bạn, vui lòng tạo một danh sách phát trước.",
+			"noResults": "### {{{emoji}}} Tôi không thể tìm thấy kết quả nào cho `{{{song}}}`.",
+			"playlistFull": "### {{{emoji}}} Danh sách phát của bạn đã đầy, vui lòng loại bỏ một số bài hát trước khi thêm thêm.",
+			"playlistAdded": "### {{{emoji}}} Đã thành công thêm **{{{count}}}** bài hát vào danh sách phát **{{{playlist}}}**."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "Thêm bài hát hiện tại vào danh sách phát.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "Danh sách phát mà bạn muốn thêm bài hát vào."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} Hiện không có bài hát nào đang phát.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} Bài hát này đã có trong danh sách phát.",
+			"success": "### {{{emoji}}} Đã thêm **{{{song}}}** vào **{{{playlist}}}**."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "Thêm danh sách phát vào hàng đợi.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "Tên của danh sách phát mà bạn muốn thêm vào hàng đợi."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} Hiện không có hàng đợi nào.",
+			"success": "### {{{emoji}}} Đã thêm **{{{queueLength}}}** bài hát trong hàng đợi vào danh sách phát **{{{playlistName}}}**."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "Tạo một danh sách phát.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Tên của danh sách phát mà bạn muốn tạo.",
+				"visibility": "Khả năng hiển thị của danh sách phát."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} Vui lòng cung cấp tên danh sách phát.",
+			"visibility": "### {{{emoji}}} Khả năng hiển thị phải là `public` hoặc `private`.",
+			"maxPlaylists": "### {{{emoji}}} Bạn có thể tạo tối đa 10 danh sách phát.",
+			"playlistExists": "### {{{emoji}}} Bạn đã có một danh sách phát với tên **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Đã tạo thành công danh sách phát **{{{playlist}}}**."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "Xóa một danh sách phát.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "Tên của danh sách phát mà bạn muốn xóa."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} Bạn không có danh sách phát có tên **{{{playlist}}}**.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "Xác nhận",
+				"cancel": "Hủy"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### Bạn có chắc chắn muốn xóa danh sách phát **{{{playlist}}}** không?",
+			"success": "### {{{emoji}}} Đã xóa thành công danh sách phát **{{{playlist}}}**.",
+			"cancel": "### {{{emoji}}} Đã hủy xóa danh sách phát **{{{playlist}}}**."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "Xoá tất cả các bài hát trùng lặp trong danh sách phát.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "Tên danh sách phát mà bạn muốn xoá các bài hát trùng lặp."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} Không có bài hát trùng lặp trong danh sách phát **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Đã xoá thành công **{{{count}}}** bài hát trùng lặp trong danh sách phát **{{{playlist}}}**."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "Chỉnh sửa danh sách phát.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Tên danh sách phát mà bạn muốn chỉnh sửa.",
+				"old-name": "Tên cũ của danh sách phát.",
+				"new-name": "Tên mới của danh sách phát.",
+				"playlist-visibility": "Thay đổi hiển thị của danh sách phát.",
+				"visibility": "Tùy chọn hiển thị của danh sách phát."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} Tên mới phải khác với tên cũ.",
+			"successName": "### {{{emoji}}} Đổi tên danh sách phát từ **{{{oldName}}}** thành **{{{newName}}}** thành công.",
+			"sameVisibility": "### {{{emoji}}} Danh sách phát **{{{playlist}}}** đã được đặt là **{{{visibility}}}**.",
+			"successVisibility": "### {{{emoji}}} Thay đổi hiển thị của danh sách phát **{{{playlist}}}** thành **{{{visibility}}}** thành công.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "Tên danh sách phát",
+				"visibility": "Hiển thị danh sách phát",
+				"public": "Công khai",
+				"private": "Riêng tư"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### Chọn một tùy chọn để chỉnh sửa danh sách phát của bạn từ các nút dưới đây.",
+			"oldName": "### Nhập tên cũ của danh sách phát.",
+			"newName": "### Nhập tên mới của danh sách phát.",
+			"cancelled": "### {{{emoji}}} Đã hủy việc thay đổi tên danh sách phát.",
+			"playlist": "### Nhập tên của danh sách phát.",
+			"selectVisibility": "### Chọn tùy chọn hiển thị của danh sách phát từ các nút dưới đây."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "Nhập một danh sách phát từ ID danh sách phát.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "ID của danh sách phát mà bạn muốn nhập."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} Không thể tìm thấy bất kỳ danh sách phát nào với ID **{{{id}}}**.",
+			"sameUser": "### {{{emoji}}} Bạn không thể nhập danh sách phát của chính bạn.",
+			"privatePlaylist": "### {{{emoji}}} Bạn không thể nhập danh sách phát riêng tư.",
+			"success": "### {{{emoji}}} Đã nhập thành công danh sách phát **{{{playlist}}}**."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "Liệt kê tất cả các danh sách phát của bạn.",
+			"tracks": "Bài hát(s): {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "Tải một danh sách phát vào hàng đợi.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "Tải một bài hát cụ thể từ danh sách phát.",
+				"name": "Tên danh sách phát mà bạn muốn tải.",
+				"track": "Số thứ tự hoặc tiêu đề bài hát để tải."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} Bạn không có danh sách phát nào có tên **{{{playlist}}}**.",
+			"noTracks": "### {{{emoji}}} Không có bài hát nào trong danh sách phát **{{{playlist}}}**.",
+			"noTrackFound": "### {{{emoji}}} Không tìm thấy bài hát nào với số thứ tự hoặc tiêu đề `{{{track}}}`.",
+			"trackLoaded": "### {{{emoji}}} Đã tải **{{{track}}}** từ danh sách phát **{{{playlist}}}**.",
+			"privatePlaylist": "### {{{emoji}}} Bạn không thể tải danh sách phát riêng tư từ người dùng khác.",
+			"playlistLoaded": "### {{{emoji}}} Đã tải **{{{count}}}** bài hát từ danh sách phát **{{{playlist}}}**."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "Xoá một bài hát khỏi danh sách phát.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "Tên danh sách phát mà bạn muốn xoá bài hát.",
+				"track": "Số thứ tự hoặc tiêu đề bài hát để xoá."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} Không tìm thấy bài hát với số thứ tự hoặc tiêu đề đó.",
+			"success": "### {{{emoji}}} Đã xoá thành công **{{{track}}}** từ **{{{playlist}}}**."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "Xem một danh sách phát.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "Tên danh sách phát mà bạn muốn xem."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "Trang {{{page}}} của {{{pages}}} | {{{tracks}}} bài hát | {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "Trước",
+				"stop": "Dừng",
+				"next": "Tiếp theo"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### Ai đó đã ngắt kết nối tôi khỏi kênh thoại, nhưng tôi vẫn đang ở đây nhờ **chế độ 24/7**!\n\nBạn có thể tắt chế độ này bằng cách tắt **chế độ 24/7** sử dụng lệnh {{{cmd}}} hoặc bằng cách sử dụng lệnh {{{cmd2}}}!",
+			"nowPlaying": "Đang Phát",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Bởi [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"footer": "Thời lượng: {{{duration}}} | Hàng đợi: {{{queue}}} | Âm lượng: {{{volume}}}%",
+			"end": "### Không ai nghe trong vòng 1 phút qua, tôi sẽ rời khỏi kênh.\n\nBạn có thể tắt tính năng này bằng cách bật **chế độ 24/7** sử dụng lệnh {{{cmd}}}!",
+			"endTitle": "Hàng đợi Kết thúc",
+			"endDesc": "### Hàng đợi nhạc của bạn đã kết thúc. Bạn có thể thêm nhạc bằng cách sử dụng lệnh {{{cmd}}}! Thích thú với âm nhạc cùng tôi? Hãy cân nhắc [bỏ phiếu cho tôi]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "Lỗi Bài hát",
+		"description": "### [{{{title}}}]({{{uri}}}) không khả dụng trong nước của bạn vì bị hạn chế độ tuổi!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "Tiếp Tục",
+			"pause": "Tạm Dừng",
+			"previous": "Trước Đó",
+			"shuffle": "Ngẫu Nhiên",
+			"skip": "Bỏ Qua",
+			"stop": "Dừng",
+			"voldown": "Giảm Âm Lượng",
+			"volup": "Tăng Âm Lượng",
+			"loop": "Lặp Lại",
+			"like": "Thích"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### Hiện tại không có gì đang phát..",
+		"nothingPlaying": "### Hiện tại không có gì đang phát.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "Bạn cần tham gia một kênh thoại {{{channel}}} để sử dụng nút này!",
+			"noPrevious": "Không có bài hát trước đó trong hàng đợi.",
+			"playingPrevious": "{{{user}}} đang phát bài hát trước đó.",
+			"nothingToSkip": "Không có gì trong hàng đợi để bỏ qua.",
+			"alreadyVote": "{{{user}}} Đã có một phiếu bầu trong máy chủ này. Vui lòng đợi cho nó hoàn thành hoặc hủy bỏ nó.",
+			"voteSkip": "{{{user}}} đã yêu cầu bỏ qua bài hát hiện tại. Bạn có muốn dừng phiếu bỏ qua? Sử dụng lệnh {{{cmd}}}",
+			"voteSkipLabel": "Bỏ phiếu bỏ qua bài hát hiện tại!",
+			"alreadyVoted": "{{{user}}} Bạn đã bỏ phiếu bỏ qua bài hát hiện tại.",
+			"voteSkip2": "{{{user}}} đã yêu cầu bỏ qua bài hát hiện tại.",
+			"voteSkipLabel2": "Bỏ phiếu bỏ qua bài hát hiện tại! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Bạn cần tham gia kênh thoại {{{channel}}} để sử dụng nút này!",
+			"voteSkipTrack": "{{{user}}} đang bỏ qua bài hát sau khi có {{{count}}} phiếu bỏ qua tích cực!",
+			"notEnoughVote": "### Không đủ phiếu bỏ qua bài hát hiện tại.",
+			"skipTrack": "{{{user}}} đã bỏ qua bài hát hiện tại.",
+			"playTrack": "{{{user}}} {{{paused}}} bài hát hiện tại.",
+			"paused": "Tạm dừng",
+			"resumed": "Tiếp tục",
+			"stopTrack": "{{{user}}} đã dừng bài hát hiện tại.",
+			"volMax": "### Âm lượng đã ở mức tối đa.",
+			"volUp": "{{{user}}} đã tăng âm lượng lên **{{{vol}}}**%.",
+			"volMin": "### Âm lượng đã ở mức tối thiểu.",
+			"volDown": "{{{user}}} đã giảm âm lượng xuống **{{{vol}}}**%.",
+			"shuffleError": "{{{user}}} Không có đủ bài hát trong hàng đợi để trộn.",
+			"shuffleDisabled": "{{{user}}} Không trộn bài hát.",
+			"shuffleEnabled": "{{{user}}} Bật trộn bài hát.",
+			"loopSong": "{{{user}}} Lặp lại bài hát hiện tại.",
+			"loopQueue": "{{{user}}} Lặp lại hàng đợi.",
+			"loopDisabled": "{{{user}}} Không lặp lại.",
+			"noTrack": "{{{user}}} Hiện tại không có bài hát nào đang phát.",
+			"liked": "{{{user}}} Thích **{{{title}}}**.",
+			"unliked": "{{{user}}} Bỏ thích **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### Xin lỗi! Tôi đã cố gửi phản hồi đến lệnh của bạn; tuy nhiên, tôi thiếu quyền để làm điều đó. Vui lòng yêu cầu người từ nhóm hỗ trợ cấp quyền `Gửi Tin Nhắn` cho tôi.\n\nMáy chủ: **{{{guildName}}}**\nLệnh: **{{{commandName}}}**\nCần trợ giúp về quyền hạn? Tham gia máy chủ hỗ trợ: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Bot cần quyền `Embed links` để hoạt động đúng cách! Vui lòng cấp quyền này cho tôi.",
+			"noBotChannel": "### Tôi không được phép trả lời lệnh trong kênh này. Vui lòng sử dụng {{{emoji}}} <#{{{botChannel}}}> để sử dụng các lệnh của bot. Cảm ơn bạn đã hợp tác.",
+			"deleteFooter": "• Tin nhắn này sẽ bị xóa trong 5 giây",
+			"disabledCommand": "### Lệnh này đã bị vô hiệu hóa trong máy chủ này cho tất cả mọi người. Chỉ DJ mới có thể sử dụng lệnh này.",
+			"disabledCommandList": "Danh sách đã vô hiệu hóa",
+			"noBotPermissions": "### {{{emoji}}} Tôi không có quyền **{{{permissions}}}** để thực hiện lệnh này.",
+			"noUserPermissions": "### {{{emoji}}} Bạn không có quyền **{{{permissions}}}** để thực hiện lệnh này.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### Bạn cần bình chọn cho tôi để sử dụng lệnh này. Bạn có thể bình chọn tại [Top.gg]({{{link}}})",
+				"### Bạn cần bình chọn cho tôi để sử dụng lệnh này. Bạn có thể bình chọn tại [Top.gg]({{{link}}}) hoặc\nBạn cũng có thể mua phiên bản Premium bằng cách tặng [ở đây]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "Bình chọn",
+				"donate": "Quyên góp",
+				"invite": "Mời",
+				"support": "Hỗ trợ"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### Vui lòng đợi thêm **{{{timeLeft}}}** giây trước khi sử dụng lại lệnh **{{{command}}}**.",
+			"noDjRole": "### {{{emoji}}} Bạn cần có vai trò DJ để sử dụng lệnh này.",
+			"noPremium": "### Bạn cần có phiên bản Premium của bot để sử dụng lệnh này. Bạn có thể mua phiên bản Premium bằng cách tặng [ở đây]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} Tôi không có quyền cần thiết để tham gia kênh thoại của bạn! Tôi cần quyền `Xem Kênh`, `Kết nối`, và `Nói`. [Ví dụ về quyền hạn](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nNếu vấn đề vẫn tiếp tục, hãy thay đổi khu vực kênh thoại sang `Châu Âu`.",
+			"voiceJoin": "### {{{emoji}}} Bạn phải kết nối với một kênh thoại trên máy chủ này để sử dụng lệnh này!\n\nCách kết nối với kênh thoại? Chỉ cần nhấp vào một kênh có biểu tượng loa (ví dụ, nhấp vào đây:  {{{channel}}}) [Xem hướng dẫn chính thức của Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Bạn phải ở trong kênh thoại **{{{channel}}}** để sử dụng lệnh này.",
+			"noPlayer": "### {{{emoji}}} Tôi không được kết nối với bất kỳ kênh thoại nào. Vui lòng sử dụng lệnh {{{command}}} để triệu tôi.",
+			"noQueue": "### {{{emoji}}} Hiện tại không có hàng đợi nào. Vui lòng sử dụng lệnh {{{command}}} để thêm một bài hát vào hàng đợi.",
+			"noSong": "### {{{emoji}}} Hiện tại không có bài hát nào đang phát. Vui lòng sử dụng lệnh {{{command}}} để thêm một bài hát vào hàng đợi.",
+			"error": "### {{{emoji}}} Đã xảy ra lỗi trong quá trình thực hiện lệnh. Vui lòng báo cáo lỗi này tới [Máy chủ Hỗ trợ]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Bắt đầu",
+		"embed_description": "### Chào <@{{{user}}}>! Tiền tố của tôi là: `{{{prefixList}}}`\nVí dụ: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Chào <@{{{user}}}>! Tiền tố của tôi là: `no prefix`, nghĩa là bạn có thể sử dụng bất kỳ lệnh nào mà không cần tiền tố.\nVí dụ: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Tùy chọn cho {{{commandName}}}",
+		"no_description": "Không có mô tả",
+		"options": "Tùy chọn",
+		"examples": "Ví dụ",
+		"long_des": "Đây là để chuyển đổi giữa các trang",
+		"examples_button": "Ví dụ",
+		"footer": "<Bắt buộc> | [Tùy chọn] {{{long_des}}} Trang {{{page}}} trên tổng số {{{total_pages}}}",
+		"title2": "Ví dụ cho {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

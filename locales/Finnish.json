@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "Ota käyttöön tai poista käytöstä 24/7-tila.",
+			"enabled": "### {{{emoji}}} 24/7-tila on otettu käyttöön.",
+			"disabled": "### {{{emoji}}} 24/7-tila on poistettu käytöstä."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
-			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"description": "Näyttää bottin latenssin.",
+			"author": "Botti-latenssi",
+			"content": "**Shardi**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
+			"footer": "• Saat lisätietoja tuki-palvelimen tila-kanavalta."
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Kutsu botti palvelimellesi.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "Kutsu MoE",
+				"invite2": "Kutsu MoE2",
+				"invite3": "Kutsu MoE3",
+				"support": "Tuki"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Jos pidit käyttämisestäni, harkitse [minun kutsumistani]({{{invite}}}) palvelimellesi nyt. Ja älä myöskään unohda liittyä [tuki-palvelimeen]({{{support}}})."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Näyttää luettelon komennoista tai tietoa tietyistä komennoista.",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Komentonimi tai kategoria, josta haluat saada apua."
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": " Komento",
+			"footer": "Sivu {{{page}}} / {{{pagesNum}}}",
+			"title2": "Apua - {{{cmd}}}",
+			"title3": "Apua",
+			"manContent": "### Tässä on luettelo kaikista kategorioista\n{{{catagory}}}\n\n- Linkit:\n[Tuki-palvelin]({{{server}}}) | [Kutsu]({{{invite}}}) | [Äänestä]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Verkkosivusto]({{{website}}}) | [Dokumentaatio]({{{docs}}})",
+			"footer2": "- Lisätietoja komennosta: {{{prefix}}}apua <komento> tai {{{prefix}}}apua <kategoria>",
+			"cooldown": "Jäähdytysaika",
+			"aliases": "Aliakset",
+			"category": "Kategoria",
+			"examples": "Esimerkit",
+			"userPerms": "Käyttäjän oikeudet",
+			"botPerms": "Botin oikeudet",
+			"requirements": "Edellytykset",
+			"subCommands": "Alakomennot",
+			"subSubCommands": "Ala-alakomennot",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "Edellinen",
+				"stop": "Lopeta",
+				"next": "Seuraava",
+				"home": "Koti",
+				"config": "Asetukset",
+				"music": "Musiikki",
+				"filter": "Suodatin",
+				"general": "Yleinen",
+				"playlists": "Soittolistat"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}` ei ole kelvollinen komento tai kategoria!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Täytyy olla äänikanavalla",
+				"sameVoice": "- Täytyy olla samassa äänikanavassa",
+				"playing": "- Täytyy soittaa musiikkia tällä palvelimella"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Täytyy olla äänestänyt [täällä]({{{link}}}), jotta voit käyttää tätä komentoa",
+			"premiumCmd": "- Täytyy olla [premium]({{{link}}}), jotta voit käyttää tätä komentoa"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
+			"description": "Näyttää käyttäjän tai palvelimen premium-tilan.",
+			"guildPremiumStatus": "Palvelimen premium-tila",
+			"userPremiumStatus": "Käyttäjän premium-tila",
 			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"notPremium": "Ei Premium",
+			"guildPremiumExpires": "Palvelimen premium päättyy",
+			"userPremiumExpires": "Käyttäjän premium päättyy"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Lunasta premium-koodi.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Lunastettava premium-koodi"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "Anna premium-koodi lunastaaksesi sen.",
+			"invalidCode": "Virheellinen premium-koodi annettu.",
+			"confirmation": "### Oletko varma, että haluat lunastaa premium-koodin `{{{code}}}`?",
+			"type": "Tyyppi",
+			"expiresAt": "Päättyy",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "Kyllä",
+				"no": "Ei"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "Olet jo premium-jäsen.",
+			"success": "### Lunastit onnistuneesti premium-koodisi. Nyt voit käyttää premium-komentoja!",
+			"canceled": "Peruutettiin premium-koodin lunastus."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "Näyttää botin tilastot."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "Tukipalvelimen linkki",
+			"content": "### Jos tarvitset apua botin kanssa tai haluat vain hengailla meidän kanssamme, liity [tukipalvelimeen]({{{link}}}).",
 			"buttons": {
-				"support": "Support Server"
+				"support": "Tukipalvelin"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "Botin äänestyslinkki",
+			"content": "### Jos pidät botista, harkitse äänestämistä [top.gg:ssä]({{{link}}}).",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "Äänestä"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"description": "Näyttää soittimen tilan.",
+			"nowPlaying": "Nyt soi",
+			"noSong": "Tällä hetkellä ei soiteta kappaletta.",
+			"volume": "Äänenvoimakkuus",
+			"totalDuration": "Kokonaiskesto",
+			"loopMode": "Toistoläpikulku",
+			"filters": "Suodattimet",
+			"noFilters": "Ei suodattimia käytössä.",
+			"title": "Soitin: {{{status}}}",
+			"online": "Paikalla",
+			"offline": "Ei paikalla"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "Ota käyttöön tai poista käytöstä automaattinen toistoläpikulku.",
+			"enabled": "### Toistoläpikulku päällä - Automaattisesti lisätään samankaltaisia kappaleita jonoon.",
+			"disabled": "### Toistoläpikulku pois päältä - Ei enää lisätä automaattisesti samankaltaisia kappaleita jonoon."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "Tyhjennä jonosta tai suodattimista soittimesta.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "Jonon tai suodattimien tyhjentämiseen liittyvä valinta"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "### Valitse jonon tai suodattimien tyhjentämiseksi. (jonot/suodattimet)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "Jonossa ei ole kappaleita, jotka voidaan tyhjentää.",
+				"success": "### Jono tyhjennetty onnistuneesti."
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "Ei suodattimia tyhjennettäväksi.",
+				"success": "### Suodattimet tyhjennetty onnistuneesti."
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "Jono",
+				"filters": "Suodattimet"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "Ohita nykyinen kappale väkisin.",
+			"success": "### Väkisin ohitettiin kappale {{{title}}}."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "Siirrä nykyinen kappale eteenpäin.",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "Sekuntien määrä, jonka verran eteenpäin siirretään"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} Nykyistä kappaletta ei voi siirtää.",
+			"tooLong": "{{{emoji}}} Et voi siirtää kappaleen pituutta enempää.",
+			"success": "### {{{emoji}}} Kappale siirretty onnistuneesti aikaan `{{{time}}}`."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "Tallenna nykyinen kappale.",
+			"dm": "{{{emoji}}} En voi lähettää kappaletta, koska olet estänyt yksityisviestit.",
+			"grabbed": "### {{{emoji}}} Kappale tallennettu onnistuneesti."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "Kutsu botti äänikanavallesi.",
+			"no-perms": "{{{emoji}}} Minulla ei ole tarvittavia oikeuksia liittyä äänikanavallesi! Tarvitsen `Näytä kanavat`, `Yhdistä` ja `Puhu` -oikeudet. [Oikeuksien esimerkki](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Jos ongelma jatkuu, vaihda äänikanavan alueeksi `Eurooppa`.",
+			"already-in": "{{{emoji}}} Olen jo äänikanavalla!",
+			"joined": "### Liityttiin onnistuneesti äänikanavalle {{{channel}}}."
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "Poistu äänikanavalta.",
+			"not-playing": "{{{emoji}}} En soita mitään tällä hetkellä!",
+			"success": "### {{{emoji}}} Poistuttiin äänikanavalta onnistuneesti."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "Poista kaikki käyttäjien kappaleet, jotka eivät ole äänikanavalla.",
+			"removing": "## Poistetaan kappaleita käyttäjiltä, jotka eivät ole enää äänikanavalla. Odota hetki.",
+			"removed": "### Poistettiin onnistuneesti `{{{count}}}` kappaletta käyttäjiltä, jotka eivät ole enää äänikanavalla."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "Toista nykyinen kappale tai lista uudestaan.",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "Asetettava toiston tila"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### Määritä toiston tila. (kappale, lista, pois) alla olevista painikkeista.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "Kappale",
+				"queue": "Lista",
+				"off": "Pois"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} Kappale toistetaan nyt uudestaan.",
+			"queue": "### {{{emoji}}} Lista toistetaan nyt uudestaan.",
+			"off": "### {{{emoji}}} Toisto on nyt poissa päältä.",
+			"song_already": "### {{{emoji}}} Kappale on jo toistossa uudestaan.",
+			"queue_already": "### {{{emoji}}} Lista on jo toistossa uudestaan.",
+			"off_already": "### {{{emoji}}} Toisto on jo pois päältä.",
+			"invalid_mode": "### {{{emoji}}} Virheellinen toiston tila. Anna kelvollinen toiston tila. (kappale, lista, pois)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "Näytä nykyisen kappaleen tai kappaleen nimen sanat.",
 			"options": {
-				"song": "The song name to search for"
+				"song": "Kappaleen nimi, jota etsitään"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### Anna kappaleen nimi, jota etsitään.",
+			"noLyrics": "### En löytänyt sanoja tälle kappaleelle.",
+			"page": "Sivu {{{page}}} / {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "Siirrä kappale tiettyyn kohtaan listalla.",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "Siirrettävä kappale",
+				"position": "Kohta, johon kappale siirretään"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### Anna kelvollinen numero kohdalle.",
+			"invalidPosition": "### Virheellinen kohta. Anna kelvollinen kohta.",
+			"success": "### Siirrettiin **[{{{title}}}]({{{uri}}})** kohdasta **{{{from}}}** kohtaan **{{{to}}}**."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "Näytä tällä hetkellä soiva kappale.",
+			"nowplaying": "### Nyt soi: [{{{title}}}]({{{uri}}})",
+			"author": "Tekijä",
+			"requester": "Pyytäjä",
+			"duration": "Kesto",
+			"progress": "Edistyminen"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "Tauota nykyinen kappale.",
+			"alreadyPaused": "### Nykyinen kappale on jo tauotettu.",
+			"paused": "### Tauotettiin [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Toista kappale Spotifysta, SoundCloudista, Deezeristä jne...",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Etsittävä kysely",
+				"source": "Etsintälähde"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "Anna kappaleen nimi, jota etsitään.",
+			"no-results": "### Tuloksia ei löytynyt hakusanalle `{{{query}}}`.",
+			"playlist-loaded": "### Ladattiin `{{{count}}}` kappaletta soittolistalta **[{{{name}}}]({{{url}}})**",
+			"footer": "Kiitos, että käytät {{{bot}}}",
+			"added": "### Lisätty **[{{{title}}}]({{{uri}}})** jonoon (pyytäjä <@{{{requester}}}>) jonossa sijalle `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "Toista edellinen kappale.",
+			"noPreviousTrack": "### {{{emoji}}} Edellistä kappaletta ei ole toistettavaksi.",
+			"success": "### {{{emoji}}} Nyt soitetaan edellistä kappaletta jonossasi!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "Näyttää nykyisen palvelimen jonon.",
 			"options": {
-				"page": "The page number to view"
+				"page": "Sivun numero näytettäväksi"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### Jono palvelimelle {{{guild}}} ({{{songs}}} kappaletta)",
+			"nowPlaying": "### Nyt soi: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### Seuraavaksi: {{{str}}}",
+			"noSongs": "### Jonossa ei ole vielä kappaleita! Lisää yksi käyttäen komentoa {{{cmd}}}",
+			"page": "Sivu {{{page}}} | {{{songs}}} kappaletta | {{{duration}}} kokonaiskesto",
+			"notNumber": "### {{{emoji}}} Sivunumeron on oltava numero.",
+			"pageLimit": "### {{{emoji}}} Sivunumeron on oltava pienempi tai yhtä suuri kuin {{{pages}}}.",
+			"clearQueue": "Tyhjennä jono",
+			"noTracks": "### Jonossa ei ole kappaleita.",
+			"noDjRole": "### Sinun on oltava DJ-roolissa käyttääksesi tätä painiketta.",
+			"clearedQueue": "### {{{user}}} tyhjensi jonon."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "Poista kappale jonosta.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "Poistettava kappale.",
+				"number": "Kappaleen numero tai otsikko poistettavaksi.",
+				"dupes": "Poista kaikki kappaleen kaksoiskappaleet."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### Jonossa ei ole kappaletta tuolla numerolla.",
+			"invalidNumber": "### Anna numero välillä 1 ja {{{length}}}.",
+			"removed": "### Poistettiin **[{{{title}}}]({{{uri}}})** jonosta.",
+			"noDupes": "### Jonossa ei ole kaksoiskappaleita.",
+			"removedDupes": "### Poistettiin **{{{length}}}** kaksoiskappaletta jonosta."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "Toista nykyinen kappale uudelleen.",
+			"replaying": "### Toistetaan uudelleen [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "Jatka nykyisen kappaleen toistamista.",
+			"notPaused": "### Nykyinen kappale ei ole tauolla.",
+			"resumed": "### Jatkettiin [{{{title}}}]({{{uri}}}) toistamista."
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "Kelaa nykyinen kappale taaksepäin.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "Aika, johon haluat kelata kappaleen."
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} Nykyinen kappale ei ole kelattavissa.",
+			"negativePosition": "### {{{emoji}}} Aseman on oltava välillä 0 ja {{{length}}}.",
+			"success": "### {{{emoji}}} Kelaus palautettiin ajankohtaan {{{length}}}."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "Hae kappaletta Spotifysta, Soundcloudista tai Deezeristä.",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Hakulauseke",
+				"source": "Hakulähde"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} Soittolistat eivät ole tuettuja! Hae komennolla {{{cmd}}}",
+			"no-track": "### {{{emoji}}} Kappaleet eivät ole tuettuja! Hae komennolla {{{cmd}}}",
+			"results": "## Haku tulokset `{{{query}}}`\n\n{{{results}}}",
+			"footer": "Valitse kappale valikosta alla.",
+			"placeholder": "Valitse kappale alla olevasta listasta toistaaksesi sen.",
+			"footerTimeout": "Hakutulokset aikakatkaistiin.",
+			"no-voice": "### {{{emoji}}} Sinun on oltava äänikanavassa käyttääksesi tätä valikkoa.",
+			"wrong-voice": "### {{{emoji}}} Sinun on oltava samassa äänikanavassa kuin minä käyttääksesi tätä valikkoa.",
+			"added": "### {{{emoji}}} Lisätty {{{count}}} kappaletta jonoon."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "Hyppää annettuun kohtaan nykyisessä kappaleessa.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "Aika, johon haluat hypätä kappaleessa."
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### Ajan on oltava välillä 0 ja {{{length}}}.",
+			"seeked": "### Hyppäsi `{{{position}}}` kohtaan `{{{time}}}`"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "Sekoita jono.",
+			"success": "### Palvelimen jono on sekoitettu onnistuneesti (**{{{length}}}** kappaletta).",
+			"unshuffle": "### Palvelimen jono on palautettu alkuperäiseen järjestykseen (**{{{length}}}** kappaletta)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "Ohita nykyinen kappale.",
+			"nothing": "### Jonossa ei ole mitään seuraavana. Käytä {{{queue}}} nähdäksesi palvelimen jonon.\nHaluatko kokeilla autoplayta? Käytä komentoa {{{autoplay}}}",
+			"paused": "### Toistin on pysäytetty. Jatkaaksesi käytä jatkakomennot.\nHaluatko jatkaa? Käytä komentoa {{{resume}}}",
+			"voteSkip": "### {{{user}}} pyysi ohittamaan nykyisen kappaleen.\n\n{{{voted}}}",
+			"skip": "### Ohitetaan kappale **{{{title}}}**."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "Hyppää tiettyyn kappaleeseen jonossa.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "Kappaleen numero tai otsikko, johon haluat hypätä."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} Anna kappaleen numero välillä 1 ja {{{length}}}.",
+			"success": "### {{{emoji}}} Hypätty kohtaan **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "Pysäytä toistin ja tyhjennä jono.",
+			"stopped": "### {{{emoji}}} Pysäytettiin toistin ja tyhjennettiin jono."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "Näyttää botin eniten soitettuja kappaleita.",
+			"noTopSongs": "### Tietokannassa ei ole eniten soitettuja kappaleita.",
+			"timesPlayed": "Kertaa soitettu",
+			"selectSong": "Valitse kappale listalta toistaaksesi sen.",
+			"added": "### Lisätty **[{{{title}}}]({{{uri}}})** jonoon."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "Muuta toistimen äänenvoimakkuutta.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "Äänenvoimakkuus, jonka haluat asettaa."
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} Anna numero välillä 0 ja 100.",
+			"success": "### {{{emoji}}} Asetettu äänenvoimakkuus **{{{volume}}}**."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "Äänestä nykyisen kappaleen ohittamista."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### Kaikki nykyiselle soitettavalle kappaleelle sovelletut suodattimet:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} Sävelkorkeuden on oltava numero välillä 1 ja 5.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "Sovella 8D-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"bassboost": "Sovella bassoboost-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"channelmix": "Sovella kanavasekoitus-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"electronic": "Sovella elektroninen-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"filters": "Saat lista suodattimista, jotka voidaan soveltaa nykyiseen soitettavaan kappaleeseen.",
+				"jazz": "Sovella jazz-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"karaoke": "Sovella karaoke-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"lowpass": "Sovella matalapassisuodatinta nykyiseen soitettavaan kappaleeseen.",
+				"nightcore": "Sovella nightcore-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"pitch": "Sovella sävelkorkeuden-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"pop": "Sovella pop-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"radio": "Sovella radio-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"rock": "Sovella rock-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"rotation": "Sovella kiertosuodatinta nykyiseen soitettavaan kappaleeseen.",
+				"soft": "Sovella pehmeä-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"speed": "Sovella nopeus-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"treblebass": "Sovella diskantin- ja basson-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"tremolo": "Sovella tremolo-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"vaporwave": "Sovella vaporwave-suodatinta nykyiseen soitettavaan kappaleeseen.",
+				"vibrato": "Sovella vibrato-suodatinta nykyiseen soitettavaan kappaleeseen."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} {{{name}}} suodatin on otettu käyttöön.",
+			"disabled": "### {{{emoji}}} {{{name}}} suodatin on poistettu käytöstä.",
+			"speed": "### {{{emoji}}} Nopeus-suodatin on asetettu arvoon **{{{value}}}**.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "Nopeus, jonka haluat asettaa.",
+				"pitch": "Sävelkorkeus, jonka haluat soveltaa."
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "Määritä kappaleen aloitusviestin ilmoitusten asetukset.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "Aseta kanava, johon kappaleen aloitusviesti lähetetään.",
+				"channel": "Kanava, jonka haluat asettaa.",
+				"toggle": "Kytke kappaleen aloitusviestin ilmoitukset päälle tai pois päältä.",
+				"prunning": "Kytke kappaleen aloitusviestin siivous päälle tai pois päältä.",
+				"reset": "Nollaa kanava, johon kappaleen aloitusviesti lähetetään."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} Anna kelvollinen tekstikanava.",
+			"noTextChannel": "### {{{emoji}}} Anna kelvollinen tekstikanava.",
+			"sameChannel": "### {{{emoji}}} Antamasi kanava on jo tietokannassa.",
+			"setChannel": "### {{{emoji}}} Kappaleen aloitusviestin kanava on asetettu onnistuneesti kohteeseen {{{channel}}}.",
+			"noChannelInDB": "### {{{emoji}}} Kappaleen aloitusviestin kanavaa ei ole määritetty tietokantaan.",
+			"toggle": "### {{{emoji}}} Kappaleen aloitusviestin ilmoitukset onnistuneesti {{{status}}}.",
+			"enabled": "päällä",
+			"disabled": "pois päältä",
+			"reset": "### {{{emoji}}} Kappaleen aloitusviestin kanava on nollattu onnistuneesti."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "Määritä botin kanava komentojen kuuntelemiseen.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "Lisää kanava botin kanavaluetteloon.",
+				"channel": "Kanava, jonka haluat asettaa.",
+				"remove": "Poista kanava botin kanavaluettelosta.",
+				"clear": "Tyhjennä botin kanavaluettelo.",
+				"info": "Hae botin kanavaluettelo ja tietoja botin kanavasta."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} Anna kelvollinen tekstikanava.",
+			"noTextChannel": "### {{{emoji}}} Anna kelvollinen tekstikanava.",
+			"sameChannel": "### {{{emoji}}} Antamasi kanava on jo tietokannassa.",
+			"maxChannel": "### {{{emoji}}} Et voi lisätä enempää kuin 5 kanavaa botin kanavaluetteloon.",
+			"addedChannel": "### {{{emoji}}} Kanava {{{channel}}} lisätty onnistuneesti botin kanavaluetteloon.",
+			"noChannelInDB": "### {{{emoji}}} Tietokannassa ei ole botin kanavia.",
+			"removedChannel": "### {{{emoji}}} Kanava {{{channel}}} poistettu onnistuneesti botin kanavaluettelosta.",
+			"clearedChannel": "### {{{emoji}}} Botin kanavaluettelo tyhjennetty onnistuneesti.",
+			"info": ">>> **Kanava:** {{{channel}}}\n**Valvoja:** {{{moderator}}}\n**Lisätty:** {{{addedAt}}}",
+			"title": "Botin kanavat ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "Puhdista viestini kanavalla.",
+			"success": "### {{{emoji}}} Viestit puhdistettu onnistuneesti: **{{{count}}}** viestiä."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "Aseta palvelimen oletusäänenvoimakkuus",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "Numero, johon oletusäänenvoimakkuus asetetaan"
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} Anna numero välillä 0 ja 200.",
+			"success": "### {{{emoji}}} Oletusäänenvoimakkuus asetettu onnistuneesti: **{{{volume}}}**."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "Poista komennot käytöstä palvelimella",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "Lisää komento käytöstä poistettujen komentojen listalle",
+				"command": "Komentonimi",
+				"remove": "Poista komento käytöstä poistettujen komentojen listalta",
+				"list": "Näytä käytöstä poistetut komennot",
+				"clear": "Tyhjennä käytöstä poistettujen komennot -lista"
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} Anna komennon nimi poistaaksesi tai ottaaksesi sen käyttöön.",
+			"commandNotExist": "### {{{emoji}}} Tämä komento ei ole käytettävissä bottiin.",
+			"commandAlreadyDisabled": "### {{{emoji}}} Tämä komento on jo poistettu käytöstä.",
+			"commandDisabled": "### {{{emoji}}} Komento **{{{command}}}** poistettu käytöstä onnistuneesti.",
+			"noDisabledCommands": "### {{{emoji}}} Tämä komento ei ole poistettu käytöstä.",
+			"commandEnabled": "### {{{emoji}}} Komento **{{{command}}}** otettu käyttöön onnistuneesti.",
+			"disabledCommands": "Poistetut Komennot",
+			"disabledCommandsForThisServer": "Poistetut komennot tälle palvelimelle",
+			"total": "Yhteensä: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} Käytöstä poistettujen komennot -lista tyhjennetty onnistuneesti."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "Aseta DJ-rooli palvelimelle",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "Lisää rooli DJ-roolilistalle",
+				"role": "Rooli, jonka haluat (lisätä/poistaa)",
+				"remove": "Poista rooli DJ-roolilistalta",
+				"list": "Näytä DJ-roolilista",
+				"clear": "Tyhjennä DJ-roolilista",
+				"toggle": "Vaihda DJ-rooli",
+				"info": "Näytä DJ-roolilista ja tietoja DJ-roolista"
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} Anna kelvollinen rooli (lisää/poista) -toimintoon.",
+			"maxRoles": "### {{{emoji}}} Et voi lisätä enempää kuin 5 roolia DJ-listalle.",
+			"alreadyInList": "### {{{emoji}}} Antamasi rooli on jo tietokannassa.",
+			"addedRole": "### {{{emoji}}} Rooli {{{role}}} lisätty onnistuneesti DJ-listalle.",
+			"noRolesSetup": "### {{{emoji}}} Tälle palvelimelle ei ole asetettu DJ-rooleja.",
+			"notInList": "### {{{emoji}}} Tätä roolia ei ole DJ-listalla.",
+			"removedRole": "### {{{emoji}}} Rooli {{{role}}} poistettu onnistuneesti DJ-listalta.",
+			"list": ">>> **Rooli:** {{{role}}}\n**Valvoja:** {{{moderator}}}\n**Lisätty:** {{{addedAt}}}",
+			"listTotal": "## DJ-rooleja yhteensä: {{{total}}}",
+			"clearedList": "### {{{emoji}}} DJ-roolilista tyhjennetty onnistuneesti.",
+			"enabledToggle": "### {{{emoji}}} DJ-vaihtotilan käyttöönotto onnistuneesti.",
+			"disabledToggle": "### {{{emoji}}} DJ-vaihtotilan poistaminen käytöstä onnistuneesti.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "DJ-Rooli(t)",
+				"enabled": "Käytössä",
+				"disabled": "Ei käytössä",
+				"djMode": "DJ-tila",
+				"djMembers": "DJ-Jäsen(et)",
+				"description": "DJ-roolin tiedot palvelimelle {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "Korjaa ääniyhteys, jos botti ei soita musiikkia.",
+			"joining": "### Liitytään uudelleen äänikanavalle ja jatketaan musiikin toistoa.",
+			"failed": "### Äänialueen vaihto epäonnistui. Yritä myöhemmin uudelleen.",
+			"error": "{{{emoji}}} En löytänyt ratkaisua tällä hetkellä. Kysy apua [tukipalvelimesta]({{{server}}})).",
+			"success": "### {{{emoji}}} Äänialue vaihdettu onnistuneesti: **{{{region}}}**."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "Pakota botti liittymään äänikanavalle.",
+			"already-in": "{{{emoji}}} Olen jo äänikanavalla!",
+			"joined": "### {{{emoji}}} Botti liittyi onnistuneesti äänikanavalle **{{{channel}}}**."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "Aseta botin kieli palvelimelle",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "Lisää kieli palvelimelle",
+				"language": "Haluttu kieli",
+				"info": "Näytä tietoja kielistä",
+				"reset": "Palauta kieli oletuskieleksi",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} Botin kieli asetettu onnistuneesti: {{{language}}} `({{{languageCode}}})`.",
+			"info": "### Tämän palvelimen nykyinen kieli on: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} Botin kieli palautettu onnistuneesti oletuskieleksi.",
+			"translationProgress": "Käännöksen edistyminen: {{{progress}}}",
+			"selectLanguage": "Valitse kieli alla olevasta valikosta."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "Käytä tämä komento poistaaksesi etuliitteen käytön käyttäjältä tai palvelimelta.",
+			"toggle": "### Käytä tätä komentoa kytkeäksesi etuliitteen pois päältä käyttäjälle tai palvelimelle.",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "Palvelin",
+				"user": "Käyttäjä"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### Sinun tulee olla premium-käyttäjä käyttääksesi tätä komentoa.",
+			"disabledUser": "### {{{emoji}}} Etuliitteen poisto käyttäjältä onnistui.",
+			"enabledUser": "### {{{emoji}}} Etuliitteen poisto käyttäjältä kytketty päälle onnistuneesti.",
+			"noPerm": "### Sinulla ei ole tarvittavia oikeuksia käyttääksesi tätä komentoa.",
+			"disabledServer": "### {{{emoji}}} Etuliitteen poisto palvelimelta onnistui.",
+			"enabledServer": "### {{{emoji}}} Etuliitteen poisto palvelimelta kytketty päälle onnistuneesti."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "Aseta etuliite palvelimelle",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "Aseta etuliite palvelimelle",
+				"prefix": "Etuliite, jonka haluat asettaa/poistaa",
+				"info": "Näytä etuliite palvelimelle",
+				"clear": "Tyhjennä etuliite palvelimelta",
+				"remove": "Poista etuliite palvelimelta"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **Etuliite:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Lisätty:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} Ole hyvä ja anna etuliite asetettavaksi.",
+			"noPrefixAdded": "### {{{emoji}}} Palvelimelle ei ole lisätty etuliitettä.",
+			"prefixLength": "### {{{emoji}}} Etuliitteen tulee olla enintään 5 merkkiä pitkä.",
+			"prefixLimit": "### {{{emoji}}} Etuliitteiden enimmäismäärä on 4. Poista joitain etuliitteitä komennolla `prefix remove`.",
+			"prefixCharacters": "### {{{emoji}}} Etuliitteessä ei saa olla merkkejä `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} Etuliite `{{{prefix}}}` on jo lisätty käyttäjän {{{moderator}}} toimesta.",
+			"prefixCleared": "### {{{emoji}}} Kaikki etuliitteet on nyt tyhjennetty oletusarvoon.",
+			"prefixNotExists": "### {{{emoji}}} Etuliitettä `{{{prefix}}}` ei ole lisätty.",
+			"prefixRemoved": "### {{{emoji}}} Etuliite `{{{prefix}}}` onnistuneesti poistettu.",
+			"prefixAdded": "### {{{emoji}}} Etuliite `{{{prefix}}}` onnistuneesti lisätty."
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "Näytä oma tai jonkun muun profiili.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "Aseta profiilisi väri, väri tai näkyvyys.",
+				"bio": "Aseta profiilisi kuvaus.",
+				"color": "Aseta profiilisi väri.",
+				"visibility": "Aseta profiilisi näkyvyys.",
+				"view": "Näytä oma tai jonkun muun profiili.",
+				"user": "Käyttäjä, jonka profiilin haluat nähdä."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} Sinun tulee antaa kuvaus.",
+			"bioLength": "### {{{emoji}}} Kuvaus saa olla enintään 50 merkkiä pitkä.",
+			"bioSet": "### {{{emoji}}} Kuvaus asetettu onnistuneesti: `{{{bio}}}`",
+			"noColor": "### {{{emoji}}} Ole hyvä ja anna väri heksakoodina [Esimerkiksi: #FF0000](https://g.co/kgs/q5nhF7)\n\nVoit myös käyttää seuraavia väritunnisteita: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} Väri on jo asetettu: `{{{color}}}`",
+			"colorSet": "### {{{emoji}}} Väri asetettu onnistuneesti: `{{{color}}}`",
+			"sameVisibility": "### {{{emoji}}} Näkyvyys on jo asetettu: `{{{visibility}}}`",
+			"noVisibility": "### {{{emoji}}} Ole hyvä ja anna näkyvyys (public/private).",
+			"visibilitySet": "### {{{emoji}}} Näkyvyys asetettu onnistuneesti: `{{{visibility}}}`",
+			"privateProfile": "### {{{emoji}}} Tämän käyttäjän profiili on yksityinen"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "Muuta palvelimen asetuksia tai hae tietoja asetuksista",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "Palauta kaikki palvelimen asetukset oletusarvoihin",
+				"info": "Hae palvelimen asetustietoja"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} Sinulla ei ole `manageGuild`-oikeutta käyttääksesi tätä komentoa.",
+			"isSure": "### Oletko varma, että haluat palauttaa palvelimen asetukset?\nTämä palauttaa kaikki asetukset oletusarvoihin.\n\n**Jos olet varma, paina alla olevaa painiketta**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "Palauta"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "Seuraa-painike",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
+				"botChannel": "Bottikanava",
+				"disableCommand": "Komento pois käytöstä",
+				"defaultVolume": "Oletusäänenvoimakkuus",
+				"announce": "Ilmoitukset",
 				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"noPrefix": "Ei etuliitettä",
+				"prefix": "Etuliite",
+				"djRole": "DJ-rooli",
+				"setup": "Asetus",
+				"voteSkip": "Äänestys ohitukselle",
+				"language": "Kieli",
+				"trackButtonValue": "Tila: {{{mode}}}\nModerator: {{{moderator}}}\nLisätty: {{{added}}}",
+				"setupValue": "Moderator: {{{moderator}}}\nLisätty: {{{added}}}\n\n**Kanavat:**\n{{{channels}}}",
+				"djValue": "Tila: {{{mode}}}\nRoolit: {{{roles}}}\nLisätty: {{{added}}}",
+				"defaultvolumeValue": "Äänenvoimakkuus: {{{volume}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"announceValue": "Tila: {{{mode}}}\nKanava: {{{channel}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"prunningValue": "Tila: {{{mode}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"disableCommandValue": "Komennot: {{{commands}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"prefixValue": "Etuliite: {{{prefix}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"voteSkipValue": "Tila: {{{mode}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"247Value": "Tila: {{{mode}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}\nKanava: {{{channel}}}",
+				"botChannelValue": "Kanava: {{{channel}}}\nLisätty: {{{added}}}\nModerator: {{{moderator}}}",
+				"languageValue": "Kieli: {{{language}}}",
+				"enabled": "Käytössä",
+				"disabled": "Ei käytössä",
+				"none": "Ei mitään"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} Palvelimen asetukset palautettu onnistuneesti oletusarvoihin.",
+			"info": "## Tässä ovat tämän palvelimen asetustiedot",
+			"noSettings": "### {{{emoji}}} Tälle palvelimelle ei ole asetuksia."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "Määritä äänestysohituksen asetukset.",
 			"options": {
-				"set": "Set the voteskip mode.",
+				"set": "Määritä äänestysohituksen tila.",
 				"action": "cmd.voteskipsetting.options.action"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} Äänestysohitus {{{action}}} onnistuneesti.",
+			"isConfirm": "### Haluatko ottaa äänestysohituksen käyttöön vai poistaa sen käytöstä?",
+			"canceled": "### {{{emoji}}} Äänestysohituksen asetusten muutos peruutettu.",
+			"alreadyEnabled": "### Äänestysohitus on jo käytössä.",
+			"alreadyDisabled": "### Äänestysohitus on jo poistettu käytöstä.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "Ota käyttöön",
+				"disable": "Poista käytöstä",
+				"cancel": "Peruuta"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "Lisää kappale soittolistalle.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "Soittolista, jolle haluat lisätä kappaleen.",
+				"song": "Kappale (nimi/url), jonka haluat lisätä soittolistalle."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} Soittolistan nimen tulee olla 3–50 merkkiä pitkä.",
+			"noPlaylists": "### {{{emoji}}} En löytänyt yhtään soittolistaa käyttäjätililtäsi, luo ensin uusi soittolista.",
+			"noResults": "### {{{emoji}}} En löytänyt tuloksia hakemalle kappaleelle `{{{song}}}`.",
+			"playlistFull": "### {{{emoji}}} Soittolistasi on täynnä, poista joitakin kappaleita ennen uusien lisäämistä.",
+			"playlistAdded": "### {{{emoji}}} Lisätty onnistuneesti **{{{count}}}** kappaletta soittolistalle **{{{playlist}}}**."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "Lisää nykyinen kappale soittolistalle.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "Soittolista, jolle haluat lisätä nykyisen kappaleen."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} Ei kappaleita soitettavana.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} Tämä kappale on jo soittolistalla.",
+			"success": "### {{{emoji}}} Lisätty kappale **{{{song}}}** soittolistaan **{{{playlist}}}**."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "Lisää soittolista jonoon.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "Soittolistan nimi, jonka haluat lisätä jonoon."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} Ei jonossa olevia kappaleita.",
+			"success": "### {{{emoji}}} Lisätty **{{{queueLength}}}** kappaletta jonossa olevasta soittolistasta **{{{playlistName}}}**."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "Luo soittolista.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Soittolistan nimi, jonka haluat luoda.",
+				"visibility": "Soittolistan näkyvyys."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} Anna soittolistalle nimi.",
+			"visibility": "### {{{emoji}}} Näkyvyyden tulee olla joko `public` (julkinen) tai `private` (yksityinen).",
+			"maxPlaylists": "### {{{emoji}}} Voit luoda enintään 10 soittolistaa.",
+			"playlistExists": "### {{{emoji}}} Sinulla on jo soittolista nimeltä **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Soittolista **{{{playlist}}}** luotu onnistuneesti."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "Poista soittolista.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "Soittolistan nimi, jonka haluat poistaa."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} Sinulla ei ole soittolistaa nimeltä **{{{playlist}}}**.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "Vahvista",
+				"cancel": "Peruuta"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### Oletko varma, että haluat poistaa soittolistan **{{{playlist}}}**?",
+			"success": "### {{{emoji}}} Soittolista **{{{playlist}}}** poistettu onnistuneesti.",
+			"cancel": "### {{{emoji}}} Soittolistan **{{{playlist}}}** poisto peruutettu."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "Poista kaikki tuplakappaleet soittolistalta.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "Soittolistan nimi, jonka tuplakappaleet haluat poistaa."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} Soittolistalla **{{{playlist}}}** ei ole tuplakappaleita.",
+			"success": "### {{{emoji}}} Poistettu onnistuneesti **{{{count}}}** tuplakappaletta soittolistalta **{{{playlist}}}**."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "Muokkaa soittolistaa.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Soittolistan nimi, jonka haluat muokata.",
+				"old-name": "Vanha soittolistan nimi.",
+				"new-name": "Uusi soittolistan nimi.",
+				"playlist-visibility": "Muuta soittolistan näkyvyyttä.",
+				"visibility": "Soittolistan näkyvyys."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} Uuden nimen tulee olla eri kuin vanha nimi.",
+			"successName": "### {{{emoji}}} Soittolistan **{{{oldName}}}** nimi muutettu onnistuneesti **{{{newName}}}**.",
+			"sameVisibility": "### {{{emoji}}} Soittolistan **{{{playlist}}}** näkyvyys on jo **{{{visibility}}}**.",
+			"successVisibility": "### {{{emoji}}} Soittolistan **{{{playlist}}}** näkyvyys muutettu onnistuneesti **{{{visibility}}}**.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "Soittolistan nimi",
+				"visibility": "Soittolistan näkyvyys",
+				"public": "Julkinen",
+				"private": "Yksityinen"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### Valitse muokattava toiminto alla olevista painikkeista.",
+			"oldName": "### Anna vanha soittolistan nimi.",
+			"newName": "### Anna uusi soittolistan nimi.",
+			"cancelled": "### {{{emoji}}} Soittolistan nimen muutos peruttu.",
+			"playlist": "### Anna soittolistan nimi.",
+			"selectVisibility": "### Valitse soittolistan näkyvyys alla olevista painikkeista."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "Tuo soittolista soittolistan tunnisteella.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "Soittolistan tunniste, jonka haluat tuoda."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} En löytänyt soittolistaa tunnisteella **{{{id}}}**.",
+			"sameUser": "### {{{emoji}}} Et voi tuoda omaa soittolistaa.",
+			"privatePlaylist": "### {{{emoji}}} Et voi tuoda yksityistä soittolistaa.",
+			"success": "### {{{emoji}}} Soittolista **{{{playlist}}}** tuotu onnistuneesti."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "Listaa kaikki soittolistasi.",
+			"tracks": "Kappale(et): {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "Lataa soittolista jonoon.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "Lataa tietty kappale soittolistalta.",
+				"name": "Soittolistan nimi, jonka haluat ladata.",
+				"track": "Kappaleen numero tai nimi, jonka haluat ladata."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} Sinulla ei ole soittolistaa nimeltä **{{{playlist}}}**.",
+			"noTracks": "### {{{emoji}}} Soittolistalla **{{{playlist}}}** ei ole kappaleita.",
+			"noTrackFound": "### {{{emoji}}} Kappaletta numerolla tai nimellä `{{{track}}}` ei löytynyt.",
+			"trackLoaded": "### {{{emoji}}} Kappale **{{{track}}}** ladattu soittolistalta **{{{playlist}}}**.",
+			"privatePlaylist": "### {{{emoji}}} Et voi ladata toisen käyttäjän yksityistä soittolistaa.",
+			"playlistLoaded": "### {{{emoji}}} Ladattu **{{{count}}}** kappaletta soittolistalta **{{{playlist}}}**."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "Poista kappale soittolistalta.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "Soittolistan nimi, jonka kappaleen haluat poistaa.",
+				"track": "Kappaleen numero tai nimi, jonka haluat poistaa."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} Kappaletta numerolla tai nimellä ei löytynyt.",
+			"success": "### {{{emoji}}} Kappale **{{{track}}}** poistettu onnistuneesti soittolistalta **{{{playlist}}}**."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "Näytä soittolista.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "Soittolistan nimi, jonka haluat nähdä."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "Sivu {{{page}}} / {{{pages}}} | Kappaleita: {{{tracks}}} | Kesto: {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "Edellinen",
+				"stop": "Pysäytä",
+				"next": "Seuraava"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### Joku katkaisi minut puhekanavasta, mutta olen yhä täällä **24/7 -tilan** ansiosta!\n\nVoit poistaa tämän käytöstä komennolla {{{cmd}}} tai komennolla {{{cmd2}}}!",
+			"nowPlaying": "Nyt soi",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Esittäjä: [{{{songAuthor}}}]({{{songAuthorUrl}}}) - Pyytäjä: {{{requester}}}",
+			"footer": "Kesto: {{{duration}}} | Jonossa: {{{queue}}} | Äänenvoimakkuus: {{{volume}}}%",
+			"end": "### Kukaan ei ole kuunnellut kanavalla viimeiseen minuuttiin, joten poistun kanavalta.\n\nVoit poistaa tämän käytöstä aktivoimalla **24/7 -tilan** komennolla {{{cmd}}}!",
+			"endTitle": "Jonon päätös",
+			"endDesc": "### Musiikkijonosi on nyt päättynyt. Voit lisätä musiikkia uudelleen komennolla {{{cmd}}}! Nautitko musiikista kanssani? Harkitse äänestämistä minulle: [Äänestä tästä]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "Kappaletta ei löydy",
+		"description": "### [{{{title}}}]({{{uri}}}) ei ole saatavilla maassasi, koska se on ikärajoitettu!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "Jatka",
+			"pause": "Tauko",
+			"previous": "Edellinen",
+			"shuffle": "Satunnaistoisto",
+			"skip": "Ohita",
+			"stop": "Pysäytä",
+			"voldown": "Vähennä äänenvoimakkuutta",
+			"volup": "Lisää äänenvoimakkuutta",
+			"loop": "Toistosilmukka",
+			"like": "Tykkää"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### Tällä hetkellä ei ole mitään soitettavaa..",
+		"nothingPlaying": "### Tällä hetkellä ei ole mitään soitettavaa.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "Sinun täytyy liittyä puhekanavalle käyttääksesi tätä painiketta!",
+			"noPrevious": "Jonossa ei ole edellistä kappaletta.",
+			"playingPrevious": "{{{user}}} soittaa edellistä kappaletta.",
+			"nothingToSkip": "Jonossa ei ole mitään ohitettavaa.",
+			"alreadyVote": "{{{user}}} Tässä palvelimessa on jo äänestys käynnissä. Odota sen päättymistä tai peruuta se.",
+			"voteSkip": "{{{user}}} pyysi ohittamaan nykyisen kappaleen. Haluatko lopettaa äänestyksen? Tee {{{cmd}}}",
+			"voteSkipLabel": "Äänestä nykyisen kappaleen ohittamista!",
+			"alreadyVoted": "{{{user}}} Olet jo äänestänyt nykyisen kappaleen ohittamisen puolesta.",
+			"voteSkip2": "{{{user}}} pyysi ohittamaan nykyisen kappaleen.",
+			"voteSkipLabel2": "Äänestä nykyisen kappaleen ohittamista! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Sinun täytyy liittyä ääni{{{channel}}}-kanavalle käyttääksesi tätä painiketta!",
+			"voteSkipTrack": "{{{user}}} ohittaa kappaleen, kun on saatu {{{count}}} positiivista ääntä!",
+			"notEnoughVote": "### Ei tarpeeksi ääniä nykyisen kappaleen ohittamiseksi.",
+			"skipTrack": "{{{user}}} ohitti nykyisen kappaleen.",
+			"playTrack": "{{{user}}} {{{paused}}} nykyisen kappaleen.",
+			"paused": "Tauolla",
+			"resumed": "Jatkettu",
+			"stopTrack": "{{{user}}} pysäytti nykyisen kappaleen.",
+			"volMax": "### Äänenvoimakkuus on jo maksimissaan.",
+			"volUp": "{{{user}}} nosti äänenvoimakkuuden **{{{vol}}}**%:iin.",
+			"volMin": "### Äänenvoimakkuus on jo minimissään.",
+			"volDown": "{{{user}}} laski äänenvoimakkuuden **{{{vol}}}**%:iin.",
+			"shuffleError": "{{{user}}} Jonossa ei ole tarpeeksi kappaleita satunnaistoistoa varten.",
+			"shuffleDisabled": "{{{user}}} Satunnaistoisto pois päältä.",
+			"shuffleEnabled": "{{{user}}} Satunnaistoisto päällä.",
+			"loopSong": "{{{user}}} Toistetaan nykyistä kappaletta uudelleen.",
+			"loopQueue": "{{{user}}} Toistetaan jonoa uudelleen.",
+			"loopDisabled": "{{{user}}} Toistosilmukka pois päältä.",
+			"noTrack": "{{{user}}} Tällä hetkellä ei soiteta mitään.",
+			"liked": "{{{user}}} Tykkäsi kappaleesta **{{{title}}}**.",
+			"unliked": "{{{user}}} Peruutti tykkäämisen kappaleesta **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### Hei! Yritin lähettää vastauksen komentoosi, mutta minulla ei ole lupaa tehdä niin. Pyydä ylläpitäjiä antamaan minulle lupa lähettää viestejä Discordissa.\n\nPalvelin: **{{{guildName}}}**\nKomento: **{{{commandName}}}**\nTarvitsetko apua lupien kanssa? Liity tukipalvelimeen: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Botin täytyy saada lupa käyttää upotettuja linkkejä toimiakseen oikein! Pyydä ylläpitäjiä antamaan minulle tämä lupa.",
+			"noBotChannel": "### En saa vastata komentoihin tässä kanavassa. Käytä {{{emoji}}} <#{{{botChannel}}}> bot-komentoja varten. Kiitos yhteistyöstäsi.",
+			"deleteFooter": "• Tämä viesti poistetaan 5 sekunnin kuluttua",
+			"disabledCommand": "### Tämä komento on poistettu käytöstä tällä palvelimella kaikilta käyttäjiltä. Vain DJ:t voivat käyttää tätä komentoa.",
+			"disabledCommandList": "Poistetut komennot",
+			"noBotPermissions": "### {{{emoji}}} Minulla ei ole tarvittavaa lupaa suorittaa tätä komentoa: **{{{permissions}}}**.",
+			"noUserPermissions": "### {{{emoji}}} Sinulla ei ole tarvittavaa lupaa suorittaa tätä komentoa: **{{{permissions}}}**.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### Sinun täytyy äänestää minua käyttääksesi tätä komentoa. Voit äänestää [Top.gg]({{{link}}})",
+				"### Sinun täytyy äänestää minua käyttääksesi tätä komentoa. Voit äänestää [Top.gg]({{{link}}}) tai\nVoit myös saada premium-tuen lahjoittamalla [täällä]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "Äänestä",
+				"donate": "Lahjoita",
+				"invite": "Kutsu",
+				"support": "Tuki"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### Odota **{{{timeLeft}}}** sekuntia ennen kuin käytät komentoa **{{{command}}}** uudelleen.",
+			"noDjRole": "### {{{emoji}}} Sinun täytyy olla DJ-roolissa käyttääksesi tätä komentoa.",
+			"noPremium": "### Tarvitset botin premium-tuen käyttääksesi tätä komentoa. Voit saada premium-tuen lahjoittamalla [täällä]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} Minulla ei ole tarvittavia oikeuksia liittyä äänikanavalle! Tarvitsen oikeudet `Näytä kanavat`, `Liity`, ja `Puhu`. [Oikeus-esimerkki](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nJos ongelma jatkuu, vaihda äänikanavan sijaintiin `Eurooppa`.",
+			"voiceJoin": "### {{{emoji}}} Sinun täytyy olla yhdistettynä äänikanavalle tällä palvelimella käyttääksesi tätä komentoa!\n\nMiten liityn äänikanavalle? Klikkaa kanavaa, jossa on kaiutin-ikoni (esimerkiksi täällä:  {{{channel}}}) [Katso virallinen Discord-opas](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Sinun täytyy olla **{{{channel}}}** äänikanavalla käyttääksesi tätä komentoa.",
+			"noPlayer": "### {{{emoji}}} En ole yhdistettynä mihinkään äänikanavalle. Käytä komentoa {{{command}}} kutsuaksesi minut.",
+			"noQueue": "### {{{emoji}}} Ei ole jonossa. Käytä komentoa {{{command}}} lisätäksesi kappale jonoon.",
+			"noSong": "### {{{emoji}}} Ei ole kappaleita soitettavana. Käytä komentoa {{{command}}} lisätäksesi kappale jonoon.",
+			"error": "### {{{emoji}}} Virhe tapahtui komentoa suorittaessa. Ilmoita tästä virheestä [Tukipalvelimelle]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Aloitus",
+		"embed_description": "### Hei <@{{{user}}}>! Etuliitteitäni ovat: `{{{prefixList}}}`\nEsimerkiksi: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Hei <@{{{user}}}>! Etuliitteeni on: `ei etuliitettä`, mikä tarkoittaa, että voit käyttää komentoja ilman etuliitettä.\nEsimerkiksi: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Vaihtoehdot komennolle {{{commandName}}}",
+		"no_description": "Ei kuvausta",
+		"options": "Vaihtoehdot",
+		"examples": "Esimerkkejä",
+		"long_des": "Tämä on sivujen välillä navigoimista varten",
+		"examples_button": "Esimerkit",
+		"footer": "<Pakollinen> | [Valinnainen] {{{long_des}}} Sivu {{{page}}} / {{{total_pages}}}",
+		"title2": "Esimerkit komennolle {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

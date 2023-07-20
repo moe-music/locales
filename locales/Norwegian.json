@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "Aktiver eller deaktiver 24/7-modus.",
+			"enabled": "### {{{emoji}}} 24/7-modus er aktivert.",
+			"disabled": "### {{{emoji}}} 24/7-modus er deaktivert."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
-			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"description": "Vis botens forsinkelse.",
+			"author": "Botters forsinkelse",
+			"content": "**Skard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
+			"footer": "• Få mer informasjon på statuskanalen til supportserven"
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Inviter boten til din server.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "Inviter MoE",
+				"invite2": "Inviter MoE2",
+				"invite3": "Inviter MoE3",
+				"support": "Støtte"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Hvis du likte å bruke meg, vennligst [inviter meg]({{{invite}}}) til serveren din nå. Og ikke glem å bli med i [støtteserveren]({{{support}}})."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Vis en liste over kommandoer eller informasjon om en spesifikk kommando.",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Navnet på kommandoen eller kategorien du vil ha hjelp for"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": "Kommando",
+			"footer": "Side {{{page}}} av {{{pagesNum}}}",
+			"title2": "Hjelp - {{{cmd}}}",
+			"title3": "Hjelp",
+			"manContent": "### Her er en liste over alle kategoriene\n{{{catagory}}}\n\n- Lenker:\n[Støtteserver]({{{server}}}) | [Invitasjon]({{{invite}}}) | [Stemme]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Nettsted]({{{website}}}) | [Dokumenter]({{{docs}}})",
+			"footer2": "- For mer informasjon om en kommando: {{{prefix}}}hjelp <kommando> eller {{{prefix}}}hjelp <kategori>",
+			"cooldown": "Nedkjøling",
+			"aliases": "Alias",
+			"category": "Kategori",
+			"examples": "Eksempel(er)",
+			"userPerms": "Brukerrettighet(er)",
+			"botPerms": "Botrettighet(er)",
+			"requirements": "Krav",
+			"subCommands": "Underkommando(er)",
+			"subSubCommands": "Underunderkommando(er)",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
+				"previous": "Forrige",
+				"stop": "Stopp",
+				"next": "Neste",
+				"home": "Hjem",
+				"config": "Konfigurasjon",
+				"music": "Musikk",
 				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"general": "Generell",
+				"playlists": "Spillelister"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}` er ikke en gyldig kommando eller kategori!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Må være i en talekanal",
+				"sameVoice": "- Må være i samme talekanal",
+				"playing": "- Må spille musikk på denne serveren"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Må ha [stemt]({{{link}}}) for å bruke denne kommandoen",
+			"premiumCmd": "- Må ha [premium]({{{link}}}) for å bruke denne kommandoen"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
+			"description": "Vis brukerens eller guilds premiumstatus.",
+			"guildPremiumStatus": "Guild Premium-status",
+			"userPremiumStatus": "Bruker Premium-status",
 			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"notPremium": "Ikke Premium",
+			"guildPremiumExpires": "Guild Premium utløper",
+			"userPremiumExpires": "Bruker Premium utløper"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Løs inn en premiumkode.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Premiumkoden som skal løses inn"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
+			"noArg": "Vennligst oppgi en premiumkode som skal løses inn.",
+			"invalidCode": "Ugyldig premiumkode oppgitt.",
+			"confirmation": "### Er du sikker på at du vil løse inn premiumkoden `{{{code}}}`?",
 			"type": "Type",
-			"expiresAt": "Expires At",
+			"expiresAt": "Utløper om",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "Ja",
+				"no": "Nei"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "Du er allerede en premiumbruker.",
+			"success": "### Premiumkoden din er løst inn. Nå kan du bruke premiumkommandoer!",
+			"canceled": "Kansellerte innløsningen av premiumkoden."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "Vis botens statistikk."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "Støtteserverlenke",
+			"content": "### Hvis du trenger hjelp med boten eller bare vil henge med oss, bli med i [støtteserveren]({{{link}}}).",
 			"buttons": {
-				"support": "Support Server"
+				"support": "Støtteserver"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "Botstemmelink",
+			"content": "### Hvis du liker boten, vennligst vurder å stemme på den på [top.gg]({{{link}}}).",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "Stemme"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
+			"description": "Viser spillerstatusen.",
+			"nowPlaying": "Spiller nå",
+			"noSong": "Ingen sang spilles for øyeblikket.",
+			"volume": "Volum",
+			"totalDuration": "Total varighet",
+			"loopMode": "Loop-modus",
+			"filters": "Filtre",
+			"noFilters": "Ingen filtre er aktive for øyeblikket.",
+			"title": "Spiller: {{{status}}}",
 			"online": "Online",
 			"offline": "Offline"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "Aktiver eller deaktiver automatisk avspillingsmodus.",
+			"enabled": "### Automatisk avspilling er nå `Aktivert`\nBoten vil automatisk legge til lignende sanger i køen.",
+			"disabled": "### Automatisk avspilling er nå `Deaktivert`\nBoten vil ikke lenger automatisk legge til lignende sanger i køen."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "Tøm køen eller filtrene fra spilleren.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "Køen eller filtrene som skal tømmes"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "### Vennligst velg køen eller filtrene som skal tømmes. (queue/filters)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "Det er ingen sanger i køen å tømme.",
+				"success": "### Køen ble tømt.",
+				"buttons": {
+					"queue": "Kø",
+					"filters": "Filtre"
+				}
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
-			},
-			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"noFilter": "Det er ingen filtre å tømme.",
+				"success": "### Filtrene ble tømt."
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "Tvinger frem neste sang.",
+			"success": "### Sangen {{{title}}} ble hoppet over."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "Spol frem gjeldende sang.",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "Antall sekunder å spole frem"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} Gjeldende sang kan ikke spoles frem.",
+			"tooLong": "{{{emoji}}} Du kan ikke spole mer enn sangens varighet.",
+			"success": "### {{{emoji}}} Spolte sangen frem med `{{{time}}}`."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "Ta tak i gjeldende sang.",
+			"dm": "{{{emoji}}} Jeg kan ikke sende deg sangen fordi du har deaktivert DM-er.",
+			"grabbed": "### {{{emoji}}} Sangen ble tatt tak i."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "Få boten til å bli med i din talekanal.",
+			"no-perms": "{{{emoji}}} Jeg har ikke nødvendige tillatelser til å bli med i talekanalen din! Jeg trenger `Vis kanaler`, `Koble til` og `Snakke`-tillatelse. [Eksempel på tillatelser](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Hvis problemet fortsetter, endre talekanalens region til `Europe`.",
+			"already-in": "{{{emoji}}} Jeg er allerede i en talekanal!",
+			"joined": "### Botten ble med i talekanalen {{{channel}}}."
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "Forlat talekanalen.",
+			"not-playing": "{{{emoji}}} Jeg spiller ingenting akkurat nå!",
+			"success": "### {{{emoji}}} Botten forlot talekanalen."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "Fjerner alle sanger fra brukere som ikke er i talekanalen.",
+			"removing": "## Fjerner sanger fra brukere som ikke lenger er i talekanalen. Vennligst vent",
+			"removed": "### Fjernet `{{{count}}}` sanger fra brukere som ikke lenger er i talekanalen."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "Gjenta gjeldende sang eller kø.",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "Gjenta modusen som skal settes"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### Vennligst angi modus for gjentakelse. (song, queue, off) fra knappene nedenfor.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "Sang",
+				"queue": "Kø",
+				"off": "Av"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} Gjentok gjeldende sang.",
+			"queue": "### {{{emoji}}} Gjentok køen.",
+			"off": "### {{{emoji}}} Gjentakelse er deaktivert.",
+			"song_already": "### {{{emoji}}} Gjeldende sang er allerede gjentatt.",
+			"queue_already": "### {{{emoji}}} Køen er allerede gjentatt.",
+			"off_already": "### {{{emoji}}} Gjentakelse er allerede deaktivert.",
+			"invalid_mode": "### {{{emoji}}} Ugyldig gjentakelsesmodus angitt. Vennligst angi en gyldig modus. (song, queue, off)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "Viser tekstene til gjeldende sang eller en sang etter navn.",
 			"options": {
-				"song": "The song name to search for"
+				"song": "Sangnavnet å søke etter"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### Vennligst oppgi et sangnavn å søke etter.",
+			"noLyrics": "### Jeg kunne ikke finne noen tekster for denne sangen.",
+			"page": "Side {{{page}}} av {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "Flytt en sang til en bestemt posisjon i køen.",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "Sangen som skal flyttes",
+				"position": "Posisjonen sangen skal flyttes til"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### Vennligst oppgi et gyldig tall for posisjonen.",
+			"invalidPosition": "### Ugyldig posisjon angitt. Vennligst oppgi en gyldig posisjon.",
+			"success": "### Flyttet **[{{{title}}}]({{{uri}}})** fra posisjon **{{{from}}}** til **{{{to}}}**."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "Viser gjeldende spilte sang.",
+			"nowplaying": "### Spiller nå: [{{{title}}}]({{{uri}}})",
+			"author": "Forfatter",
+			"requester": "Forespurt av",
+			"duration": "Varighet",
+			"progress": "Fremdrift"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "Pause gjeldende sang.",
+			"alreadyPaused": "### Gjeldende sang er allerede satt på pause.",
+			"paused": "### Satt på pause [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Spill en sang fra Spotify, SoundCloud, Deezer, etc...",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Søkeordet å søke etter",
+				"source": "Kilden å søke fra"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "Vennligst oppgi et sangnavn å søke etter.",
+			"no-results": "### Ingen resultater funnet for `{{{query}}}`.",
+			"playlist-loaded": "### Lastet `{{{count}}}` spor fra spillelisten **[{{{name}}}]({{{url}}})**",
+			"footer": "Takk for at du bruker {{{bot}}}",
+			"added": "### Lagt til **[{{{title}}}]({{{uri}}})** i køen (forespurt av <@{{{requester}}}>) i køposisjon `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "Spill forrige sang.",
+			"noPreviousTrack": "### {{{emoji}}} Det er ingen forrige sang å spille.",
+			"success": "### {{{emoji}}} Spiller nå forrige spor fra køen din!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "Viser køen for gjeldende server.",
 			"options": {
-				"page": "The page number to view"
+				"page": "Sidenummeret å se"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### Kø for {{{guild}}} ({{{songs}}} sanger)",
+			"nowPlaying": "### Spiller nå: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### Neste: {{{str}}}",
+			"noSongs": "### Det er ingen sanger i køen enda! Legg til en ved å bruke {{{cmd}}}",
+			"page": "Side {{{page}}} | {{{songs}}} sang(er) | {{{duration}}} total varighet",
+			"notNumber": "### {{{emoji}}} Sidenummeret må være et tall.",
+			"pageLimit": "### {{{emoji}}} Sidenummeret må være mindre enn eller lik {{{pages}}}.",
+			"clearQueue": "Tøm kø",
+			"noTracks": "### Det er ingen spor i køen.",
+			"noDjRole": "### Du trenger DJ-rollen for å bruke denne knappen.",
+			"clearedQueue": "### {{{user}}} Tømte køen."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "Fjern en sang fra køen.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "Sporet som skal fjernes.",
+				"number": "Spornummeret eller sporoverskriften å fjerne.",
+				"dupes": "Fjern alle duplikater av sporet."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### Det er ingen spor med det nummeret i køen",
+			"invalidNumber": "### Vennligst skriv inn et tall mellom 1 og {{{length}}}.",
+			"removed": "### Fjernet **[{{{title}}}]({{{uri}}})** fra køen.",
+			"noDupes": "### Det er ingen duplikatsanger i køen.",
+			"removedDupes": "### Fjernet **{{{length}}}** duplikatsanger fra køen."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "Spill av nåværende sang på nytt.",
+			"replaying": "### Spiller av på nytt [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "Fortsett nåværende sang.",
+			"notPaused": "### Nåværende sang er ikke satt på pause.",
+			"resumed": "### Fortsatte [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "Spol tilbake nåværende sang.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "Tiden du vil spole sangen tilbake til."
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} Nåværende sang kan ikke spoles tilbake.",
+			"negativePosition": "### {{{emoji}}} Posisjonen må være mellom 0 og {{{length}}}.",
+			"success": "### {{{emoji}}} Spolte sangen tilbake til {{{length}}}."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "Søk etter en sang fra Spotify, SoundCloud eller Deezer.",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Søketeksten",
+				"source": "Kilden å søke fra"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} Spillelister støttes ikke! I søkekommandoen, bruk {{{cmd}}} kommandoen i stedet.",
+			"no-track": "### {{{emoji}}} Spor støttes ikke! I søkekommandoen, bruk {{{cmd}}} kommandoen i stedet.",
+			"results": "## Søkeresultater for `{{{query}}}`\n\n{{{results}}}",
+			"footer": "Vennligst velg en sang fra listen nedenfor.",
+			"placeholder": "Velg en sang fra listen nedenfor for å spille den.",
+			"footerTimeout": "Søkeresultatene utløp.",
+			"no-voice": "### {{{emoji}}} Du må være i en talekanal for å bruke denne menyen.",
+			"wrong-voice": "### {{{emoji}}} Du må være i samme talekanal som meg for å bruke denne menyen.",
+			"added": "### {{{emoji}}} Lagt til {{{count}}} spor i køen."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "Spol til en bestemt tid i nåværende sang.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "Tiden du vil spole sangen til."
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### Tiden må være mellom 0 og {{{length}}}.",
+			"seeked": "### Spolt til `{{{position}}}` ved `{{{time}}}`"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "Bland køen.",
+			"success": "### Køen for serveren har blitt blandet (**{{{length}}}** sanger).",
+			"unshuffle": "### Køen for serveren er ikke lenger blandet (**{{{length}}}** sanger)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "Hopp over nåværende sang.",
+			"nothing": "### Det er ingenting neste i køen. Bruk {{{queue}}} for å se serverens kø.\nVil du prøve automatisk avspilling? Gjør {{{autoplay}}}",
+			"paused": "### Spilleren er satt på pause. Bruk kommandoen for å fortsette spilleren.\nVil du fortsette? Gjør {{{resume}}}",
+			"voteSkip": "### {{{user}}} ba om å hoppe over nåværende spor.\n\n{{{voted}}}",
+			"skip": "### Hopper over sangen **{{{title}}}**."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "Hopp til en bestemt sang i køen.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "Spornummeret eller sporoverskriften å hoppe til."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} Vennligst skriv inn et spornummer mellom 1 og {{{length}}}.",
+			"success": "### {{{emoji}}} Hoppet til **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "Stopp spilleren og tøm køen.",
+			"stopped": "### {{{emoji}}} Stoppet spilleren og tømte køen."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "Viser de mest spilte sangene av boten.",
+			"noTopSongs": "### Det er ingen mest spilte sanger i databasen.",
+			"timesPlayed": "Ganger Spilt",
+			"selectSong": "Velg en sang fra listen nedenfor for å spille den.",
+			"added": "### Lagt til **[{{{title}}}]({{{uri}}})** i køen."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "Endre volumet på spilleren.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "Volumet du vil sette."
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} Vennligst skriv inn et tall mellom 0 og 100.",
+			"success": "### {{{emoji}}} Volumet er satt til **{{{volume}}}**."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "Stem for å hoppe over nåværende sang."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### Alle filtre som er brukt på nåværende avspilte sang:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} Pitchen må være et tall mellom 1 og 5.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "Bruk 8D-filteret på nåværende avspilte sang.",
+				"bassboost": "Bruk bassboost-filteret på nåværende avspilte sang.",
+				"channelmix": "Bruk channelmix-filteret på nåværende avspilte sang.",
+				"electronic": "Bruk electronic-filteret på nåværende avspilte sang.",
+				"filters": "Få en liste over filtre som kan brukes på nåværende avspilte sang.",
+				"jazz": "Bruk jazz-filteret på nåværende avspilte sang.",
+				"karaoke": "Bruk karaoke-filteret på nåværende avspilte sang.",
+				"lowpass": "Bruk lowpass-filteret på nåværende avspilte sang.",
+				"nightcore": "Bruk nightcore-filteret på nåværende avspilte sang.",
+				"pitch": "Bruk pitch-filteret på nåværende avspilte sang.",
+				"pop": "Bruk pop-filteret på nåværende avspilte sang.",
+				"radio": "Bruk radio-filteret på nåværende avspilte sang.",
+				"rock": "Bruk rock-filteret på nåværende avspilte sang.",
+				"rotation": "Bruk rotation-filteret på nåværende avspilte sang.",
+				"soft": "Bruk soft-filteret på nåværende avspilte sang.",
+				"speed": "Bruk speed-filteret på nåværende avspilte sang.",
+				"treblebass": "Bruk treblebass-filteret på nåværende avspilte sang.",
+				"tremolo": "Bruk tremolo-filteret på nåværende avspilte sang.",
+				"vaporwave": "Bruk vaporwave-filteret på nåværende avspilte sang.",
+				"vibrato": "Bruk vibrato-filteret på nåværende avspilte sang."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} {{{name}}} filteret har blitt aktivert.",
+			"disabled": "### {{{emoji}}} {{{name}}} filteret har blitt deaktivert.",
+			"speed": "### {{{emoji}}} Hastighetsfilteret er satt til **{{{value}}}**.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "Hastigheten du vil sette.",
+				"pitch": "Pitchen du vil bruke."
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "For å konfigurere annonsering av melding om sporstart.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "Angi kanalen der meldingen om sporstart vil bli sendt.",
+				"channel": "Kanalen du ønsker å angi.",
+				"toggle": "Slå av/på annonsering av melding om sporstart.",
+				"prunning": "Slå av/på beskjæring av melding om sporstart.",
+				"reset": "Tilbakestill kanalen der meldingen om sporstart vil bli sendt."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} Vennligst oppgi en gyldig tekstkanal.",
+			"noTextChannel": "### {{{emoji}}} Vennligst oppgi en gyldig tekstkanal.",
+			"sameChannel": "### {{{emoji}}} Kanalen du har angitt, finnes allerede i databasen.",
+			"setChannel": "### {{{emoji}}} Vellykket angitt annonseringskanalen til {{{channel}}}.",
+			"noChannelInDB": "### {{{emoji}}} Annonseringskanalen er ikke satt opp i databasen.",
+			"toggle": "### {{{emoji}}} Annonseringen av sporstartmeldingen er nå {{{status}}}.",
+			"enabled": "aktivert",
+			"disabled": "deaktivert",
+			"reset": "### {{{emoji}}} Annonseringskanalen er tilbakestilt."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "Angi botkanalen for å lytte etter kommandoer.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "Legg til en kanal i botkanallisten.",
+				"channel": "Kanalen du vil angi.",
+				"remove": "Fjern en kanal fra botkanallisten.",
+				"clear": "Tøm botkanallisten.",
+				"info": "Få botkanallisten og informasjon om botkanalen."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} Vennligst oppgi en gyldig tekstkanal.",
+			"noTextChannel": "### {{{emoji}}} Vennligst oppgi en gyldig tekstkanal.",
+			"sameChannel": "### {{{emoji}}} Kanalen du har angitt, finnes allerede i databasen.",
+			"maxChannel": "### {{{emoji}}} Du kan ikke legge til mer enn 5 kanaler i botkanallisten.",
+			"addedChannel": "### {{{emoji}}} Kanalen {{{channel}}} er lagt til i botkanallisten.",
+			"noChannelInDB": "### {{{emoji}}} Det finnes ingen botkanaler i databasen.",
+			"removedChannel": "### {{{emoji}}} Kanalen {{{channel}}} er fjernet fra botkanallisten.",
+			"clearedChannel": "### {{{emoji}}} Botkanallisten er tømt.",
+			"info": ">>> **Kanal:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Lagt til den:** {{{addedAt}}}",
+			"title": "Botkanaler ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "Rens mine meldinger i kanalen.",
+			"success": "### {{{emoji}}} Renset **{{{count}}}** meldinger vellykket."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "Angi standardvolumet for serveren.",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "Tallet du vil angi som standardvolum."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} Vennligst skriv inn et tall mellom 0 og 200.",
+			"success": "### {{{emoji}}} Vellykket angitt standardvolum til **{{{volume}}}**."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "Deaktiver kommandoer for serveren.",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "Legg til en kommando i listen over deaktiverte kommandoer.",
+				"command": "Navnet på kommandoen.",
+				"remove": "Fjern en kommando fra listen over deaktiverte kommandoer.",
+				"list": "Få listen over deaktiverte kommandoer.",
+				"clear": "Tøm listen over deaktiverte kommandoer."
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} Vennligst oppgi navnet på kommandoen du vil deaktivere/aktivere.",
+			"commandNotExist": "### {{{emoji}}} Den kommandoen finnes ikke i boten.",
+			"commandAlreadyDisabled": "### {{{emoji}}} Den kommandoen er allerede deaktivert.",
+			"commandDisabled": "### {{{emoji}}} Kommandoen **{{{command}}}** er nå deaktivert.",
+			"noDisabledCommands": "### {{{emoji}}} Denne kommandoen er ikke deaktivert.",
+			"commandEnabled": "### {{{emoji}}} Kommandoen **{{{command}}}** er nå aktivert.",
+			"disabledCommands": "Deaktiverte Kommandoer",
+			"disabledCommandsForThisServer": "Deaktiverte kommandoer for denne serveren",
+			"total": "Totalt: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} Listen over deaktiverte kommandoer er tømt."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "Angi DJ-rollen for serveren.",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "Legg til en rolle i DJ-rollen.",
+				"role": "Rollen du vil (legge til/fjerne).",
+				"remove": "Fjern en rolle fra DJ-rollen.",
+				"list": "Få listen over DJ-rollen.",
+				"clear": "Tøm DJ-rollen.",
+				"toggle": "Slå av/på DJ-rollen.",
+				"info": "Få DJ-rollen og informasjon om DJ-rollen."
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} Vennligst oppgi en gyldig rolle for (legge til/fjerne).",
+			"maxRoles": "### {{{emoji}}} Du kan ikke legge til mer enn 5 roller i DJ-rollen.",
+			"alreadyInList": "### {{{emoji}}} Rollen du har angitt, finnes allerede i databasen.",
+			"addedRole": "### {{{emoji}}} Rollen {{{role}}} er lagt til i DJ-rollen.",
+			"noRolesSetup": "### {{{emoji}}} Det er ingen DJ-roller satt opp i denne serveren.",
+			"notInList": "### {{{emoji}}} Denne rollen er ikke i DJ-rollen.",
+			"removedRole": "### {{{emoji}}} Rollen {{{role}}} er fjernet fra DJ-rollen.",
+			"list": ">>> **Rolle:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Lagt til den:** {{{addedAt}}}",
+			"listTotal": "## Totalt antall DJ-roller: {{{total}}}",
+			"clearedList": "### {{{emoji}}} DJ-rollen er tømt.",
+			"enabledToggle": "### {{{emoji}}} DJ Toggle-modus er nå aktivert.",
+			"disabledToggle": "### {{{emoji}}} DJ Toggle-modus er nå deaktivert.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "DJ-Rolle(r)",
+				"enabled": "Aktivert",
+				"disabled": "Deaktivert",
+				"djMode": "DJ-modus",
+				"djMembers": "DJ-Medlem(mer)",
+				"description": "DJ-rolleinformasjon for {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "Fiks taleforbindelsen hvis boten ikke spiller musikk.",
+			"joining": "### Slutter seg til talekanalen igjen og gjenopptar musikken.",
+			"failed": "### Klarte ikke å endre taleområdet. Prøv igjen senere.",
+			"error": "{{{emoji}}} Jeg fant dessverre ingen løsning for øyeblikket. Kanskje du kan spørre om hjelp i [støtteserveren]({{{server}}}).",
+			"success": "### {{{emoji}}} Taleområdet ble vellykket endret til **{{{region}}}**."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "Tving boten til å bli med i talekanalen.",
+			"already-in": "{{{emoji}}} Jeg er allerede i en talekanal!",
+			"joined": "### {{{emoji}}} Boten ble vellykket med i talekanalen **{{{channel}}}**."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "Angi språket for boten for serveren.",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "Legg til et språk for serveren.",
+				"language": "Språket du vil angi.",
+				"info": "Få informasjon om språkene.",
+				"reset": "Tilbakestill språket til standard språk.",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "### Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} Språket til boten er nå satt til {{{language}}} `({{{languageCode}}})`.",
+			"info": "### Det gjeldende språket på denne serveren er: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} Språket til boten er nå tilbakestilt til standard språk.",
+			"translationProgress": "Oversettelsesprogresjon: {{{progress}}}",
+			"selectLanguage": "Vennligst velg språket du ønsker å angi fra menyen nedenfor."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "Slår av/på ingen prefiks for bruker eller server.",
+			"toggle": "### Slår av/på ingen prefiks for bruker eller server.",
 			"buttons": {
 				"server": "Server",
-				"user": "User"
+				"user": "Bruker"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### Du må være en premiumbruker for å bruke denne kommandoen.",
+			"disabledUser": "### {{{emoji}}} Ingen prefiks er nå deaktivert for brukeren.",
+			"enabledUser": "### {{{emoji}}} Ingen prefiks er nå aktivert for brukeren.",
+			"noPerm": "### Du har ikke tillatelse til å bruke denne kommandoen.",
+			"disabledServer": "### {{{emoji}}} Ingen prefiks er nå deaktivert for serveren.",
+			"enabledServer": "### {{{emoji}}} Ingen prefiks er nå aktivert for serveren."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "Angi prefiks for serveren.",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "Angi prefiks for serveren.",
+				"prefix": "Prefikset du vil (angi/fjern).",
+				"info": "Få prefiks for serveren.",
+				"clear": "Tøm prefiks for serveren.",
+				"remove": "Fjern prefiks for serveren."
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **Prefiks:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Lagt til den:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} Vennligst oppgi et prefiks for å angi.",
+			"noPrefixAdded": "### {{{emoji}}} Det er ikke lagt til noe prefiks for serveren.",
+			"prefixLength": "### {{{emoji}}} Prefikset kan ikke være lengre enn 5 tegn.",
+			"prefixLimit": "### {{{emoji}}} Grensen for antall prefikser er 4. Vennligst fjern noen prefikser med `prefix remove`.",
+			"prefixCharacters": "### {{{emoji}}} Prefikset kan ikke inneholde følgende tegn: `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} Prefikset `{{{prefix}}}` er allerede lagt til av {{{moderator}}}",
+			"prefixCleared": "### {{{emoji}}} Alle prefikser er tilbakestilt til standard.",
+			"prefixNotExists": "### {{{emoji}}} Prefikset `{{{prefix}}}` er ikke lagt til.",
+			"prefixRemoved": "### {{{emoji}}} Prefikset `{{{prefix}}}` er fjernet.",
+			"prefixAdded": "### {{{emoji}}} Prefikset `{{{prefix}}}` er lagt til."
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "Vis din egen profil eller noen andres profil.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "Sett farge, farge eller synlighet for profilen din.",
+				"bio": "Sett din profilbeskrivelse (bio).",
+				"color": "Sett fargen på profilen din.",
+				"visibility": "Sett synligheten til profilen din.",
+				"view": "Vis din egen profil eller noen andres profil.",
+				"user": "Brukeren du ønsker å se profilen til."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} Du må oppgi en profilbeskrivelse (bio).",
+			"bioLength": "### {{{emoji}}} Profilbeskrivelsen din kan ikke være lengre enn 50 tegn.",
+			"bioSet": "### {{{emoji}}} Profilbeskrivelsen din er nå satt til `{{{bio}}}`",
+			"noColor": "### {{{emoji}}} Vennligst oppgi en fargekode i hex-format [Eksempel: #FF0000](https://g.co/kgs/q5nhF7)\n\nDu kan også bruke følgende fargenavn: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} Fargen din er allerede satt til `{{{color}}}`",
+			"colorSet": "### {{{emoji}}} Fargen din er nå satt til `{{{color}}}`",
+			"sameVisibility": "### {{{emoji}}} Synligheten din er allerede satt til `{{{visibility}}}`",
+			"noVisibility": "### {{{emoji}}} Vennligst oppgi synlighet (public/private)",
+			"visibilitySet": "### {{{emoji}}} Synligheten din er nå satt til `{{{visibility}}}`",
+			"privateProfile": "### {{{emoji}}} Profilen til denne brukeren er privat"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "Endre serverinnstillinger eller få informasjon om serverinnstillingene.",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "Tilbakestill alle serverinnstillingene til standardverdiene.",
+				"info": "Få informasjon om serverinnstillingene."
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} Du har ikke tillatelse til å bruke denne kommandoen. (manageGuild)",
+			"isSure": "### Er du sikker på at du vil tilbakestille serverinnstillingene?\nDette vil tilbakestille alle innstillingene til standardverdiene.\n\n**Hvis du er sikker, trykk på knappen nedenfor**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "Tilbakestill"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "Sporingsknapp",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
+				"botChannel": "Botkanal",
+				"disableCommand": "Deaktiver kommando",
+				"defaultVolume": "Standardvolum",
+				"announce": "Varsle",
 				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"noPrefix": "Ingen prefiks",
+				"prefix": "Prefiks",
+				"djRole": "DJ-rolle",
+				"setup": "Oppsett",
+				"voteSkip": "Stemmelik",
+				"language": "Språk",
+				"trackButtonValue": "Modus: {{{mode}}}\nModerator: {{{moderator}}}\nLagt til: {{{added}}}",
+				"setupValue": "Moderator: {{{moderator}}}\nLagt til: {{{added}}}\n\n**Kanaler:**\n{{{channels}}}",
+				"djValue": "Modus: {{{mode}}}\nRoller: {{{roles}}}\nLagt til: {{{added}}}",
+				"defaultvolumeValue": "Volum: {{{volume}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"announceValue": "Modus: {{{mode}}}\nKanal: {{{channel}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"prunningValue": "Modus: {{{mode}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"disableCommandValue": "Kommandoer: {{{commands}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"prefixValue": "Prefiks: {{{prefix}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"voteSkipValue": "Modus: {{{mode}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"247Value": "Modus: {{{mode}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}\nKanal: {{{channel}}}",
+				"botChannelValue": "Kanal: {{{channel}}}\nLagt til: {{{added}}}\nModerator: {{{moderator}}}",
+				"languageValue": "Språk: {{{language}}}",
+				"enabled": "Aktivert",
+				"disabled": "Deaktivert",
+				"none": "Ingen"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} Serverinnstillingene er tilbakestilt til standardverdiene.",
+			"info": "## Her er konfigurasjonsinformasjonen for denne serveren.",
+			"noSettings": "### {{{emoji}}} Det er ingen innstillinger for denne serveren."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "Konfigurer innstillingene for stemmelik.",
 			"options": {
-				"set": "Set the voteskip mode.",
+				"set": "Sett stemmelik-modus.",
 				"action": "cmd.voteskipsetting.options.action"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} Stemmelik er nå {{{action}}}d.",
+			"isConfirm": "### Ønsker du å aktivere eller deaktivere stemmelik?",
+			"canceled": "### {{{emoji}}} Innstillingene for stemmelik er avbrutt.",
+			"alreadyEnabled": "### Stemmelik er allerede aktivert.",
+			"alreadyDisabled": "### Stemmelik er allerede deaktivert.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "Aktiver",
+				"disable": "Deaktiver",
+				"cancel": "Avbryt"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "Legg til en sang i en spilleliste.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "Spillelisten du vil legge sangen til.",
+				"song": "Sangen (navn/URL) du vil legge til i spillelisten."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} Spillelisten må ha mellom 3 og 50 tegn.",
+			"noPlaylists": "### {{{emoji}}} Jeg kunne ikke finne noen spillelister i kontoen din, vennligst opprett en først.",
+			"noResults": "### {{{emoji}}} Jeg fant ingen resultater for `{{{song}}}`.",
+			"playlistFull": "### {{{emoji}}} Spillelisten din er full, fjern noen sanger før du legger til flere.",
+			"playlistAdded": "### {{{emoji}}} Du har lagt til **{{{count}}}** sanger i spillelisten **{{{playlist}}}**."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "Legg til gjeldende sang i en spilleliste.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "Spillelisten du vil legge sangen til."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} Det spilles ingen sang for øyeblikket.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} Denne sangen er allerede i spillelisten.",
+			"success": "### {{{emoji}}} Lagt til **{{{song}}}** i **{{{playlist}}}**."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "Legg til en spilleliste i køen.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "Navnet på spillelisten du vil legge til i køen."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} Det er ingen kø.",
+			"success": "### {{{emoji}}} Lagt til **{{{queueLength}}}** sanger fra køen i spillelisten **{{{playlistName}}}**."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "Opprett en spilleliste.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Navnet på spillelisten du vil opprette.",
+				"visibility": "Synligheten til spillelisten."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} Vennligst oppgi et navn for spillelisten.",
+			"visibility": "### {{{emoji}}} Synligheten må være enten `public` eller `private`.",
+			"maxPlaylists": "### {{{emoji}}} Du kan opprette opptil 10 spillelister.",
+			"playlistExists": "### {{{emoji}}} Du har allerede en spilleliste med navnet **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Spillelisten **{{{playlist}}}** er opprettet."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "Slett en spilleliste.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "Navnet på spillelisten du vil slette."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} Du har ingen spillelister med navnet **{{{playlist}}}**.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "Bekreft",
+				"cancel": "Avbryt"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### Er du sikker på at du vil slette spillelisten **{{{playlist}}}**?",
+			"success": "### {{{emoji}}} Spillelisten **{{{playlist}}}** er slettet.",
+			"cancel": "### {{{emoji}}} Slettingen av spillelisten **{{{playlist}}}** er avbrutt."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "Fjern alle duplikat-sanger fra en spilleliste.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "Navnet på spillelisten du vil fjerne duplikatene fra."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} Det er ingen duplikat-sanger i spillelisten **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Fjernet **{{{count}}}** duplikat-sanger fra spillelisten **{{{playlist}}}**."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "Rediger en spilleliste.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Navnet på spillelisten du ønsker å redigere.",
+				"old-name": "Det gamle navnet på spillelisten.",
+				"new-name": "Det nye navnet på spillelisten.",
+				"playlist-visibility": "Endre synligheten til spillelisten.",
+				"visibility": "Spillelistens synlighet."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} Det nye navnet må være annerledes enn det gamle navnet.",
+			"successName": "### {{{emoji}}} Spillelisten **{{{oldName}}}** ble vellykket omdøpt til **{{{newName}}}**.",
+			"sameVisibility": "### {{{emoji}}} Spillelisten **{{{playlist}}}** er allerede **{{{visibility}}}**.",
+			"successVisibility": "### {{{emoji}}} Spillelisten **{{{playlist}}}** sin synlighet ble vellykket endret til **{{{visibility}}}**.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "Spillelistenavn",
+				"visibility": "Spillelistens synlighet",
+				"public": "Offentlig",
+				"private": "Privat"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### Velg et alternativ for å redigere spillelisten din fra knappene nedenfor.",
+			"oldName": "### Skriv inn det gamle navnet på spillelisten.",
+			"newName": "### Skriv inn det nye navnet på spillelisten.",
+			"cancelled": "### {{{emoji}}} Avbrøt endring av spillelistens navn.",
+			"playlist": "### Skriv inn navnet på spillelisten.",
+			"selectVisibility": "### Velg synlighet for spillelisten fra knappene nedenfor."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "Importer en spilleliste fra spilleliste-id.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "ID-en til spillelisten du ønsker å importere."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} Jeg kunne ikke finne noen spilleliste med ID-en **{{{id}}}**.",
+			"sameUser": "### {{{emoji}}} Du kan ikke importere din egen spilleliste.",
+			"privatePlaylist": "### {{{emoji}}} Du kan ikke importere en privat spilleliste.",
+			"success": "### {{{emoji}}} Spillelisten **{{{playlist}}}** ble vellykket importert."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "Vis alle dine spillelister.",
+			"tracks": "Spor: {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "Last inn en spilleliste i køen.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "Last inn en spesifikk sang fra en spilleliste.",
+				"name": "Navnet på spillelisten du ønsker å laste inn.",
+				"track": "Spor nummer eller tittel du ønsker å laste inn."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} Du har ingen spilleliste med navnet **{{{playlist}}}**.",
+			"noTracks": "### {{{emoji}}} Det er ingen spor i spillelisten **{{{playlist}}}**.",
+			"noTrackFound": "### {{{emoji}}} Ingen spor funnet med nummeret `{{{track}}}`.",
+			"trackLoaded": "### {{{emoji}}} Lastet inn **{{{track}}}** fra **{{{playlist}}}**.",
+			"privatePlaylist": "### {{{emoji}}} Du kan ikke laste inn en privat spilleliste fra en annen bruker.",
+			"playlistLoaded": "### {{{emoji}}} Lastet inn **{{{count}}}** sanger fra **{{{playlist}}}**."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "Fjern en sang fra en spilleliste.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "Navnet på spillelisten du ønsker å fjerne sangen fra.",
+				"track": "Spor nummer eller tittel du ønsker å fjerne."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} Jeg kunne ikke finne et spor med det nummeret eller tittelen.",
+			"success": "### {{{emoji}}} Fjernet **{{{track}}}** fra **{{{playlist}}}**."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "Vis en spilleliste.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "Navnet på spillelisten du ønsker å vise."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "Side {{{page}}} av {{{pages}}} | {{{tracks}}} spor | {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "Forrige",
+				"stop": "Stopp",
+				"next": "Neste"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### Noen koblet meg fra talekanalen, men jeg er fortsatt her takket være **24/7-modusen**!\n\nDu kan deaktivere dette ved å slå av **24/7-modus** med hjelp av kommandoen {{{cmd}}} eller ved å bruke kommandoen {{{cmd2}}}!",
+			"nowPlaying": "Spiller nå",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Av [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"footer": "Varighet: {{{duration}}} | Kø: {{{queue}}} | Volum: {{{volume}}}%",
+			"end": "### Ingen har lyttet de siste 1 minuttene, forlater kanalen.\n\nDu kan deaktivere dette ved å aktivere **24/7-modus** ved hjelp av kommandoen {{{cmd}}}!",
+			"endTitle": "Kø Avsluttet",
+			"endDesc": "### Musikkkøen din er nå avsluttet. Du kan legge til musikk igjen ved hjelp av {{{cmd}}}! Nyt musikk med meg? Vurder å [stemme på meg]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "Feil med spor",
+		"description": "### [{{{title}}}]({{{uri}}}) er ikke tilgjengelig i landet ditt på grunn av aldersrestriksjoner!",
 		"buttons": {
-			"resume": "Resume",
+			"resume": "Fortsett",
 			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"previous": "Forrige",
+			"shuffle": "Bland",
+			"skip": "Hopp over",
+			"stop": "Stopp",
+			"voldown": "Volum ned",
+			"volup": "Volum opp",
+			"loop": "Løkke",
+			"like": "Liker"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### Det spilles ingenting nå..",
+		"nothingPlaying": "### Det spilles ingenting nå.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "Du må være i en tale {{{channel}}} kanal for å bruke denne knappen!",
+			"noPrevious": "Det er ingen forrige sang i køen.",
+			"playingPrevious": "{{{user}}} spiller forrige spor.",
+			"nothingToSkip": "Det er ingenting i køen å hoppe over.",
+			"alreadyVote": "{{{user}}} Det er allerede en avstemning på denne serveren. Vennligst vent til den er ferdig eller avbryt den.",
+			"voteSkip": "{{{user}}} ba om å hoppe over gjeldende spor. Vil du stoppe avstemningen for å hoppe over? Gjør {{{cmd}}}",
+			"voteSkipLabel": "Stem for å hoppe over gjeldende spor!",
+			"alreadyVoted": "{{{user}}} Du har allerede stemt for å hoppe over gjeldende spor.",
+			"voteSkip2": "{{{user}}} ba om å hoppe over gjeldende spor.",
+			"voteSkipLabel2": "Stem for å hoppe over gjeldende spor! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Du må være med i tale {{{channel}}} kanalen for å bruke denne knappen!",
+			"voteSkipTrack": "{{{user}}} hopper over sporet etter {{{count}}} positive stemmer!",
+			"notEnoughVote": "### Ikke nok stemmer til å hoppe over gjeldende spor.",
+			"skipTrack": "{{{user}}} hoppet over gjeldende spor.",
+			"playTrack": "{{{user}}} {{{paused}}} gjeldende spor.",
+			"paused": "Pauset",
+			"resumed": "Fortsett",
+			"stopTrack": "{{{user}}} stoppet gjeldende spor.",
+			"volMax": "### Volumet er allerede på maksimum.",
+			"volUp": "{{{user}}} økte volumet til **{{{vol}}}**%.",
+			"volMin": "### Volumet er allerede på minimum.",
+			"volDown": "{{{user}}} senket volumet til **{{{vol}}}**%.",
+			"shuffleError": "{{{user}}} Det er ikke nok sanger i køen til å blande.",
+			"shuffleDisabled": "{{{user}}} Blanding deaktivert.",
+			"shuffleEnabled": "{{{user}}} Blanding aktivert.",
+			"loopSong": "{{{user}}} Løkker gjeldende sang.",
+			"loopQueue": "{{{user}}} Løkker køen.",
+			"loopDisabled": "{{{user}}} Løkke deaktivert.",
+			"noTrack": "{{{user}}} Det spilles ingenting akkurat nå.",
+			"liked": "{{{user}}} Likt **{{{title}}}**.",
+			"unliked": "{{{user}}} Ikke likt **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### Hei! Jeg prøvde å sende et svar på kommandoen din, men jeg mangler tillatelse til å gjøre det. Be noen fra administrasjonen gi meg tillatelsen `Send Messages` i Discord.\n\nServer: **{{{guildName}}}**\nKommando: **{{{commandName}}}**\nTrenger du hjelp med tillatelser? Bli med på støtteserveren: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Boten må ha tillatelsen `Embed links` i Discord for å fungere ordentlig! Be noen fra administrasjonen gi meg denne tillatelsen.",
+			"noBotChannel": "### Jeg har ikke lov til å svare på kommandoer i denne kanalen. Vennligst bruk {{{emoji}}} <#{{{botChannel}}}> for bot-kommandoer. Takk for samarbeidet.",
+			"deleteFooter": "• Denne meldingen vil bli slettet om 5 sekunder",
+			"disabledCommand": "### Denne kommandoen er deaktivert i denne serveren for alle. Kun DJ-er kan bruke denne kommandoen.",
+			"disabledCommandList": "Deaktivert liste",
+			"noBotPermissions": "### {{{emoji}}} Jeg har ikke tillatelse til **{{{permissions}}}** for å utføre denne kommandoen.",
+			"noUserPermissions": "### {{{emoji}}} Du har ikke tillatelse til **{{{permissions}}}** for å utføre denne kommandoen.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### Du må stemme på meg for å bruke denne kommandoen. Du kan stemme på [Top.gg]({{{link}}})",
+				"### Du må stemme på meg for å bruke denne kommandoen. Du kan stemme på [Top.gg]({{{link}}}) eller\ndu kan også få premium ved å donere [her]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "Stem",
+				"donate": "Doner",
+				"invite": "Inviter",
+				"support": "Støtte"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### Vennligst vent **{{{timeLeft}}}** sekunder til du kan bruke kommandoen **{{{command}}}** igjen.",
+			"noDjRole": "### {{{emoji}}} Du trenger DJ-rollen for å bruke denne kommandoen.",
+			"noPremium": "### Du trenger bot-premium for å bruke denne kommandoen. Du kan få premium ved å donere [her]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} Jeg har ikke nødvendige tillatelser til å bli med i talekanalen din! Jeg trenger tillatelsene `View Channels`, `Connect`, og `Speak`. [Eksempel på tillatelser](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nHvis problemet fortsetter, endre talekanalens region til `Europe`.",
+			"voiceJoin": "### {{{emoji}}} Du må være koblet til en talekanal på denne serveren for å bruke denne kommandoen!\n\nHvordan blir jeg med i en talekanal? Bare klikk på en kanal med et høyttalerikon (for eksempel, klikk her:  {{{channel}}}) [Se den offisielle Discord-guiden](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Du må være i talekanalen **{{{channel}}}** for å bruke denne kommandoen.",
+			"noPlayer": "### {{{emoji}}} Jeg er ikke koblet til noen talekanal. Vennligst bruk kommandoen {{{command}}} for å kalle meg.",
+			"noQueue": "### {{{emoji}}} Det er ingen kø. Vennligst bruk kommandoen {{{command}}} for å legge til en sang i køen.",
+			"noSong": "### {{{emoji}}} Det spilles ingen sang. Vennligst bruk kommandoen {{{command}}} for å legge til en sang i køen.",
+			"error": "### {{{emoji}}} Det oppstod en feil under utførelsen av kommandoen. Vennligst rapporter denne feilen til [Støtteserveren]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Kom i gang",
+		"embed_description": "### Hei <@{{{user}}}>! Mitt prefiks er/s er: `{{{prefixList}}}`\nFor eksempel: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Hei <@{{{user}}}>! Mitt prefiks er: `ingen prefiks`, noe som betyr at du kan bruke alle kommandoer uten prefiks.\nFor eksempel: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Alternativer for {{{commandName}}}",
+		"no_description": "Ingen beskrivelse",
+		"options": "Alternativer",
+		"examples": "Eksempel(er)",
+		"long_des": "Dette er for navigering mellom sider",
+		"examples_button": "Eksempler",
+		"footer": "<Påkrevd> | [Valgfri] {{{long_des}}} Side {{{page}}} av {{{total_pages}}}",
+		"title2": "Eksempler for {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",
