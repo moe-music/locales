@@ -47,7 +47,7 @@
 | `th` | 🇹🇭 | Thai |  | ✅ | 80%
 | `tr` | 🇹🇷 | Turkish |  | ✅ | 80%
 | `uk` | 🇺🇦 | Ukrainian |  | ✅ | 80%
-| `vi` | 🇻🇳 | Vietnamese | [trương duy khải](https://discord.com/users/871329074046435338) | ✅ | 80%
+| `vi` | 🇻🇳 | Vietnamese | [trương duy khải](https://discord.com/users/871329074046435338) | ✅ | 100%
 
 ## how to add a new locale
 
