@@ -986,7 +986,7 @@
 			"content": "### Hvis du liker Moe, vennligst vurder å stemme på den på [top.gg]({{{link}}}).",
 			"buttons": {
 				"vote": "Stemme"
-			}
+			} //test
 		},
 		"player": {
 			"description": "Viser spillerstatusen.",
