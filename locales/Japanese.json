@@ -1,560 +1,560 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "24/7モードの有効化または無効化。",
+			"enabled": "### {{{emoji}}} 24/7モードが有効になりました。",
+			"disabled": "### {{{emoji}}} 24/7モードが無効になりました。"
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
-			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"description": "ボットのレイテンシーを表示します。",
+			"author": "ボットのレイテンシー",
+			"content": "**シャード**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
+			"footer": "• サポートサーバーのステータスチャンネルで詳細情報を入手できます"
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "ボットをサーバーに招待します。",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "MoEを招待する",
+				"invite2": "MoE2を招待する",
+				"invite3": "MoE3を招待する",
+				"support": "サポート"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "私を使用するのが楽しかった場合は、[こちら]({{{invite}}})からサーバーに招待してください。そして、[サポートサーバー]({{{support}}})にも参加を忘れないでください。"
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "コマンドの一覧または特定のコマンドに関する情報を表示します。",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "ヘルプを取得するコマンド名またはカテゴリー"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": "コマンド",
+			"footer": "ページ {{{page}}} / {{{pagesNum}}}",
+			"title2": "ヘルプ - {{{cmd}}}",
+			"title3": "ヘルプ",
+			"manContent": "### すべてのカテゴリの一覧です\n{{{catagory}}}\n\n- リンク:\n[サポートサーバー]({{{server}}}) | [招待]({{{invite}}}) | [投票]({{{vote}}}) | [Patreon]({{{patreon}}}) | [ウェブサイト]({{{website}}}) | [ドキュメント]({{{docs}}})",
+			"footer2": "- コマンドの詳細情報: {{{prefix}}}help <command>または{{{prefix}}}help <category>",
+			"cooldown": "クールダウン",
+			"aliases": "エイリアス",
+			"category": "カテゴリー",
+			"examples": "例",
+			"userPerms": "ユーザーパーミッション",
+			"botPerms": "ボットパーミッション",
+			"requirements": "要件",
+			"subCommands": "サブコマンド",
+			"subSubCommands": "サブサブコマンド",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "前へ",
+				"stop": "停止",
+				"next": "次へ",
+				"home": "ホーム",
+				"config": "設定",
+				"music": "音楽",
+				"filter": "フィルター",
+				"general": "一般",
+				"playlists": "プレイリスト"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}`は有効なコマンドまたはカテゴリーではありません！",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- ボイスチャンネルにいる必要があります",
+				"sameVoice": "- 同じボイスチャンネルにいる必要があります",
+				"playing": "- このサーバーで音楽を再生している必要があります"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- このコマンドを使用するには[vote]({{{link}}})する必要があります",
+			"premiumCmd": "- このコマンドを使用するには[premium]({{{link}}})が必要です"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
-			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"description": "ユーザーまたはギルドのプレミアムステータスを表示します。",
+			"guildPremiumStatus": "ギルドのプレミアムステータス",
+			"userPremiumStatus": "ユーザーのプレミアムステータス",
+			"premium": "プレミアム",
+			"notPremium": "非プレミアム",
+			"guildPremiumExpires": "ギルドのプレミアム期限",
+			"userPremiumExpires": "ユーザーのプレミアム期限"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "プレミアムコードを引き換えます。",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "引き換えるプレミアムコード"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "引き換えるプレミアムコードを入力してください。",
+			"invalidCode": "無効なプレミアムコードが提供されました。",
+			"confirmation": "### プレミアムコード `{{{code}}}` を引き換えますか？",
+			"type": "タイプ",
+			"expiresAt": "期限",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "はい",
+				"no": "いいえ"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "すでにプレミアムメンバーです。",
+			"success": "### プレミアムコードを正常に引き換えました。これでプレミアムコマンドを使用できます！",
+			"canceled": "プレミアムコードの引き換えをキャンセルしました。"
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "ボットの統計情報を表示します。"
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "サポートサーバーへのリンク",
+			"content": "### ボットに関するお問い合わせや一緒に遊びたい場合は、[サポートサーバー]({{{link}}})に参加してください。",
 			"buttons": {
-				"support": "Support Server"
+				"support": "サポートサーバー"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "ボット投票リンク",
+			"content": "### ボットが気に入った場合は、[top.gg]({{{link}}})で投票をお願いします。",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "投票"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"description": "プレイヤーのステータスを表示します。",
+			"nowPlaying": "現在再生中",
+			"noSong": "現在、再生中の曲はありません。",
+			"volume": "音量",
+			"totalDuration": "総再生時間",
+			"loopMode": "ループモード",
+			"filters": "フィルター",
+			"noFilters": "現在、適用されているフィルターはありません。",
+			"title": "プレイヤー: {{{status}}}",
+			"online": "オンライン",
+			"offline": "オフライン"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "オートプレイモードの有効化または無効化。",
+			"enabled": "### オートプレイモードが`有効`に切り替わりました。\nボットは自動的に類似の曲をキューに追加します。",
+			"disabled": "### オートプレイモードが`無効`に切り替わりました。\nボットはもはや自動的に類似の曲をキューに追加しません。"
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "プレイヤーのキューまたはフィルターをクリアします。",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "クリアするキューまたはフィルター"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "キューまたはフィルターをクリアするには、選択してください。(queue/filters)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "キューに曲がありません。",
+				"success": "### キューを正常にクリアしました。"
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "フィルターがありません。",
+				"success": "### フィルターを正常にクリアしました。"
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "キュー",
+				"filters": "フィルター"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "現在の曲を強制的にスキップします。",
+			"success": "### {{{title}}} の曲を強制的にスキップしました。"
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "現在の曲を進めます。",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "進める秒数"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} 現在の曲はシークできません。",
+			"tooLong": "{{{emoji}}} 曲の長さを超えて進めることはできません。",
+			"success": "### {{{emoji}}} 曲を `{{{time}}}` だけ進めました。"
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "現在の曲を保存します。",
+			"dm": "{{{emoji}}} ダイレクトメッセージを無効にしているため、曲を送信できません。",
+			"grabbed": "### {{{emoji}}} 曲を保存しました。"
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "ボットをあなたのボイスチャンネルに呼び出します。",
+			"no-perms": "{{{emoji}}} 必要な権限を持っていません！ `チャンネルを見る`、`接続`、`発言` の権限が必要です。[権限の例](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n 問題が解決しない場合は、ボイスチャンネルのリージョンを `Europe` に変更してください。",
+			"already-in": "{{{emoji}}} 既にボイスチャンネルにいます！",
+			"joined": "### ボイスチャンネルに正常に参加しました {{{channel}}}"
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "ボイスチャンネルから退出します。",
+			"not-playing": "{{{emoji}}} 現在、何も再生していません！",
+			"success": "### {{{emoji}}} ボイスチャンネルを正常に退出しました。"
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "ボイスチャンネルにいないユーザーの曲をすべて削除します。",
+			"removing": "## ボイスチャンネルにいないユーザーの曲を削除しています。お待ちください。",
+			"removed": "### ボイスチャンネルにいないユーザーの曲 `{{{count}}}` を正常に削除しました。"
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "現在の曲またはキューをループします。",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "ループモードの設定"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### ループするモードを指定してください。 (song, queue, off) のいずれかを以下のボタンから選択してください。",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "曲",
+				"queue": "キュー",
+				"off": "オフ"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} 現在の曲を正常にループしました。",
+			"queue": "### {{{emoji}}} キューを正常にループしました。",
+			"off": "### {{{emoji}}} ループを正常に無効にしました。",
+			"song_already": "### {{{emoji}}} 現在の曲はすでにループされています。",
+			"queue_already": "### {{{emoji}}} キューはすでにループされています。",
+			"off_already": "### {{{emoji}}} ループは既に無効になっています。",
+			"invalid_mode": "### {{{emoji}}} 無効なループモードが指定されました。有効なループモードを指定してください。 (song, queue, off)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "現在の曲または指定した曲名の歌詞を表示します。",
 			"options": {
-				"song": "The song name to search for"
+				"song": "検索する曲名"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### 検索する曲名を指定してください。",
+			"noLyrics": "### この曲の歌詞を見つけることができませんでした。",
+			"page": "ページ {{{page}}} / {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "曲をキュー内の特定の位置に移動します。",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "移動する曲",
+				"position": "曲を移動する位置"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### 有効な番号を位置に指定してください。",
+			"invalidPosition": "### 無効な位置が指定されました。有効な位置を指定してください。",
+			"success": "### **[{{{title}}}]({{{uri}}})** を位置 **{{{from}}}** から **{{{to}}}** に移動しました。"
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "現在再生中の曲を表示します。",
+			"nowplaying": "### 再生中： [{{{title}}}]({{{uri}}})",
+			"author": "アーティスト",
+			"requester": "リクエストしたユーザー",
+			"duration": "再生時間",
+			"progress": "進行状況"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "現在の曲を一時停止します。",
+			"alreadyPaused": "### 現在の曲はすでに一時停止しています。",
+			"paused": "### 一時停止： [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Spotify、SoundCloud、Deezerなどから曲を再生します。",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "検索クエリ",
+				"source": "検索元"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "検索する曲名を指定してください。",
+			"no-results": "### `{{{query}}}` の検索結果が見つかりませんでした。",
+			"playlist-loaded": "### プレイリスト **[{{{name}}}]({{{url}}})** から `{{{count}}}` 曲をロードしました。",
+			"footer": "{{{bot}}} をご利用いただきありがとうございます。",
+			"added": "### **[{{{title}}}]({{{uri}}})** をキューに追加しました (リクエストユーザー：<@{{{requester}}}>) - キューの位置： `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "前の曲を再生します。",
+			"noPreviousTrack": "### {{{emoji}}} 前の曲はありません。",
+			"success": "### {{{emoji}}} 前のトラックを再生中！"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "現在のサーバーのキューを表示します。",
 			"options": {
-				"page": "The page number to view"
+				"page": "表示するページ番号"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### {{{guild}}} のキュー（{{{songs}}} 曲）",
+			"nowPlaying": "### 再生中： [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### 次に再生：{{{str}}}",
+			"noSongs": "### キューに曲がありません！ {{{cmd}}} を使用して曲を追加してください。",
+			"page": "ページ {{{page}}} | {{{songs}}} 曲 | 総再生時間：{{{duration}}}",
+			"notNumber": "### {{{emoji}}} ページ番号は数字でなければなりません。",
+			"pageLimit": "### {{{emoji}}} ページ番号は {{{pages}}} 以下でなければなりません。",
+			"clearQueue": "キューをクリア",
+			"noTracks": "### キューにトラックがありません。",
+			"noDjRole": "### このボタンを使用するにはDJロールが必要です。",
+			"clearedQueue": "### {{{user}}} がキューをクリアしました。"
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "キューから曲を削除します。",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "削除する曲。",
+				"number": "削除する曲の番号または曲のタイトル。",
+				"dupes": "曲のすべての重複を削除します。"
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### その番号の曲はキューにありません",
+			"invalidNumber": "### 1から {{{length}}} の間の番号を入力してください。",
+			"removed": "### キューから **[{{{title}}}]({{{uri}}})** を削除しました。",
+			"noDupes": "### キューには重複した曲はありません。",
+			"removedDupes": "### キューから **{{{length}}}** 曲の重複を削除しました。"
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "現在の曲をリプレイします。",
+			"replaying": "### [{{{title}}}]({{{uri}}}) をリプレイ中"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "現在の曲を再開します。",
+			"notPaused": "### 現在の曲は一時停止されていません。",
+			"resumed": "### [{{{title}}}]({{{uri}}}) を再開しました。"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "現在の曲を巻き戻します。",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "曲を巻き戻す時間。"
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} 現在の曲は巻き戻しできません。",
+			"negativePosition": "### {{{emoji}}} 位置は0から {{{length}}} の間でなければなりません。",
+			"success": "### {{{emoji}}} 曲を {{{length}}} に巻き戻しました。"
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "Spotify、SoundCloud、またはDeezerから曲を検索します。",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "検索するクエリ",
+				"source": "検索元"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} プレイリストはサポートされていません。検索コマンドでは {{{cmd}}} コマンドを使用してください。",
+			"no-track": "### {{{emoji}}} トラックはサポートされていません。検索コマンドでは {{{cmd}}} コマンドを使用してください。",
+			"results": "## `{{{query}}}` の検索結果\n\n{{{results}}}",
+			"footer": "以下のセレクトメニューからトラックを選択してください。",
+			"placeholder": "再生するトラックをリストから選択してください。",
+			"footerTimeout": "検索結果がタイムアウトしました。",
+			"no-voice": "### {{{emoji}}} このメニューを使用するには、ボイスチャンネルに接続する必要があります。",
+			"wrong-voice": "### {{{emoji}}} このメニューを使用するには、私と同じボイスチャンネルに接続している必要があります。",
+			"added": "### {{{emoji}}} キューに {{{count}}} トラックを追加しました。"
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "現在の曲で指定した時間にシークします。",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "シークしたい時間。"
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### 時間は 0 から {{{length}}} の間である必要があります。",
+			"seeked": "### `{{{position}}}` から `{{{time}}}` にシークしました。"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "キューをシャッフルします。",
+			"success": "### サーバーのキューがシャッフルされました（**{{{length}}}** 曲）。",
+			"unshuffle": "### サーバーのキューのシャッフルが解除されました（**{{{length}}}** 曲）。"
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "現在の曲をスキップします。",
+			"nothing": "### キューに次の曲がありません。サーバーのキューを確認するには {{{queue}}} を使用してください。\nオートプレイを試す？ {{{autoplay}}} を実行してください。",
+			"paused": "### プレーヤーが一時停止しています。プレーヤーを再開するには resume コマンドを使用してください。\n再開するには？ {{{resume}}} を実行してください。",
+			"voteSkip": "### {{{user}}} が現在のトラックをスキップするようリクエストしました。\n\n{{{voted}}}",
+			"skip": "### **{{{title}}}** の曲をスキップしています。"
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "キュー内の特定の曲にスキップします。",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "スキップする曲の番号または曲のタイトル。"
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} 1から {{{length}}} の間の曲の番号を入力してください。",
+			"success": "### {{{emoji}}} **[{{{title}}}]({{{uri}}})** にスキップしました。"
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "プレーヤーを停止してキューをクリアします。",
+			"stopped": "### {{{emoji}}} プレーヤーを停止してキューをクリアしました。"
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "ボットが再生したトップ曲を表示します。",
+			"noTopSongs": "### データベースにはトップ曲がありません。",
+			"timesPlayed": "再生回数",
+			"selectSong": "リストから曲を選択して再生してください。",
+			"added": "### **[{{{title}}}]({{{uri}}})** をキューに追加しました。"
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "プレーヤーの音量を変更します。",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "設定したい音量。"
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} 0から100の間の数値を入力してください。",
+			"success": "### {{{emoji}}} 音量を **{{{volume}}}** に設定しました。"
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "現在の曲をスキップするために投票します。"
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### 現在再生中の曲に適用されているすべてのフィルター:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} ピッチは1から5の数値である必要があります。",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "現在再生中の曲に8Dフィルターを適用します。",
+				"bassboost": "現在再生中の曲にベースブーストフィルターを適用します。",
+				"channelmix": "現在再生中の曲にチャンネルミックスフィルターを適用します。",
+				"electronic": "現在再生中の曲にエレクトロニックフィルターを適用します。",
+				"filters": "現在再生中の曲に適用できるフィルターの一覧を取得します。",
+				"jazz": "現在再生中の曲にジャズフィルターを適用します。",
+				"karaoke": "現在再生中の曲にカラオケフィルターを適用します。",
+				"lowpass": "現在再生中の曲にローパスフィルターを適用します。",
+				"nightcore": "現在再生中の曲にナイトコアフィルターを適用します。",
+				"pitch": "現在再生中の曲にピッチフィルターを適用します。",
+				"pop": "現在再生中の曲にポップフィルターを適用します。",
+				"radio": "現在再生中の曲にラジオフィルターを適用します。",
+				"rock": "現在再生中の曲にロックフィルターを適用します。",
+				"rotation": "現在再生中の曲にローテーションフィルターを適用します。",
+				"soft": "現在再生中の曲にソフトフィルターを適用します。",
+				"speed": "現在再生中の曲にスピードフィルターを適用します。",
+				"treblebass": "現在再生中の曲にトレブルベースフィルターを適用します。",
+				"tremolo": "現在再生中の曲にトレモロフィルターを適用します。",
+				"vaporwave": "現在再生中の曲にヴェイパーウェーブフィルターを適用します。",
+				"vibrato": "現在再生中の曲にビブラートフィルターを適用します。"
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} {{{name}}} フィルターが有効になりました。",
+			"disabled": "### {{{emoji}}} {{{name}}} フィルターが無効になりました。",
+			"speed": "### {{{emoji}}} スピードフィルターを **{{{value}}}** に設定しました。",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "設定したいスピード。",
+				"pitch": "適用するピッチ。"
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "トラック開始メッセージのアナウンスを設定します。",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "トラック開始メッセージを送信するチャンネルを設定します。",
+				"channel": "設定したいチャンネル名。",
+				"toggle": "トラック開始メッセージのアナウンスを切り替えます。",
+				"prunning": "トラック開始メッセージの剪定を切り替えます。",
+				"reset": "トラック開始メッセージを送信するチャンネルをリセットします。"
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} 有効なテキストチャンネルを指定してください。",
+			"noTextChannel": "### {{{emoji}}} 有効なテキストチャンネルを指定してください。",
+			"sameChannel": "### {{{emoji}}} 提供されたチャンネルはすでにデータベースに存在します。",
+			"setChannel": "### {{{emoji}}} アナウンスチャンネルを {{{channel}}} に設定しました。",
+			"noChannelInDB": "### {{{emoji}}} アナウンスチャンネルはデータベースに設定されていません。",
+			"toggle": "### {{{emoji}}} トラック開始メッセージのアナウンスを{{{status}}}に切り替えました。",
+			"enabled": "有効",
+			"disabled": "無効",
+			"reset": "### {{{emoji}}} アナウンスチャンネルをリセットしました。"
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "コマンドを受け付けるためのボットチャンネルを設定します。",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "ボットチャンネルリストにチャンネルを追加します。",
+				"channel": "設定したいチャンネル名。",
+				"remove": "ボットチャンネルリストからチャンネルを削除します。",
+				"clear": "ボットチャンネルリストをクリアします。",
+				"info": "ボットチャンネルリストとボットチャンネルの情報を取得します。"
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} 有効なテキストチャンネルを指定してください。",
+			"noTextChannel": "### {{{emoji}}} 有効なテキストチャンネルを指定してください。",
+			"sameChannel": "### {{{emoji}}} 提供されたチャンネルはすでにデータベースに存在します。",
+			"maxChannel": "### {{{emoji}}} ボットチャンネルリストに追加できるチャンネルは5つまでです。",
+			"addedChannel": "### {{{emoji}}} ボットチャンネルリストにチャンネル {{{channel}}} を追加しました。",
+			"noChannelInDB": "### {{{emoji}}} データベースにボットチャンネルはありません。",
+			"removedChannel": "### {{{emoji}}} ボットチャンネルリストからチャンネル {{{channel}}} を削除しました。",
+			"clearedChannel": "### {{{emoji}}} ボットチャンネルリストをクリアしました。",
+			"info": ">>> **チャンネル:** {{{channel}}}\n**モデレータ:** {{{moderator}}}\n**追加日:** {{{addedAt}}}",
+			"title": "ボットチャンネル ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "チャンネル内のメッセージをクリーンアップします。",
+			"success": "### {{{emoji}}} **{{{count}}}** 件のメッセージを削除しました。"
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "サーバーのデフォルトボリュームを設定します。",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "デフォルトボリュームに設定する数値。"
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} 0から200の範囲の数値を入力してください。",
+			"success": "### {{{emoji}}} デフォルトボリュームを **{{{volume}}}** に設定しました。"
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "サーバーでコマンドを無効にします。",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "無効にするコマンドを追加します。",
+				"command": "コマンド名",
+				"remove": "無効にするコマンドを削除します。",
+				"list": "無効になっているコマンドリストを取得します。",
+				"clear": "無効になっているコマンドリストをクリアします。"
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} 無効にする/有効にするコマンド名を指定してください。",
+			"commandNotExist": "### {{{emoji}}} そのコマンドはボットに存在しません。",
+			"commandAlreadyDisabled": "### {{{emoji}}} そのコマンドはすでに無効になっています。",
+			"commandDisabled": "### {{{emoji}}} **{{{command}}}** コマンドを無効にしました。",
+			"noDisabledCommands": "### {{{emoji}}} このコマンドは無効になっていません。",
+			"commandEnabled": "### {{{emoji}}} **{{{command}}}** コマンドを有効にしました。",
+			"disabledCommands": "無効になっているコマンド",
+			"disabledCommandsForThisServer": "このサーバーで無効になっているコマンド",
+			"total": "合計: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} 無効になっているコマンドリストをクリアしました。"
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "サーバーのDJロールを設定します。",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "DJロールリストにロールを追加します。",
+				"role": "追加/削除したいロール。",
+				"remove": "DJロールリストからロールを削除します。",
+				"list": "DJロールリストを表示します。",
+				"clear": "DJロールリストをクリアします。",
+				"toggle": "DJロールを切り替えます。",
+				"info": "DJロールリストとDJロールの情報を取得します。"
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} 追加/削除したい有効なロールを指定してください。",
+			"maxRoles": "### {{{emoji}}} DJロールリストに追加できるロールは5つまでです。",
+			"alreadyInList": "### {{{emoji}}} 提供されたロールは既にデータベースに存在しています。",
+			"addedRole": "### {{{emoji}}} DJロールリストにロール {{{role}}} を追加しました。",
+			"noRolesSetup": "### {{{emoji}}} このサーバーではDJロールが設定されていません。",
+			"notInList": "### {{{emoji}}} このロールはDJロールリストにありません。",
+			"removedRole": "### {{{emoji}}} DJロールリストからロール {{{role}}} を削除しました。",
+			"list": ">>> **ロール:** {{{role}}}\n**モデレータ:** {{{moderator}}}\n**追加日:** {{{addedAt}}}",
+			"listTotal": "## 合計DJロール数: {{{total}}}",
+			"clearedList": "### {{{emoji}}} DJロールリストをクリアしました。",
+			"enabledToggle": "### {{{emoji}}} DJトグルモードを有効にしました。",
+			"disabledToggle": "### {{{emoji}}} DJトグルモードを無効にしました。",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "DJロール",
+				"enabled": "有効",
+				"disabled": "無効",
+				"djMode": "DJモード",
+				"djMembers": "DJメンバー",
+				"description": "{{{guild}}} のDJロール情報"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "ボットが音楽を再生していない場合に音声接続を修正します。",
+			"joining": "### 音声チャンネルに再参加して音楽を再開します。",
+			"failed": "### 音声リージョンを変更できませんでした。後でもう一度お試しください。",
+			"error": "{{{emoji}}} 現時点で修正方法が見つかりませんでした。サポートサーバーで助けを求めてみてください。[サポートサーバー]({{{server}}})",
+			"success": "### {{{emoji}}} 音声リージョンを **{{{region}}}** に変更しました。"
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "ボットを音声チャンネルに強制的に参加させます。",
+			"already-in": "{{{emoji}}} すでに音声チャンネルに参加しています！",
+			"joined": "### {{{emoji}}} 音声チャンネル **{{{channel}}}** に成功して参加しました。"
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "サーバーのボット言語を設定します。",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "サーバーに言語を追加します。",
+				"language": "設定したい言語。",
+				"info": "言語に関する情報を取得します。",
+				"reset": "言語をデフォルト言語にリセットします。",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} ボットの言語を {{{language}}} (`{{{languageCode}}}`) に設定しました。",
+			"info": "### このサーバーの現在の言語は: **{{{language}}}** (`{{{languageCode}}}`) です。",
+			"reset": "### {{{emoji}}} ボットの言語をデフォルト言語にリセットしました。",
+			"translationProgress": "翻訳進捗: {{{progress}}}",
+			"selectLanguage": "設定したい言語を以下のメニューから選択してください。"
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "ユーザーまたはサーバーのプレフィックスを切り替えます。",
+			"toggle": "### ユーザーまたはサーバーのプレフィックスを切り替えます。",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "サーバー",
+				"user": "ユーザー"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### このコマンドを使用するにはプレミアムユーザーである必要があります。",
+			"disabledUser": "### {{{emoji}}} ユーザーのプレフィックスを無効にしました。",
+			"enabledUser": "### {{{emoji}}} ユーザーのプレフィックスを有効にしました。",
+			"noPerm": "### このコマンドを使用するための必要な権限がありません。",
+			"disabledServer": "### {{{emoji}}} サーバーのプレフィックスを無効にしました。",
+			"enabledServer": "### {{{emoji}}} サーバーのプレフィックスを有効にしました。"
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "サーバーのプレフィックスを設定します。",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "サーバーのプレフィックスを設定します。",
+				"prefix": "設定するプレフィックス。",
+				"info": "サーバーのプレフィックスを取得します。",
+				"clear": "サーバーのプレフィックスをクリアします。",
+				"remove": "サーバーのプレフィックスを削除します。"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **プレフィックス:** `{{{prefix}}}`\n**モデレータ:** {{{moderator}}}\n**追加日:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} 設定するプレフィックスを指定してください。",
+			"noPrefixAdded": "### {{{emoji}}} サーバーに追加されたプレフィックスはありません。",
+			"prefixLength": "### {{{emoji}}} プレフィックスは5文字より長くすることはできません。",
+			"prefixLimit": "### {{{emoji}}} プレフィックスの最大数は4です。`prefix remove` コマンドでいくつかのプレフィックスを削除してください。",
+			"prefixCharacters": "### {{{emoji}}} プレフィックスには `[]{}\\` のいずれかの文字を含めることはできません。",
+			"prefixExists": "### {{{emoji}}} プレフィックス `{{{prefix}}}` はすでに {{{moderator}}} によって追加されています。",
+			"prefixCleared": "### {{{emoji}}} すべてのプレフィックスをデフォルトに戻しました。",
+			"prefixNotExists": "### {{{emoji}}} プレフィックス `{{{prefix}}}` は追加されていません。",
+			"prefixRemoved": "### {{{emoji}}} プレフィックス `{{{prefix}}}` を削除しました。",
+			"prefixAdded": "### {{{emoji}}} プレフィックス `{{{prefix}}}` を追加しました。"
 		},
 		"profile": {
 			"description": "Show your profile or someone else's profile.",

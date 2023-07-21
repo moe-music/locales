@@ -777,7 +777,7 @@
 				"stop": "Berhenti",
 				"next": "Selanjutnya"
 			}
-		},
+		}
 	},
 	"player": {
 		"embed": {
@@ -804,72 +804,72 @@
 			"like": "Suka"
 		},
 		"noDispatcher": "### Saat ini tidak ada yang sedang diputar..",
-		"nothingPlaying": "### Saat ini tidak ada yang sedang diputar..",
-		"events": {
-			"buttonHandle": {
-				"notInVoice": "Anda perlu bergabung dengan saluran suara {{{channel}}} untuk menggunakan tombol ini!",
-				"noPrevious": "Tidak ada lagu sebelumnya dalam antrian.",
-				"playingPrevious": "{{{user}}} sedang memutar lagu sebelumnya.",
-				"nothingToSkip": "Tidak ada yang bisa dilewati dalam antrian.",
-				"alreadyVote": "{{{user}}} Sudah ada pemungutan suara di server ini. Harap tunggu hingga selesai atau batalkan.",
-				"voteSkip": "{{{user}}} meminta untuk melewati lagu saat ini. Apakah Anda ingin menghentikan pemungutan suara? Ketik {{{cmd}}}",
-				"voteSkipLabel": "Pilih untuk melewati lagu saat ini!",
-				"alreadyVoted": "{{{user}}} Anda sudah memilih untuk melewati lagu saat ini.",
-				"voteSkip2": "{{{user}}} meminta untuk melewati lagu saat ini.",
-				"voteSkipLabel2": "Pilih untuk melewati lagu saat ini! ({{{count}}}/{{{n}}})",
-				"needVoice": "{{{user}}} Anda perlu bergabung dengan saluran suara {{{channel}}} untuk menggunakan tombol ini!",
-				"voteSkipTrack": "{{{user}}} akan melewati lagu setelah ada {{{count}}} suara positif!",
-				"notEnoughVote": "### Tidak cukup suara untuk melewati lagu saat ini.",
-				"skipTrack": "{{{user}}} melewati lagu saat ini.",
-				"playTrack": "{{{user}}} {{{paused}}} lagu saat ini.",
-				"paused": "Dijeda",
-				"resumed": "Dilanjutkan",
-				"stopTrack": "{{{user}}} menghentikan lagu saat ini.",
-				"volMax": "### Volume sudah maksimum.",
-				"volUp": "{{{user}}} meningkatkan volume ke **{{{vol}}}**%.",
-				"volMin": "### Volume sudah minimum.",
-				"volDown": "{{{user}}} mengurangi volume menjadi **{{{vol}}}**%.",
-				"shuffleError": "{{{user}}} Tidak ada cukup lagu dalam antrian untuk diacak.",
-				"shuffleDisabled": "{{{user}}} Acak dimatikan.",
-				"shuffleEnabled": "{{{user}}} Acak diaktifkan.",
-				"loopSong": "{{{user}}} Mengulang lagu saat ini.",
-				"loopQueue": "{{{user}}} Mengulang antrian.",
-				"loopDisabled": "{{{user}}} Pengulangan dimatikan.",
-				"noTrack": "{{{user}}} Tidak ada yang sedang diputar saat ini.",
-				"liked": "{{{user}}} Menyukai **{{{title}}}**.",
-				"unliked": "{{{user}}} Tidak menyukai **{{{title}}}**."
-			},
-			"int": {
-				"noSendMessages": "### Hei! Saya mencoba mengirimkan balasan untuk perintah Anda; namun, saya tidak memiliki izin untuk melakukannya. Harap minta anggota staff memberi saya izin `Send Messages` di Discord.\n\nServer: **{{{guildName}}}**\nPerintah: **{{{commandName}}}**\nButuh bantuan dengan izin? Bergabunglah dengan server dukungan: {{{supportServer}}}",
-				"noEmbedLinks": "### {{{emoji}}} Bot harus memiliki izin `Embed links` di Discord agar dapat berfungsi dengan baik! Harap minta anggota staff memberi saya izin ini.",
-				"noBotChannel": "### Saya tidak diizinkan untuk menjawab perintah di saluran ini. Harap gunakan {{{emoji}}} <#{{{botChannel}}}> untuk perintah bot. Terima kasih atas kerjasamanya.",
-				"deleteFooter": "• Pesan ini akan dihapus dalam 5 detik",
-				"disabledCommand": "### Perintah ini dinonaktifkan di server ini untuk semua orang. Hanya DJ yang bisa menggunakan perintah ini.",
-				"disabledCommandList": "Daftar Dinonaktifkan",
-				"noBotPermissions": "### {{{emoji}}} Saya tidak memiliki izin **{{{permissions}}}** untuk menjalankan perintah ini.",
-				"noUserPermissions": "### {{{emoji}}} Anda tidak memiliki izin **{{{permissions}}}** untuk menjalankan perintah ini.",
-				"voteLocks": [
-					"### Anda perlu memberikan suara untuk saya agar dapat menggunakan perintah ini. Anda bisa memberikan suara di [Top.gg]({{{link}}})",
-					"### Anda perlu memberikan suara untuk saya agar dapat menggunakan perintah ini. Anda bisa memberikan suara di [Top.gg]({{{link}}}) atau\nAnda juga bisa mendapatkan premium dengan mendonasikan di [sini]({{{link2}}})"
-				],
-				"buttons": {
-					"vote": "Vote",
-					"donate": "Donasi",
-					"invite": "Undang",
-					"support": "Dukungan"
-				},
-				"cooldown": "### Harap tunggu **{{{timeLeft}}}** detik lagi sebelum menggunakan kembali perintah **{{{command}}}**.",
-				"noDjRole": "### {{{emoji}}} Anda memerlukan peran DJ untuk menggunakan perintah ini.",
-				"noPremium": "### Anda memerlukan premium bot untuk menggunakan perintah ini. Anda bisa mendapatkan premium dengan mendonasikan di [sini]({{{link}}})",
-				"voicePerm": "### {{{emoji}}} Saya tidak memiliki izin yang dibutuhkan untuk bergabung dengan saluran suara Anda! Saya memerlukan izin `View Channels`, `Connect`, dan `Speak`. [Contoh Izin](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nJika masalah masih berlanjut, ubah wilayah saluran suara menjadi `Europe`.",
-				"voiceJoin": "### {{{emoji}}} Anda harus terhubung dengan saluran suara di server ini untuk menggunakan perintah ini!\n\nCara bergabung dengan saluran suara: Klik saluran dengan ikon speaker (misalnya, klik di sini:  {{{channel}}}) [Lihat panduan resmi Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-				"voiceChannel": "### {{{emoji}}} Anda harus berada di saluran suara **{{{channel}}}** untuk menggunakan perintah ini.",
-				"noPlayer": "### {{{emoji}}} Saya tidak terhubung dengan saluran suara manapun. Harap gunakan perintah {{{command}}} untuk memanggil saya.",
-				"noQueue": "### {{{emoji}}} Tidak ada antrian. Harap gunakan perintah {{{command}}} untuk menambahkan lagu ke dalam antrian.",
-				"noSong": "### {{{emoji}}} Tidak ada lagu yang sedang diputar. Harap gunakan perintah {{{command}}} untuk menambahkan lagu ke dalam antrian.",
-				"error": "### {{{emoji}}} Terjadi kesalahan saat menjalankan perintah. Harap laporkan kesalahan ini di [Server Dukungan]({{{link}}})"
-			}
+		"nothingPlaying": "### Saat ini tidak ada yang sedang diputar.."
+	},
+	"events": {
+		"buttonHandle": {
+			"notInVoice": "Anda perlu bergabung dengan saluran suara {{{channel}}} untuk menggunakan tombol ini!",
+			"noPrevious": "Tidak ada lagu sebelumnya dalam antrian.",
+			"playingPrevious": "{{{user}}} sedang memutar lagu sebelumnya.",
+			"nothingToSkip": "Tidak ada yang bisa dilewati dalam antrian.",
+			"alreadyVote": "{{{user}}} Sudah ada pemungutan suara di server ini. Harap tunggu hingga selesai atau batalkan.",
+			"voteSkip": "{{{user}}} meminta untuk melewati lagu saat ini. Apakah Anda ingin menghentikan pemungutan suara? Ketik {{{cmd}}}",
+			"voteSkipLabel": "Pilih untuk melewati lagu saat ini!",
+			"alreadyVoted": "{{{user}}} Anda sudah memilih untuk melewati lagu saat ini.",
+			"voteSkip2": "{{{user}}} meminta untuk melewati lagu saat ini.",
+			"voteSkipLabel2": "Pilih untuk melewati lagu saat ini! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Anda perlu bergabung dengan saluran suara {{{channel}}} untuk menggunakan tombol ini!",
+			"voteSkipTrack": "{{{user}}} akan melewati lagu setelah ada {{{count}}} suara positif!",
+			"notEnoughVote": "### Tidak cukup suara untuk melewati lagu saat ini.",
+			"skipTrack": "{{{user}}} melewati lagu saat ini.",
+			"playTrack": "{{{user}}} {{{paused}}} lagu saat ini.",
+			"paused": "Dijeda",
+			"resumed": "Dilanjutkan",
+			"stopTrack": "{{{user}}} menghentikan lagu saat ini.",
+			"volMax": "### Volume sudah maksimum.",
+			"volUp": "{{{user}}} meningkatkan volume ke **{{{vol}}}**%.",
+			"volMin": "### Volume sudah minimum.",
+			"volDown": "{{{user}}} mengurangi volume menjadi **{{{vol}}}**%.",
+			"shuffleError": "{{{user}}} Tidak ada cukup lagu dalam antrian untuk diacak.",
+			"shuffleDisabled": "{{{user}}} Acak dimatikan.",
+			"shuffleEnabled": "{{{user}}} Acak diaktifkan.",
+			"loopSong": "{{{user}}} Mengulang lagu saat ini.",
+			"loopQueue": "{{{user}}} Mengulang antrian.",
+			"loopDisabled": "{{{user}}} Pengulangan dimatikan.",
+			"noTrack": "{{{user}}} Tidak ada yang sedang diputar saat ini.",
+			"liked": "{{{user}}} Menyukai **{{{title}}}**.",
+			"unliked": "{{{user}}} Tidak menyukai **{{{title}}}**."
 		},
+		"int": {
+			"noSendMessages": "### Hei! Saya mencoba mengirimkan balasan untuk perintah Anda; namun, saya tidak memiliki izin untuk melakukannya. Harap minta anggota staff memberi saya izin `Send Messages` di Discord.\n\nServer: **{{{guildName}}}**\nPerintah: **{{{commandName}}}**\nButuh bantuan dengan izin? Bergabunglah dengan server dukungan: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Bot harus memiliki izin `Embed links` di Discord agar dapat berfungsi dengan baik! Harap minta anggota staff memberi saya izin ini.",
+			"noBotChannel": "### Saya tidak diizinkan untuk menjawab perintah di saluran ini. Harap gunakan {{{emoji}}} <#{{{botChannel}}}> untuk perintah bot. Terima kasih atas kerjasamanya.",
+			"deleteFooter": "• Pesan ini akan dihapus dalam 5 detik",
+			"disabledCommand": "### Perintah ini dinonaktifkan di server ini untuk semua orang. Hanya DJ yang bisa menggunakan perintah ini.",
+			"disabledCommandList": "Daftar Dinonaktifkan",
+			"noBotPermissions": "### {{{emoji}}} Saya tidak memiliki izin **{{{permissions}}}** untuk menjalankan perintah ini.",
+			"noUserPermissions": "### {{{emoji}}} Anda tidak memiliki izin **{{{permissions}}}** untuk menjalankan perintah ini.",
+			"voteLocks": [
+				"### Anda perlu memberikan suara untuk saya agar dapat menggunakan perintah ini. Anda bisa memberikan suara di [Top.gg]({{{link}}})",
+				"### Anda perlu memberikan suara untuk saya agar dapat menggunakan perintah ini. Anda bisa memberikan suara di [Top.gg]({{{link}}}) atau\nAnda juga bisa mendapatkan premium dengan mendonasikan di [sini]({{{link2}}})"
+			],
+			"buttons": {
+				"vote": "Vote",
+				"donate": "Donasi",
+				"invite": "Undang",
+				"support": "Dukungan"
+			},
+			"cooldown": "### Harap tunggu **{{{timeLeft}}}** detik lagi sebelum menggunakan kembali perintah **{{{command}}}**.",
+			"noDjRole": "### {{{emoji}}} Anda memerlukan peran DJ untuk menggunakan perintah ini.",
+			"noPremium": "### Anda memerlukan premium bot untuk menggunakan perintah ini. Anda bisa mendapatkan premium dengan mendonasikan di [sini]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} Saya tidak memiliki izin yang dibutuhkan untuk bergabung dengan saluran suara Anda! Saya memerlukan izin `View Channels`, `Connect`, dan `Speak`. [Contoh Izin](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nJika masalah masih berlanjut, ubah wilayah saluran suara menjadi `Europe`.",
+			"voiceJoin": "### {{{emoji}}} Anda harus terhubung dengan saluran suara di server ini untuk menggunakan perintah ini!\n\nCara bergabung dengan saluran suara: Klik saluran dengan ikon speaker (misalnya, klik di sini:  {{{channel}}}) [Lihat panduan resmi Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Anda harus berada di saluran suara **{{{channel}}}** untuk menggunakan perintah ini.",
+			"noPlayer": "### {{{emoji}}} Saya tidak terhubung dengan saluran suara manapun. Harap gunakan perintah {{{command}}} untuk memanggil saya.",
+			"noQueue": "### {{{emoji}}} Tidak ada antrian. Harap gunakan perintah {{{command}}} untuk menambahkan lagu ke dalam antrian.",
+			"noSong": "### {{{emoji}}} Tidak ada lagu yang sedang diputar. Harap gunakan perintah {{{command}}} untuk menambahkan lagu ke dalam antrian.",
+			"error": "### {{{emoji}}} Terjadi kesalahan saat menjalankan perintah. Harap laporkan kesalahan ini di [Server Dukungan]({{{link}}})"
+		}
 	},
 	"get_started": {
 		"embed_title": "Moe Bot | Mulai",
