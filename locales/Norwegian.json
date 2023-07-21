@@ -983,7 +983,7 @@
 		},
 		"vote": {
 			"description": "Botstemmelink",
-			"content": "### Hvis du liker boten, vennligst vurder å stemme på den på [top.gg]({{{link}}}).",
+			"content": "### Hvis du liker Moe, vennligst vurder å stemme på den på [top.gg]({{{link}}}).",
 			"buttons": {
 				"vote": "Stemme"
 			}
