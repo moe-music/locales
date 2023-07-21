@@ -907,7 +907,7 @@
 		"help": {
 			"description": "Vis en liste over kommandoer eller informasjon om en spesifikk kommando.",
 			"options": {
-				"command": "Navnet på kommandoen eller kategorien du vil ha hjelp for"
+				"command": "Navnet på kommandoen eller kategorien du vil ha hjelp med"
 			},
 			"title": "Kommando",
 			"footer": "Side {{{page}}} av {{{pagesNum}}}",
