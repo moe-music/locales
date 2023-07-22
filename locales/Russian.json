@@ -5,6 +5,7 @@
 			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
 			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
 		},
+		
 		"ping": {
 			"description": "Shows the bot latency.",
 			"author": "Bot latency",
