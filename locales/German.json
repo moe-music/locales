@@ -627,7 +627,7 @@
 			"description": "Konfiguriere die Voteskip-Einstellungen.",
 			"options": {
 				"set": "Setze den Voteskip-Modus.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Die Aktion, die du setzen möchtest (aktivieren/deaktivieren)."
 			},
 			"success": "### {{{emoji}}} Voteskip wurde erfolgreich {{{action}}}.",
 			"isConfirm": "### Möchtest du Voteskip aktivieren oder deaktivieren?",

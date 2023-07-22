@@ -627,7 +627,7 @@
 			"description": "Configurez les paramètres de vote de skip.",
 			"options": {
 				"set": "Définir le mode de vote de skip.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "L'action que vous souhaitez définir (activer/désactiver)."
 			},
 			"success": "### {{{emoji}}} Vote de skip {{{action}}} avec succès.",
 			"isConfirm": "### Souhaitez-vous activer ou désactiver le vote de skip ?",

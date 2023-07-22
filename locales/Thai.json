@@ -443,139 +443,139 @@
 			"success": "### {{{emoji}}} ตั้งค่าระดับเสียงเริ่มต้นเป็น **{{{volume}}}** เรียบร้อยแล้ว"
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "ปิดใช้งานคำสั่งสำหรับเซิร์ฟเวอร์",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "เพิ่มคำสั่งในรายการคำสั่งที่ถูกปิดใช้งาน",
+				"command": "ชื่อคำสั่ง",
+				"remove": "ลบคำสั่งจากรายการคำสั่งที่ถูกปิดใช้งาน",
+				"list": "ดูรายการคำสั่งที่ถูกปิดใช้งาน",
+				"clear": "ล้างรายการคำสั่งที่ถูกปิดใช้งาน"
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} กรุณาระบุชื่อคำสั่งที่ต้องการปิดใช้งาน/เปิดใช้งาน",
+			"commandNotExist": "### {{{emoji}}} คำสั่งนั้นไม่มีในบอท",
+			"commandAlreadyDisabled": "### {{{emoji}}} คำสั่งนี้ถูกปิดใช้งานอยู่แล้ว",
+			"commandDisabled": "### {{{emoji}}} ปิดใช้งานคำสั่ง **{{{command}}}** เรียบร้อยแล้ว",
+			"noDisabledCommands": "### {{{emoji}}} คำสั่งนี้ไม่ได้ถูกปิดใช้งาน",
+			"commandEnabled": "### {{{emoji}}} เปิดใช้งานคำสั่ง **{{{command}}}** เรียบร้อยแล้ว",
+			"disabledCommands": "คำสั่งที่ถูกปิดใช้งาน",
+			"disabledCommandsForThisServer": "คำสั่งที่ถูกปิดใช้งานสำหรับเซิร์ฟเวอร์นี้",
+			"total": "ทั้งหมด: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} ล้างรายการคำสั่งที่ถูกปิดใช้งานเรียบร้อยแล้ว"
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "ตั้งค่าบทบาท DJ สำหรับเซิร์ฟเวอร์",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "เพิ่มบทบาทในรายการบทบาท DJ",
+				"role": "บทบาทที่ต้องการ (เพิ่ม/ลบ)",
+				"remove": "ลบบทบาทจากรายการบทบาท DJ",
+				"list": "ดูรายการบทบาท DJ",
+				"clear": "ล้างรายการบทบาท DJ",
+				"toggle": "สลับโหมดบทบาท DJ",
+				"info": "ดูรายการบทบาท DJ และข้อมูลเกี่ยวกับบทบาท DJ"
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} กรุณาระบุบทบาทที่ถูกต้อง (เพิ่ม/ลบ)",
+			"maxRoles": "### {{{emoji}}} คุณไม่สามารถเพิ่มบทบาทในรายการ DJ มากกว่า 5 บทบาท",
+			"alreadyInList": "### {{{emoji}}} บทบาทที่คุณให้มาอยู่ในฐานข้อมูลแล้ว",
+			"addedRole": "### {{{emoji}}} เพิ่มบทบาท **{{{role}}}** เข้าสู่รายการ DJ เรียบร้อยแล้ว",
+			"noRolesSetup": "### {{{emoji}}} ไม่มีบทบาท DJ ที่ตั้งค่าในเซิร์ฟเวอร์นี้",
+			"notInList": "### {{{emoji}}} บทบาทนี้ไม่อยู่ในรายการ DJ",
+			"removedRole": "### {{{emoji}}} ลบบทบาท **{{{role}}}** ออกจากรายการ DJ เรียบร้อยแล้ว",
+			"list": ">>> **บทบาท:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**เพิ่มเมื่อ:** {{{addedAt}}}",
+			"listTotal": "## รวมบทบาท DJ ทั้งหมด: {{{total}}}",
+			"clearedList": "### {{{emoji}}} ล้างรายการ DJ เรียบร้อยแล้ว",
+			"enabledToggle": "### {{{emoji}}} เปิดใช้งานโหมดบทบาท DJ เรียบร้อยแล้ว",
+			"disabledToggle": "### {{{emoji}}} ปิดใช้งานโหมดบทบาท DJ เรียบร้อยแล้ว",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "บทบาท DJ",
+				"enabled": "เปิดใช้งานแล้ว",
+				"disabled": "ปิดใช้งานแล้ว",
+				"djMode": "โหมด DJ",
+				"djMembers": "สมาชิก DJ",
+				"description": "ข้อมูลบทบาท DJ สำหรับ {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "แก้ไขการเชื่อมต่อเสียงหากบอทไม่กำลังเล่นเพลง",
+			"joining": "### กำลังเข้าร่วมช่องเสียงอีกครั้งและดำเนินการเล่นเพลงต่อ",
+			"failed": "### ไม่สามารถเปลี่ยนพื้นที่เสียงได้ กรุณาลองอีกครั้งในภายหลัง",
+			"error": "{{{emoji}}} ขณะนี้ฉันไม่พบวิธีการแก้ไขใด ๆ ในขณะนี้ อาจต้องขอความช่วยเหลือใน [เซิร์ฟเวอร์สนับสนุน]({{{server}}})",
+			"success": "### {{{emoji}}} เปลี่ยนพื้นที่เสียงเป็น **{{{region}}}** สำเร็จแล้ว"
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "บังคับให้บอทเข้าร่วมช่องเสียง",
+			"already-in": "{{{emoji}}} ฉันอยู่ในช่องเสียงแล้ว!",
+			"joined": "### {{{emoji}}} เข้าร่วมช่องเสียง **{{{channel}}}** เรียบร้อยแล้ว"
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "ตั้งค่าภาษาของบอทสำหรับเซิร์ฟเวอร์",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "เพิ่มภาษาสำหรับเซิร์ฟเวอร์",
+				"language": "ภาษาที่คุณต้องการตั้งค่า",
+				"info": "ดูข้อมูลเกี่ยวกับภาษา",
+				"reset": "ตั้งค่าภาษากลับเป็นภาษาเริ่มต้น",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} ตั้งค่าภาษาของบอทเป็น {{{language}}} `({{{languageCode}}})` เรียบร้อยแล้ว",
+			"info": "### ภาษาปัจจุบันในเซิร์ฟเวอร์นี้คือ: **{{{language}}}** `({{{languageCode}}})`",
+			"reset": "### {{{emoji}}} ตั้งค่าภาษาของบอทกลับเป็นภาษาเริ่มต้นเรียบร้อยแล้ว",
+			"translationProgress": "ความคืบหน้าในการแปล: {{{progress}}}",
+			"selectLanguage": "โปรดเลือกภาษาที่คุณต้องการตั้งค่าจากเมนูด้านล่าง"
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "สลับการใช้งานคำนำหน้าหรือไม่ใช้คำนำหน้าสำหรับผู้ใช้หรือเซิร์ฟเวอร์",
+			"toggle": "### สลับการใช้งานคำนำหน้าหรือไม่ใช้คำนำหน้าสำหรับผู้ใช้หรือเซิร์ฟเวอร์",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "เซิร์ฟเวอร์",
+				"user": "ผู้ใช้"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### คุณต้องเป็นผู้ใช้พรีเมียมเพื่อใช้คำสั่งนี้",
+			"disabledUser": "### {{{emoji}}} ปิดใช้งานไม่ใช้คำนำหน้าสำหรับผู้ใช้แล้ว",
+			"enabledUser": "### {{{emoji}}} เปิดใช้งานคำนำหน้าไม่ใช้สำหรับผู้ใช้แล้ว",
+			"noPerm": "### คุณไม่มีสิทธิ์ที่จำเป็นในการใช้คำสั่งนี้",
+			"disabledServer": "### {{{emoji}}} ปิดใช้งานไม่ใช้คำนำหน้าสำหรับเซิร์ฟเวอร์แล้ว",
+			"enabledServer": "### {{{emoji}}} เปิดใช้งานคำนำหน้าไม่ใช้สำหรับเซิร์ฟเวอร์แล้ว"
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "ตั้งค่าคำนำหน้าสำหรับเซิร์ฟเวอร์",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "ตั้งค่าคำนำหน้าสำหรับเซิร์ฟเวอร์",
+				"prefix": "คำนำหน้าที่คุณต้องการ (ตั้งค่า/ลบ)",
+				"info": "ดูคำนำหน้าสำหรับเซิร์ฟเวอร์",
+				"clear": "ล้างคำนำหน้าสำหรับเซิร์ฟเวอร์",
+				"remove": "ลบคำนำหน้าสำหรับเซิร์ฟเวอร์"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **คำนำหน้า:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**เพิ่มเมื่อ:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} กรุณาระบุคำนำหน้าที่ต้องการตั้งค่า",
+			"noPrefixAdded": "### {{{emoji}}} ยังไม่มีคำนำหน้าที่ถูกเพิ่มไว้ในเซิร์ฟเวอร์นี้",
+			"prefixLength": "### {{{emoji}}} คำนำหน้าต้องไม่ยาวกว่า 5 ตัวอักษร",
+			"prefixLimit": "### {{{emoji}}} คำนำหน้ามีขีดจำกัดที่ 4 โปรดลบบางคำนำหน้าด้วย `prefix remove`",
+			"prefixCharacters": "### {{{emoji}}} คำนำหน้าต้องไม่มีตัวอักษรดังต่อไปนี้ `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} คำนำหน้า `{{{prefix}}}` ถูกเพิ่มโดย {{{moderator}}} แล้ว",
+			"prefixCleared": "### {{{emoji}}} ล้างคำนำหน้าทั้งหมดเป็นค่าเริ่มต้นเรียบร้อยแล้ว",
+			"prefixNotExists": "### {{{emoji}}} คำนำหน้า `{{{prefix}}}` ยังไม่ถูกเพิ่ม",
+			"prefixRemoved": "### {{{emoji}}} ลบคำนำหน้า `{{{prefix}}}` เรียบร้อยแล้ว",
+			"prefixAdded": "### {{{emoji}}} เพิ่มคำนำหน้า `{{{prefix}}}` เรียบร้อยแล้ว"
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "แสดงโปรไฟล์ของคุณหรือโปรไฟล์ของคนอื่น",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "ตั้งค่าสีโปรไฟล์ของคุณ สีหรือการเปิดเผย",
+				"bio": "ตั้งค่าข้อความโปรไฟล์ของคุณ",
+				"color": "ตั้งค่าสีโปรไฟล์ของคุณ",
+				"visibility": "ตั้งค่าการเปิดเผยโปรไฟล์ของคุณ",
+				"view": "ดูโปรไฟล์ของคุณหรือคนอื่น",
+				"user": "ผู้ใช้ที่คุณต้องการดูโปรไฟล์ของเขา"
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} คุณต้องระบุข้อความโปรไฟล์",
+			"bioLength": "### {{{emoji}}} ข้อความโปรไฟล์ของคุณต้องไม่เกิน 50 ตัวอักษร",
+			"bioSet": "### {{{emoji}}} ตั้งค่าข้อความโปรไฟล์ของคุณเป็น `{{{bio}}}` เรียบร้อยแล้ว",
+			"noColor": "### {{{emoji}}} กรุณาระบุรหัสสีแบบเฮกซ์ [ตัวอย่าง: #FF0000](https://g.co/kgs/q5nhF7)\n\nคุณยังสามารถใช้ชื่อสีต่อไปนี้: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} สีของคุณถูกตั้งค่าเป็น `{{{color}}}` อยู่แล้ว",
+			"colorSet": "### {{{emoji}}} ตั้งค่าสีโปรไฟล์ของคุณเป็น `{{{color}}}` เรียบร้อยแล้ว",
+			"sameVisibility": "### {{{emoji}}} การเปิดเผยโปรไฟล์ของคุณถูกตั้งค่าเป็น `{{{visibility}}}` อยู่แล้ว",
+			"noVisibility": "### {{{emoji}}} กรุณาระบุการเปิดเผย (สาธารณะ/ส่วนตัว)",
+			"visibilitySet": "### {{{emoji}}} ตั้งค่าการเปิดเผยโปรไฟล์ของคุณเป็น `{{{visibility}}}` เรียบร้อยแล้ว",
+			"privateProfile": "### {{{emoji}}} โปรไฟล์ของผู้ใช้นี้เป็นส่วนตัว"
 		},
 		"setting": {
 			"description": "Change the server settings or get the server settings info",
@@ -627,7 +627,7 @@
 			"description": "Configure the voteskip settings.",
 			"options": {
 				"set": "Set the voteskip mode.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "The action you want to set (enable/disable)."
 			},
 			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
 			"isConfirm": "### Do you want to enable or disable the voteskip?",

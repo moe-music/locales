@@ -627,7 +627,7 @@
 			"description": "Configureer de voteskip-instellingen.",
 			"options": {
 				"set": "Stel de voteskip-modus in.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "De actie die je wilt instellen (inschakelen/uitschakelen)."
 			},
 			"success": "### {{{emoji}}} De voteskip is succesvol {{{action}}}d.",
 			"isConfirm": "### Wil je de voteskip inschakelen of uitschakelen?",

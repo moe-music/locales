@@ -627,7 +627,7 @@
 			"description": "配置投票跳过设置。",
 			"options": {
 				"set": "设置投票跳过模式。",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "您要设置的操作（启用/禁用）。"
 			},
 			"success": "### {{{emoji}}} 成功{{{action}}}投票跳过。",
 			"isConfirm": "### 您想启用还是禁用投票跳过？",

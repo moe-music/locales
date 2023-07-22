@@ -628,7 +628,7 @@
 			"description": "Configure the voteskip settings.",
 			"options": {
 				"set": "Set the voteskip mode.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "The action you want to set (enable/disable)."
 			},
 			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
 			"isConfirm": "### Do you want to enable or disable the voteskip?",

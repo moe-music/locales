@@ -627,7 +627,7 @@
 			"description": "Konfiguriraj postavke glasanja za preskakanje.",
 			"options": {
 				"set": "Postavi način glasanja za preskakanje.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Radnja koju želite postaviti (omogućiti/onemogućiti)."
 			},
 			"success": "### {{{emoji}}} Uspješno {{{action}}} glasanje za preskakanje.",
 			"isConfirm": "### Želite li omogućiti ili onemogućiti glasanje za preskakanje?",

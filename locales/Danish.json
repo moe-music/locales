@@ -627,7 +627,7 @@
 			"description": "Konfigurer voteskip-indstillingerne.",
 			"options": {
 				"set": "Indstil voteskip-tilstand.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Den handling, du vil indstille (aktiver/deaktiver)."
 			},
 			"success": "### {{{emoji}}} Voteskip er blevet {{{action}}}.",
 			"isConfirm": "### Vil du aktivere eller deaktivere voteskip?",

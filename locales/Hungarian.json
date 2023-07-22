@@ -627,7 +627,7 @@
 			"description": "Állítsd be a szavazáskiagyás beállításait.",
 			"options": {
 				"set": "Állítsd be a szavazáskiagyás módot.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "A beállítani kívánt művelet (engedélyezés/letiltás)."
 			},
 			"success": "### {{{emoji}}} Sikeresen {{{action}}}tad a szavazáskiagyást.",
 			"isConfirm": "### Engedélyezni vagy letiltani szeretnéd a szavazáskiagyást?",

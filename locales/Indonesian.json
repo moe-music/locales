@@ -627,7 +627,7 @@
 			"description": "Konfigurasi pengaturan voteskip.",
 			"options": {
 				"set": "Atur mode voteskip.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Tindakan yang ingin Anda atur (aktif/nonaktif)."
 			},
 			"success": "### {{{emoji}}} Berhasil {{{action}}} voteskip.",
 			"isConfirm": "### Apakah Anda ingin mengaktifkan atau menonaktifkan voteskip?",

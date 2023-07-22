@@ -627,7 +627,7 @@
 			"description": "Konfigurovat nastavení voteskipu.",
 			"options": {
 				"set": "Nastavit režim voteskipu.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Akce, kterou chcete nastavit (povolit/zakázat)."
 			},
 			"success": "### {{{emoji}}} Úspěšně provedeno {{{action}}} voteskipu.",
 			"isConfirm": "### Chcete povolit nebo zakázat voteskip?",

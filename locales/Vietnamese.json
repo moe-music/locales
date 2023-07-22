@@ -627,7 +627,7 @@
 			"description": "Cấu hình cài đặt bỏ qua bằng bỏ phiếu.",
 			"options": {
 				"set": "Thiết lập chế độ bỏ qua bằng bỏ phiếu.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Hành động bạn muốn thiết lập (bật/tắt)."
 			},
 			"success": "### {{{emoji}}} Đã {{{action}}} thành công bỏ qua bằng bỏ phiếu.",
 			"isConfirm": "### Bạn muốn bật hoặc tắt chế độ bỏ qua bằng bỏ phiếu?",

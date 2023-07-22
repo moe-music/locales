@@ -557,143 +557,143 @@
 			"prefixAdded": "### {{{emoji}}} プレフィックス `{{{prefix}}}` を追加しました。"
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "プロフィールを表示するか、他のユーザーのプロフィールを表示します。",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "プロフィールの色、色、または可視性を設定します。",
+				"bio": "プロフィールの自己紹介を設定します。",
+				"color": "プロフィールの色を設定します。",
+				"visibility": "プロフィールの可視性を設定します。",
+				"view": "自分のプロフィールまたは他のユーザーのプロフィールを表示します。",
+				"user": "プロフィールを表示したいユーザー。"
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} 自己紹介を入力してください。",
+			"bioLength": "### {{{emoji}}} 自己紹介は50文字を超えることはできません。",
+			"bioSet": "### {{{emoji}}} 自己紹介を `{{{bio}}}` に設定しました。",
+			"noColor": "### {{{emoji}}} カラーコードを提供してください [例: #FF0000](https://g.co/kgs/q5nhF7)\n\n以下のカラー名を使用することもできます: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} 既にカラーが `{{{color}}}` に設定されています。",
+			"colorSet": "### {{{emoji}}} カラーを `{{{color}}}` に設定しました。",
+			"sameVisibility": "### {{{emoji}}} 現在の可視性は `{{{visibility}}}` に設定されています。",
+			"noVisibility": "### {{{emoji}}} 可視性を指定してください (public/private)。",
+			"visibilitySet": "### {{{emoji}}} 可視性を `{{{visibility}}}` に設定しました。",
+			"privateProfile": "### {{{emoji}}} このユーザーのプロフィールは非公開です。"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "サーバー設定を変更するか、サーバー設定の情報を取得します。",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "すべてのサーバー設定をデフォルト設定にリセットします。",
+				"info": "サーバー設定の情報を取得します。"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} このコマンドを使用するための `manageGuild` 権限がありません。",
+			"isSure": "### サーバー設定をリセットしますか？\nこれによりすべての設定がデフォルト値にリセットされます。\n\n**確認の場合は、以下のボタンを押してください**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "リセット"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "トラックボタン",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
-				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"botChannel": "Botチャンネル",
+				"disableCommand": "無効化されたコマンド",
+				"defaultVolume": "デフォルトボリューム",
+				"announce": "アナウンス",
+				"prunning": "プルーニング",
+				"noPrefix": "プレフィックスなし",
+				"prefix": "プレフィックス",
+				"djRole": "DJロール",
+				"setup": "セットアップ",
+				"voteSkip": "投票スキップ",
+				"language": "言語",
+				"trackButtonValue": "モード: {{{mode}}}\nモデレーター: {{{moderator}}}\n追加: {{{added}}}",
+				"setupValue": "モデレーター: {{{moderator}}}\n追加: {{{added}}}\n\n**チャンネル:**\n{{{channels}}}",
+				"djValue": "モード: {{{mode}}}\nロール: {{{roles}}}\n追加: {{{added}}}",
+				"defaultvolumeValue": "ボリューム: {{{volume}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"announceValue": "モード: {{{mode}}}\nチャンネル: {{{channel}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"prunningValue": "モード: {{{mode}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"disableCommandValue": "コマンド: {{{commands}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"prefixValue": "プレフィックス: {{{prefix}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"voteSkipValue": "モード: {{{mode}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"247Value": "モード: {{{mode}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}\nチャンネル: {{{channel}}}",
+				"botChannelValue": "チャンネル: {{{channel}}}\n追加: {{{added}}}\nモデレーター: {{{moderator}}}",
+				"languageValue": "言語: {{{language}}}",
+				"enabled": "有効",
+				"disabled": "無効",
+				"none": "なし"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} サーバー設定をデフォルト設定にリセットしました。",
+			"info": "## このサーバーの設定情報は以下の通りです。",
+			"noSettings": "### {{{emoji}}} このサーバーの設定が見つかりません。"
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "投票スキップの設定を構成します。",
 			"options": {
-				"set": "Set the voteskip mode.",
+				"set": "投票スキップのモードを設定します。",
 				"action": "cmd.voteskipsetting.options.action"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} 投票スキップを{{{action}}}しました。",
+			"isConfirm": "### 投票スキップを有効にしますか、または無効にしますか？",
+			"canceled": "### {{{emoji}}} 投票スキップの設定がキャンセルされました。",
+			"alreadyEnabled": "### 投票スキップは既に有効です。",
+			"alreadyDisabled": "### 投票スキップは既に無効です。",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "有効にする",
+				"disable": "無効にする",
+				"cancel": "キャンセル"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "曲をプレイリストに追加します。",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "曲を追加したいプレイリスト。",
+				"song": "プレイリストに追加したい曲（名前/URL）"
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} プレイリスト名は3〜50文字でなければなりません。",
+			"noPlaylists": "### {{{emoji}}} アカウント内にプレイリストが見つかりませんでした。まずはプレイリストを作成してください。",
+			"noResults": "### {{{emoji}}} `{{{song}}}` の結果が見つかりませんでした。",
+			"playlistFull": "### {{{emoji}}} プレイリストが一杯です。追加する前にいくつかの曲を削除してください。",
+			"playlistAdded": "### {{{emoji}}} プレイリスト **{{{playlist}}}** に **{{{count}}}** 曲を追加しました。"
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "現在の曲をプレイリストに追加します。",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "曲を追加したいプレイリスト。"
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} 再生中の曲がありません。",
+			"songAlreadyInPlaylist": "### {{{emoji}}} この曲は既にプレイリストに追加されています。",
+			"success": "### {{{emoji}}} **{{{song}}}** を **{{{playlist}}}** に追加しました。"
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "プレイリストをキューに追加します。",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "キューに追加したいプレイリストの名前。"
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} キューがありません。",
+			"success": "### {{{emoji}}} キュー内の **{{{queueLength}}}** 曲をプレイリスト **{{{playlistName}}}** に追加しました。"
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "プレイリストを作成します。",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "作成したいプレイリストの名前。",
+				"visibility": "プレイリストの可視性。"
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} プレイリスト名を入力してください。",
+			"visibility": "### {{{emoji}}} 可視性は `public` または `private` のいずれかである必要があります。",
+			"maxPlaylists": "### {{{emoji}}} 最大10個のプレイリストを作成できます。",
+			"playlistExists": "### {{{emoji}}} 既に **{{{playlist}}}** という名前のプレイリストがあります。",
+			"success": "### {{{emoji}}} プレイリスト **{{{playlist}}}** を作成しました。"
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "プレイリストを削除します。",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "削除したいプレイリストの名前。"
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} **{{{playlist}}}** という名前のプレイリストは存在しません。",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "確認",
+				"cancel": "キャンセル"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### プレイリスト **{{{playlist}}}** を削除してもよろしいですか？",
+			"success": "### {{{emoji}}} プレイリスト **{{{playlist}}}** を削除しました。",
+			"cancel": "### {{{emoji}}} プレイリスト **{{{playlist}}}** の削除をキャンセルしました。"
 		},
 		"dupes": {
 			"description": "Remove all duplicate songs from a playlist.",

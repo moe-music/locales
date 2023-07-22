@@ -627,7 +627,7 @@
 			"description": "Määritä äänestysohituksen asetukset.",
 			"options": {
 				"set": "Määritä äänestysohituksen tila.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Toiminto, jonka haluat asettaa (enable/disable)."
 			},
 			"success": "### {{{emoji}}} Äänestysohitus {{{action}}} onnistuneesti.",
 			"isConfirm": "### Haluatko ottaa äänestysohituksen käyttöön vai poistaa sen käytöstä?",

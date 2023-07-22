@@ -627,7 +627,7 @@
 			"description": "Oyla Atlama ayarlarını yapılandırın.",
 			"options": {
 				"set": "Oyla Atlama modunu ayarlayın.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Ayarlamak istediğiniz eylem (etkinleştir/devre dışı bırak)."
 			},
 			"success": "### {{{emoji}}} Oyla Atlama başarıyla {{{action}}}ldı.",
 			"isConfirm": "### Oyla Atlama'yı etkinleştirmek veya devre dışı bırakmak istiyor musunuz?",

@@ -627,7 +627,7 @@
 			"description": "Konfigurer innstillingene for stemmelik.",
 			"options": {
 				"set": "Sett stemmelik-modus.",
-				"action": "cmd.voteskipsetting.options.action"
+				"action": "Handlingen du vil sette (aktivere/deaktivere)."
 			},
 			"success": "### {{{emoji}}} Stemmelik er nå {{{action}}}d.",
 			"isConfirm": "### Ønsker du å aktivere eller deaktivere stemmelik?",
