@@ -696,195 +696,195 @@
 			"cancel": "### {{{emoji}}} プレイリスト **{{{playlist}}}** の削除をキャンセルしました。"
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "プレイリストからすべての重複した曲を削除します。",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "重複を削除したいプレイリストの名前。"
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} プレイリスト **{{{playlist}}}** には重複した曲はありません。",
+			"success": "### {{{emoji}}} プレイリスト **{{{playlist}}}** から **{{{count}}}** 曲の重複を正常に削除しました。"
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "プレイリストを編集します。",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "編集したいプレイリストの名前。",
+				"old-name": "プレイリストの古い名前。",
+				"new-name": "プレイリストの新しい名前。",
+				"playlist-visibility": "プレイリストの表示設定を変更します。",
+				"visibility": "プレイリストの表示設定。"
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} 新しい名前は古い名前と異なる必要があります。",
+			"successName": "### {{{emoji}}} プレイリスト **{{{oldName}}}** の名前を **{{{newName}}}** に正常に変更しました。",
+			"sameVisibility": "### {{{emoji}}} プレイリスト **{{{playlist}}}** の表示設定は既に **{{{visibility}}}** です。",
+			"successVisibility": "### {{{emoji}}} プレイリスト **{{{playlist}}}** の表示設定を **{{{visibility}}}** に正常に変更しました。",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "プレイリスト名",
+				"visibility": "表示設定",
+				"public": "公開",
+				"private": "非公開"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### 下のボタンからプレイリストを編集するオプションを選択してください。",
+			"oldName": "### 古いプレイリスト名を入力してください。",
+			"newName": "### 新しいプレイリスト名を入力してください。",
+			"cancelled": "### {{{emoji}}} プレイリスト名の変更をキャンセルしました。",
+			"playlist": "### プレイリスト名を入力してください。",
+			"selectVisibility": "### 下のボタンからプレイリストの表示設定を選択してください。"
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "プレイリストをプレイリストIDからインポートします。",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "インポートしたいプレイリストのID。"
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} ID **{{{id}}}** のプレイリストが見つかりませんでした。",
+			"sameUser": "### {{{emoji}}} 自分のプレイリストをインポートすることはできません。",
+			"privatePlaylist": "### {{{emoji}}} 非公開のプレイリストはインポートできません。",
+			"success": "### {{{emoji}}} プレイリスト **{{{playlist}}}** を正常にインポートしました。"
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "すべてのプレイリストをリストします。",
+			"tracks": "トラック数: {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "キューにプレイリストをロードします。",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "プレイリストから特定の曲をロードします。",
+				"name": "ロードしたいプレイリストの名前。",
+				"track": "ロードするトラック番号または曲のタイトル。"
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} **{{{playlist}}}** という名前のプレイリストはありません。",
+			"noTracks": "### {{{emoji}}} プレイリスト **{{{playlist}}}** にトラックがありません。",
+			"noTrackFound": "### {{{emoji}}} そのトラック `{{{track}}}` は見つかりませんでした。",
+			"trackLoaded": "### {{{emoji}}} **{{{playlist}}}** から **{{{track}}}** をロードしました。",
+			"privatePlaylist": "### {{{emoji}}} 他のユーザーの非公開のプレイリストはロードできません。",
+			"playlistLoaded": "### {{{emoji}}} **{{{playlist}}}** から **{{{count}}}** 曲をロードしました。"
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "プレイリストから曲を削除します。",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "曲を削除したいプレイリストの名前。",
+				"track": "削除するトラック番号または曲のタイトル。"
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} その番号またはタイトルのトラックは見つかりませんでした。",
+			"success": "### {{{emoji}}} **{{{playlist}}}** から **{{{track}}}** を正常に削除しました。"
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "プレイリストを表示します。",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "表示したいプレイリストの名前。"
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "ページ {{{page}}} / {{{pages}}} | トラック数 {{{tracks}}} | 時間 {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "前へ",
+				"stop": "停止",
+				"next": "次へ"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### 誰かがボイスチャンネルから切断しましたが、**24/7モード**のおかげでまだここにいます！\n\nこの状態を解除するには、{{{cmd}}}コマンドを使うか、{{{cmd2}}}コマンドを使って**24/7モード**を無効にしてください！",
+			"nowPlaying": "現在再生中",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** - [{{{songAuthor}}}]({{{songAuthorUrl}}}) が再生中です | リクエスト元: {{{requester}}}",
+			"footer": "再生時間: {{{duration}}} | キュー: {{{queue}}} | 音量: {{{volume}}}%",
+			"end": "### 過去1分間、誰も再生を聴いていないため、チャンネルから退出します。\n\nこの状態を解除するには、{{{cmd}}}コマンドを使って**24/7モード**を有効にしてください！",
+			"endTitle": "キューが終了しました",
+			"endDesc": "### 音楽キューが終了しました。再び音楽を追加するには、{{{cmd}}}コマンドを使ってください！私と音楽を楽しんでいますか？[こちらから投票してください]({{{link}}})！"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "トラックエラー",
+		"description": "### [{{{title}}}]({{{uri}}})は、年齢制限のためあなたの国では利用できません！",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "再開",
+			"pause": "一時停止",
+			"previous": "前の曲",
+			"shuffle": "シャッフル",
+			"skip": "スキップ",
+			"stop": "停止",
+			"voldown": "音量を下げる",
+			"volup": "音量を上げる",
+			"loop": "ループ",
+			"like": "お気に入り"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### 現在再生中の曲はありません。",
+		"nothingPlaying": "### 現在再生中の曲はありません。"
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "このボタンを使用するには、音声チャンネルに参加する必要があります！",
+			"noPrevious": "キューに前の曲がありません。",
+			"playingPrevious": "{{{user}}}が前のトラックを再生しています。",
+			"nothingToSkip": "スキップする曲がありません。",
+			"alreadyVote": "{{{user}}} このサーバーではすでに投票が進行中です。終了するかキャンセルしてください。",
+			"voteSkip": "{{{user}}}が現在のトラックをスキップするようリクエストしました。投票スキップを終了しますか？ {{{cmd}}}を実行してください。",
+			"voteSkipLabel": "現在のトラックをスキップするために投票！",
+			"alreadyVoted": "{{{user}}} すでに現在のトラックのスキップに投票済みです。",
+			"voteSkip2": "{{{user}}}が現在のトラックをスキップするようリクエストしました。",
+			"voteSkipLabel2": "現在のトラックをスキップするために投票！ ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} このボタンを使用するには、音声チャンネルに参加する必要があります！",
+			"voteSkipTrack": "{{{user}}}が{{{count}}}件の肯定的な投票の後にトラックをスキップしています！",
+			"notEnoughVote": "### 現在のトラックをスキップするのに十分な投票がありません。",
+			"skipTrack": "{{{user}}}が現在のトラックをスキップしました。",
+			"playTrack": "{{{user}}}が現在のトラックを{{{paused}}}しました。",
+			"paused": "一時停止中",
+			"resumed": "再開中",
+			"stopTrack": "{{{user}}}が現在のトラックを停止しました。",
+			"volMax": "### 音量はすでに最大です。",
+			"volUp": "{{{user}}}が音量を**{{{vol}}}**%に増やしました。",
+			"volMin": "### 音量はすでに最小です。",
+			"volDown": "{{{user}}}が音量を**{{{vol}}}**%に減らしました。",
+			"shuffleError": "{{{user}}} キューにシャッフルする曲が十分にありません。",
+			"shuffleDisabled": "{{{user}}} シャッフルが無効になりました。",
+			"shuffleEnabled": "{{{user}}} シャッフルが有効になりました。",
+			"loopSong": "{{{user}}}が現在の曲をループ再生しています。",
+			"loopQueue": "{{{user}}}がキューをループ再生しています。",
+			"loopDisabled": "{{{user}}} ループが無効になりました。",
+			"noTrack": "{{{user}}} 現在再生中の曲はありません。",
+			"liked": "{{{user}}} が **{{{title}}}** をお気に入りにしました。",
+			"unliked": "{{{user}}} が **{{{title}}}** のお気に入りを解除しました。"
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### おっと！コマンドへの応答を送信しようとしましたが、それが許可されていません。スタッフの方に「メッセージの送信」Discord権限を与えてください。\n\nサーバー: **{{{guildName}}}**\nコマンド: **{{{commandName}}}**\n権限に関するヘルプが必要ですか？サポートサーバーに参加してください: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} ボットは正常に動作するためには`埋め込みリンク`Discord権限を持っている必要があります！スタッフの方にこの権限を与えてください。",
+			"noBotChannel": "### このチャンネルではコマンドに応答することが許可されていません。{{{emoji}}} <#{{{botChannel}}}> でボットコマンドを使用してください。ご協力ありがとうございます。",
+			"deleteFooter": "• このメッセージは5秒後に削除されます",
+			"disabledCommand": "### このコマンドはこのサーバーでは全員に対して無効にされています。DJのみがこのコマンドを使用できます。",
+			"disabledCommandList": "無効リスト",
+			"noBotPermissions": "### {{{emoji}}} このコマンドを実行するための**{{{permissions}}}**権限がありません。",
+			"noUserPermissions": "### {{{emoji}}} このコマンドを実行するための**{{{permissions}}}**権限がありません。",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### このコマンドを使用するには私に投票する必要があります。[Top.gg]({{{link}}})で投票できます。",
+				"### このコマンドを使用するには私に投票する必要があります。[Top.gg]({{{link}}})で投票するか、\n[こちら]({{{link2}}})で寄付してプレミアムを入手できます。"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "投票",
+				"donate": "寄付",
+				"invite": "招待",
+				"support": "サポート"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### **{{{command}}}** コマンドを再利用する前に、あと **{{{timeLeft}}}** 秒待ってください。",
+			"noDjRole": "### {{{emoji}}} このコマンドを使用するにはDJロールが必要です。",
+			"noPremium": "### このコマンドを使用するにはボットのプレミアムが必要です。[こちら]({{{link}}})で寄付してプレミアムを入手できます。",
+			"voicePerm": "### {{{emoji}}} ボイスチャンネルに参加するためには、`チャンネルを表示`、`接続`、`スピーキング`権限が必要です。[権限の例](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n問題が解決しない場合は、ボイスチャンネルの地域を`Europe`に変更してください。",
+			"voiceJoin": "### {{{emoji}}} このサーバーのボイスチャンネルに接続している必要があります！\n\nボイスチャンネルに参加する方法は？スピーカーアイコンのあるチャンネルをクリックするだけです（たとえば、こちらをクリックしてください:  {{{channel}}}） [公式のDiscordガイドを見る](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} このコマンドを使用するには **{{{channel}}}** ボイスチャンネルに参加する必要があります。",
+			"noPlayer": "### {{{emoji}}} 私は現在どのボイスチャンネルにも接続していません。{{{command}}}コマンドを使用して私を呼び出してください。",
+			"noQueue": "### {{{emoji}}} キューがありません。{{{command}}}コマンドを使用して曲をキューに追加してください。",
+			"noSong": "### {{{emoji}}} 現在再生中の曲はありません。{{{command}}}コマンドを使用して曲をキューに追加してください。",
+			"error": "### {{{emoji}}} コマンドの実行中にエラーが発生しました。このエラーを[サポートサーバー]({{{link}}})に報告してください。"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | 初めに",
+		"embed_description": "### こんにちは、<@{{{user}}}> さん！私のプレフィックスは `{{{prefixList}}}` です。\n例: `{{{prefix}}}help`、`{{{prefix}}}ping`",
+		"embed_description2": "### こんにちは、<@{{{user}}}> さん！プレフィックスは `なし` ですので、プレフィックスなしでコマンドを使用できます。\n例: `help`、`ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "{{{commandName}}} のオプション",
+		"no_description": "説明なし",
+		"options": "オプション",
+		"examples": "例",
+		"long_des": "このオプションはページ間を移動するためのものです",
+		"examples_button": "例",
+		"footer": "<必須> | [オプション] {{{long_des}}} ページ {{{page}}} / {{{total_pages}}}",
+		"title2": "{{{commandName}}} の例"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

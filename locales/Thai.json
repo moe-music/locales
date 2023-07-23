@@ -578,313 +578,313 @@
 			"privateProfile": "### {{{emoji}}} โปรไฟล์ของผู้ใช้นี้เป็นส่วนตัว"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "เปลี่ยนการตั้งค่าเซิร์ฟเวอร์หรือรับข้อมูลการตั้งค่าของเซิร์ฟเวอร์",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "รีเซ็ตการตั้งค่าทั้งหมดให้กลับเป็นค่าเริ่มต้น",
+				"info": "รับข้อมูลการตั้งค่าของเซิร์ฟเวอร์"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} คุณไม่มีสิทธิ์ `manageGuild` ในการใช้คำสั่งนี้.",
+			"isSure": "### คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตการตั้งค่าเซิร์ฟเวอร์?\nการทำนี้จะรีเซ็ตการตั้งค่าทั้งหมดเป็นค่าเริ่มต้น\n\n**ถ้าคุณแน่ใจแล้วให้กดปุ่มด้านล่าง**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "รีเซ็ต"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "ปุ่มติดตาม",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
-				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"botChannel": "ช่องบอท",
+				"disableCommand": "ปิดใช้งานคำสั่ง",
+				"defaultVolume": "ระดับเสียงเริ่มต้น",
+				"announce": "ประกาศ",
+				"prunning": "ตัด",
+				"noPrefix": "ไม่มีคำนำหน้า",
+				"prefix": "คำนำหน้า",
+				"djRole": "บทบาท DJ",
+				"setup": "ตั้งค่า",
+				"voteSkip": "โหวตข้าม",
+				"language": "ภาษา",
+				"trackButtonValue": "โหมด: {{{mode}}}\nผู้ดูแลระบบ: {{{moderator}}}\nเพิ่มเมื่อ: {{{added}}}",
+				"setupValue": "ผู้ดูแลระบบ: {{{moderator}}}\nเพิ่มเมื่อ: {{{added}}}\n\n**ช่อง:**\n{{{channels}}}",
+				"djValue": "โหมด: {{{mode}}}\nบทบาท: {{{roles}}}\nเพิ่มเมื่อ: {{{added}}}",
+				"defaultvolumeValue": "ระดับเสียง: {{{volume}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"announceValue": "โหมด: {{{mode}}}\nช่อง: {{{channel}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"prunningValue": "โหมด: {{{mode}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"disableCommandValue": "คำสั่ง: {{{commands}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"prefixValue": "คำนำหน้า: {{{prefix}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"voteSkipValue": "โหมด: {{{mode}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"247Value": "โหมด: {{{mode}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}\nช่อง: {{{channel}}}",
+				"botChannelValue": "ช่อง: {{{channel}}}\nเพิ่มเมื่อ: {{{added}}}\nผู้ดูแลระบบ: {{{moderator}}}",
+				"languageValue": "ภาษา: {{{language}}}",
+				"enabled": "เปิดใช้งาน",
+				"disabled": "ปิดใช้งาน",
+				"none": "ไม่มี"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} รีเซ็ตการตั้งค่าเซิร์ฟเวอร์เป็นค่าเริ่มต้นสำเร็จแล้ว",
+			"info": "## นี่คือข้อมูลการตั้งค่าสำหรับเซิร์ฟเวอร์นี้",
+			"noSettings": "### {{{emoji}}} ไม่พบการตั้งค่าสำหรับเซิร์ฟเวอร์นี้"
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "กำหนดค่าการโหวตข้าม",
 			"options": {
-				"set": "Set the voteskip mode.",
-				"action": "The action you want to set (enable/disable)."
+				"set": "ตั้งค่าโหมดการโหวตข้าม",
+				"action": "การกระทำที่คุณต้องการตั้งค่า (เปิด/ปิดใช้งาน)"
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} ตั้งค่าการโหวตข้ามเป็น {{{action}}} สำเร็จแล้ว",
+			"isConfirm": "### คุณต้องการเปิดหรือปิดใช้งานการโหวตข้าม?",
+			"canceled": "### {{{emoji}}} การตั้งค่าการโหวตข้ามถูกยกเลิกแล้ว",
+			"alreadyEnabled": "### การโหวตข้ามเปิดใช้งานแล้ว",
+			"alreadyDisabled": "### การโหวตข้ามปิดใช้งานแล้ว",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "เปิดใช้งาน",
+				"disable": "ปิดใช้งาน",
+				"cancel": "ยกเลิก"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "เพิ่มเพลงลงในรายการเพลง",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "ชื่อรายการเพลงที่คุณต้องการเพิ่มเพลง",
+				"song": "เพลง (ชื่อ/URL) ที่คุณต้องการเพิ่มในรายการเพลง"
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} ชื่อรายการเพลงต้องมีความยาวระหว่าง 3 ถึง 50 ตัวอักษร",
+			"noPlaylists": "### {{{emoji}}} ไม่พบรายการเพลงในบัญชีของคุณ กรุณาสร้างรายการเพลงก่อน",
+			"noResults": "### {{{emoji}}} ไม่พบผลลัพธ์สำหรับ `{{{song}}}`",
+			"playlistFull": "### {{{emoji}}} รายการเพลงของคุณเต็มแล้ว กรุณาลบบางเพลงออกก่อนที่จะเพิ่มเพิ่มเติม",
+			"playlistAdded": "### {{{emoji}}} เพิ่มเพลง **{{{count}}}** เพลงลงในรายการเพลง **{{{playlist}}}** สำเร็จแล้ว"
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "เพิ่มเพลงปัจจุบันลงในรายการเพลง",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "ชื่อรายการเพลงที่คุณต้องการเพิ่มเพลง"
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} ไม่มีเพลงที่กำลังเล่นอยู่",
+			"songAlreadyInPlaylist": "### {{{emoji}}} เพลงนี้มีอยู่ในรายการเพลงแล้ว",
+			"success": "### {{{emoji}}} เพิ่ม **{{{song}}}** เข้ากับ **{{{playlist}}}** สำเร็จ"
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "เพิ่มรายการเพลงในคิว",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "ชื่อรายการเพลงที่คุณต้องการเพิ่มในคิว"
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} ไม่มีคิว",
+			"success": "### {{{emoji}}} เพิ่มเพลง **{{{queueLength}}}** เพลงในคิวในรายการเพลง **{{{playlistName}}}** สำเร็จ"
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "สร้างรายการเพลง",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "ชื่อรายการเพลงที่คุณต้องการสร้าง",
+				"visibility": "ระดับความเป็นส่วนตัวของรายการเพลง"
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} โปรดระบุชื่อรายการเพลง",
+			"visibility": "### {{{emoji}}} ระดับความเป็นส่วนตัวต้องเป็น `public` หรือ `private` เท่านั้น",
+			"maxPlaylists": "### {{{emoji}}} คุณสามารถสร้างรายการเพลงได้สูงสุด 10 รายการ",
+			"playlistExists": "### {{{emoji}}} คุณมีรายการเพลงที่มีชื่อว่า **{{{playlist}}}** อยู่แล้ว",
+			"success": "### {{{emoji}}} สร้างรายการเพลง **{{{playlist}}}** สำเร็จแล้ว"
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "ลบรายการเพลง",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "ชื่อรายการเพลงที่คุณต้องการลบ"
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} คุณไม่มีรายการเพลงที่ชื่อ **{{{playlist}}}**",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "ยืนยัน",
+				"cancel": "ยกเลิก"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### คุณแน่ใจหรือไม่ว่าต้องการลบรายการเพลง **{{{playlist}}}**?",
+			"success": "### {{{emoji}}} ลบรายการเพลง **{{{playlist}}}** สำเร็จแล้ว",
+			"cancel": "### {{{emoji}}} ยกเลิกการลบรายการเพลง **{{{playlist}}}**"
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "ลบเพลงที่ซ้ำกันทั้งหมดออกจากรายการเพลง",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "ชื่อรายการเพลงที่คุณต้องการลบเพลงที่ซ้ำกัน"
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} ไม่มีเพลงที่ซ้ำกันในรายการเพลง **{{{playlist}}}**",
+			"success": "### {{{emoji}}} ลบเพลงที่ซ้ำกัน **{{{count}}}** เพลงออกจากรายการเพลง **{{{playlist}}}** สำเร็จแล้ว"
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "แก้ไขรายการเพลง",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "ชื่อรายการเพลงที่คุณต้องการแก้ไข",
+				"old-name": "ชื่อเก่าของรายการเพลง",
+				"new-name": "ชื่อใหม่ของรายการเพลง",
+				"playlist-visibility": "เปลี่ยนระดับความเป็นส่วนตัวของรายการเพลง",
+				"visibility": "ระดับความเป็นส่วนตัวของรายการเพลง"
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} ชื่อใหม่ต้องต่างจากชื่อเก่า",
+			"successName": "### {{{emoji}}} เปลี่ยนชื่อรายการเพลงจาก **{{{oldName}}}** เป็น **{{{newName}}}** สำเร็จ",
+			"sameVisibility": "### {{{emoji}}} รายการเพลง **{{{playlist}}}** มีระดับความเป็นส่วนตัวเป็น **{{{visibility}}}** แล้ว",
+			"successVisibility": "### {{{emoji}}} เปลี่ยนระดับความเป็นส่วนตัวของรายการเพลง **{{{playlist}}}** เป็น **{{{visibility}}}** สำเร็จ",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "ชื่อรายการเพลง",
+				"visibility": "ระดับความเป็นส่วนตัวของรายการเพลง",
+				"public": "สาธารณะ",
+				"private": "ส่วนตัว"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### เลือกตัวเลือกที่ต้องการแก้ไขรายการเพลงของคุณจากปุ่มด้านล่าง",
+			"oldName": "### ใส่ชื่อเก่าของรายการเพลง",
+			"newName": "### ใส่ชื่อใหม่ของรายการเพลง",
+			"cancelled": "### {{{emoji}}} ยกเลิกการเปลี่ยนชื่อรายการเพลง",
+			"playlist": "### ใส่ชื่อรายการเพลง",
+			"selectVisibility": "### เลือกระดับความเป็นส่วนตัวของรายการเพลงจากปุ่มด้านล่าง"
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "นำเข้าเพลย์ลิสต์จากไอดีของเพลย์ลิสต์",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "ไอดีของเพลย์ลิสต์ที่คุณต้องการนำเข้า"
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} ไม่พบเพลย์ลิสต์ใด ๆ ด้วยไอดี **{{{id}}}**",
+			"sameUser": "### {{{emoji}}} คุณไม่สามารถนำเข้าเพลย์ลิสต์ของตัวเองได้",
+			"privatePlaylist": "### {{{emoji}}} คุณไม่สามารถนำเข้าเพลย์ลิสต์ที่เป็นส่วนตัวได้",
+			"success": "### {{{emoji}}} นำเข้าเพลย์ลิสต์ **{{{playlist}}}** สำเร็จ"
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "แสดงรายการเพลย์ลิสต์ทั้งหมดของคุณ",
+			"tracks": "เพลง(เพลง): {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "โหลดเพลย์ลิสต์เข้าคิว",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "โหลดเพลงในเพลย์ลิสต์ที่เฉพาะเจาะจง",
+				"name": "ชื่อของเพลย์ลิสต์ที่คุณต้องการโหลด",
+				"track": "หมายเลขเพลงหรือชื่อเพลงที่ต้องการโหลด"
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} คุณไม่มีเพลย์ลิสต์ที่ชื่อว่า **{{{playlist}}}**",
+			"noTracks": "### {{{emoji}}} ไม่มีเพลงในเพลย์ลิสต์ **{{{playlist}}}**",
+			"noTrackFound": "### {{{emoji}}} ไม่พบเพลงที่คุณต้องการโหลด `{{{track}}}`",
+			"trackLoaded": "### {{{emoji}}} โหลดเพลง **{{{track}}}** จาก **{{{playlist}}}** สำเร็จ",
+			"privatePlaylist": "### {{{emoji}}} คุณไม่สามารถโหลดเพลย์ลิสต์ที่เป็นส่วนตัวจากผู้ใช้คนอื่นได้",
+			"playlistLoaded": "### {{{emoji}}} โหลด **{{{count}}}** เพลงจากเพลย์ลิสต์ **{{{playlist}}}** สำเร็จ"
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "ลบเพลงออกจากเพลย์ลิสต์",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "ชื่อเพลย์ลิสต์ที่คุณต้องการลบเพลงออก",
+				"track": "หมายเลขเพลงหรือชื่อเพลงที่ต้องการลบ"
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} ไม่พบเพลงดังกล่าวด้วยหมายเลขหรือชื่อ",
+			"success": "### {{{emoji}}} ลบเพลง **{{{track}}}** ออกจาก **{{{playlist}}}** สำเร็จ"
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "ดูเพลย์ลิสต์",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "ชื่อเพลย์ลิสต์ที่คุณต้องการดู"
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "หน้า {{{page}}} จาก {{{pages}}} | เพลง {{{tracks}}} เพลง | ระยะเวลา {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "ก่อนหน้า",
+				"stop": "หยุด",
+				"next": "ถัดไป"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### มีคนทำให้ฉันออกจากช่องเสียง แต่ฉันยังคงอยู่ที่นี่เนื่องจาก **โหมด 24/7**!\n\nคุณสามารถปิดการใช้งานโหมด **โหมด 24/7** โดยใช้คำสั่ง {{{cmd}}} หรือโดยใช้คำสั่ง {{{cmd2}}}!",
+			"nowPlaying": "กำลังเล่นอยู่",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** โดย [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"footer": "ระยะเวลา: {{{duration}}} | คิว: {{{queue}}} | ระดับเสียง: {{{volume}}}%",
+			"end": "### ไม่มีใครได้ฟังเป็นเวลา 1 นาทีที่แล้ว จึงออกจากช่องเสียง\n\nคุณสามารถปิดการใช้งานโหมด **โหมด 24/7** โดยใช้คำสั่ง {{{cmd}}}!",
+			"endTitle": "คิวสิ้นสุดลง",
+			"endDesc": "### คิวเพลงของคุณจบลงแล้ว คุณสามารถเพิ่มเพลงอีกครั้งโดยใช้คำสั่ง {{{cmd}}}! สนุกกับเพลงกับฉันนะ? พิจารณา [ลงคะแนนเสียงให้กับฉัน]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "เกิดข้อผิดพลาดในการเล่นเพลง",
+		"description": "### [{{{title}}}]({{{uri}}}) ไม่สามารถใช้งานในประเทศของคุณเนื่องจากถูกจำกัดอายุ!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "เล่นต่อ",
+			"pause": "หยุดชั่วคราว",
+			"previous": "ก่อนหน้านี้",
+			"shuffle": "สลับเพลง",
+			"skip": "ข้ามเพลง",
+			"stop": "หยุดเล่น",
+			"voldown": "ลดเสียง",
+			"volup": "เพิ่มเสียง",
+			"loop": "เล่นซ้ำ",
+			"like": "ชอบ"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### ไม่มีเพลงที่กำลังเล่นในขณะนี้..",
+		"nothingPlaying": "### ไม่มีเพลงที่กำลังเล่นในขณะนี้.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "คุณต้องเข้าร่วมช่องเสียง {{{channel}}} เพื่อใช้ปุ่มนี้!",
+			"noPrevious": "ไม่มีเพลงก่อนหน้านี้ในคิว",
+			"playingPrevious": "{{{user}}} กำลังเล่นเพลงก่อนหน้านี้",
+			"nothingToSkip": "ไม่มีเพลงในคิวให้ข้าม",
+			"alreadyVote": "{{{user}}} มีโหวตในเซิร์ฟเวอร์นี้แล้ว กรุณารอให้โหวตเสร็จสิ้นหรือยกเลิก",
+			"voteSkip": "{{{user}}} ขอข้ามเพลงปัจจุบัน คุณต้องการหยุดการโหวตข้ามเพลงไหม? ใช้ {{{cmd}}} และโหวตใหม่",
+			"voteSkipLabel": "โหวตเพื่อข้ามเพลงปัจจุบัน!",
+			"alreadyVoted": "{{{user}}} คุณโหวตข้ามเพลงปัจจุบันไปแล้ว",
+			"voteSkip2": "{{{user}}} ขอข้ามเพลงปัจจุบัน",
+			"voteSkipLabel2": "โหวตเพื่อข้ามเพลงปัจจุบัน! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} คุณต้องเข้าร่วมช่องเสียง {{{channel}}} เพื่อใช้ปุ่มนี้!",
+			"voteSkipTrack": "{{{user}}} กำลังข้ามเพลงหลังจากมีโหวตบวกจำนวน {{{count}}} โหวต!",
+			"notEnoughVote": "### โหวตไม่เพียงพอในการข้ามเพลงปัจจุบัน",
+			"skipTrack": "{{{user}}} ข้ามเพลงปัจจุบัน",
+			"playTrack": "{{{user}}} {{{paused}}} เพลงปัจจุบัน",
+			"paused": "หยุดชั่วคราว",
+			"resumed": "เล่นต่อ",
+			"stopTrack": "{{{user}}} หยุดเล่นเพลงปัจจุบัน",
+			"volMax": "### ระดับเสียงเต็มแล้ว",
+			"volUp": "{{{user}}} เพิ่มระดับเสียงเป็น **{{{vol}}}**%",
+			"volMin": "### ระดับเสียงต่ำสุดแล้ว",
+			"volDown": "{{{user}}} ลดระดับเสียงเป็น **{{{vol}}}**%",
+			"shuffleError": "{{{user}}} ไม่มีเพลงเพียงพอในคิวในการสลับเพลง",
+			"shuffleDisabled": "{{{user}}} ปิดใช้งานการสลับเพลง",
+			"shuffleEnabled": "{{{user}}} เปิดใช้งานการสลับเพลง",
+			"loopSong": "{{{user}}} กำลังเล่นซ้ำเพลงปัจจุบัน",
+			"loopQueue": "{{{user}}} กำลังเล่นซ้ำคิว",
+			"loopDisabled": "{{{user}}} ปิดใช้งานการเล่นซ้ำ",
+			"noTrack": "{{{user}}} ไม่มีเพลงที่กำลังเล่นอยู่ในขณะนี้",
+			"liked": "{{{user}}} ชอบ **{{{title}}}**",
+			"unliked": "{{{user}}} ยกเลิกการชอบ **{{{title}}}**"
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### เสียใจด้วย! ฉันพยายามส่งคำตอบของคำสั่งของคุณ แต่ฉันไม่มีสิทธิ์ทำเช่นนั้น กรุณาให้สิทธิ์ `Send Messages` ให้กับฉัน ณ เซิร์ฟเวอร์ **{{{guildName}}}**\nคำสั่ง: **{{{commandName}}}**\nต้องการความช่วยเหลือในเรื่องสิทธิ์ใช่ไหม? เข้าร่วมเซิร์ฟเวอร์สนับสนุน: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} บอทต้องมีสิทธิ์ `Embed links` เพื่อทำงานอย่างถูกต้อง! กรุณาให้สิทธิ์นี้ให้กับฉัน",
+			"noBotChannel": "### ฉันไม่อนุญาตให้ตอบคำสั่งในช่องนี้ โปรดใช้ {{{emoji}}} <#{{{botChannel}}}> สำหรับคำสั่งบอท ขอบคุณที่ร่วมมือ",
+			"deleteFooter": "• ข้อความนี้จะถูกลบใน 5 วินาที",
+			"disabledCommand": "### คำสั่งนี้ถูกปิดใช้งานในเซิร์ฟเวอร์นี้สำหรับทุกคน สามารถใช้คำสั่งนี้ได้เฉพาะ DJ เท่านั้น",
+			"disabledCommandList": "รายการที่ปิดใช้งาน",
+			"noBotPermissions": "### {{{emoji}}} ฉันไม่มีสิทธิ์ **{{{permissions}}}** เพื่อดำเนินการคำสั่งนี้",
+			"noUserPermissions": "### {{{emoji}}} คุณไม่มีสิทธิ์ **{{{permissions}}}** เพื่อดำเนินการคำสั่งนี้",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### คุณต้องโหวตให้กับฉันเพื่อใช้คำสั่งนี้ คุณสามารถโหวตที่ [Top.gg]({{{link}}})",
+				"### คุณต้องโหวตให้กับฉันเพื่อใช้คำสั่งนี้ คุณสามารถโหวตที่ [Top.gg]({{{link}}}) หรือ\nคุณยังสามารถเป็นสมาชิกพรีเมียมได้โดยการบริจาค [ที่นี่]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "โหวต",
+				"donate": "บริจาค",
+				"invite": "เชิญ",
+				"support": "สนับสนุน"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### กรุณารอ **{{{timeLeft}}}** วินาทีเพิ่มเติมก่อนใช้คำสั่ง **{{{command}}}** อีกครั้ง",
+			"noDjRole": "### {{{emoji}}} คุณต้องมีบทบาท DJ เพื่อใช้คำสั่งนี้",
+			"noPremium": "### คุณต้องมีบอทพรีเมียมเพื่อใช้คำสั่งนี้ คุณสามารถเป็นสมาชิกพรีเมียมได้โดยการบริจาค [ที่นี่]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} ฉันไม่มีสิทธิ์ที่จำเป็นในการเข้าร่วมช่องเสียงของคุณ! ฉันต้องมีสิทธิ์ `View Channels`, `Connect`, และ `Speak` [ตัวอย่างสิทธิ์](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nหากปัญหายังคงอยู่ ลองเปลี่ยนภูมิภาคของช่องเสียงเป็น `Europe`",
+			"voiceJoin": "### {{{emoji}}} คุณต้องเข้าร่วมช่องเสียงบนเซิร์ฟเวอร์นี้เพื่อใช้คำสั่งนี้!\n\nวิธีเข้าร่วมช่องเสียง? แค่คลิกที่ช่องที่มีไอคอนลำโพง (ตัวอย่างเช่นคลิกที่นี่:  {{{channel}}}) [ดูคู่มืออย่างเป็นทางการของ Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} คุณต้องอยู่ในช่องเสียง **{{{channel}}}** เพื่อใช้คำสั่งนี้",
+			"noPlayer": "### {{{emoji}}} ฉันไม่ได้เชื่อมต่อกับช่องเสียงใดๆ กรุณาใช้คำสั่ง {{{command}}} เพื่อเรียกฉัน",
+			"noQueue": "### {{{emoji}}} ไม่มีคิว โปรดใช้คำสั่ง {{{command}}} เพื่อเพิ่มเพลงในคิว",
+			"noSong": "### {{{emoji}}} ไม่มีเพลงที่กำลังเล่นอยู่ โปรดใช้คำสั่ง {{{command}}} เพื่อเพิ่มเพลงในคิว",
+			"error": "### {{{emoji}}} เกิดข้อผิดพลาดในการดำเนินการคำสั่ง กรุณารายงานข้อผิดพลาดนี้ใน [เซิร์ฟเวอร์สนับสนุน]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | เริ่มต้นใช้งาน",
+		"embed_description": "### สวัสดี <@{{{user}}}>! คำนำหน้าของฉันคือ: `{{{prefixList}}}`\nตัวอย่าง: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### สวัสดี <@{{{user}}}>! คำนำหน้าของฉันคือ: `ไม่มีคำนำหน้า`, ซึ่งหมายความว่าคุณสามารถใช้คำสั่งใดๆ โดยไม่ต้องมีคำนำหน้า\nตัวอย่าง: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "ตัวเลือกสำหรับ {{{commandName}}}",
+		"no_description": "ไม่มีคำอธิบาย",
+		"options": "ตัวเลือก",
+		"examples": "ตัวอย่าง",
+		"long_des": "นี้เป็นสำหรับการเลื่อนหน้า",
+		"examples_button": "ตัวอย่าง",
+		"footer": "<จำเป็น> | [ไม่จำเป็น] {{{long_des}}} หน้า {{{page}}} จาก {{{total_pages}}}",
+		"title2": "ตัวอย่างสำหรับ {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "24/7 모드를 활성화하거나 비활성화합니다.",
+			"enabled": "### {{{emoji}}} 24/7 모드가 활성화되었습니다.",
+			"disabled": "### {{{emoji}}} 24/7 모드가 비활성화되었습니다."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
-			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"description": "봇의 응답 시간을 표시합니다.",
+			"author": "봇 응답 시간",
+			"content": "**쉬드**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
+			"footer": "• 지원 서버의 상태 채널에서 더 많은 정보를 확인하세요."
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "봇을 서버에 초대합니다.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "MoE 초대",
+				"invite2": "MoE2 초대",
+				"invite3": "MoE3 초대",
+				"support": "지원 서버"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "만약 제가 유용하게 사용되었다면, [이 링크]({{{invite}}})를 클릭하여 서버로 초대해주세요. 그리고 [지원 서버]({{{support}}})에 가입하는 것도 잊지 마세요."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "명령어 목록을 보거나 특정 명령어에 대한 정보를 확인합니다.",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "도움말을 보고 싶은 명령어 이름 또는 카테고리"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": "명령어",
+			"footer": "페이지 {{{page}}} / {{{pagesNum}}}",
+			"title2": "도움말 - {{{cmd}}}",
+			"title3": "도움말",
+			"manContent": "### 모든 카테고리 목록입니다.\n{{{catagory}}}\n\n- 링크:\n[지원 서버]({{{server}}}) | [초대]({{{invite}}}) | [투표]({{{vote}}}) | [Patreon]({{{patreon}}}) | [웹사이트]({{{website}}}) | [문서]({{{docs}}})",
+			"footer2": "- 특정 명령어에 대한 자세한 정보: {{{prefix}}}help <명령어> 또는 {{{prefix}}}help <카테고리>",
+			"cooldown": "쿨다운",
+			"aliases": "별칭",
+			"category": "카테고리",
+			"examples": "예시",
+			"userPerms": "사용자 권한",
+			"botPerms": "봇 권한",
+			"requirements": "요구 사항",
+			"subCommands": "하위 명령어",
+			"subSubCommands": "하위 하위 명령어",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "이전",
+				"stop": "중지",
+				"next": "다음",
+				"home": "홈",
+				"config": "설정",
+				"music": "음악",
+				"filter": "필터",
+				"general": "일반",
+				"playlists": "재생 목록"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}`은(는) 유효한 명령어나 카테고리가 아닙니다!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- 음성 채널에 있어야 합니다",
+				"sameVoice": "- 동일한 음성 채널에 있어야 합니다",
+				"playing": "- 이 서버에서 음악이 재생 중이어야 합니다"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- 이 명령어를 사용하려면 [투표]({{{link}}})를 해야 합니다",
+			"premiumCmd": "- 이 명령어를 사용하려면 [프리미엄]({{{link}}}) 구독이 필요합니다"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
-			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"description": "사용자 또는 길드의 프리미엄 상태를 표시합니다.",
+			"guildPremiumStatus": "길드 프리미엄 상태",
+			"userPremiumStatus": "사용자 프리미엄 상태",
+			"premium": "프리미엄",
+			"notPremium": "프리미엄 없음",
+			"guildPremiumExpires": "길드 프리미엄 만료일",
+			"userPremiumExpires": "사용자 프리미엄 만료일"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "프리미엄 코드를 등록합니다.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "등록할 프리미엄 코드"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "등록할 프리미엄 코드를 입력해주세요.",
+			"invalidCode": "유효하지 않은 프리미엄 코드가 입력되었습니다.",
+			"confirmation": "### 프리미엄 코드 `{{{code}}}`를 등록하시겠습니까?",
+			"type": "유형",
+			"expiresAt": "만료일",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "예",
+				"no": "아니오"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "이미 프리미엄 멤버입니다.",
+			"success": "### 프리미엄 코드를 성공적으로 등록했습니다. 이제 프리미엄 명령어를 사용할 수 있습니다!",
+			"canceled": "프리미엄 코드 등록을 취소했습니다."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "봇의 통계를 표시합니다."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "지원 서버 링크",
+			"content": "### 봇에 대한 도움이 필요하거나 저희와 함께 놀고 싶다면 [지원 서버]({{{link}}})에 가입해주세요.",
 			"buttons": {
-				"support": "Support Server"
+				"support": "지원 서버"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "봇 투표 링크",
+			"content": "### 봇을 좋아하신다면, [top.gg]({{{link}}})에서 투표해주시기 바랍니다.",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "투표"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"description": "플레이어 상태를 표시합니다.",
+			"nowPlaying": "재생 중인 곡",
+			"noSong": "현재 재생 중인 곡이 없습니다.",
+			"volume": "볼륨",
+			"totalDuration": "전체 시간",
+			"loopMode": "반복 모드",
+			"filters": "필터",
+			"noFilters": "현재 적용된 필터가 없습니다.",
+			"title": "플레이어: {{{status}}}",
+			"online": "온라인",
+			"offline": "오프라인"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "자동 재생 모드를 활성화하거나 비활성화합니다.",
+			"enabled": "### 자동 재생 모드가 `활성화`되었습니다.\n봇이 자동으로 유사한 곡을 대기열에 추가합니다.",
+			"disabled": "### 자동 재생 모드가 `비활성화`되었습니다.\n봇이 더 이상 자동으로 유사한 곡을 대기열에 추가하지 않습니다."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "플레이어의 대기열이나 필터를 지웁니다.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "지우려는 대기열이나 필터"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "지우려는 대기열이나 필터를 선택해주세요. (queue/filters)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "지울 곡이 대기열에 없습니다.",
+				"success": "### 대기열을 성공적으로 지웠습니다."
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "지울 필터가 없습니다.",
+				"success": "### 필터를 성공적으로 지웠습니다."
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "대기열",
+				"filters": "필터"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "현재 곡을 강제로 스킵합니다.",
+			"success": "### {{{title}}} 곡을 강제로 스킵했습니다."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "현재 곡을 앞으로 감기",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "앞으로 갈 초 단위 시간"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} 현재 곡은 앞으로 갈 수 없습니다.",
+			"tooLong": "{{{emoji}}} 곡 길이를 초과하여 앞으로 갈 수 없습니다.",
+			"success": "### {{{emoji}}} `{{{time}}}`만큼 곡을 성공적으로 앞으로 감았습니다."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "현재 곡 가져오기",
+			"dm": "{{{emoji}}} DM을 비활성화하여 곡을 보낼 수 없습니다.",
+			"grabbed": "### {{{emoji}}} 곡을 성공적으로 가져왔습니다."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "봇을 음성 채널로 소환하기",
+			"no-perms": "{{{emoji}}} 음성 채널에 들어가기 위해 필요한 권한이 부족합니다! `채널 보기`, `연결`, `말하기` 권한이 필요합니다. [권한 예시](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n문제가 지속되면 음성 채널 지역을 `유럽`으로 변경하세요.",
+			"already-in": "{{{emoji}}} 이미 음성 채널에 있습니다!",
+			"joined": "### 음성 채널에 성공적으로 입장했습니다. {{{channel}}}"
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "음성 채널에서 나가기",
+			"not-playing": "{{{emoji}}} 현재 아무것도 재생되고 있지 않습니다!",
+			"success": "### {{{emoji}}} 음성 채널을 성공적으로 나갔습니다."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "음성 채널에 없는 사용자의 모든 곡 삭제",
+			"removing": "## 음성 채널에 없는 사용자의 곡을 모두 삭제 중입니다. 잠시 기다려주세요.",
+			"removed": "### 음성 채널에 없는 사용자의 곡 `{{{count}}}`개를 성공적으로 삭제했습니다."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "현재 곡 또는 대기열 반복하기",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "설정할 반복 모드"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### 반복 모드를 지정해주세요. (곡, 대기열, 꺼짐) 아래 버튼 중 선택하세요.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "곡",
+				"queue": "대기열",
+				"off": "꺼짐"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} 현재 곡을 성공적으로 반복했습니다.",
+			"queue": "### {{{emoji}}} 대기열을 성공적으로 반복했습니다.",
+			"off": "### {{{emoji}}} 반복을 비활성화했습니다.",
+			"song_already": "### {{{emoji}}} 현재 곡은 이미 반복 중입니다.",
+			"queue_already": "### {{{emoji}}} 대기열은 이미 반복 중입니다.",
+			"off_already": "### {{{emoji}}} 반복이 이미 꺼져 있습니다.",
+			"invalid_mode": "### {{{emoji}}} 잘못된 반복 모드를 제공했습니다. 유효한 반복 모드를 입력하세요. (곡, 대기열, 꺼짐)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "현재 곡 또는 곡명의 가사 보기",
 			"options": {
-				"song": "The song name to search for"
+				"song": "검색할 곡명"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### 검색할 곡명을 입력해주세요.",
+			"noLyrics": "### 이 곡의 가사를 찾을 수 없습니다.",
+			"page": "페이지 {{{page}}} / {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "대기열에서 곡을 특정 위치로 이동",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "이동할 곡",
+				"position": "곡을 이동할 위치"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### 유효한 위치에 대한 숫자를 입력해주세요.",
+			"invalidPosition": "### 유효하지 않은 위치를 입력했습니다. 유효한 위치를 입력해주세요.",
+			"success": "### **[{{{title}}}]({{{uri}}})** 곡을 위치 **{{{from}}}**에서 **{{{to}}}**로 성공적으로 이동했습니다."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "현재 재생 중인 곡 표시",
+			"nowplaying": "### 재생 중: [{{{title}}}]({{{uri}}})",
+			"author": "작곡가",
+			"requester": "신청자",
+			"duration": "재생 시간",
+			"progress": "진행 상태"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "현재 곡 일시정지",
+			"alreadyPaused": "### 현재 곡은 이미 일시정지되었습니다.",
+			"paused": "### 일시정지 [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "스포티파이, 사운드클라우드, 디저 등에서 곡 재생",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "검색할 쿼리",
+				"source": "검색할 소스"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "검색할 곡명을 입력해주세요.",
+			"no-results": "### `{{{query}}}`에 대한 검색 결과가 없습니다.",
+			"playlist-loaded": "### **[{{{name}}}]({{{url}}})** 플레이리스트에서 `{{{count}}}`곡을 로드했습니다.",
+			"footer": "{{{bot}}} 사용해 주셔서 감사합니다.",
+			"added": "### 대기열에 **[{{{title}}}]({{{uri}}})** 곡을 추가했습니다. (신청자: <@{{{requester}}}>) 대기열 위치 `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "이전 곡 재생",
+			"noPreviousTrack": "### {{{emoji}}} 이전 곡을 재생할 수 없습니다.",
+			"success": "### {{{emoji}}} 이전 트랙을 대기열에서 재생 중입니다!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "현재 서버의 대기열을 보여줍니다.",
 			"options": {
-				"page": "The page number to view"
+				"page": "보고 싶은 페이지 번호"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### {{{guild}}} 대기열 ({{{songs}}} 곡)",
+			"nowPlaying": "### 지금 재생 중: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### 다음 곡: {{{str}}}",
+			"noSongs": "### 아직 대기열에 곡이 없습니다! {{{cmd}}} 명령을 사용하여 곡을 추가해주세요.",
+			"page": "페이지 {{{page}}} | {{{songs}}} 곡 | 총 재생 시간 {{{duration}}}",
+			"notNumber": "### {{{emoji}}} 페이지 번호는 숫자여야 합니다.",
+			"pageLimit": "### {{{emoji}}} 페이지 번호는 {{{pages}}} 이하여야 합니다.",
+			"clearQueue": "대기열 비우기",
+			"noTracks": "### 대기열에 트랙이 없습니다.",
+			"noDjRole": "### 이 버튼을 사용하려면 DJ 역할이 필요합니다.",
+			"clearedQueue": "### {{{user}}} 님이 대기열을 비웠습니다."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "대기열에서 곡을 제거합니다.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "제거할 곡",
+				"number": "제거할 트랙 번호 또는 제목",
+				"dupes": "트랙의 모든 중복을 제거합니다."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### 해당 번호의 곡이 대기열에 없습니다.",
+			"invalidNumber": "### 1부터 {{{length}}} 사이의 번호를 입력하세요.",
+			"removed": "### 대기열에서 **[{{{title}}}]({{{uri}}})** 곡을 제거했습니다.",
+			"noDupes": "### 대기열에 중복된 곡이 없습니다.",
+			"removedDupes": "### 대기열에서 **{{{length}}}**개의 중복 곡을 제거했습니다."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "현재 곡을 다시 재생합니다.",
+			"replaying": "### 다시 재생 중: [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "일시 정지된 곡을 다시 재생합니다.",
+			"notPaused": "### 현재 곡은 일시 정지되지 않았습니다.",
+			"resumed": "### 다시 재생: [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "현재 곡을 되감습니다.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "곡을 되감을 시간"
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} 현재 곡은 되감기가 불가능합니다.",
+			"negativePosition": "### {{{emoji}}} 위치는 0부터 {{{length}}} 사이여야 합니다.",
+			"success": "### {{{emoji}}} 곡을 {{{length}}} 위치로 되감았습니다."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "스포티파이, 사운드클라우드 또는 디저 검색합니다.",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "검색할 쿼리",
+				"source": "검색할 소스"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} 플레이리스트는 검색에서 지원되지 않습니다. {{{cmd}}} 명령을 사용하세요.",
+			"no-track": "### {{{emoji}}} 트랙은 검색에서 지원되지 않습니다. {{{cmd}}} 명령을 사용하세요.",
+			"results": "## `{{{query}}}` 검색 결과\n\n{{{results}}}",
+			"footer": "아래 선택 메뉴에서 트랙을 선택하세요.",
+			"placeholder": "재생하려면 목록에서 트랙을 선택하세요.",
+			"footerTimeout": "검색 결과가 시간 초과되었습니다.",
+			"no-voice": "### {{{emoji}}} 음성 채널에 있어야 이 메뉴를 사용할 수 있습니다.",
+			"wrong-voice": "### {{{emoji}}} 이 메뉴를 사용하려면 봇과 같은 음성 채널에 있어야 합니다.",
+			"added": "### {{{emoji}}} 대기열에 {{{count}}}개의 트랙을 추가했습니다."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "현재 곡에서 지정된 시간으로 이동합니다.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "이동할 시간"
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### 시간은 0부터 {{{length}}} 사이여야 합니다.",
+			"seeked": "### `{{{position}}}`에서 `{{{time}}}`로 이동했습니다."
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "대기열을 섞습니다.",
+			"success": "### 서버 대기열이 성공적으로 섞였습니다 ({{{length}}} 곡).",
+			"unshuffle": "### 서버 대기열이 성공적으로 원래 순서로 복구되었습니다 ({{{length}}} 곡)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "현재 곡을 건너뜁니다.",
+			"nothing": "### 대기열에 다음 곡이 없습니다. 서버의 대기열을 확인하려면 {{{queue}}} 명령을 사용하세요.\n자동 재생을 시도하려면 {{{autoplay}}} 명령을 사용하세요.",
+			"paused": "### 플레이어가 일시 정지되었습니다. 플레이어를 다시 재생하려면 resume 명령을 사용하세요.\n계속하려면 {{{resume}}} 명령을 사용하세요.",
+			"voteSkip": "### {{{user}}} 님이 현재 곡을 건너뛰기를 요청했습니다.\n\n{{{voted}}}",
+			"skip": "### **{{{title}}}** 곡을 건너뜁니다."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "대기열에서 특정 곡으로 건너뜁니다.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "건너뛸 트랙 번호 또는 제목"
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} 1부터 {{{length}}} 사이의 트랙 번호를 입력하세요.",
+			"success": "### {{{emoji}}} **[{{{title}}}]({{{uri}}})** 곡으로 건너뜁니다."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "플레이어를 정지하고 대기열을 지웁니다.",
+			"stopped": "### {{{emoji}}} 플레이어를 정지하고 대기열을 지웠습니다."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "봇이 가장 많이 재생한 인기 곡을 보여줍니다.",
+			"noTopSongs": "### 데이터베이스에 인기 곡이 없습니다.",
+			"timesPlayed": "재생 횟수",
+			"selectSong": "목록에서 곡을 선택하여 재생하세요.",
+			"added": "### 대기열에 **[{{{title}}}]({{{uri}}})** 곡을 추가했습니다."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "플레이어의 볼륨을 변경합니다.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "설정할 볼륨"
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} 0부터 100 사이의 숫자를 입력하세요.",
+			"success": "### {{{emoji}}} 볼륨을 **{{{volume}}}**로 설정했습니다."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "현재 곡을 건너뛰기 위해 투표합니다."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### 현재 재생 중인 곡에 적용된 모든 필터:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} 음정은 1에서 5 사이의 숫자여야 합니다.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "8D 필터를 현재 재생 중인 곡에 적용합니다.",
+				"bassboost": "베이스 부스터 필터를 현재 재생 중인 곡에 적용합니다.",
+				"channelmix": "채널 믹스 필터를 현재 재생 중인 곡에 적용합니다.",
+				"electronic": "전자 음악 필터를 현재 재생 중인 곡에 적용합니다.",
+				"filters": "현재 재생 중인 곡에 적용할 수 있는 필터 목록을 가져옵니다.",
+				"jazz": "재즈 필터를 현재 재생 중인 곡에 적용합니다.",
+				"karaoke": "노래방 필터를 현재 재생 중인 곡에 적용합니다.",
+				"lowpass": "로우패스 필터를 현재 재생 중인 곡에 적용합니다.",
+				"nightcore": "나이트코어 필터를 현재 재생 중인 곡에 적용합니다.",
+				"pitch": "음정 필터를 현재 재생 중인 곡에 적용합니다.",
+				"pop": "팝 필터를 현재 재생 중인 곡에 적용합니다.",
+				"radio": "라디오 필터를 현재 재생 중인 곡에 적용합니다.",
+				"rock": "락 필터를 현재 재생 중인 곡에 적용합니다.",
+				"rotation": "회전 필터를 현재 재생 중인 곡에 적용합니다.",
+				"soft": "소프트 필터를 현재 재생 중인 곡에 적용합니다.",
+				"speed": "속도 필터를 현재 재생 중인 곡에 적용합니다.",
+				"treblebass": "트레블 베이스 필터를 현재 재생 중인 곡에 적용합니다.",
+				"tremolo": "트레몰로 필터를 현재 재생 중인 곡에 적용합니다.",
+				"vaporwave": "베이퍼웨이브 필터를 현재 재생 중인 곡에 적용합니다.",
+				"vibrato": "비브라토 필터를 현재 재생 중인 곡에 적용합니다."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} {{{name}}} 필터가 활성화되었습니다.",
+			"disabled": "### {{{emoji}}} {{{name}}} 필터가 비활성화되었습니다.",
+			"speed": "### {{{emoji}}} 속도 필터가 **{{{value}}}**로 설정되었습니다.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "설정할 속도",
+				"pitch": "적용할 음정"
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "트랙 시작 메시지 발신을 구성합니다.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "트랙 시작 메시지를 보낼 채널을 설정합니다.",
+				"channel": "설정할 채널입니다.",
+				"toggle": "트랙 시작 메시지 발신을 전환합니다.",
+				"prunning": "트랙 시작 메시지 발신의 가지치기를 전환합니다.",
+				"reset": "트랙 시작 메시지를 보낼 채널을 재설정합니다."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} 유효한 텍스트 채널을 제공해주세요.",
+			"noTextChannel": "### {{{emoji}}} 유효한 텍스트 채널을 제공해주세요.",
+			"sameChannel": "### {{{emoji}}} 제공한 채널은 이미 데이터베이스에 있습니다.",
+			"setChannel": "### {{{emoji}}} 성공적으로 공지 채널을 {{{channel}}}로 설정했습니다.",
+			"noChannelInDB": "### {{{emoji}}} 데이터베이스에 공지 채널이 설정되지 않았습니다.",
+			"toggle": "### {{{emoji}}} 트랙 시작 메시지 발신을 성공적으로 {{{status}}}했습니다.",
+			"enabled": "활성화",
+			"disabled": "비활성화",
+			"reset": "### {{{emoji}}} 공지 채널을 성공적으로 재설정했습니다."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "명령을 듣기 위한 봇 채널을 설정합니다.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "봇 채널 목록에 채널을 추가합니다.",
+				"channel": "설정할 채널입니다.",
+				"remove": "봇 채널 목록에서 채널을 제거합니다.",
+				"clear": "봇 채널 목록을 지웁니다.",
+				"info": "봇 채널 목록과 봇 채널에 대한 정보를 확인합니다."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} 유효한 텍스트 채널을 제공해주세요.",
+			"noTextChannel": "### {{{emoji}}} 유효한 텍스트 채널을 제공해주세요.",
+			"sameChannel": "### {{{emoji}}} 제공한 채널은 이미 데이터베이스에 있습니다.",
+			"maxChannel": "### {{{emoji}}} 봇 채널 목록에 5개 이상의 채널을 추가할 수 없습니다.",
+			"addedChannel": "### {{{emoji}}} 채널 {{{channel}}}을(를) 봇 채널 목록에 성공적으로 추가했습니다.",
+			"noChannelInDB": "### {{{emoji}}} 데이터베이스에 봇 채널이 없습니다.",
+			"removedChannel": "### {{{emoji}}} 채널 {{{channel}}}을(를) 봇 채널 목록에서 성공적으로 제거했습니다.",
+			"clearedChannel": "### {{{emoji}}} 봇 채널 목록을 성공적으로 지웠습니다.",
+			"info": ">>> **채널:** {{{channel}}}\n**관리자:** {{{moderator}}}\n**추가 일시:** {{{addedAt}}}",
+			"title": "봇 채널 ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "채널에서 내 메시지를 정리합니다.",
+			"success": "### {{{emoji}}} **{{{count}}}**개의 메시지를 성공적으로 정리했습니다."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "서버의 기본 볼륨을 설정합니다.",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "기본 볼륨으로 설정할 숫자입니다."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} 0부터 200 사이의 숫자를 입력해주세요.",
+			"success": "### {{{emoji}}} 기본 볼륨을 **{{{volume}}}**로 성공적으로 설정했습니다."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "서버에서 명령어를 비활성화합니다.",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "비활성화할 명령어를 목록에 추가합니다.",
+				"command": "명령어 이름",
+				"remove": "목록에서 명령어를 제거합니다.",
+				"list": "비활성화된 명령어 목록을 확인합니다.",
+				"clear": "비활성화된 명령어 목록을 지웁니다."
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} 비활성화/활성화할 명령어 이름을 제공해주세요.",
+			"commandNotExist": "### {{{emoji}}} 그 명령어는 봇에 존재하지 않습니다.",
+			"commandAlreadyDisabled": "### {{{emoji}}} 해당 명령어는 이미 비활성화되었습니다.",
+			"commandDisabled": "### {{{emoji}}} **{{{command}}}** 명령어를 성공적으로 비활성화했습니다.",
+			"noDisabledCommands": "### {{{emoji}}} 이 명령어는 비활성화되지 않았습니다.",
+			"commandEnabled": "### {{{emoji}}} **{{{command}}}** 명령어를 성공적으로 활성화했습니다.",
+			"disabledCommands": "비활성화된 명령어",
+			"disabledCommandsForThisServer": "이 서버에서 비활성화된 명령어",
+			"total": "총: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} 비활성화된 명령어 목록을 성공적으로 지웠습니다."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "서버의 DJ 역할을 설정합니다.",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "DJ 역할 목록에 역할을 추가합니다.",
+				"role": "추가/제거할 역할입니다.",
+				"remove": "DJ 역할 목록에서 역할을 제거합니다.",
+				"list": "DJ 역할 목록을 나열합니다.",
+				"clear": "DJ 역할 목록을 지웁니다.",
+				"toggle": "DJ 역할을 전환합니다.",
+				"info": "DJ 역할 목록과 DJ 역할에 대한 정보를 확인합니다."
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} 추가/제거할 유효한 역할을 제공해주세요.",
+			"maxRoles": "### {{{emoji}}} DJ 목록에 5개 이상의 역할을 추가할 수 없습니다.",
+			"alreadyInList": "### {{{emoji}}} 제공한 역할은 이미 데이터베이스에 있습니다.",
+			"addedRole": "### {{{emoji}}} 역할 {{{role}}}을(를) DJ 목록에 성공적으로 추가했습니다.",
+			"noRolesSetup": "### {{{emoji}}} 이 서버에는 설정된 DJ 역할이 없습니다.",
+			"notInList": "### {{{emoji}}} 해당 역할은 DJ 목록에 없습니다.",
+			"removedRole": "### {{{emoji}}} 역할 {{{role}}}을(를) DJ 목록에서 성공적으로 제거했습니다.",
+			"list": ">>> **역할:** {{{role}}}\n**관리자:** {{{moderator}}}\n**추가 일시:** {{{addedAt}}}",
+			"listTotal": "## 총 DJ 역할 수: {{{total}}}",
+			"clearedList": "### {{{emoji}}} DJ 목록을 성공적으로 지웠습니다.",
+			"enabledToggle": "### {{{emoji}}} DJ 토글 모드를 성공적으로 활성화했습니다.",
+			"disabledToggle": "### {{{emoji}}} DJ 토글 모드를 성공적으로 비활성화했습니다.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "DJ 역할",
+				"enabled": "활성화됨",
+				"disabled": "비활성화됨",
+				"djMode": "DJ 모드",
+				"djMembers": "DJ 멤버",
+				"description": "{{{guild}}}의 DJ 역할 정보"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "봇이 음악을 재생하지 않을 때 음성 연결을 수정합니다.",
+			"joining": "### 음성 채널에 다시 참가하고 음악을 재개합니다.",
+			"failed": "### 음성 지역을 변경하지 못했습니다. 나중에 다시 시도해주세요.",
+			"error": "{{{emoji}}} 현재 해결 방법을 찾지 못했습니다. [지원 서버]({{{server}}}에서 도움을 요청해보세요.",
+			"success": "### {{{emoji}}} 음성 지역을 **{{{region}}}**로 성공적으로 변경했습니다."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "봇을 음성 채널에 강제로 참가시킵니다.",
+			"already-in": "{{{emoji}}} 이미 음성 채널에 있습니다!",
+			"joined": "### {{{emoji}}} **{{{channel}}}** 음성 채널에 성공적으로 참가했습니다."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "서버의 봇 언어를 설정합니다.",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "서버에 언어를 추가합니다.",
+				"language": "설정할 언어입니다.",
+				"info": "언어에 대한 정보를 확인합니다.",
+				"reset": "언어를 기본 언어로 재설정합니다.",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} 봇의 언어를 {{{language}}} `({{{languageCode}}})`로 성공적으로 설정했습니다.",
+			"info": "### 이 서버의 현재 언어: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} 봇의 언어를 기본 언어로 성공적으로 재설정했습니다.",
+			"translationProgress": "번역 진행 상태: {{{progress}}}",
+			"selectLanguage": "아래 메뉴에서 설정할 언어를 선택해주세요."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "사용자 또는 서버에 대해 접두사를 비활성화합니다.",
+			"toggle": "### 사용자 또는 서버의 접두사를 전환합니다.",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "서버",
+				"user": "사용자"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### 이 명령을 사용하려면 프리미엄 사용자여야 합니다.",
+			"disabledUser": "### {{{emoji}}} 사용자의 접두사를 성공적으로 비활성화했습니다.",
+			"enabledUser": "### {{{emoji}}} 사용자의 접두사를 성공적으로 활성화했습니다.",
+			"noPerm": "### 이 명령을 사용하기 위한 필요한 권한이 없습니다.",
+			"disabledServer": "### {{{emoji}}} 서버의 접두사를 성공적으로 비활성화했습니다.",
+			"enabledServer": "### {{{emoji}}} 서버의 접두사를 성공적으로 활성화했습니다."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "서버의 접두사를 설정합니다.",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "서버의 접두사를 설정합니다.",
+				"prefix": "추가/제거할 접두사입니다.",
+				"info": "서버의 접두사를 확인합니다.",
+				"clear": "서버의 접두사를 지웁니다.",
+				"remove": "서버의 접두사를 제거합니다."
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **접두사:** `{{{prefix}}}`\n**관리자:** {{{moderator}}}\n**추가 일시:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} 설정할 접두사를 제공해주세요.",
+			"noPrefixAdded": "### {{{emoji}}} 서버에 추가된 접두사가 없습니다.",
+			"prefixLength": "### {{{emoji}}} 접두사는 5자보다 길 수 없습니다.",
+			"prefixLimit": "### {{{emoji}}} 접두사는 최대 4개까지만 설정할 수 있습니다. `prefix remove`로 일부 접두사를 제거해주세요.",
+			"prefixCharacters": "### {{{emoji}}} 접두사에는 다음 문자를 포함할 수 없습니다. `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} 접두사 `{{{prefix}}}`는 이미 {{{moderator}}}에 의해 추가되었습니다.",
+			"prefixCleared": "### {{{emoji}}} 모든 접두사를 기본값으로 성공적으로 지웠습니다.",
+			"prefixNotExists": "### {{{emoji}}} 접두사 `{{{prefix}}}`가 추가되지 않았습니다.",
+			"prefixRemoved": "### {{{emoji}}} 접두사 `{{{prefix}}}`를 성공적으로 제거했습니다.",
+			"prefixAdded": "### {{{emoji}}} 접두사 `{{{prefix}}}`를 성공적으로 추가했습니다."
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "프로필을 보거나 다른 사용자의 프로필을 확인합니다.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "프로필 색상, 색상 또는 가시성을 설정합니다.",
+				"bio": "프로필 소개를 설정합니다.",
+				"color": "프로필 색상을 설정합니다.",
+				"visibility": "프로필 가시성을 설정합니다.",
+				"view": "본인 또는 다른 사용자의 프로필을 확인합니다.",
+				"user": "프로필을 확인하려는 사용자입니다."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} 소개를 제공해야 합니다",
+			"bioLength": "### {{{emoji}}} 소개는 50자를 초과할 수 없습니다",
+			"bioSet": "### {{{emoji}}} 소개를 `{{{bio}}}`(으)로 성공적으로 설정했습니다",
+			"noColor": "### {{{emoji}}} 색상 hex 코드를 입력해주세요 [예시: #FF0000](https://g.co/kgs/q5nhF7)\n\n다음과 같은 색상 이름을 사용할 수도 있습니다: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} 이미 색상이 `{{{color}}}`(으)로 설정되어 있습니다",
+			"colorSet": "### {{{emoji}}} 색상을 `{{{color}}}`(으)로 성공적으로 설정했습니다",
+			"sameVisibility": "### {{{emoji}}} 가시성이 이미 `{{{visibility}}}`(으)로 설정되어 있습니다",
+			"noVisibility": "### {{{emoji}}} 가시성을 지정해주세요 (public/private)",
+			"visibilitySet": "### {{{emoji}}} 가시성을 `{{{visibility}}}`(으)로 성공적으로 설정했습니다",
+			"privateProfile": "### {{{emoji}}} 이 사용자의 프로필은 비공개입니다"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "서버 설정을 변경하거나 서버 설정 정보를 확인합니다.",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "모든 서버 설정을 기본 설정으로 재설정합니다",
+				"info": "서버 설정 정보를 확인합니다"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} 이 명령을 사용하려면 `manageGuild` 권한이 필요합니다.",
+			"isSure": "### 서버 설정을 재설정하시겠습니까?\n이로 인해 모든 설정이 기본값으로 재설정됩니다.\n\n**확실하다면 아래 버튼을 눌러주세요**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "재설정"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "트랙 버튼",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
-				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"botChannel": "봇 채널",
+				"disableCommand": "비활성화된 명령어",
+				"defaultVolume": "기본 볼륨",
+				"announce": "알림",
+				"prunning": "가지치기",
+				"noPrefix": "접두사 없음",
+				"prefix": "접두사",
+				"djRole": "DJ 역할",
+				"setup": "설정",
+				"voteSkip": "투표 스킵",
+				"language": "언어",
+				"trackButtonValue": "모드: {{{mode}}}\n모더레이터: {{{moderator}}}\n추가됨: {{{added}}}",
+				"setupValue": "모더레이터: {{{moderator}}}\n추가됨: {{{added}}}\n\n**채널:**\n{{{channels}}}",
+				"djValue": "모드: {{{mode}}}\n역할: {{{roles}}}\n추가됨: {{{added}}}",
+				"defaultvolumeValue": "볼륨: {{{volume}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"announceValue": "모드: {{{mode}}}\n채널: {{{channel}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"prunningValue": "모드: {{{mode}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"disableCommandValue": "명령어: {{{commands}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"prefixValue": "접두사: {{{prefix}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"voteSkipValue": "모드: {{{mode}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"247Value": "모드: {{{mode}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}\n채널: {{{channel}}}",
+				"botChannelValue": "채널: {{{channel}}}\n추가됨: {{{added}}}\n모더레이터: {{{moderator}}}",
+				"languageValue": "언어: {{{language}}}",
+				"enabled": "사용",
+				"disabled": "사용 안 함",
+				"none": "없음"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} 서버 설정을 성공적으로 기본 설정으로 재설정했습니다.",
+			"info": "## 이 서버에 대한 설정 정보입니다",
+			"noSettings": "### {{{emoji}}} 이 서버의 설정이 없습니다."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "투표 스킵 설정을 구성합니다.",
 			"options": {
-				"set": "Set the voteskip mode.",
-				"action": "The action you want to set (enable/disable)."
+				"set": "투표 스킵 모드를 설정합니다.",
+				"action": "설정할 동작(활성화/비활성화)입니다."
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} 투표 스킵을 성공적으로 {{{action}}}했습니다.",
+			"isConfirm": "### 투표 스킵을 활성화하거나 비활성화하시겠습니까?",
+			"canceled": "### {{{emoji}}} 투표 스킵 설정이 취소되었습니다.",
+			"alreadyEnabled": "### 투표 스킵이 이미 활성화되어 있습니다.",
+			"alreadyDisabled": "### 투표 스킵이 이미 비활성화되어 있습니다.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "활성화",
+				"disable": "비활성화",
+				"cancel": "취소"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "노래를 재생 목록에 추가합니다.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "노래를 추가할 재생 목록입니다.",
+				"song": "추가할 노래(이름/URL)입니다."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} 재생 목록 이름은 3자에서 50자 사이여야 합니다.",
+			"noPlaylists": "### {{{emoji}}} 계정에서 재생 목록을 찾을 수 없습니다. 먼저 재생 목록을 생성해주세요.",
+			"noResults": "### {{{emoji}}} `{{{song}}}`에 대한 결과를 찾을 수 없습니다.",
+			"playlistFull": "### {{{emoji}}} 재생 목록이 가득 찼습니다. 더 추가하기 전에 일부 노래를 제거하세요.",
+			"playlistAdded": "### {{{emoji}}} **{{{count}}}**개의 노래를 재생 목록 **{{{playlist}}}**에 성공적으로 추가했습니다."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "현재 재생 중인 노래를 재생 목록에 추가합니다.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "노래를 추가할 재생 목록입니다."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} 현재 재생 중인 노래가 없습니다.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} 이 노래는 이미 재생 목록에 있습니다.",
+			"success": "### {{{emoji}}} **{{{song}}}**을(를) **{{{playlist}}}**에 추가했습니다."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "재생 목록을 대기열에 추가합니다.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "대기열에 추가할 재생 목록의 이름입니다."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} 대기열이 없습니다.",
+			"success": "### {{{emoji}}} 대기열에 있는 **{{{queueLength}}}**개의 노래를 재생 목록 **{{{playlistName}}}**에 추가했습니다."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "재생 목록을 생성합니다.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "생성할 재생 목록의 이름입니다.",
+				"visibility": "재생 목록의 가시성입니다."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} 재생 목록 이름을 입력해주세요.",
+			"visibility": "### {{{emoji}}} 가시성은 `public` 또는 `private`이어야 합니다.",
+			"maxPlaylists": "### {{{emoji}}} 최대 10개의 재생 목록을 생성할 수 있습니다.",
+			"playlistExists": "### {{{emoji}}} 이미 **{{{playlist}}}** 이름의 재생 목록이 있습니다.",
+			"success": "### {{{emoji}}} **{{{playlist}}}** 재생 목록을 성공적으로 생성했습니다."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "재생 목록을 삭제합니다.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "삭제할 재생 목록의 이름입니다."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} **{{{playlist}}}** 이름의 재생 목록이 없습니다.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "확인",
+				"cancel": "취소"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### **{{{playlist}}}** 재생 목록을 삭제하시겠습니까?",
+			"success": "### {{{emoji}}} **{{{playlist}}}** 재생 목록을 성공적으로 삭제했습니다.",
+			"cancel": "### {{{emoji}}} **{{{playlist}}}** 재생 목록 삭제를 취소했습니다."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "재생 목록에서 모든 중복된 노래를 제거합니다.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "중복된 노래를 제거할 재생 목록의 이름입니다."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} **{{{playlist}}}** 재생 목록에 중복된 노래가 없습니다.",
+			"success": "### {{{emoji}}} **{{{playlist}}}** 재생 목록에서 **{{{count}}}**개의 중복된 노래를 성공적으로 제거했습니다."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "재생 목록을 편집합니다.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "편집하려는 재생 목록의 이름입니다.",
+				"old-name": "기존 재생 목록의 이름입니다.",
+				"new-name": "새로운 재생 목록의 이름입니다.",
+				"playlist-visibility": "재생 목록의 가시성을 변경합니다.",
+				"visibility": "재생 목록의 가시성입니다."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} 새로운 이름은 기존 이름과 달라야 합니다.",
+			"successName": "### {{{emoji}}} **{{{oldName}}}** 재생 목록 이름을 **{{{newName}}}**로 성공적으로 변경했습니다.",
+			"sameVisibility": "### {{{emoji}}} **{{{playlist}}}** 재생 목록은 이미 **{{{visibility}}}** 상태입니다.",
+			"successVisibility": "### {{{emoji}}} **{{{playlist}}}** 재생 목록의 가시성을 **{{{visibility}}}**로 성공적으로 변경했습니다.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "재생 목록 이름",
+				"visibility": "재생 목록 가시성",
+				"public": "공개",
+				"private": "비공개"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### 아래 버튼 중에서 재생 목록을 편집할 옵션을 선택하세요.",
+			"oldName": "### 기존 재생 목록의 이름을 입력하세요.",
+			"newName": "### 새로운 재생 목록의 이름을 입력하세요.",
+			"cancelled": "### {{{emoji}}} 재생 목록 이름 변경이 취소되었습니다.",
+			"playlist": "### 재생 목록의 이름을 입력하세요.",
+			"selectVisibility": "### 아래 버튼 중에서 재생 목록의 가시성을 선택하세요."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "재생 목록을 재생 목록 ID로 가져옵니다.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "가져올 재생 목록의 ID입니다."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} **{{{id}}}** 재생 목록 ID로 재생 목록을 찾을 수 없습니다.",
+			"sameUser": "### {{{emoji}}} 자신의 재생 목록을 가져올 수 없습니다.",
+			"privatePlaylist": "### {{{emoji}}} 비공개 재생 목록은 가져올 수 없습니다.",
+			"success": "### {{{emoji}}} **{{{playlist}}}** 재생 목록을 성공적으로 가져왔습니다."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "모든 재생 목록을 나열합니다.",
+			"tracks": "트랙: {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "대기열에 재생 목록을 불러옵니다.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "재생 목록에서 특정 곡을 불러옵니다.",
+				"name": "불러올 재생 목록의 이름입니다.",
+				"track": "불러올 트랙 번호 또는 트랙 제목입니다."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} **{{{playlist}}}** 이름의 재생 목록을 찾을 수 없습니다.",
+			"noTracks": "### {{{emoji}}} **{{{playlist}}}** 재생 목록에 트랙이 없습니다.",
+			"noTrackFound": "### {{{emoji}}} 해당 트랙 `{{{track}}}`을(를) 찾을 수 없습니다.",
+			"trackLoaded": "### {{{emoji}}} **{{{playlist}}}** 재생 목록에서 **{{{track}}}**을(를) 불러왔습니다.",
+			"privatePlaylist": "### {{{emoji}}} 다른 사용자의 비공개 재생 목록은 불러올 수 없습니다.",
+			"playlistLoaded": "### {{{emoji}}} **{{{playlist}}}** 재생 목록에서 **{{{count}}}**개의 곡을 불러왔습니다."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "재생 목록에서 곡을 제거합니다.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "곡을 제거하려는 재생 목록의 이름입니다.",
+				"track": "제거할 트랙 번호 또는 트랙 제목입니다."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} 해당 번호나 제목의 트랙을 찾을 수 없습니다.",
+			"success": "### {{{emoji}}} **{{{playlist}}}** 재생 목록에서 **{{{track}}}**을(를) 성공적으로 제거했습니다."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "재생 목록을 보여줍니다.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "보려는 재생 목록의 이름입니다."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "페이지 {{{page}}} / {{{pages}}} | 트랙 {{{tracks}}}개 | 길이 {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "이전",
+				"stop": "정지",
+				"next": "다음"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### 누군가가 음성 채널에서 나를 연결 해제했지만 **24/7 모드** 때문에 여전히 여기에 있어요!\n\n**24/7 모드**를 비활성화하려면 {{{cmd}}} 명령어를 사용하거나 {{{cmd2}}} 명령어를 사용하세요!",
+			"nowPlaying": "재생 중",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** - [{{{songAuthor}}}]({{{songAuthorUrl}}})이(가) {{{requester}}}님께서 요청하셨습니다.",
+			"footer": "재생 시간: {{{duration}}} | 대기열: {{{queue}}} | 볼륨: {{{volume}}}%",
+			"end": "### 1분 동안 아무도 듣고 있지 않아 채널을 떠납니다.\n\n**24/7 모드**를 활성화하면 이 기능을 비활성화할 수 있습니다. {{{cmd}}} 명령어를 사용하세요!",
+			"endTitle": "대기열 종료",
+			"endDesc": "### 음악 대기열이 종료되었습니다. {{{cmd}}} 명령어를 사용하여 다시 음악을 추가할 수 있습니다! 저와 함께 음악을 즐기시나요? [여기를 클릭하여 투표해주세요]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "트랙 오류",
+		"description": "### [{{{title}}}]({{{uri}}})은(는) 귀하의 지역에서 이용할 수 없습니다. 나이 제한이 있습니다!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "재생",
+			"pause": "일시정지",
+			"previous": "이전 곡",
+			"shuffle": "셔플",
+			"skip": "건너뛰기",
+			"stop": "정지",
+			"voldown": "볼륨 내리기",
+			"volup": "볼륨 올리기",
+			"loop": "반복",
+			"like": "좋아요"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### 현재 재생 중인 곡이 없습니다.",
+		"nothingPlaying": "### 현재 재생 중인 곡이 없습니다."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "이 버튼을 사용하려면 음성 {{{channel}}} 채널에 참가해야 합니다!",
+			"noPrevious": "대기열에 이전 곡이 없습니다.",
+			"playingPrevious": "{{{user}}}님이 이전 트랙을 재생 중입니다.",
+			"nothingToSkip": "건너뛸 곡이 대기열에 없습니다.",
+			"alreadyVote": "{{{user}}}님, 이 서버에 이미 투표가 진행 중입니다. 완료되거나 취소될 때까지 기다려주시기 바랍니다.",
+			"voteSkip": "{{{user}}}님이 현재 곡을 건너뛰기 요청했습니다. 투표 건너뛰기를 중단하시겠습니까? {{{cmd}}} 실행하세요.",
+			"voteSkipLabel": "현재 곡 건너뛰기 투표!",
+			"alreadyVoted": "{{{user}}}님은 이미 현재 곡 건너뛰기에 투표하셨습니다.",
+			"voteSkip2": "{{{user}}}님이 현재 곡을 건너뛰기 요청했습니다.",
+			"voteSkipLabel2": "현재 곡 건너뛰기 투표! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}}님, 이 버튼을 사용하려면 음성 {{{channel}}} 채널에 참가해야 합니다!",
+			"voteSkipTrack": "{{{user}}}님이 긍정적인 투표 {{{count}}}개 후에 곡을 건너뜁니다!",
+			"notEnoughVote": "### 현재 곡을 건너뛰기에 충분한 투표가 없습니다.",
+			"skipTrack": "{{{user}}}님이 현재 곡을 건너뜁니다.",
+			"playTrack": "{{{user}}}님이 현재 곡을 {{{paused}}}하였습니다.",
+			"paused": "일시정지됨",
+			"resumed": "재개됨",
+			"stopTrack": "{{{user}}}님이 현재 곡을 중지하였습니다.",
+			"volMax": "### 볼륨이 이미 최대값입니다.",
+			"volUp": "{{{user}}}님이 볼륨을 **{{{vol}}}**%로 증가시켰습니다.",
+			"volMin": "### 볼륨이 이미 최소값입니다.",
+			"volDown": "{{{user}}}님이 볼륨을 **{{{vol}}}**%로 감소시켰습니다.",
+			"shuffleError": "{{{user}}}님, 대기열에 셔플할 곡이 충분하지 않습니다.",
+			"shuffleDisabled": "{{{user}}}님, 셔플이 비활성화되었습니다.",
+			"shuffleEnabled": "{{{user}}}님, 셔플이 활성화되었습니다.",
+			"loopSong": "{{{user}}}님이 현재 곡을 반복합니다.",
+			"loopQueue": "{{{user}}}님이 대기열을 반복합니다.",
+			"loopDisabled": "{{{user}}}님, 반복이 비활성화되었습니다.",
+			"noTrack": "{{{user}}}님, 현재 아무 음악도 재생되지 않습니다.",
+			"liked": "{{{user}}}님이 **{{{title}}}**을(를) 좋아합니다.",
+			"unliked": "{{{user}}}님이 **{{{title}}}** 좋아요를 취소하였습니다."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### 안녕하세요! 명령어에 대한 응답을 보내려고 했지만, `메시지 보내기` 권한이 부족하여 보낼 수 없습니다. 관리자에게 `메시지 보내기` 권한을 부여해주세요.\n\n서버: **{{{guildName}}}**\n명령어: **{{{commandName}}}**\n권한 설정에 도움이 필요하시다면 [지원 서버](관련 링크)에 참가해주세요.",
+			"noEmbedLinks": "### {{{emoji}}} 봇이 올바르게 작동하려면 `링크 첨부` 권한이 필요합니다. 관리자에게 이 권한을 부여해주세요.",
+			"noBotChannel": "### 이 채널에서는 명령어를 실행할 수 없습니다. {{{emoji}}} <#{{{botChannel}}}> 채널을 사용하세요. 협조해주셔서 감사합니다.",
+			"deleteFooter": "• 이 메시지는 5초 후에 삭제됩니다.",
+			"disabledCommand": "### 이 명령어는 현재 서버에서 모든 사용자에게 비활성화되어 있습니다. DJ만이 이 명령어를 사용할 수 있습니다.",
+			"disabledCommandList": "비활성화된 명령어 목록",
+			"noBotPermissions": "### {{{emoji}}} 저는 **{{{permissions}}}** 권한이 없어 이 명령어를 실행할 수 없습니다.",
+			"noUserPermissions": "### {{{emoji}}} 이 명령어를 실행하려면 **{{{permissions}}}** 권한이 필요합니다.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### 이 명령어를 사용하려면 저에게 투표해야 합니다. [Top.gg]({{{link}}})에서 투표할 수 있습니다.",
+				"### 이 명령어를 사용하려면 저에게 투표해야 합니다. [Top.gg]({{{link}}})에서 투표하거나\n[여기]({{{link2}}})에서 기부하여 프리미엄 버전을 얻을 수 있습니다."
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "투표",
+				"donate": "기부",
+				"invite": "초대",
+				"support": "지원 서버"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### **{{{timeLeft}}}**초 동안 더 기다려주세요. **{{{command}}}** 명령어를 다시 사용하기 전에.",
+			"noDjRole": "### {{{emoji}}} 이 명령어를 사용하려면 DJ 역할이 필요합니다.",
+			"noPremium": "### 이 명령어를 사용하려면 봇 프리미엄이 필요합니다. [여기]({{{link}}})에서 기부하여 프리미엄 버전을 얻을 수 있습니다.",
+			"voicePerm": "### {{{emoji}}} 저는 음성 채널에 참가하기 위해 `채널 보기`, `연결`, `말하기` 권한이 필요합니다. [권한 예시](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n문제가 지속되면 음성 채널 지역을 `Europe`로 변경해주세요.",
+			"voiceJoin": "### {{{emoji}}} 이 명령어를 사용하려면 이 서버의 음성 채널에 연결되어 있어야 합니다!\n\n음성 채널에 참가하는 방법은, 스피커 아이콘이 있는 채널을 클릭하는 것입니다 (예: 여기를 클릭하세요:  {{{channel}}}) [공식 Discord 가이드 참조](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} 이 명령어를 사용하려면 **{{{channel}}}** 음성 채널에 있어야 합니다.",
+			"noPlayer": "### {{{emoji}}} 저는 현재 음성 채널에 연결되어 있지 않습니다. 저를 호출하려면 {{{command}}} 명령어를 사용하세요.",
+			"noQueue": "### {{{emoji}}} 대기열이 비어 있습니다. {{{command}}} 명령어를 사용하여 곡을 대기열에 추가하세요.",
+			"noSong": "### {{{emoji}}} 현재 재생 중인 곡이 없습니다. {{{command}}} 명령어를 사용하여 곡을 대기열에 추가하세요.",
+			"error": "### {{{emoji}}} 명령어를 실행하는 중에 오류가 발생했습니다. 이 오류를 [지원 서버]({{{link}}})에 보고해주세요."
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | 시작하기",
+		"embed_description": "### 안녕하세요 <@{{{user}}}>님! 나의 접두사(prefix)는 `{{{prefixList}}}` 입니다.\n예시: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### 안녕하세요 <@{{{user}}}>님! 나의 접두사는: `접두사 없음`, 즉 접두사 없이 모든 명령어를 사용할 수 있습니다.\n예시: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "{{{commandName}}}에 대한 옵션",
+		"no_description": "설명 없음",
+		"options": "옵션",
+		"examples": "예시",
+		"long_des": "페이지 간 이동에 사용됩니다",
+		"examples_button": "예시 보기",
+		"footer": "<필수> | [선택] {{{long_des}}} 페이지 {{{page}}} / {{{total_pages}}}",
+		"title2": "{{{commandName}}}에 대한 예시"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",

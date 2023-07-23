@@ -1,890 +1,890 @@
 {
 	"cmd": {
 		"247": {
-			"description": "Enable or disable the 24/7 mode.",
-			"enabled": "### {{{emoji}}} 24/7 mode has been enabled.",
-			"disabled": "### {{{emoji}}} 24/7 mode has been disabled."
+			"description": "Įjungti arba išjungti 24/7 režimą.",
+			"enabled": "### {{{emoji}}} 24/7 režimas sėkmingai įjungtas.",
+			"disabled": "### {{{emoji}}} 24/7 režimas sėkmingai išjungtas."
 		},
 		"ping": {
-			"description": "Shows the bot latency.",
-			"author": "Bot latency",
-			"content": "**Shard**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
-			"footer": "• Get more information on the status channel of the support server"
+			"description": "Rodo roboto uždelstumą.",
+			"author": "Roboto uždelstumas",
+			"content": "**Skardas**: `{{{shardPing}}}ms`\n**API**: `{{{latency}}}ms`",
+			"footer": "• Gaukite daugiau informacijos kanale „bendruomenės“ serveryje."
 		},
 		"invite": {
-			"description": "Invite the bot to your server.",
+			"description": "Pakvieskite roboto į savo serverį.",
 			"buttons": {
-				"invite": "Invite MoE",
-				"invite2": "Invite MoE2",
-				"invite3": "Invite MoE3",
-				"support": "Support"
+				"invite": "Pakviesti MoE",
+				"invite2": "Pakviesti MoE2",
+				"invite3": "Pakviesti MoE3",
+				"support": "Pagalba"
 			},
-			"content": "If you enjoyed using me, then consider [inviting me]({{{invite}}}) to your server now. And also, don't forget to join the [support server]({{{support}}})."
+			"content": "Jeigu naudojotės manimi ir mėgavotės, tai apsvarstykite [pakrauti mane]({{{invite}}}) į savo serverį dabar. Taip pat nepamirškite prisijungti prie [pagalbos serverio]({{{support}}})."
 		},
 		"help": {
-			"description": "Shows a list of commands or info about a specific command",
+			"description": "Rodo komandų sąrašą arba informaciją apie konkrečią komandą.",
 			"options": {
-				"command": "The command name or category to get help for"
+				"command": "Komandos pavadinimas arba kategorija, dėl kurios norite gauti pagalbą"
 			},
-			"title": " Command",
-			"footer": "Page {{{page}}} of {{{pagesNum}}}",
-			"title2": "Help - {{{cmd}}}",
-			"title3": "Help",
-			"manContent": "### Here is a list of all the categories\n{{{catagory}}}\n\n- Links:\n[Support Server]({{{server}}}) | [Invite]({{{invite}}}) | [Vote]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Website]({{{website}}}) | [Docs]({{{docs}}})",
-			"footer2": "- For more information on a command: {{{prefix}}}help <command> or {{{prefix}}}help <category>",
-			"cooldown": "Cooldown",
-			"aliases": "Aliases",
-			"category": "Category",
-			"examples": "Example(s)",
-			"userPerms": "User Permission(s)",
-			"botPerms": "Bot Permission(s)",
-			"requirements": "Requirement(s)",
-			"subCommands": "Sub Command(s)",
-			"subSubCommands": "Sub Sub Command(s)",
+			"title": "Komanda",
+			"footer": "Puslapis {{{page}}} iš {{{pagesNum}}}",
+			"title2": "Pagalba - {{{cmd}}}",
+			"title3": "Pagalba",
+			"manContent": "### Čia yra visų kategorijų sąrašas:\n{{{catagory}}}\n\n- Nuorodos:\n[Pagalbos serveris]({{{server}}}) | [Pakvietimas]({{{invite}}}) | [Balsavimas]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Tinklalapis]({{{website}}}) | [Dokumentacija]({{{docs}}})",
+			"footer2": "- Daugiau informacijos apie komandą: {{{prefix}}}help <komanda> arba {{{prefix}}}help <kategorija>",
+			"cooldown": "Atlaidumas",
+			"aliases": "Pseudonimai",
+			"category": "Kategorija",
+			"examples": "Pavyzdžiai",
+			"userPerms": "Vartotojo teisės",
+			"botPerms": "Roboto teisės",
+			"requirements": "Reikalavimai",
+			"subCommands": "Subkomandos",
+			"subSubCommands": "Subsubkomandos",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next",
-				"home": "Home",
-				"config": "Config",
-				"music": "Music",
-				"filter": "Filter",
-				"general": "General",
-				"playlists": "Playlists"
+				"previous": "Ankstesnis",
+				"stop": "Stabdyti",
+				"next": "Kitas",
+				"home": "Pradžia",
+				"config": "Konfigūracija",
+				"music": "Muzika",
+				"filter": "Filtrai",
+				"general": "Bendras",
+				"playlists": "Grojaraščiai"
 			},
-			"notFound": "`{{{cmd}}}` is not a valid command or category!",
+			"notFound": "`{{{cmd}}}` nėra galiojanti komanda arba kategorija!",
 			"voice": {
-				"inVoice": "- Must be in a voice channel",
-				"sameVoice": "- Must be in the same voice channel",
-				"playing": "- Must be playing music in this server"
+				"inVoice": "- Reikalinga būti balso kanale",
+				"sameVoice": "- Reikalinga būti tame pačiame balso kanale",
+				"playing": "- Reikalinga grojant muziką šiame serveryje"
 			},
-			"voteLock": "- Must be [voted]({{{link}}}) to use this command",
-			"premiumCmd": "- Must have [premium]({{{link}}}) to use this command"
+			"voteLock": "- Norint naudotis šia komanda, būtina balsuoti [čia]({{{link}}})",
+			"premiumCmd": "- Norint naudotis šia komanda, būtina turėti [premium]({{{link}}})"
 		},
 		"premium": {
-			"description": "Shows the user or guild premium status.",
-			"guildPremiumStatus": "Guild Premium Status",
-			"userPremiumStatus": "User Premium Status",
+			"description": "Rodo vartotojo arba gildijos premium statusą.",
+			"guildPremiumStatus": "Gildijos Premium Statusas",
+			"userPremiumStatus": "Vartotojo Premium Statusas",
 			"premium": "Premium",
-			"notPremium": "Not Premium",
-			"guildPremiumExpires": "Guild Premium Expires",
-			"userPremiumExpires": "User Premium Expires"
+			"notPremium": "Nėra Premium",
+			"guildPremiumExpires": "Gildijos Premium galioja iki",
+			"userPremiumExpires": "Vartotojo Premium galioja iki"
 		},
 		"redeem": {
-			"description": "Redeem a premium code.",
+			"description": "Panaudokite premium kodą.",
 			"options": {
-				"code": "The premium code to redeem"
+				"code": "Premium kodas, kurį norite panaudoti"
 			},
-			"noArg": "Please provide a premium code to redeem.",
-			"invalidCode": "Invalid premium code provided.",
-			"confirmation": "### Are you sure you want to redeem the premium code `{{{code}}}`?",
-			"type": "Type",
-			"expiresAt": "Expires At",
+			"noArg": "Prašome pateikti premium kodą, kurį norite panaudoti.",
+			"invalidCode": "Pateiktas netinkamas premium kodas.",
+			"confirmation": "### Ar tikrai norite panaudoti premium kodą `{{{code}}}`?",
+			"type": "Tipas",
+			"expiresAt": "Galioja iki",
 			"buttons": {
-				"yes": "Yes",
-				"no": "No"
+				"yes": "Taip",
+				"no": "Ne"
 			},
-			"alreadyPremium": "You are already a premium member.",
-			"success": "### Successfully redeemed your premium code. Now you can use premium commands!",
-			"canceled": "Canceled the premium code redemption."
+			"alreadyPremium": "Jūs jau esate Premium narys.",
+			"success": "### Sėkmingai panaudojote savo premium kodą. Dabar galite naudoti premium komandas!",
+			"canceled": "Atšaukėte premium kodo panaudojimą."
 		},
 		"stats": {
-			"description": "Shows the bot stats."
+			"description": "Rodo roboto statistiką."
 		},
 		"support": {
-			"description": "Support server link",
-			"content": "### If you need help with the bot or just want to hang out with us, join the [support server]({{{link}}}).",
+			"description": "Pagalbos serverio nuoroda",
+			"content": "### Jei reikia pagalbos su botu arba tiesiog norite pasibūti su mumis, prisijunkite prie [pagalbos serverio]({{{link}}}).",
 			"buttons": {
-				"support": "Support Server"
+				"support": "Pagalbos Serveris"
 			}
 		},
 		"vote": {
-			"description": "Bot vote link",
-			"content": "### If you like the bot, please consider voting for it on [top.gg]({{{link}}}).",
+			"description": "Balsavimo už roboto nuorodą",
+			"content": "### Jei patinka šis botas, prašome balsuoti už jį [top.gg]({{{link}}}).",
 			"buttons": {
-				"vote": "Vote"
+				"vote": "Balsuoti"
 			}
 		},
 		"player": {
-			"description": "Shows the player status.",
-			"nowPlaying": "Now Playing",
-			"noSong": "No song is currently playing.",
-			"volume": "Volume",
-			"totalDuration": "Total Duration",
-			"loopMode": "Loop Mode",
-			"filters": "Filters",
-			"noFilters": "No filters are currently applied.",
-			"title": "Player: {{{status}}}",
-			"online": "Online",
-			"offline": "Offline"
+			"description": "Rodo grotuvo būseną.",
+			"nowPlaying": "Šiuo metu grojama",
+			"noSong": "Šiuo metu ne grojama jokia daina.",
+			"volume": "Garsumas",
+			"totalDuration": "Iš viso trukmė",
+			"loopMode": "Ciklo režimas",
+			"filters": "Filtrai",
+			"noFilters": "Šiuo metu nėra taikomi jokie filtrai.",
+			"title": "Grotuvas: {{{status}}}",
+			"online": "Prisijungęs",
+			"offline": "Atsijungęs"
 		},
 		"autoplay": {
-			"description": "Enable or disable autoplay mode.",
-			"enabled": "### Successfully toggled autoplay mode to `Enabled`\nThe bot will now automatically add similar songs to the queue.",
-			"disabled": "### Successfully toggled autoplay mode to `Disabled`\nThe bot will no longer automatically add similar songs to the queue."
+			"description": "Įjungti arba išjungti automatinio grojimo režimą.",
+			"enabled": "### Sėkmingai įjungtas automatinio grojimo režimas `Įjungta`\nBotas automatiškai pridės panašių dainų į eilėraštį.",
+			"disabled": "### Sėkmingai įjungtas automatinio grojimo režimas `Išjungta`\nBotas nebetolimo automatiškai dainų į eilėraštį."
 		},
 		"clear": {
-			"description": "Clear the queue or filters from the player.",
+			"description": "Išvalyti eilėraštį arba filtrus iš grotuvo.",
 			"options": {
-				"input": "The queue or filters to clear"
+				"input": "Eilėraštis arba filtrai, kuriuos norite išvalyti"
 			},
-			"content": "### Please select a queue or filter to clear. (queue/filters)",
+			"content": "### Prašome pasirinkti eilėraštį ar filtrus, kuriuos norite išvalyti. (eilėraštis/filtrai)",
 			"queue": {
-				"noSong": "There are no songs in the queue to clear.",
-				"success": "### Successfully cleared the queue."
+				"noSong": "Eilėraštyje nėra dainų, kuriuos reikia išvalyti.",
+				"success": "### Sėkmingai išvalytas eilėraštis."
 			},
 			"filters": {
-				"noFilter": "There are no filters to clear.",
-				"success": "### Successfully cleared the filters."
+				"noFilter": "Nėra filtrų, kuriuos reikia išvalyti.",
+				"success": "### Sėkmingai išvalyti filtri."
 			},
 			"buttons": {
-				"queue": "Queue",
-				"filters": "Filters"
+				"queue": "Eilėraštis",
+				"filters": "Filtrai"
 			}
 		},
 		"forceskip": {
-			"description": "Force skip the current song.",
-			"success": "### Force skipped the {{{title}}} song."
+			"description": "Priverstinai praleisti dabartinę dainą.",
+			"success": "### Priverstinai praleista daina „{{{title}}}“."
 		},
 		"forward": {
-			"description": "Forward the current song.",
+			"description": "Perkelti einamąją dainą į priekį.",
 			"options": {
-				"seconds": "The amount of seconds to forward"
+				"seconds": "Sekundžių skaičius, kurį perkelti į priekį"
 			},
-			"unseekable": "{{{emoji}}} The current song is unseekable.",
-			"tooLong": "{{{emoji}}} You can't forward more than the song length.",
-			"success": "### {{{emoji}}} Successfully forwarded the song by `{{{time}}}`."
+			"unseekable": "{{{emoji}}} Einamoji daina negali būti paieškoma.",
+			"tooLong": "{{{emoji}}} Negalite perkelti daugiau nei dainos trukmė.",
+			"success": "### {{{emoji}}} Sėkmingai perkelta daina per `{{{time}}}`."
 		},
 		"grab": {
-			"description": "Grab the current song.",
-			"dm": "{{{emoji}}} i can't send you the song because you disabled your DMs.",
-			"grabbed": "### {{{emoji}}} Successfully grabbed the song."
+			"description": "Gauti dabartinę dainą.",
+			"dm": "{{{emoji}}} Negaliu jums nusiųsti dainos, nes jūs išjungėte asmenines žinutes.",
+			"grabbed": "### {{{emoji}}} Sėkmingai gauta daina."
 		},
 		"join": {
-			"description": "Summon the bot to your voice channel.",
-			"no-perms": "{{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect` and `Speak` permission. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n If the problem persists, change the voice channel region to `Europe`",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### Successfully joined the voice {{{channel}}}"
+			"description": "Pakviesti bota į jūsų balso kanalą.",
+			"no-perms": "{{{emoji}}} Neturiu reikiamų leidimų prisijungti prie jūsų balso kanalo! Man reikia `Matyti kanalus`, `Jungtis` ir `Kalbėti` leidimo. [Leidimų pavyzdys](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Jei problema neišsispręs, pakeiskite balso kanalo regioną į `Europe`.",
+			"already-in": "{{{emoji}}} Jau esu balso kanale!",
+			"joined": "### Sėkmingai prisijungiau prie balso {{{channel}}}"
 		},
 		"leave": {
-			"description": "Leave the voice channel.",
-			"not-playing": "{{{emoji}}} I'm not playing anything right now!",
-			"success": "### {{{emoji}}} Successfully left the voice channel."
+			"description": "Išeiti iš balso kanalo.",
+			"not-playing": "{{{emoji}}} Šiuo metu nieko neleidžiu!",
+			"success": "### {{{emoji}}} Sėkmingai palikau balso kanalą."
 		},
 		"leavecleanup": {
-			"description": "Removes all songs from users that are not in the voice channel.",
-			"removing": "## Removing songs from users that are no longer in the vc. Please wait",
-			"removed": "### Successfully removed `{{{count}}}` songs from users that are no longer in the vc."
+			"description": "Pašalina visas dainas iš vartotojų, kurie nebeliko balso kanale.",
+			"removing": "## Trinami dainos iš vartotojų, kurie nebeliko balso kanale. Prašome palaukti",
+			"removed": "### Sėkmingai pašalintos `{{{count}}}` dainos iš vartotojų, kurie nebeliko balso kanale."
 		},
 		"loop": {
-			"description": "Loop the current song or queue.",
+			"description": "Sugrąžinti dabartinę dainą arba sąrašą.",
 			"options": {
-				"mode": "The loop mode to set"
+				"mode": "Režimas, kurį nustatyti"
 			},
-			"specify": "### Please specify the mode to loop. (song, queue, off) from the buttons below.",
+			"specify": "### Prašome nurodyti, kurią dainą norite grąžinti. (daina, sąrašas, išjungti) iš apačioje esančių mygtukų.",
 			"buttons": {
-				"song": "Song",
-				"queue": "Queue",
-				"off": "Off"
+				"song": "Daina",
+				"queue": "Sąrašas",
+				"off": "Išjungti"
 			},
-			"song": "### {{{emoji}}} Successfully looped the current song.",
-			"queue": "### {{{emoji}}} Successfully looped the queue.",
-			"off": "### {{{emoji}}} Successfully disabled loop.",
-			"song_already": "### {{{emoji}}} The current song is already looped.",
-			"queue_already": "### {{{emoji}}} The queue is already looped.",
-			"off_already": "### {{{emoji}}} Loop is already disabled.",
-			"invalid_mode": "### {{{emoji}}} Invalid loop mode provided. please provide a valid loop mode. (song, queue, off)"
+			"song": "### {{{emoji}}} Sėkmingai grąžinta dabartinė daina.",
+			"queue": "### {{{emoji}}} Sėkmingai grąžintas sąrašas.",
+			"off": "### {{{emoji}}} Sėkmingai išjungtas grąžinimas.",
+			"song_already": "### {{{emoji}}} Dabartinė daina jau yra grąžinta.",
+			"queue_already": "### {{{emoji}}} Sąrašas jau yra grąžintas.",
+			"off_already": "### {{{emoji}}} Grąžinimas jau išjungtas.",
+			"invalid_mode": "### {{{emoji}}} Pateiktas netinkamas grąžinimo režimas. Prašome nurodyti galiojantį režimą. (daina, sąrašas, išjungti)"
 		},
 		"lyrics": {
-			"description": "Shows the lyrics of the current song or a song name.",
+			"description": "Rodyti dabartinės dainos ar dainos pavadinimo tekstus.",
 			"options": {
-				"song": "The song name to search for"
+				"song": "Dainos pavadinimas paieškai"
 			},
-			"noQuery": "### Please provide a song name to search for.",
-			"noLyrics": "### i couldn't find any lyrics for this song.",
-			"page": "Page {{{page}}} of {{{pages}}}"
+			"noQuery": "### Prašome pateikti dainos pavadinimą, kurio tekstus ieškote.",
+			"noLyrics": "### Nepavyko rasti šios dainos tekstų.",
+			"page": "Puslapis {{{page}}} iš {{{pages}}}"
 		},
 		"move": {
-			"description": "Move a song to a specific position in the queue.",
+			"description": "Perkelti dainą į tam tikrą poziciją sąraše.",
 			"options": {
-				"song": "The song to move",
-				"position": "The position to move the song to"
+				"song": "Daina, kurią perkelti",
+				"position": "Pozicija, į kurią perkelti dainą"
 			},
-			"invalidNumber": "### Please provide a valid number for the position.",
-			"invalidPosition": "### Invalid position provided. please provide a valid position.",
-			"success": "### Moved **[{{{title}}}]({{{uri}}})** from position **{{{from}}}** to **{{{to}}}**."
+			"invalidNumber": "### Prašome nurodyti tinkamą skaičių pozicijai.",
+			"invalidPosition": "### Pateikta netinkama pozicija. Prašome nurodyti galiojantį poziciją.",
+			"success": "### Pajudintas **[{{{title}}}]({{{uri}}})** iš pozicijos **{{{from}}}** į **{{{to}}}**."
 		},
 		"nowplaying": {
-			"description": "Shows the current playing song.",
-			"nowplaying": "### Now playing: [{{{title}}}]({{{uri}}})",
-			"author": "Author",
-			"requester": "Requested by",
-			"duration": "Duration",
-			"progress": "Progress"
+			"description": "Rodyti dabar grojamą dainą.",
+			"nowplaying": "### Dabar grojama: [{{{title}}}]({{{uri}}})",
+			"author": "Autorius",
+			"requester": "Prašė",
+			"duration": "Trukmė",
+			"progress": "Progresas"
 		},
 		"pause": {
-			"description": "Pause the current song.",
-			"alreadyPaused": "### The current song is already paused.",
-			"paused": "### Paused [{{{title}}}]({{{uri}}})"
+			"description": "Pristabdyti dabartinę dainą.",
+			"alreadyPaused": "### Dabartinė daina jau pristabdyta.",
+			"paused": "### Pauzėje [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
-			"description": "play a song from spotify, soundcloud, deezer, etc...",
+			"description": "Groti dainą iš „Spotify“, „SoundCloud“, „Deezer“ ir kt...",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Paieškos užklausa",
+				"source": "Iš kurios šaltinio ieškoti"
 			},
-			"no-query": "Please provide a song name to search for.",
-			"no-results": "### No results found for `{{{query}}}`.",
-			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
-			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"no-query": "Prašome pateikti dainos pavadinimą, kurį norite ieškoti.",
+			"no-results": "### Paieška „{{{query}}}“ nerado rezultatų.",
+			"playlist-loaded": "### Įkeltas `{{{count}}}` takų iš grojaraščio **[{{{name}}}]({{{url}}})**",
+			"footer": "Ačiū, kad naudojatės „{{{bot}}}“.",
+			"added": "### Pridėta **[{{{title}}}]({{{uri}}})** į sąrašą (užsakė <@{{{requester}}}>) eilėje `#{{{position}}}`"
 		},
 		"playprevious": {
-			"description": "Play the previous song.",
-			"noPreviousTrack": "### {{{emoji}}} There is no previous song to play.",
-			"success": "### {{{emoji}}} Now Playing the previous track from your queue!"
+			"description": "Groti ankstesnę dainą.",
+			"noPreviousTrack": "### {{{emoji}}} Nėra ankstesnės dainos, kurią groti.",
+			"success": "### {{{emoji}}} Dabar grojama ankstesnė daina iš jūsų sąrašo!"
 		},
 		"queue": {
-			"description": "Shows the queue for the current server.",
+			"description": "Rodyti dabartinio serverio sąrašą.",
 			"options": {
-				"page": "The page number to view"
+				"page": "Puslapio numeris, kurį peržiūrėti"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
-			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
-			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
-			"notNumber": "### {{{emoji}}} The page number must be a number.",
-			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
-			"clearQueue": "Clear Queue",
-			"noTracks": "### There are no tracks in the queue.",
-			"noDjRole": "### You need the DJ role to use this button.",
-			"clearedQueue": "### {{{user}}} Cleared the queue."
+			"queue": "### Sąrašas skirtas {{{guild}}} ({{{songs}}} dainos)",
+			"nowPlaying": "### Dabar grojama: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": "### Kitas dainos: {{{str}}}",
+			"noSongs": "### Sąraše dar nėra dainų! Pridėkite vieną naudodami {{{cmd}}}",
+			"page": "Puslapis {{{page}}} | {{{songs}}} daina(i) | bendra trukmė {{{duration}}}",
+			"notNumber": "### {{{emoji}}} Puslapio numeris turi būti skaičius.",
+			"pageLimit": "### {{{emoji}}} Puslapio numeris turi būti ne didesnis kaip {{{pages}}}.",
+			"clearQueue": "Išvalyti sąrašą",
+			"noTracks": "### Sąraše nėra dainų.",
+			"noDjRole": "### Norint naudotis šiuo mygtuku, reikia DJ vaidmens.",
+			"clearedQueue": "### {{{user}}} Išvalė sąrašą."
 		},
 		"remove": {
-			"description": "To remove a song from the queue.",
+			"description": "Pašalinti dainą iš sąrašo.",
 			"options": {
-				"track": "The track to remove.",
-				"number": "The track number or track title to remove.",
-				"dupes": "Remove all duplicates of the track."
+				"track": "Daina, kurią pašalinti.",
+				"number": "Dainos numeris arba pavadinimas, kurį pašalinti.",
+				"dupes": "Pašalinti visas pasikartojančias dainas."
 			},
-			"trackNotFound": "### There is no track with that number in the queue",
-			"invalidNumber": "### Please enter a number between 1 and {{{length}}}.",
-			"removed": "### Removed **[{{{title}}}]({{{uri}}})** from the queue.",
-			"noDupes": "### There are no duplicate songs in the queue.",
-			"removedDupes": "### Removed **{{{length}}}** duplicate songs from the queue."
+			"trackNotFound": "### Sąraše nėra dainos su tokiu numeriu.",
+			"invalidNumber": "### Prašome įvesti skaičių nuo 1 iki {{{length}}}.",
+			"removed": "### Pašalinta **[{{{title}}}]({{{uri}}})** iš sąrašo.",
+			"noDupes": "### Sąraše nėra pasikartojančių dainų.",
+			"removedDupes": "### Pašalintos **{{{length}}}** pasikartojančios dainos iš sąrašo."
 		},
 		"replay": {
-			"description": "Replay the current song.",
-			"replaying": "### Replaying [{{{title}}}]({{{uri}}})"
+			"description": "Pakartoti dabartinę dainą.",
+			"replaying": "### Kartojama [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
-			"description": "Resume the current song.",
-			"notPaused": "### The current song is not paused.",
-			"resumed": "### Resumed [{{{title}}}]({{{uri}}})"
+			"description": "Tęsti dabartinę dainą.",
+			"notPaused": "### Dabartinė daina nepristabdyta.",
+			"resumed": "### Tęsiama [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
-			"description": "Rewind the current song.",
+			"description": "Atsukti dabartinę dainą.",
 			"options": {
-				"time": "The time you want to rewind the song to."
+				"time": "Laikas, kurį norite atsukti dainą"
 			},
-			"notSeekable": "### {{{emoji}}} The current song is not rewindable.",
-			"negativePosition": "### {{{emoji}}} The position must be between 0 and {{{length}}}.",
-			"success": "### {{{emoji}}} Rewinded the song to {{{length}}}."
+			"notSeekable": "### {{{emoji}}} Dabartinė daina negali būti atsukama.",
+			"negativePosition": "### {{{emoji}}} Pozicija turi būti tarp 0 ir {{{length}}}.",
+			"success": "### {{{emoji}}} Atsukta daina į {{{length}}}."
 		},
 		"search": {
-			"description": "search a song from spotify, soundcloud or deezer",
+			"description": "ieškokite dainos iš „Spotify“, „SoundCloud“ arba „Deezer“",
 			"options": {
-				"query": "The query to search for",
-				"source": "The source to search from"
+				"query": "Paieškos užklausos tekstas",
+				"source": "Paieškos šaltinis"
 			},
-			"no-playlist": "### {{{emoji}}} Playlist are not supported! in search command please use {{{cmd}}} command",
-			"no-track": "### {{{emoji}}} Track are not supported! in search command please use {{{cmd}}} command",
-			"results": "## Search results for `{{{query}}}`\n\n{{{results}}}",
-			"footer": "Please select a track from the select menu below.",
-			"placeholder": "Select a track from the list below to play it.",
-			"footerTimeout": "Search results timed out.",
-			"no-voice": "### {{{emoji}}} You must be in a voice channel to use this menu.",
-			"wrong-voice": "### {{{emoji}}} You must be in the same voice channel as me to use this menu.",
-			"added": "### {{{emoji}}} Added {{{count}}} track(s) to the queue."
+			"no-playlist": "### {{{emoji}}} Grojaraščiai nepalaikomi! naudokite {{{cmd}}} komandą paieškos rezultatams.",
+			"no-track": "### {{{emoji}}} Dainos nepalaikomos! naudokite {{{cmd}}} komandą paieškos rezultatams.",
+			"results": "## Paieškos rezultatai pagal `{{{query}}}`\n\n{{{results}}}",
+			"footer": "Prašome pasirinkti dainą iš žemiau esančio sąrašo.",
+			"placeholder": "Pasirinkite dainą iš sąrašo žemiau, kad ją paleistumėte.",
+			"footerTimeout": "Paieškos rezultatų laikas baigėsi.",
+			"no-voice": "### {{{emoji}}} Norėdami naudoti šį meniu, turite būti balso kanale.",
+			"wrong-voice": "### {{{emoji}}} Norėdami naudoti šį meniu, turite būti tame pačiame balso kanale, kaip aš.",
+			"added": "### {{{emoji}}} Pridėta {{{count}}} dainų į sąrašą."
 		},
 		"seek": {
-			"description": "Seeks to a given time in the current song.",
+			"description": "Ieškokite numatytame laike esančios dainos.",
 			"options": {
-				"time": "The time you want to seek the song to."
+				"time": "Laikas, į kurį norite ieškoti dainą."
 			},
-			"invalidPosition": "### The time must be between 0 and {{{length}}}.",
-			"seeked": "### Seeked `{{{position}}}` to `{{{time}}}`"
+			"invalidPosition": "### Laikas turi būti tarp 0 ir {{{length}}}.",
+			"seeked": "### Ieškota `{{{position}}}` į `{{{time}}}`"
 		},
 		"shuffle": {
-			"description": "Shuffle the queue.",
-			"success": "### The server queue has been mixed succesfully (**{{{length}}}** songs).",
-			"unshuffle": "### The server queue has been un-mixed succesfully (**{{{length}}}** songs)."
+			"description": "Permaišykite sąrašą.",
+			"success": "### Sėkmingai permaišėte serverio sąrašą (**{{{length}}}** dainos).",
+			"unshuffle": "### Sėkmingai atšaukėte sąrašo permaišymą (**{{{length}}}** dainos)."
 		},
 		"skip": {
-			"description": "Skip the current song.",
-			"nothing": "### There is nothing next in the queue. Use {{{queue}}} to see the server's queue.\nWant to try autoplay? do {{{autoplay}}}",
-			"paused": "### The player is paused. Use the resume command to resume the player\nWant to resume? do {{{resume}}}",
-			"voteSkip": "### {{{user}}} requested to skip the current track.\n\n{{{voted}}}",
-			"skip": "### Skipping the **{{{title}}}** song."
+			"description": "Praleiskite esamą dainą.",
+			"nothing": "### Eilėje nieko nėra. Norėdami pamatyti serverio sąrašą, naudokite {{{queue}}}. \nNorite išbandyti automatinę paleidimo funkciją? Įvykdykite {{{autoplay}}}",
+			"paused": "### Grotuvas pristabdytas. Norėdami tęsti, naudokite komandą „resume“. \nNorite tęsti? Įvykdykite {{{resume}}}",
+			"voteSkip": "### {{{user}}} pageidavo praleisti dabartinę dainą. \n\n{{{voted}}}",
+			"skip": "### Praleidžiama daina „{{{title}}}“."
 		},
 		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+			"description": "Praleiskite iki konkretaus dainos eilėje.",
 			"options": {
-				"number": "The track number or track title to skip to."
+				"number": "Dainos numeris arba pavadinimas, į kurį norite praleisti."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a track number between 1 and {{{length}}}.",
-			"success": "### {{{emoji}}} Skipped to **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": "### {{{emoji}}} Prašome įvesti dainos numerį tarp 1 ir {{{length}}}.",
+			"success": "### {{{emoji}}} Praleista iki **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
-			"description": "Stop the player and clear the queue.",
-			"stopped": "### {{{emoji}}} Stopped the player and cleared the queue."
+			"description": "Sustabdykite grotuvą ir išvalykite sąrašą.",
+			"stopped": "### {{{emoji}}} Sustabdytas grotuvas ir išvalytas sąrašas."
 		},
 		"topsongs": {
-			"description": "Shows the top songs played by the bot.",
-			"noTopSongs": "### There are no top songs in the database.",
-			"timesPlayed": "Time(s) Played",
-			"selectSong": "Select a song from the list below to play it.",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue."
+			"description": "Rodykite, kokios dainos daugiausia groja naudojant šį botą.",
+			"noTopSongs": "### Duomenų bazėje nėra populiariausių dainų.",
+			"timesPlayed": "Grotų skaičius",
+			"selectSong": "Pasirinkite dainą iš žemiau esančio sąrašo, kad ją paleistumėte.",
+			"added": "### Pridėta **[{{{title}}}]({{{uri}}})** į sąrašą."
 		},
 		"volume": {
-			"description": "Change the volume of the player.",
+			"description": "Keiskite grotuvo garsumą.",
 			"options": {
-				"volume": "The volume you want to set."
+				"volume": "Garsumas, kurį norite nustatyti."
 			},
-			"invalidVolume": "### {{{emoji}}} Please enter a number between 0 and 100.",
-			"success": "### {{{emoji}}} Set the volume to **{{{volume}}}**."
+			"invalidVolume": "### {{{emoji}}} Prašome įvesti skaičių tarp 0 ir 100.",
+			"success": "### {{{emoji}}} Garsumas nustatytas į **{{{volume}}}**."
 		},
 		"voteskip": {
-			"description": "Vote to skip the current song."
+			"description": "Balsuokite norėdami praleisti dabartinę dainą."
 		},
 		"filters": {
-			"filters": "### All filters applied to the current playing song:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} The pitch must be a number between 1 and 5.",
+			"filters": "### Visi dabartinės grojamų dainų filtrai:\n\n{{{filters}}}",
+			"pitchNaN": "### {{{emoji}}} Aukštis turi būti skaičius nuo 1 iki 5.",
 			"description": {
-				"8d": "Apply the 8D filter to the current playing song.",
-				"bassboost": "Apply bassboost filter to the current playing song.",
-				"channelmix": "Apply channelmix filter to the current playing song.",
-				"electronic": "Apply electronic filter to the current playing song.",
-				"filters": "Get a list of filters which can be applied to the current playing song.",
-				"jazz": "Apply jazz filter to the current playing song.",
-				"karaoke": "Apply karaoke filter to the current playing song.",
-				"lowpass": "Apply lowpass filter to the current playing song.",
-				"nightcore": "Apply nightcore filter to the current playing song.",
-				"pitch": "Apply pitch filter to the current playing song.",
-				"pop": "Apply pop filter to the current playing song.",
-				"radio": "Apply radio filter to the current playing song.",
-				"rock": "Apply rock filter to the current playing song.",
-				"rotation": "Apply rotation filter to the current playing song.",
-				"soft": "Apply soft filter to the current playing song.",
-				"speed": "Apply speed filter to the current playing song.",
-				"treblebass": "Apply treblebass filter to the current playing song.",
-				"tremolo": "Apply tremolo filter to the current playing song.",
-				"vaporwave": "Apply vaporwave filter to the current playing song.",
-				"vibrato": "Apply vibrato filter to the current playing song."
+				"8d": "Taikykite 8D filtrą dabartinei dainai.",
+				"bassboost": "Taikykite basų stiprinimo filtrą dabartinei dainai.",
+				"channelmix": "Taikykite kanalų maišymo filtrą dabartinei dainai.",
+				"electronic": "Taikykite elektroninį filtrą dabartinei dainai.",
+				"filters": "Gaukite sąrašą filtrų, kurie gali būti taikomi dabartinei dainai.",
+				"jazz": "Taikykite džiazo filtrą dabartinei dainai.",
+				"karaoke": "Taikykite karaoke filtrą dabartinei dainai.",
+				"lowpass": "Taikykite žemo dažnio filtrą dabartinei dainai.",
+				"nightcore": "Taikykite naktinės dainos filtrą dabartinei dainai.",
+				"pitch": "Taikykite aukščio filtrą dabartinei dainai.",
+				"pop": "Taikykite pop muzikos filtrą dabartinei dainai.",
+				"radio": "Taikykite radijo filtrą dabartinei dainai.",
+				"rock": "Taikykite roko filtrą dabartinei dainai.",
+				"rotation": "Taikykite sukimosi filtrą dabartinei dainai.",
+				"soft": "Taikykite švelnų filtrą dabartinei dainai.",
+				"speed": "Taikykite greičio filtrą dabartinei dainai.",
+				"treblebass": "Taikykite aukštų/basų filtrą dabartinei dainai.",
+				"tremolo": "Taikykite tremolo filtrą dabartinei dainai.",
+				"vaporwave": "Taikykite „vaporwave“ filtrą dabartinei dainai.",
+				"vibrato": "Taikykite vibrato filtrą dabartinei dainai."
 			},
-			"enabled": "### {{{emoji}}} {{{name}}} filter has been enabled.",
-			"disabled": "### {{{emoji}}} {{{name}}} filter has been disabled.",
-			"speed": "### {{{emoji}}} Speed filter has been set to **{{{value}}}**.",
+			"enabled": "### {{{emoji}}} Įjungtas „{{{name}}}“ filtras.",
+			"disabled": "### {{{emoji}}} „{{{name}}}“ filtras išjungtas.",
+			"speed": "### {{{emoji}}} Greičio filtras nustatytas į **{{{value}}}**.",
 			"options": {
-				"speed": "The speed you want to set.",
-				"pitch": "The pitch to apply."
+				"speed": "Greitis, kurį norite nustatyti.",
+				"pitch": "Aukštis, kurį norite taikyti."
 			}
 		},
 		"announce": {
-			"description": "To configure the announcing of track start message.",
+			"description": "Nustatyti pranešimą apie dainų pradžią.",
 			"options": {
-				"set": "Set the channel where the track start message will be sent.",
-				"channel": "The channel you want to set.",
-				"toggle": "Toggle the announcing of track start message.",
-				"prunning": "Toggle the pruning of track start message.",
-				"reset": "Reset the channel where the track start message will be sent."
+				"set": "Nustatyti kanalą, kuriame bus siunčiamas pranešimas apie dainų pradžią.",
+				"channel": "Kanalas, kurį norite nustatyti.",
+				"toggle": "Įjungti/išjungti pranešimą apie dainų pradžią.",
+				"prunning": "Įjungti/išjungti dainų pradžios peržiūrėjimą.",
+				"reset": "Atstatyti kanalą, kuriame bus siunčiamas pranešimas apie dainų pradžią."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"setChannel": "### {{{emoji}}} Successfully set the announcing channel to {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Announcing channel has not been setup to the database.",
-			"toggle": "### {{{emoji}}} Successfully {{{status}}} the announcing of track start message.",
-			"enabled": "enabled",
-			"disabled": "disabled",
-			"reset": "### {{{emoji}}} Successfully reset the announcing channel."
+			"noChannel": "### {{{emoji}}} Prašome pateikti tinkamą tekstinių žinučių kanalą.",
+			"noTextChannel": "### {{{emoji}}} Prašome pateikti tinkamą tekstinių žinučių kanalą.",
+			"sameChannel": "### {{{emoji}}} Pateiktas kanalas jau yra duomenų bazėje.",
+			"setChannel": "### {{{emoji}}} Sėkmingai nustatytas pranešimų kanalas: {{{channel}}}.",
+			"noChannelInDB": "### {{{emoji}}} Duomenų bazėje nėra nustatyto pranešimų kanalo.",
+			"toggle": "### {{{emoji}}} Sėkmingai {{{status}}} pranešimą apie dainų pradžią.",
+			"enabled": "įjungtas",
+			"disabled": "išjungtas",
+			"reset": "### {{{emoji}}} Sėkmingai atstatytas pranešimų kanalas."
 		},
 		"botchannel": {
-			"description": "Set the bot channel for listening to commands",
+			"description": "Nustatyti botų kanalą komandoms klausyti.",
 			"options": {
-				"add": "Add a channel to the bot channel list",
-				"channel": "The channel you want to set.",
-				"remove": "Remove a channel from the bot channel list",
-				"clear": "Clear the bot channel list",
-				"info": "Get the bot channel list and information about the bot channel"
+				"add": "Pridėti kanalą į botų kanalų sąrašą.",
+				"channel": "Kanalas, kurį norite nustatyti.",
+				"remove": "Pašalinti kanalą iš botų kanalų sąrašo.",
+				"clear": "Išvalyti botų kanalų sąrašą.",
+				"info": "Gauti botų kanalų sąrašą ir informaciją apie juos."
 			},
-			"noChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"noTextChannel": "### {{{emoji}}} Please provide a valid text channel.",
-			"sameChannel": "### {{{emoji}}} The channel you provided is already have in the database.",
-			"maxChannel": "### {{{emoji}}} You can't add more than 5 channels to the bot channel list.",
-			"addedChannel": "### {{{emoji}}} Successfully added the channel {{{channel}}} to the bot channel list.",
-			"noChannelInDB": "### {{{emoji}}} There are no bot channels in the database.",
-			"removedChannel": "### {{{emoji}}} Successfully removed the channel {{{channel}}} from the bot channel list.",
-			"clearedChannel": "### {{{emoji}}} Successfully cleared the bot channel list.",
-			"info": ">>> **Channel:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"title": "Bot channels ({{count}})"
+			"noChannel": "### {{{emoji}}} Prašome pateikti tinkamą tekstinių žinučių kanalą.",
+			"noTextChannel": "### {{{emoji}}} Prašome pateikti tinkamą tekstinių žinučių kanalą.",
+			"sameChannel": "### {{{emoji}}} Pateiktas kanalas jau yra duomenų bazėje.",
+			"maxChannel": "### {{{emoji}}} Negalite pridėti daugiau nei 5 kanalus į botų kanalų sąrašą.",
+			"addedChannel": "### {{{emoji}}} Sėkmingai pridėtas kanalas {{{channel}}} į botų kanalų sąrašą.",
+			"noChannelInDB": "### {{{emoji}}} Duomenų bazėje nėra botų kanalų.",
+			"removedChannel": "### {{{emoji}}} Sėkmingai pašalintas kanalas {{{channel}}} iš botų kanalų sąrašo.",
+			"clearedChannel": "### {{{emoji}}} Sėkmingai išvalytas botų kanalų sąrašas.",
+			"info": ">>> **Kanalas:** {{{channel}}}\n**Moderatorius:** {{{moderator}}}\n**Pridėtas:** {{{addedAt}}}",
+			"title": "Botų kanalai ({{count}})"
 		},
 		"clean": {
-			"description": "Clean the my messages in the channel.",
-			"success": "### {{{emoji}}} Successfully cleaned **{{{count}}}** messages."
+			"description": "Išvalyti mano žinutes kanale.",
+			"success": "### {{{emoji}}} Sėkmingai išvalytos **{{{count}}}** žinutės."
 		},
 		"defaultvolume": {
-			"description": "Set the default volume for the server",
+			"description": "Nustatyti numatytąjį garsinį lygį serveriui.",
 			"options": {
-				"number": "The number to set the default volume to"
+				"number": "Skaičius, kuriuo norite nustatyti numatytąjį garsinį lygį."
 			},
-			"invalidNumber": "### {{{emoji}}} Please enter a number between 0 and 200.",
-			"success": "### {{{emoji}}} Successfully set the default volume to **{{{volume}}}**."
+			"invalidNumber": "### {{{emoji}}} Prašome įvesti skaičių nuo 0 iki 200.",
+			"success": "### {{{emoji}}} Sėkmingai nustatytas numatytasis garsinio lygio lygis: **{{{volume}}}**."
 		},
 		"disablecommands": {
-			"description": "Disable commands for the server",
+			"description": "Išjungti komandas serveriui.",
 			"options": {
-				"add": "Add a command to the disabled commands list",
-				"command": "The command name",
-				"remove": "Remove a command from the disabled commands list",
-				"list": "Get the disabled commands list",
-				"clear": "Clear the disabled commands list"
+				"add": "Pridėti komandą į išjungtų komandų sąrašą.",
+				"command": "Komandos pavadinimas.",
+				"remove": "Pašalinti komandą iš išjungtų komandų sąrašo.",
+				"list": "Gauti išjungtų komandų sąrašą.",
+				"clear": "Išvalyti išjungtų komandų sąrašą."
 			},
-			"noCommand": "### {{{emoji}}} Please provide a command name to disable/enable.",
-			"commandNotExist": "### {{{emoji}}} That command doesn't exist in bot",
-			"commandAlreadyDisabled": "### {{{emoji}}} That command is already disabled.",
-			"commandDisabled": "### {{{emoji}}} Successfully disabled **{{{command}}}** command.",
-			"noDisabledCommands": "### {{{emoji}}} This command is not disabled.",
-			"commandEnabled": "### {{{emoji}}} Successfully enabled **{{{command}}}** command.",
-			"disabledCommands": "Disabled Commands",
-			"disabledCommandsForThisServer": "Disabled commands for this server",
-			"total": "Total: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Successfully cleared the disabled commands list."
+			"noCommand": "### {{{emoji}}} Prašome pateikti komandos pavadinimą, kurį norite išjungti/įjungti.",
+			"commandNotExist": "### {{{emoji}}} Ši komanda neegzistuoja.",
+			"commandAlreadyDisabled": "### {{{emoji}}} Ši komanda jau išjungta.",
+			"commandDisabled": "### {{{emoji}}} Sėkmingai išjungta komanda **{{{command}}}**.",
+			"noDisabledCommands": "### {{{emoji}}} Ši komanda neįjungta.",
+			"commandEnabled": "### {{{emoji}}} Sėkmingai įjungta komanda **{{{command}}}**.",
+			"disabledCommands": "Išjungtos Komandos",
+			"disabledCommandsForThisServer": "Išjungtos komandos šiam serveriui",
+			"total": "Iš viso: {{{total}}}",
+			"disabledCommandsCleared": "### {{{emoji}}} Sėkmingai išvalytas išjungtų komandų sąrašas."
 		},
 		"dj": {
-			"description": "Set the DJ role for the server",
+			"description": "Nustatyti DJ rolę serveriui.",
 			"options": {
-				"add": "Add a role to the DJ role list",
-				"role": "The role you want to (add/remove)",
-				"remove": "Remove a role from the DJ role list",
-				"list": "List the DJ role list",
-				"clear": "Clear the DJ role list",
-				"toggle": "Toggle the DJ role",
-				"info": "Get the DJ role list and information about the DJ role"
+				"add": "Pridėti rolę į DJ rolės sąrašą.",
+				"role": "Rolis, kurį norite pridėti/pašalinti.",
+				"remove": "Pašalinti rolę iš DJ rolės sąrašo.",
+				"list": "Gauti DJ rolės sąrašą.",
+				"clear": "Išvalyti DJ rolės sąrašą.",
+				"toggle": "Įjungti/išjungti DJ rolę.",
+				"info": "Gauti DJ rolės sąrašą ir informaciją apie jas."
 			},
-			"noRole": "### {{{emoji}}} Please provide a valid role to (add/remove).",
-			"maxRoles": "### {{{emoji}}} You can't add more than 5 roles to the DJ list.",
-			"alreadyInList": "### {{{emoji}}} The role you provided is already in the database.",
-			"addedRole": "### {{{emoji}}} Successfully added the role {{{role}}} to the DJ list.",
-			"noRolesSetup": "### {{{emoji}}} There are no DJ roles set up in this server.",
-			"notInList": "### {{{emoji}}} This role is not in the DJ list.",
-			"removedRole": "### {{{emoji}}} Successfully removed the role {{{role}}} from the DJ list.",
-			"list": ">>> **Role:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Added at:** {{{addedAt}}}",
-			"listTotal": "## Total DJ roles: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Successfully cleared the DJ list.",
-			"enabledToggle": "### {{{emoji}}} Successfully enabled the DJ Toggle mode.",
-			"disabledToggle": "### {{{emoji}}} Successfully disabled the DJ Toggle mode.",
+			"noRole": "### {{{emoji}}} Prašome pateikti tinkamą rolę, kurią norite pridėti/pašalinti.",
+			"maxRoles": "### {{{emoji}}} Negalite pridėti daugiau nei 5 roles į DJ rolės sąrašą.",
+			"alreadyInList": "### {{{emoji}}} Pateikta rolė jau yra duomenų bazėje.",
+			"addedRole": "### {{{emoji}}} Sėkmingai pridėta rolė {{{role}}} į DJ rolės sąrašą.",
+			"noRolesSetup": "### {{{emoji}}} Šiame serveryje nėra nustatytų DJ rolių.",
+			"notInList": "### {{{emoji}}} Ši rolė nėra DJ rolės sąraše.",
+			"removedRole": "### {{{emoji}}} Sėkmingai pašalinta rolė {{{role}}} iš DJ rolės sąrašo.",
+			"list": ">>> **Rolis:** {{{role}}}\n**Moderatorius:** {{{moderator}}}\n**Pridėta:** {{{addedAt}}}",
+			"listTotal": "## Iš viso DJ rolių: {{{total}}}",
+			"clearedList": "### {{{emoji}}} Sėkmingai išvalytas DJ rolės sąrašas.",
+			"enabledToggle": "### {{{emoji}}} Sėkmingai įjungtas DJ režimas.",
+			"disabledToggle": "### {{{emoji}}} Sėkmingai išjungtas DJ režimas.",
 			"info": {
-				"djRoles": "DJ Role(s)",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"djMode": "DJ Mode",
-				"djMembers": "DJ Member(s)",
-				"description": "DJ role info for {{{guild}}}"
+				"djRoles": "DJ Rolė(-s)",
+				"enabled": "Įjungta",
+				"disabled": "Išjungta",
+				"djMode": "DJ Režimas",
+				"djMembers": "DJ Narys(-iai)",
+				"description": "DJ rolės informacija serveriui {{{guild}}}"
 			}
 		},
 		"fixvoice": {
-			"description": "Fix the voice connection if the bot is not playing music.",
-			"joining": "### Joining the voice channel again and resuming the music.",
-			"failed": "### Failed to change the voice region. Please try again later.",
-			"error": "{{{emoji}}} I couldn't find any fix at the moment. Maybe ask for help in the [support server]({{{server}}}).",
-			"success": "### {{{emoji}}} Successfully changed the voice region to **{{{region}}}**."
+			"description": "Taisyti garso ryšį, jei botas neleidžia muzikos.",
+			"joining": "### Vėl prisijungimas prie garso kanalo ir tęsiant muziką.",
+			"failed": "### Nepavyko pakeisti garso regiono. Prašome bandyti vėliau.",
+			"error": "{{{emoji}}} Šiuo metu nėra taisymo sprendimo. Galbūt prašykite pagalbos [palaikymo serveryje]({{{server}}}).",
+			"success": "### {{{emoji}}} Sėkmingai pakeistas garso regionas į **{{{region}}}**."
 		},
 		"forcejoin": {
-			"description": "Force the bot to join the voice channel.",
-			"already-in": "{{{emoji}}} I'm already in a voice channel!",
-			"joined": "### {{{emoji}}} Successfully joined the voice channel **{{{channel}}}**."
+			"description": "Priversti botą prisijungti prie garso kanalo.",
+			"already-in": "{{{emoji}}} Aš jau esu garso kanale!",
+			"joined": "### {{{emoji}}} Sėkmingai prisijungė prie garso kanalo **{{{channel}}}**."
 		},
 		"languages": {
-			"description": "Set the bot language for the server",
+			"description": "Nustatyti botų kalbą serveriui.",
 			"options": {
-				"add": "Add a language for the server",
-				"language": "The language you want to set",
-				"info": "Get information about the languages",
-				"reset": "Reset the language to the default language",
+				"add": "Pridėti kalbą serveriui.",
+				"language": "Kalba, kurią norite nustatyti.",
+				"info": "Gauti informaciją apie kalbas.",
+				"reset": "Atstatyti kalbą į numatytąją kalbą.",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Successfully set the language of the bot to {{{language}}} `({{{languageCode}}})`.",
-			"info": "### The current language in this server is: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Successfully reset the language of the bot to the default language.",
-			"translationProgress": "Translation progress: {{{progress}}}",
-			"selectLanguage": "Please select the language you want to set from the menu below."
+			"success": "### {{{emoji}}} Sėkmingai nustatyta botų kalba: {{{language}}} `({{{languageCode}}})`.",
+			"info": "### Šiame serveryje dabartinė kalba yra: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": "### {{{emoji}}} Sėkmingai atstatyta botų kalba į numatytąją.",
+			"translationProgress": "Vertimo pažanga: {{{progress}}}",
+			"selectLanguage": "Prašome pasirinkti kalbą, kurią norite nustatyti, iš apačioje pateikto meniu."
 		},
 		"noprefix": {
-			"description": "Toggles the no prefix for the user or server.",
-			"toggle": "### Toggle the no prefix for the user or server.",
+			"description": "Perjungti pristatymo ženklą (prefix) vartotojui ar serveriui.",
+			"toggle": "### Perjungti pristatymo ženklą (prefix) vartotojui ar serveriui.",
 			"buttons": {
-				"server": "Server",
-				"user": "User"
+				"server": "Serveris",
+				"user": "Vartotojas"
 			},
-			"premium": "### You need to be a premium user to use this command.",
-			"disabledUser": "### {{{emoji}}} Successfully disabled the no prefix for the user.",
-			"enabledUser": "### {{{emoji}}} Successfully enabled the no prefix for the user.",
-			"noPerm": "### You don't have the required permissions to use this command.",
-			"disabledServer": "### {{{emoji}}} Successfully disabled the no prefix for the server.",
-			"enabledServer": "### {{{emoji}}} Successfully enabled the no prefix for the server."
+			"premium": "### Norint naudoti šią komandą, jums reikia būti premium vartotoju.",
+			"disabledUser": "### {{{emoji}}} Sėkmingai išjungtas pristatymo ženklas (prefix) vartotojui.",
+			"enabledUser": "### {{{emoji}}} Sėkmingai įjungtas pristatymo ženklas (prefix) vartotojui.",
+			"noPerm": "### Neturite reikiamų leidimų naudoti šią komandą.",
+			"disabledServer": "### {{{emoji}}} Sėkmingai išjungtas pristatymo ženklas (prefix) serveriui.",
+			"enabledServer": "### {{{emoji}}} Sėkmingai įjungtas pristatymo ženklas (prefix) serveriui."
 		},
 		"prefix": {
-			"description": "Set the prefix for the server",
+			"description": "Nustatyti serverio prefiksą",
 			"options": {
-				"set": "Set the prefix for the server",
-				"prefix": "The prefix you want to (set/remove)",
-				"info": "Get the prefix for the server",
-				"clear": "Clear the prefix for the server",
-				"remove": "Remove the prefix for the server"
+				"set": "Nustatyti serverio prefiksą",
+				"prefix": "Norimas prefiksas (nustatyti/pašalinti)",
+				"info": "Gauti serverio prefiksą",
+				"clear": "Išvalyti serverio prefiksą",
+				"remove": "Pašalinti serverio prefiksą"
 			},
-			"info": ">>> **Prefix:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Added at:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Please provide a prefix to set.",
-			"noPrefixAdded": "### {{{emoji}}} There is no prefix added to the server.",
-			"prefixLength": "### {{{emoji}}} The prefix can't be longer than 5 characters.",
-			"prefixLimit": "### {{{emoji}}} The prefix limit is 4, please remove some prefixes with `prefix remove`",
-			"prefixCharacters": "### {{{emoji}}} The prefix can't contain any of the following characters `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is already added by {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Successfully cleared all prefixes to default",
-			"prefixNotExists": "### {{{emoji}}} The prefix `{{{prefix}}}` is not added",
-			"prefixRemoved": "### {{{emoji}}} Successfully removed the prefix `{{{prefix}}}`",
-			"prefixAdded": "### {{{emoji}}} Successfully added the prefix `{{{prefix}}}`"
+			"info": ">>> **Prefiksas:** `{{{prefix}}}`\n**Moderatorius:** {{{moderator}}}\n**Pridėta:** {{{timestamp}}}",
+			"noPrefix": "### {{{emoji}}} Prašome nurodyti prefiksą, kurį norite nustatyti.",
+			"noPrefixAdded": "### {{{emoji}}} Serveriui nepriklauso joks prefiksas.",
+			"prefixLength": "### {{{emoji}}} Prefiksas negali būti ilgesnis nei 5 simboliai.",
+			"prefixLimit": "### {{{emoji}}} Prefiksų limitas yra 4, prašome pašalinti keletą prefiksų naudojant `prefix remove`",
+			"prefixCharacters": "### {{{emoji}}} Prefikse negali būti simbolių `[]{}\\`",
+			"prefixExists": "### {{{emoji}}} Prefiksas `{{{prefix}}}` jau pridėtas naudotojo {{{moderator}}}",
+			"prefixCleared": "### {{{emoji}}} Visi prefiksai sėkmingai išvalyti, nustatyti numatytuosius",
+			"prefixNotExists": "### {{{emoji}}} Prefikso `{{{prefix}}}` nėra pridėta",
+			"prefixRemoved": "### {{{emoji}}} Prefiksas `{{{prefix}}}` sėkmingai pašalintas",
+			"prefixAdded": "### {{{emoji}}} Prefiksas `{{{prefix}}}` sėkmingai pridėtas"
 		},
 		"profile": {
-			"description": "Show your profile or someone else's profile.",
+			"description": "Rodyti jūsų ar kito naudotojo profilį.",
 			"options": {
-				"set": "Set your profile color, color or visibility.",
-				"bio": "Set your profile bio.",
-				"color": "Set your profile color.",
-				"visibility": "Set your profile visibility.",
-				"view": "View your profile or someone else's profile.",
-				"user": "The user you want to view their profile."
+				"set": "Nustatyti jūsų profilio spalvą, spalvą ar matomumą.",
+				"bio": "Nustatyti jūsų profilio biografiją.",
+				"color": "Nustatyti jūsų profilio spalvą.",
+				"visibility": "Nustatyti jūsų profilio matomumą.",
+				"view": "Peržiūrėti jūsų ar kito naudotojo profilį.",
+				"user": "Naudotojas, kurio profilį norite peržiūrėti."
 			},
-			"noBio": "### {{{emoji}}} You need to provide a bio",
-			"bioLength": "### {{{emoji}}} Your bio can't be longer than 50 characters",
-			"bioSet": "### {{{emoji}}} Successfully set your bio to `{{{bio}}}`",
-			"noColor": "### {{{emoji}}} Please provide a color hex code [Example: #FF0000](https://g.co/kgs/q5nhF7)\n\nYou can also use the following colors names: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Your color is already set to `{{{color}}}`",
-			"colorSet": "### {{{emoji}}} Successfully set your color to `{{{color}}}`",
-			"sameVisibility": "### {{{emoji}}} Your visibility is already set to `{{{visibility}}}`",
-			"noVisibility": "### {{{emoji}}} Please provide a visibility (public/private)",
-			"visibilitySet": "### {{{emoji}}} Successfully set your visibility to `{{{visibility}}}`",
-			"privateProfile": "### {{{emoji}}} This user's profile is private"
+			"noBio": "### {{{emoji}}} Jums reikia nurodyti biografiją.",
+			"bioLength": "### {{{emoji}}} Jūsų biografija negali būti ilgesnė nei 50 simbolių.",
+			"bioSet": "### {{{emoji}}} Jūsų biografija sėkmingai nustatyta į `{{{bio}}}`",
+			"noColor": "### {{{emoji}}} Prašome nurodyti spalvų hex kodą [Pavyzdys: #FF0000](https://g.co/kgs/q5nhF7)\n\nGalite naudoti šiuos spalvų pavadinimus: {{{colors}}}",
+			"sameColor": "### {{{emoji}}} Jūsų spalva jau nustatyta į `{{{color}}}`",
+			"colorSet": "### {{{emoji}}} Jūsų spalva sėkmingai nustatyta į `{{{color}}}`",
+			"sameVisibility": "### {{{emoji}}} Jūsų matomumas jau nustatytas į `{{{visibility}}}`",
+			"noVisibility": "### {{{emoji}}} Prašome nurodyti matomumą (viešas/privatus)",
+			"visibilitySet": "### {{{emoji}}} Jūsų matomumas sėkmingai nustatytas į `{{{visibility}}}`",
+			"privateProfile": "### {{{emoji}}} Šio naudotojo profilis yra privatus"
 		},
 		"setting": {
-			"description": "Change the server settings or get the server settings info",
+			"description": "Keisti serverio nustatymus arba gauti informaciją apie nustatymus",
 			"options": {
-				"reset": "Reset the all server settings to the default settings",
-				"info": "Get the server settings info"
+				"reset": "Atstatyti visus serverio nustatymus į numatytuosius nustatymus",
+				"info": "Gauti informaciją apie serverio nustatymus"
 			},
-			"noPermission": "### {{{emoji}}} You don't have the `manageGuild` permission to use this command.",
-			"isSure": "### Are you sure you want to reset the server settings?\nThis will reset all the settings to the default value\n\n**if you are sure, than press the button below**",
+			"noPermission": "### {{{emoji}}} Jūs neturite leidimo naudoti šią komandą `manageGuild`.",
+			"isSure": "### Ar tikrai norite atstatyti serverio nustatymus?\nTai atstatys visus nustatymus į numatytąją vertę\n\n**jei esate tikri, spauskite mygtuką žemiau**",
 			"buttons": {
-				"reset": "Reset"
+				"reset": "Atstatyti"
 			},
 			"fields": {
 				"247": "24/7",
-				"trackButton": "Track Button",
+				"trackButton": "Sekti mygtuką",
 				"dj": "DJ",
-				"botChannel": "Bot Channel",
-				"disableCommand": "Disabled Command",
-				"defaultVolume": "Default Volume",
-				"announce": "Announce",
-				"prunning": "Prunning",
-				"noPrefix": "No Prefix",
-				"prefix": "Prefix",
-				"djRole": "DJ Role",
-				"setup": "Setup",
-				"voteSkip": "Vote Skip",
-				"language": "Language",
-				"trackButtonValue": "Mode: {{{mode}}}\nModerator: {{{moderator}}}\nAdded: {{{added}}}",
-				"setupValue": "Moderator: {{{moderator}}}\nAdded: {{{added}}}\n\n**Channels:**\n{{{channels}}}",
-				"djValue": "Mode: {{{mode}}}\nRoles: {{{roles}}}\nAdded: {{{added}}}",
-				"defaultvolumeValue": "Volume: {{{volume}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"announceValue": "Mode: {{{mode}}}\nChannel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prunningValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"disableCommandValue": "Commands: {{{commands}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"prefixValue": "Prefix: {{{prefix}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"voteSkipValue": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"247Value": "Mode: {{{mode}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}\nChannel: {{{channel}}}",
-				"botChannelValue": "Channel: {{{channel}}}\nAdded: {{{added}}}\nModerator: {{{moderator}}}",
-				"languageValue": "Language: {{{language}}}",
-				"enabled": "Enabled",
-				"disabled": "Disabled",
-				"none": "None"
+				"botChannel": "Roboto kanalas",
+				"disableCommand": "Išjungti komandą",
+				"defaultVolume": "Numatytasis garsumas",
+				"announce": "Paskelbimas",
+				"prunning": "Šalinimas",
+				"noPrefix": "Be prefikso",
+				"prefix": "Prefiksas",
+				"djRole": "DJ rolė",
+				"setup": "Nustatymas",
+				"voteSkip": "Balsavimas už praleidimą",
+				"language": "Kalba",
+				"trackButtonValue": "Režimas: {{{mode}}}\nModeratorius: {{{moderator}}}\nPridėta: {{{added}}}",
+				"setupValue": "Moderatorius: {{{moderator}}}\nPridėta: {{{added}}}\n\n**Kanalai:**\n{{{channels}}}",
+				"djValue": "Režimas: {{{mode}}}\nRolės: {{{roles}}}\nPridėta: {{{added}}}",
+				"defaultvolumeValue": "Garsas: {{{volume}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"announceValue": "Režimas: {{{mode}}}\nKanalas: {{{channel}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"prunningValue": "Režimas: {{{mode}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"disableCommandValue": "Komandos: {{{commands}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"prefixValue": "Prefiksas: {{{prefix}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"voteSkipValue": "Režimas: {{{mode}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"247Value": "Režimas: {{{mode}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}\nKanalas: {{{channel}}}",
+				"botChannelValue": "Kanalas: {{{channel}}}\nPridėta: {{{added}}}\nModeratorius: {{{moderator}}}",
+				"languageValue": "Kalba: {{{language}}}",
+				"enabled": "Įjungta",
+				"disabled": "Išjungta",
+				"none": "Nėra"
 			},
-			"resetSuccess": "### {{{emoji}}} Successfully reset the server settings to the default settings.",
-			"info": "## Here is the config info for this server",
-			"noSettings": "### {{{emoji}}} There are no settings for this server."
+			"resetSuccess": "### {{{emoji}}} Serverio nustatymai sėkmingai atstatyti į numatytuosius nustatymus.",
+			"info": "## Čia yra šio serverio konfigūracijos informacija",
+			"noSettings": "### {{{emoji}}} Šiam serveriui nėra nustatymų."
 		},
 		"voteskipsetting": {
-			"description": "Configure the voteskip settings.",
+			"description": "Konfigūruoti balsavimo už praleidimą nustatymus.",
 			"options": {
-				"set": "Set the voteskip mode.",
-				"action": "The action you want to set (enable/disable)."
+				"set": "Nustatyti balsavimo už praleidimą režimą.",
+				"action": "Veiksmas, kurį norite nustatyti (įjungti/išjungti)."
 			},
-			"success": "### {{{emoji}}} Successfully {{{action}}}d the voteskip.",
-			"isConfirm": "### Do you want to enable or disable the voteskip?",
-			"canceled": "### {{{emoji}}} The voteskip setting has been cancelled.",
-			"alreadyEnabled": "### The voteskip is already enabled.",
-			"alreadyDisabled": "### The voteskip is already disabled.",
+			"success": "### {{{emoji}}} Balsavimas už praleidimą sėkmingai {{{action}}}",
+			"isConfirm": "### Ar norite įjungti arba išjungti balsavimą už praleidimą?",
+			"canceled": "### {{{emoji}}} Balsavimo už praleidimą nustatymas buvo atšauktas.",
+			"alreadyEnabled": "### Balsavimas už praleidimą jau įjungtas.",
+			"alreadyDisabled": "### Balsavimas už praleidimą jau išjungtas.",
 			"buttons": {
-				"enable": "Enable",
-				"disable": "Disable",
-				"cancel": "Cancel"
+				"enable": "Įjungti",
+				"disable": "Išjungti",
+				"cancel": "Atšaukti"
 			}
 		},
 		"add": {
-			"description": "Add a song to a playlist.",
+			"description": "Pridėti dainą į grojaraštį.",
 			"options": {
-				"playlist": "The playlist you want to add the song to.",
-				"song": "The song (name/url) you want to add to the playlist."
+				"playlist": "Grojaraštis, į kurį norite pridėti dainą.",
+				"song": "Daina (pavadinimas/url), kurią norite pridėti į grojaraštį."
 			},
-			"playlistLength": "### {{{emoji}}} The playlist name must be between 3 and 50 characters.",
-			"noPlaylists": "### {{{emoji}}} I couldn't find any playlists in your account, please create one first.",
-			"noResults": "### {{{emoji}}} I couldn't find any results for `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Your playlist is full, please remove some songs before adding more.",
-			"playlistAdded": "### {{{emoji}}} Successfully added **{{{count}}}** songs to the playlist **{{{playlist}}}**."
+			"playlistLength": "### {{{emoji}}} Grojaraščio pavadinimas turi būti nuo 3 iki 50 simbolių.",
+			"noPlaylists": "### {{{emoji}}} Nepavyko rasti jokių grojaraščių jūsų paskyroje, prašome pirmiausia sukurti vieną.",
+			"noResults": "### {{{emoji}}} Nepavyko rasti rezultatų `{{{song}}}`.",
+			"playlistFull": "### {{{emoji}}} Jūsų grojaraštis pilnas, prašome pašalinti keletą dainų prieš pridedant daugiau.",
+			"playlistAdded": "### {{{emoji}}} Sėkmingai pridėta **{{{count}}}** dainų į grojaraštį **{{{playlist}}}**."
 		},
 		"addnowplaying": {
-			"description": "Add the current song to a playlist.",
+			"description": "Pridėti dabartinę dainą į grojaraštį.",
 			"options": {
-				"playlist": "The playlist you want to add the song to."
+				"playlist": "Grojaraštis, į kurį norite pridėti dabartinę dainą."
 			},
-			"noSong": "### {{{emoji}}} There is no song playing.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} This song is already in the playlist.",
-			"success": "### {{{emoji}}} Added **{{{song}}}** to **{{{playlist}}}**."
+			"noSong": "### {{{emoji}}} Nėra grojaraščio dainos.",
+			"songAlreadyInPlaylist": "### {{{emoji}}} Ši daina jau yra grojaraštyje.",
+			"success": "### {{{emoji}}} Pridėta **{{{song}}}** į **{{{playlist}}}**."
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "Įdėkite grojaraštį į eilę.",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "Grojaraščio pavadinimas, kurį norite įdėti į eilę."
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} Eilės nėra.",
+			"success": "### {{{emoji}}} Į eilę buvo pridėtos **{{{queueLength}}}** dainos iš grojaraščio **{{{playlistName}}}**."
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "Sukurkite grojaraštį.",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Grojaraščio pavadinimas, kurį norite sukurti.",
+				"visibility": "Grojaraščio matomumas."
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} Prašome nurodyti grojaraščio pavadinimą.",
+			"visibility": "### {{{emoji}}} Matomumas turi būti arba `public` arba `private`.",
+			"maxPlaylists": "### {{{emoji}}} Galite sukurti iki 10 grojaraščių.",
+			"playlistExists": "### {{{emoji}}} Jau turite grojaraštį pavadinimu **{{{playlist}}}**.",
+			"success": "### {{{emoji}}} Sėkmingai sukūrėte grojaraštį **{{{playlist}}}**."
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "Ištrinkite grojaraštį.",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "Grojaraščio pavadinimas, kurį norite ištrinti."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} Jūs neturite grojaraščio pavadinimu **{{{playlist}}}**.",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "Patvirtinti",
+				"cancel": "Atšaukti"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### Ar tikrai norite ištrinti grojaraštį **{{{playlist}}}**?",
+			"success": "### {{{emoji}}} Sėkmingai ištrintas grojaraštis **{{{playlist}}}**.",
+			"cancel": "### {{{emoji}}} Atšaukėte grojaraščio **{{{playlist}}}** ištrynimą."
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "Pašalinkite visus pasikartojančius kūrinius iš grojaraščio.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "Grojaraščio pavadinimas, iš kurio norite pašalinti pasikartojančius kūrinius."
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} Grojaraštyje **{{{playlist}}}** nėra pasikartojančių kūrinių.",
+			"success": "### {{{emoji}}} Sėkmingai pašalinti **{{{count}}}** pasikartojantys kūriniai iš grojaraščio **{{{playlist}}}**."
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "Redaguokite grojaraštį.",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "Grojaraščio pavadinimas, kurį norite redaguoti.",
+				"old-name": "Senas grojaraščio pavadinimas.",
+				"new-name": "Naujas grojaraščio pavadinimas.",
+				"playlist-visibility": "Pakeisti grojaraščio matomumą.",
+				"visibility": "Grojaraščio matomumas."
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} Naujas pavadinimas turi skirtis nuo senojo pavadinimo.",
+			"successName": "### {{{emoji}}} Sėkmingai pervadintas grojaraštis **{{{oldName}}}** į **{{{newName}}}**.",
+			"sameVisibility": "### {{{emoji}}} Grojaraštis **{{{playlist}}}** jau yra **{{{visibility}}}**.",
+			"successVisibility": "### {{{emoji}}} Sėkmingai pakeistas grojaraščio **{{{playlist}}}** matomumas į **{{{visibility}}}**.",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "Grojaraščio pavadinimas",
+				"visibility": "Grojaraščio matomumas",
+				"public": "Viešas",
+				"private": "Privatus"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### Pasirinkite redagavimo parinktį iš apačioje esančių mygtukų.",
+			"oldName": "### Įveskite senąjį grojaraščio pavadinimą.",
+			"newName": "### Įveskite naują grojaraščio pavadinimą.",
+			"cancelled": "### {{{emoji}}} Atšaukėte grojaraščio pavadinimo pakeitimą.",
+			"playlist": "### Įveskite grojaraščio pavadinimą.",
+			"selectVisibility": "### Pasirinkite grojaraščio matomumą iš apačioje esančių mygtukų."
 		},
 		"import": {
-			"description": "Import a playlist from playlist id.",
+			"description": "Importuokite grojaraštį iš grojaraščio id.",
 			"options": {
-				"id": "The id of the playlist you want to import."
+				"id": "Grojaraščio id, kurį norite importuoti."
 			},
-			"noPlaylist": "### {{{emoji}}} I couldn't find any playlist with the id **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} You can't import your own playlist.",
-			"privatePlaylist": "### {{{emoji}}} You can't import a private playlist.",
-			"success": "### {{{emoji}}} Successfully imported the playlist **{{{playlist}}}**."
+			"noPlaylist": "### {{{emoji}}} Nepavyko rasti grojaraščio su id **{{{id}}}**.",
+			"sameUser": "### {{{emoji}}} Negalite importuoti savo grojaraščio.",
+			"privatePlaylist": "### {{{emoji}}} Negalite importuoti privataus grojaraščio.",
+			"success": "### {{{emoji}}} Sėkmingai importuotas grojaraštis **{{{playlist}}}**."
 		},
 		"list": {
-			"description": "List all your playlists.",
-			"tracks": "Track(s): {{{tracks}}}"
+			"description": "Sąrašas visų jūsų grojaraščių.",
+			"tracks": "Kūriniai: {{{tracks}}}"
 		},
 		"load": {
-			"description": "Load a playlist to the queue.",
+			"description": "Įkelkite grojaraštį į eilę.",
 			"options": {
-				"song": "Load a specific song from a playlist.",
-				"name": "The name of the playlist you want to load.",
-				"track": "The track number or track title to load."
+				"song": "Įkelti konkretų kūrinį iš grojaraščio.",
+				"name": "Grojaraščio pavadinimas, kurį norite įkelti.",
+				"track": "Kūrinio numeris arba pavadinimas, kurį norite įkelti."
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} There are no tracks in the playlist **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} No track found with that track `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Loaded **{{{track}}}** from **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} You can't load a private playlist from another user.",
-			"playlistLoaded": "### {{{emoji}}} Loaded **{{{count}}}** songs from **{{{playlist}}}**."
+			"noPlaylists": "### {{{emoji}}} Jūs neturite grojaraščio pavadinimu **{{{playlist}}}**.",
+			"noTracks": "### {{{emoji}}} Grojaraštyje **{{{playlist}}}** nėra kūrinių.",
+			"noTrackFound": "### {{{emoji}}} Nėra kūrinio su tokiu numeriu arba pavadinimu `{{{track}}}`.",
+			"trackLoaded": "### {{{emoji}}} Įkeltas **{{{track}}}** iš **{{{playlist}}}**.",
+			"privatePlaylist": "### {{{emoji}}} Negalite įkelti kito vartotojo privataus grojaraščio.",
+			"playlistLoaded": "### {{{emoji}}} Įkelta **{{{count}}}** dainos iš grojaraščio **{{{playlist}}}**."
 		},
 		"pl-remove": {
-			"description": "Remove a song from a playlist.",
+			"description": "Pašalinkite dainą iš grojaraščio.",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the song from.",
-				"track": "The track number or track title to remove."
+				"playlist": "Grojaraščio pavadinimas, iš kurio norite pašalinti dainą.",
+				"track": "Kūrinio numeris arba pavadinimas, kurį norite pašalinti."
 			},
-			"notFound": "### {{{emoji}}} I couldn't find a track with that number or title.",
-			"success": "### {{{emoji}}} Successfully removed **{{{track}}}** from **{{{playlist}}}**."
+			"notFound": "### {{{emoji}}} Nepavyko rasti kūrinio su tokiu numeriu arba pavadinimu.",
+			"success": "### {{{emoji}}} Sėkmingai pašalintas **{{{track}}}** iš grojaraščio **{{{playlist}}}**."
 		},
 		"view": {
-			"description": "View a playlist.",
+			"description": "Peržiūrėkite grojaraštį.",
 			"options": {
-				"playlist": "The name of the playlist you want to view."
+				"playlist": "Grojaraščio pavadinimas, kurį norite peržiūrėti."
 			},
-			"footer": "Page {{{page}}} of {{{pages}}} | {{{tracks}}} tracks | {{{duration}}}",
+			"footer": "Puslapis {{{page}}} iš {{{pages}}} | Kūriniai: {{{tracks}}} | Trukmė: {{{duration}}}",
 			"buttons": {
-				"previous": "Previous",
-				"stop": "Stop",
-				"next": "Next"
+				"previous": "Ankstesnis",
+				"stop": "Stabdyti",
+				"next": "Sekantis"
 			}
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Someone disconnected me from the voice channel, but I'm still here because of the **24/7 mode**!\n\nYou can disable this by disabling the **24/7 mode** using the {{{cmd}}} command or by using the {{{cmd2}}} command!",
-			"nowPlaying": "Now Playing",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** By [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
-			"footer": "Duration: {{{duration}}} | Queue: {{{queue}}} | Volume: {{{volume}}}%",
-			"end": "### No one has been listening for the past 1 minute, leaving the channel.\n\nYou can disable this by enabling the **24/7 mode** using the {{{cmd}}} command!",
-			"endTitle": "Queue Concluded",
-			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
+			"247": "### Kažkas mane atjungė nuo balso kanalo, bet aš vis dar esu dėl **24/7 režimo**!\n\nGalite išjungti tai išjungdami **24/7 režimą** naudojant komandą {{{cmd}}} arba naudodami komandą {{{cmd2}}}!",
+			"nowPlaying": "Dabar groja",
+			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Įrašė [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"footer": "Trukmė: {{{duration}}} | Eilė: {{{queue}}} | Garsumas: {{{volume}}}%",
+			"end": "### Nėra klausytojų jau 1 minutę, palieku kanalą.\n\nGalite išjungti tai įjungdami **24/7 režimą** naudodami komandą {{{cmd}}}!",
+			"endTitle": "Eilė baigta",
+			"endDesc": "### Jūsų muzikos eilė baigėsi. Naują muziką galite pridėti naudodami komandą {{{cmd}}}! Mėgaujatės muzika su manimi? Apsvarstykite [Balsavimą už mane]({{{link}}})!"
 		},
-		"error": "Track Error",
-		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
+		"error": "Klaida su kūriniu",
+		"description": "### [{{{title}}}]({{{uri}}}) nėra prieinamas jūsų šalyje, nes jis yra su amžiaus apribojimais!",
 		"buttons": {
-			"resume": "Resume",
-			"pause": "Pause",
-			"previous": "Previous",
-			"shuffle": "Shuffle",
-			"skip": "Skip",
-			"stop": "Stop",
-			"voldown": "Volume Down",
-			"volup": "Volume Up",
-			"loop": "Loop",
-			"like": "Like"
+			"resume": "Tęsti",
+			"pause": "Pauzė",
+			"previous": "Ankstesnis",
+			"shuffle": "Sumaišyti",
+			"skip": "Praleisti",
+			"stop": "Stabdyti",
+			"voldown": "Sumažinti garsą",
+			"volup": "Padidinti garsą",
+			"loop": "Ciklas",
+			"like": "Patinka"
 		},
-		"noDispatcher": "### There is nothing playing right now..",
-		"nothingPlaying": "### There is nothing playing right now.."
+		"noDispatcher": "### Šiuo metu nieko neklauso..",
+		"nothingPlaying": "### Šiuo metu nieko neklauso.."
 	},
 	"events": {
 		"buttonHandle": {
-			"notInVoice": "You need to join a voice {{{channel}}} channel to use this button!",
-			"noPrevious": "There is no previous song in the queue.",
-			"playingPrevious": "{{{user}}} is playing the previous track.",
-			"nothingToSkip": "There is nothing in the queue to skip.",
-			"alreadyVote": "{{{user}}} There's already a vote in this server. Please wait for it to finish or cancel it.",
-			"voteSkip": "{{{user}}} requested to skip the current track. Did you want to stop vote skipping? Do {{{cmd}}}",
-			"voteSkipLabel": "Vote to skip the current track!",
-			"alreadyVoted": "{{{user}}} You have already voted to skip the current track.",
-			"voteSkip2": "{{{user}}} requested to skip the current track.",
-			"voteSkipLabel2": "Vote to skip the current track! ({{{count}}}/{{{n}}})",
-			"needVoice": "{{{user}}} You need to join the voice {{{channel}}} channel to use this button!",
-			"voteSkipTrack": "{{{user}}} is skipping the track after {{{count}}} positive votes!",
-			"notEnoughVote": "### Not enough votes to skip the current track.",
-			"skipTrack": "{{{user}}} skipped the current track.",
-			"playTrack": "{{{user}}} {{{paused}}} the current track.",
-			"paused": "Paused",
-			"resumed": "Resumed",
-			"stopTrack": "{{{user}}} stopped the current track.",
-			"volMax": "### The volume is already at the maximum.",
-			"volUp": "{{{user}}} increased the volume to **{{{vol}}}**%.",
-			"volMin": "### The volume is already at the minimum.",
-			"volDown": "{{{user}}} decreased the volume to **{{{vol}}}**%.",
-			"shuffleError": "{{{user}}} There are not enough songs in the queue to shuffle.",
-			"shuffleDisabled": "{{{user}}} Shuffle disabled.",
-			"shuffleEnabled": "{{{user}}} Shuffle enabled.",
-			"loopSong": "{{{user}}} Looping the current song.",
-			"loopQueue": "{{{user}}} Looping the queue.",
-			"loopDisabled": "{{{user}}} Loop disabled.",
-			"noTrack": "{{{user}}} Nothing is playing right now.",
-			"liked": "{{{user}}} Liked **{{{title}}}**.",
-			"unliked": "{{{user}}} Unliked **{{{title}}}**."
+			"notInVoice": "Norint naudoti šį mygtuką, turite prisijungti prie balso {{{channel}}} kanalo!",
+			"noPrevious": "Eilėje nėra ankstesnio kūrinio.",
+			"playingPrevious": "{{{user}}} groja ankstesnį kūrinį.",
+			"nothingToSkip": "Eilėje nėra kūrinių, kuriuos galima praleisti.",
+			"alreadyVote": "{{{user}}} Šiame serveryje jau yra balsavimas. Prašome palaukti, kol jis baigsis, arba jį atšaukti.",
+			"voteSkip": "{{{user}}} pageidavo praleisti dabartinį kūrinį. Ar norite sustabdyti balsavimą dėl praleidimo? Darykite {{{cmd}}}",
+			"voteSkipLabel": "Balsuokite už dabartinio kūrinio praleidimą!",
+			"alreadyVoted": "{{{user}}} Jau balsavote už dabartinio kūrinio praleidimą.",
+			"voteSkip2": "{{{user}}} pageidavo praleisti dabartinį kūrinį.",
+			"voteSkipLabel2": "Balsuokite už dabartinio kūrinio praleidimą! ({{{count}}}/{{{n}}})",
+			"needVoice": "{{{user}}} Norint naudoti šį mygtuką, turite prisijungti prie balso {{{channel}}} kanalo!",
+			"voteSkipTrack": "{{{user}}} praleis kūrinį po teigiamų balsų skaičiaus: {{{count}}}!",
+			"notEnoughVote": "### Nepakanka balsų dabartiniam kūriniui praleisti.",
+			"skipTrack": "{{{user}}} praleido dabartinį kūrinį.",
+			"playTrack": "{{{user}}} {{{paused}}} dabartinį kūrinį.",
+			"paused": "Pauzė",
+			"resumed": "Tęsė",
+			"stopTrack": "{{{user}}} sustabdė dabartinį kūrinį.",
+			"volMax": "### Garsumas jau yra maksimalus.",
+			"volUp": "{{{user}}} padidino garsą iki **{{{vol}}}**%.",
+			"volMin": "### Garsumas jau yra minimalus.",
+			"volDown": "{{{user}}} sumažino garsą iki **{{{vol}}}**%.",
+			"shuffleError": "{{{user}}} Eilėje nėra pakankamai kūrinių, kad būtų galima juos sumaišyti.",
+			"shuffleDisabled": "{{{user}}} Sumaišymas išjungtas.",
+			"shuffleEnabled": "{{{user}}} Sumaišymas įjungtas.",
+			"loopSong": "{{{user}}} Kartojamas dabartinis kūrinys.",
+			"loopQueue": "{{{user}}} Kartojama eilė.",
+			"loopDisabled": "{{{user}}} Ciklas išjungtas.",
+			"noTrack": "{{{user}}} Šiuo metu nieko neklauso.",
+			"liked": "{{{user}}} Patiko **{{{title}}}**.",
+			"unliked": "{{{user}}} Nebepatiko **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hey! I tried to send a reply to your command; however, I lack the permission to do so. Please have someone from the staff give me the `Send Messages` Discord permission.\n\nServer: **{{{guildName}}}**\nCommand: **{{{commandName}}}**\nWant help with permissions? Join the support server: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} The bot must have the `Embed links` Discord permission to work properly! Please have someone from the staff give me this permission.",
-			"noBotChannel": "### I am not allowed to answer commands in this channel. Please use {{{emoji}}} <#{{{botChannel}}}> for bot commands. Thank you for your cooperation.",
-			"deleteFooter": "• This message will be deleted in 5 seconds",
-			"disabledCommand": "### This command is disabled in this server for everyone. Only DJs can use this command.",
-			"disabledCommandList": "Disabled list",
-			"noBotPermissions": "### {{{emoji}}} I don't have the **{{{permissions}}}** permission(s) to execute this command.",
-			"noUserPermissions": "### {{{emoji}}} You don't have the **{{{permissions}}}** permission(s) to execute this command.",
+			"noSendMessages": "### Hei! Bandžiau atsakyti į jūsų komandą, tačiau neturiu teisės tai padaryti. Prašome gauti **Siųsti žinutes** Discord leidimą iš serverio administracijos.\n\nServeris: **{{{guildName}}}**\nKomanda: **{{{commandName}}}**\nReikia pagalbos su leidimais? Prisijunkite prie pagalbos serverio: {{{supportServer}}}",
+			"noEmbedLinks": "### {{{emoji}}} Robotui reikia **Įdėti nuorodas** Discord leidimo, kad galėtų veikti tinkamai! Prašome gauti šį leidimą iš serverio administracijos.",
+			"noBotChannel": "### Mano komandoms atsakinėti šiame kanale draudžiama. Prašome naudoti {{{emoji}}} <#{{{botChannel}}}> bot komandoms. Dėkojame už supratimą.",
+			"deleteFooter": "• Šis pranešimas bus ištrintas po 5 sekundžių",
+			"disabledCommand": "### Ši komanda serveryje išjungta visiems. Tik DJ gali naudoti šią komandą.",
+			"disabledCommandList": "Išjungtos komandos",
+			"noBotPermissions": "### {{{emoji}}} Man trūksta leidimo(-ų) **{{{permissions}}}** atlikti šią komandą.",
+			"noUserPermissions": "### {{{emoji}}} Jums trūksta leidimo(-ų) **{{{permissions}}}** atlikti šią komandą.",
 			"voteLocks": [
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}})",
-				"### You need to vote for me to use this command. You can vote [Top.gg]({{{link}}}) or\nYou can also get premium by donating [here]({{{link2}}})"
+				"### Norint naudoti šią komandą, turite už mane balsuoti. Galite balsuoti [Top.gg]({{{link}}})",
+				"### Norint naudoti šią komandą, turite už mane balsuoti. Galite balsuoti [Top.gg]({{{link}}}) arba\nTaip pat galite gauti premium, paaukodami [čia]({{{link2}}})"
 			],
 			"buttons": {
-				"vote": "Vote",
-				"donate": "Donate",
-				"invite": "Invite",
-				"support": "Support"
+				"vote": "Balsuoti",
+				"donate": "Paaukoti",
+				"invite": "Pakviesti",
+				"support": "Pagalba"
 			},
-			"cooldown": "### Please wait **{{{timeLeft}}}** more second(s) before reusing the **{{{command}}}** command.",
-			"noDjRole": "### {{{emoji}}} You need the DJ role to use this command.",
-			"noPremium": "### You need bot premium to use this command. You can get premium by donating [here]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} I don't have the required permissions to join your voice channel! I need `View Channels`, `Connect`, and `Speak` permissions. [Permissions Example](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nIf the problem persists, change the voice channel region to `Europe`.",
-			"voiceJoin": "### {{{emoji}}} You have to be connected to a voice channel on this server to use this command!\n\nHow to join a voice channel? Just click on a channel with a speaker icon (for example, click here:  {{{channel}}}) [See the official Discord guide](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} You must be in the **{{{channel}}}** voice channel to use this command.",
-			"noPlayer": "### {{{emoji}}} I'm not connected to any voice channel. Please use the {{{command}}} command to summon me.",
-			"noQueue": "### {{{emoji}}} There is no queue. Please use the {{{command}}} command to add a song to the queue.",
-			"noSong": "### {{{emoji}}} There is no song playing. Please use the {{{command}}} command to add a song to the queue.",
-			"error": "### {{{emoji}}} An error occurred while executing the command. Please report this error to the [Support Server]({{{link}}})"
+			"cooldown": "### Prašome palaukti dar **{{{timeLeft}}}** sekundžių, kol galėsite iš naujo naudoti komandą **{{{command}}}**.",
+			"noDjRole": "### {{{emoji}}} Jums reikia DJ rolės, norint naudoti šią komandą.",
+			"noPremium": "### Norint naudoti šią komandą, jums reikia turėti bot premium. Galite jį gauti paaukodami [čia]({{{link}}})",
+			"voicePerm": "### {{{emoji}}} Neturiu reikiamų leidimų prisijungti prie jūsų balso kanalo! Man reikia leidimų `Matyti kanalus`, `Prisijungti` ir `Kalbėti`. [Leidimų pavyzdys](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nJei problema neišnyksta, pakeiskite balso kanalo regioną į `Europą`.",
+			"voiceJoin": "### {{{emoji}}} Norėdami naudotis šia komanda, turite būti prisijungę prie balso kanalo šiame serveryje!\n\nKaip prisijungti prie balso kanalo? Tiesiog spustelėkite kanalą su garsiakalbio simboliu (pvz., spustelėkite čia:  {{{channel}}}) [Žr. oficialų Discord vadovą](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": "### {{{emoji}}} Norėdami naudotis šia komanda, turite būti balso kanale **{{{channel}}}**.",
+			"noPlayer": "### {{{emoji}}} Nesusijungiau su jokiu balso kanalu. Norėdami mane pakviesti, naudokite komandą {{{command}}}.",
+			"noQueue": "### {{{emoji}}} Nėra eilės. Norėdami pridėti dainą į eilę, naudokite komandą {{{command}}}.",
+			"noSong": "### {{{emoji}}} Nieko neklauso. Norėdami pridėti dainą į eilę, naudokite komandą {{{command}}}.",
+			"error": "### {{{emoji}}} Įvyko klaida vykdant komandą. Prašome pranešti šią klaidą [Pagalbos serveryje]({{{link}}})"
 		}
 	},
 	"get_started": {
-		"embed_title": "Moe Bot | Get started",
-		"embed_description": "### Hey <@{{{user}}}>! My prefix(es) is/are: `{{{prefixList}}}`\nFor example: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hey <@{{{user}}}>! My prefix is: `no prefix`, meaning you can use any command without a prefix.\nFor example: `help`, `ping`"
+		"embed_title": "Moe Bot | Pradėti",
+		"embed_description": "### Hei <@{{{user}}}>! Mano prefiksas(-ai) yra: `{{{prefixList}}}`\nPavyzdžiui: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": "### Hei <@{{{user}}}>! Mano prefiksas yra: `no prefix`, tai reiškia, kad galite naudoti bet kurį komandą be prefikso.\nPavyzdžiui: `help`, `ping`"
 	},
 	"options": {
-		"title": "Options for {{{commandName}}}",
-		"no_description": "No description",
-		"options": "Options",
-		"examples": "Example(s)",
-		"long_des": "This is for navigating between pages",
-		"examples_button": "Examples",
-		"footer": "<Required> | [Optional] {{{long_des}}} Page {{{page}}} of {{{total_pages}}}",
-		"title2": "Examples for {{{commandName}}}"
+		"title": "Parinktys {{{commandName}}}",
+		"no_description": "Aprašymo nėra",
+		"options": "Parinktys",
+		"examples": "Pavyzdžiai",
+		"long_des": "Tai skirta naviguoti tarp puslapių",
+		"examples_button": "Pavyzdžiai",
+		"footer": "<Privaloma> | [Neprivaloma] {{{long_des}}} Puslapis {{{page}}} iš {{{total_pages}}}",
+		"title2": "Pavyzdžiai {{{commandName}}}"
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",
