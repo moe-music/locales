@@ -71,3 +71,5 @@ Do not change `{{{object}}}` this object.
 1. Fork this repository.
 2. Edit the file. (Use [Visual Studio Code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/) for better editing experience.)
 3. Create a pull request.
+4. Wait for the pull request to be merged.
+5. Done!
