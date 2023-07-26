@@ -237,7 +237,8 @@
 			"no-results": "### Brak wyników dla `{{{query}}}`.",
 			"playlist-loaded": "### Załadowano `{{{count}}}` utworów z listy odtwarzania **[{{{name}}}]({{{url}}})**",
 			"footer": "Dziękujemy za korzystanie z {{{bot}}}",
-			"added": "### Dodano **[{{{title}}}]({{{uri}}})** do kolejki (zażądane przez <@{{{requester}}}>) na pozycji `#{{{position}}}`"
+			"added": "### Dodano **[{{{title}}}]({{{uri}}})** do kolejki (zażądane przez <@{{{requester}}}>) na pozycji `#{{{position}}}`",
+			"youtube-not-supported": "### Przepraszamy, ale YouTube nie jest obsługiwany w MoE z powodu TOS Discorda. Nie możemy używać API YouTube do odtwarzania muzyki. Przepraszamy za wszelkie niedogodności, jakie mogą Cię spotkać."
 		},
 		"playprevious": {
 			"description": "Odtwarza poprzedni utwór.",
@@ -512,7 +513,8 @@
 				"add": "Dodaj język dla serwera",
 				"language": "Język, który chcesz ustawić",
 				"info": "Wyświetl informacje o językach",
-				"reset": "Zresetuj język do domyślnego"
+				"reset": "Zresetuj język do domyślnego",
+				"set": "cmd.languages.options.set"
 			},
 			"success": "### {{{emoji}}} Pomyślnie ustawiono język bota na {{{language}}} `({{{languageCode}}})`.",
 			"info": "### Aktualny język na tym serwerze to: **{{{language}}}** `({{{languageCode}}})`.",
@@ -726,7 +728,8 @@
 			"newName": "### Wprowadź nową nazwę listy odtwarzania.",
 			"cancelled": "### {{{emoji}}} Anulowano zmianę nazwy listy odtwarzania.",
 			"playlist": "### Wprowadź nazwę listy odtwarzania.",
-			"selectVisibility": "### Wybierz widoczność listy odtwarzania z poniższych przycisków."
+			"selectVisibility": "### Wybierz widoczność listy odtwarzania z poniższych przycisków.",
+			"liked": "### {{{emoji}}} Nie możesz edytować listy polubionych."
 		},
 		"import": {
 			"description": "Importuj listę odtwarzania na podstawie identyfikatora listy.",

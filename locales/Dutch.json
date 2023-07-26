@@ -237,7 +237,8 @@
 			"no-results": "### Geen resultaten gevonden voor `{{{query}}}`.",
 			"playlist-loaded": "### `{{{count}}}` nummers geladen van de afspeellijst **[{{{name}}}]({{{url}}})**",
 			"footer": "Bedankt voor het gebruik van {{{bot}}}",
-			"added": "### Toegevoegd **[{{{title}}}]({{{uri}}})** aan de wachtrij (aangevraagd door <@{{{requester}}}>) op positie `#{{{position}}}`"
+			"added": "### Toegevoegd **[{{{title}}}]({{{uri}}})** aan de wachtrij (aangevraagd door <@{{{requester}}}>) op positie `#{{{position}}}`",
+			"youtube-not-supported": "### Ik moet je helaas meedelen dat YouTube niet wordt ondersteund in de MoE voor Discord TOS. We kunnen de API van YouTube niet gebruiken om naar muziek te luisteren. Onze excuses voor het eventuele ongemak dat dit voor je heeft veroorzaakt."
 		},
 		"playprevious": {
 			"description": "Speel het vorige nummer af.",
@@ -727,7 +728,8 @@
 			"newName": "### Voer de nieuwe naam van de afspeellijst in.",
 			"cancelled": "### {{{emoji}}} De wijziging van de afspeellijstnaam is geannuleerd.",
 			"playlist": "### Voer de naam van de afspeellijst in.",
-			"selectVisibility": "### Kies de zichtbaarheid van de afspeellijst uit de knoppen hieronder."
+			"selectVisibility": "### Kies de zichtbaarheid van de afspeellijst uit de knoppen hieronder.",
+			"liked": "### {{{emoji}}} Je kunt de afspeellijst met de naam Liked niet bewerken."
 		},
 		"import": {
 			"description": "Importeer een afspeellijst aan de hand van het afspeellijst-id.",

@@ -237,7 +237,8 @@
 			"no-results": "### Tidak ada hasil ditemukan untuk `{{{query}}}`.",
 			"playlist-loaded": "### Memuat `{{{count}}}` lagu dari daftar putar **[{{{name}}}]({{{url}}})**",
 			"footer": "Terima kasih telah menggunakan {{{bot}}}",
-			"added": "### Ditambahkan **[{{{title}}}]({{{uri}}})** ke antrian (diminta oleh <@{{{requester}}}>) di posisi antrian `#{{{position}}}`"
+			"added": "### Ditambahkan **[{{{title}}}]({{{uri}}})** ke antrian (diminta oleh <@{{{requester}}}>) di posisi antrian `#{{{position}}}`",
+			"youtube-not-supported": "### Maaf, YouTube tidak didukung di MoE karena TOS Discord. Kami tidak dapat menggunakan API YouTube untuk mendengarkan musik. Kami mohon maaf atas ketidaknyamanan ini."
 		},
 		"playprevious": {
 			"description": "Putar lagu sebelumnya.",
@@ -727,7 +728,8 @@
 			"newName": "### Masukkan nama baru playlist.",
 			"cancelled": "### {{{emoji}}} Membatalkan perubahan nama playlist.",
 			"playlist": "### Masukkan nama playlist.",
-			"selectVisibility": "### Pilih visibilitas playlist dari tombol di bawah ini."
+			"selectVisibility": "### Pilih visibilitas playlist dari tombol di bawah ini.",
+			"liked": "### {{{emoji}}} Anda tidak dapat mengedit playlist yang disukai."
 		},
 		"import": {
 			"description": "Mengimpor playlist dari ID playlist.",

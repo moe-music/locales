@@ -237,7 +237,8 @@
 			"no-results": "### 未找到与 `{{{query}}}` 相关的结果。",
 			"playlist-loaded": "### 已从播放列表 **[{{{name}}}]({{{url}}})** 加载 `{{{count}}}` 首歌曲",
 			"footer": "感谢使用 {{{bot}}}",
-			"added": "### 已将 **[{{{title}}}]({{{uri}}})** 添加到队列中（由 <@{{{requester}}}> 请求），队列位置 `#{{{position}}}`"
+			"added": "### 已将 **[{{{title}}}]({{{uri}}})** 添加到队列中（由 <@{{{requester}}}> 请求），队列位置 `#{{{position}}}`",
+			"youtube-not-supported": "### 我很抱歉地通知您，由于MoE for Discord TOS的限制，我们无法使用YouTube的API来播放音乐。我们为此给您带来的任何不便表示歉意。"
 		},
 		"playprevious": {
 			"description": "播放上一首歌曲。",
@@ -727,7 +728,8 @@
 			"newName": "### 输入新的播放列表名称。",
 			"cancelled": "### {{{emoji}}} 取消播放列表名称更改。",
 			"playlist": "### 输入播放列表名称。",
-			"selectVisibility": "### 请从下面的按钮中选择播放列表的可见性。"
+			"selectVisibility": "### 请从下面的按钮中选择播放列表的可见性。",
+			"liked": "### {{{emoji}}} 你不能编辑喜欢的播放列表。"
 		},
 		"import": {
 			"description": "从播放列表 ID 导入一个播放列表。",
@@ -777,6 +779,30 @@
 				"stop": "停止",
 				"next": "下一页"
 			}
+		},
+		"skipto": {
+			"description": "Skip to a specific song in the queue.",
+			"options": {
+				"number": "The track number or track title to skip to."
+			}
+		},
+		"stop": {
+			"description": "Stop the player and clear the queue."
+		},
+		"volume": {
+			"description": "Change the volume of the player.",
+			"options": {
+				"volume": "The volume you want to set."
+			}
+		},
+		"voteskip": {
+			"description": "Vote to skip the current song."
+		},
+		"skip": {
+			"description": "Skip the current song."
+		},
+		"topsongs": {
+			"description": "Shows the top songs played by the bot."
 		}
 	},
 	"player": {

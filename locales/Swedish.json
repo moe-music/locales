@@ -237,7 +237,8 @@
 			"no-results": "### Inga resultat hittades för `{{{query}}}`.",
 			"playlist-loaded": "### Laddade `{{{count}}}` låtar från spellistan **[{{{name}}}]({{{url}}})**",
 			"footer": "Tack för att du använder {{{bot}}}",
-			"added": "### Lade till **[{{{title}}}]({{{uri}}})** i kön (begärd av <@{{{requester}}}>) på köposition `#{{{position}}}`"
+			"added": "### Lade till **[{{{title}}}]({{{uri}}})** i kön (begärd av <@{{{requester}}}>) på köposition `#{{{position}}}`",
+			"youtube-not-supported": "### Jag beklagar att meddela dig att YouTube inte stöds i MoE för Discord TOS. Vi kan inte använda YouTube's API för att lyssna på musik. Vi ber om ursäkt för eventuella olägenheter detta kan ha orsakat dig."
 		},
 		"playprevious": {
 			"description": "Spela den föregående låten.",
@@ -727,7 +728,8 @@
 			"newName": "### Ange det nya namnet på spellistan.",
 			"cancelled": "### {{{emoji}}} Ändringen av spellistans namn har avbrutits.",
 			"playlist": "### Ange namnet på spellistan.",
-			"selectVisibility": "### Välj spellistans synlighet från knapparna nedan."
+			"selectVisibility": "### Välj spellistans synlighet från knapparna nedan.",
+			"liked": "### {{{emoji}}} Du kan inte redigera spellistan som gillats."
 		},
 		"import": {
 			"description": "Importera en spellista från spellistans id.",

@@ -237,7 +237,8 @@
 			"no-results": "### Tuloksia ei löytynyt hakusanalle `{{{query}}}`.",
 			"playlist-loaded": "### Ladattiin `{{{count}}}` kappaletta soittolistalta **[{{{name}}}]({{{url}}})**",
 			"footer": "Kiitos, että käytät {{{bot}}}",
-			"added": "### Lisätty **[{{{title}}}]({{{uri}}})** jonoon (pyytäjä <@{{{requester}}}>) jonossa sijalle `#{{{position}}}`"
+			"added": "### Lisätty **[{{{title}}}]({{{uri}}})** jonoon (pyytäjä <@{{{requester}}}>) jonossa sijalle `#{{{position}}}`",
+			"youtube-not-supported": "### Valitettavasti YouTube ei ole tuettu MoE for Discord TOS:issa. Emme voi käyttää YouTuben API:a musiikin kuuntelemiseen. Pahoittelemme mahdollisesti aiheutunutta haittaa."
 		},
 		"playprevious": {
 			"description": "Toista edellinen kappale.",
@@ -727,7 +728,8 @@
 			"newName": "### Anna uusi soittolistan nimi.",
 			"cancelled": "### {{{emoji}}} Soittolistan nimen muutos peruttu.",
 			"playlist": "### Anna soittolistan nimi.",
-			"selectVisibility": "### Valitse soittolistan näkyvyys alla olevista painikkeista."
+			"selectVisibility": "### Valitse soittolistan näkyvyys alla olevista painikkeista.",
+			"liked": "### {{{emoji}}} Et voi muokata tykättyjä kappaleita."
 		},
 		"import": {
 			"description": "Tuo soittolista soittolistan tunnisteella.",

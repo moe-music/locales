@@ -237,7 +237,8 @@
 			"no-results": "### Pro dotaz `{{{query}}}` nebyly nalezeny žádné výsledky.",
 			"playlist-loaded": "### Načteno `{{{count}}}` skladeb ze seznamu skladeb **[{{{name}}}]({{{url}}})**",
 			"footer": "Děkujeme za použití {{{bot}}}",
-			"added": "### Přidáno **[{{{title}}}]({{{uri}}})** do fronty (požadováno uživatelem <@{{{requester}}}>) na pozici ve frontě `#{{{position}}}`"
+			"added": "### Přidáno **[{{{title}}}]({{{uri}}})** do fronty (požadováno uživatelem <@{{{requester}}}>) na pozici ve frontě `#{{{position}}}`",
+			"youtube-not-supported": "### Je mi líto, ale YouTube není podporován v MoE pro Discord TOS. Nemůžeme používat YouTube API k poslechu hudby. Omlouváme se za případné nepříjemnosti."
 		},
 		"playprevious": {
 			"description": "Přehraje předchozí skladbu.",
@@ -727,7 +728,8 @@
 			"newName": "### Zadejte nový název playlistu.",
 			"cancelled": "### {{{emoji}}} Zrušena změna názvu playlistu.",
 			"playlist": "### Zadejte název playlistu.",
-			"selectVisibility": "### Vyberte viditelnost playlistu ze tlačítek níže."
+			"selectVisibility": "### Vyberte viditelnost playlistu ze tlačítek níže.",
+			"liked": "### {{{emoji}}} Nelze upravit playlist s názvem **liked**."
 		},
 		"import": {
 			"description": "Importovat playlist z identifikátoru playlistu.",

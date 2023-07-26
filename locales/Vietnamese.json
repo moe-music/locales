@@ -237,7 +237,8 @@
 			"no-results": "### Không tìm thấy kết quả nào cho `{{{query}}}`.",
 			"playlist-loaded": "### Đã tải `{{{count}}}` bài hát từ danh sách phát **[{{{name}}}]({{{url}}})**",
 			"footer": "Cảm ơn bạn đã sử dụng {{{bot}}}",
-			"added": "### Đã thêm **[{{{title}}}]({{{uri}}})** vào danh sách phát (yêu cầu bởi <@{{{requester}}}>) ở vị trí `#{{{position}}}`"
+			"added": "### Đã thêm **[{{{title}}}]({{{uri}}})** vào danh sách phát (yêu cầu bởi <@{{{requester}}}>) ở vị trí `#{{{position}}}`",
+			"youtube-not-supported": "### Tôi rất tiếc phải thông báo cho bạn rằng YouTube không được hỗ trợ trong MoE for Discord TOS. Chúng tôi không thể sử dụng API của YouTube để nghe nhạc. Chúng tôi xin lỗi vì bất kỳ sự bất tiện nào mà điều này có thể gây ra cho bạn."
 		},
 		"playprevious": {
 			"description": "Phát bài hát trước đó.",
@@ -727,7 +728,8 @@
 			"newName": "### Nhập tên mới của danh sách phát.",
 			"cancelled": "### {{{emoji}}} Đã hủy việc thay đổi tên danh sách phát.",
 			"playlist": "### Nhập tên của danh sách phát.",
-			"selectVisibility": "### Chọn tùy chọn hiển thị của danh sách phát từ các nút dưới đây."
+			"selectVisibility": "### Chọn tùy chọn hiển thị của danh sách phát từ các nút dưới đây.",
+			"liked": "### {{{emoji}}} Bạn không thể chỉnh sửa danh sách phát đã thích."
 		},
 		"import": {
 			"description": "Nhập một danh sách phát từ ID danh sách phát.",

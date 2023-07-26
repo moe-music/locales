@@ -237,7 +237,8 @@
 			"no-results": "### No results found for `{{{query}}}`.",
 			"playlist-loaded": "### Loaded `{{{count}}}` tracks from playlist **[{{{name}}}]({{{url}}})**",
 			"footer": "Thanks for using {{{bot}}}",
-			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`"
+			"added": "### Added **[{{{title}}}]({{{uri}}})** to the queue (requested by <@{{{requester}}}>) in queue position `#{{{position}}}`",
+			"youtube-not-supported": "### I am sorry to inform you that YouTube is not supported in the MoE for Discord TOS. We cannot use YouTube's API to listen to music. We apologize for any inconvenience this may have caused you."
 		},
 		"playprevious": {
 			"description": "Play the previous song.",
@@ -727,7 +728,8 @@
 			"newName": "### Enter the new name of the playlist.",
 			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
 			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectVisibility": "### Select the visibility of the playlist from the buttons below.",
+			"liked": "### {{{emoji}}} You can't edit the liked playlist."
 		},
 		"import": {
 			"description": "Import a playlist from playlist id.",
@@ -888,5 +890,6 @@
 	},
 	"Evaluate JavaScript code": "Evaluate JavaScript code",
 	"Generate a premium key": "Generate a premium key",
-	"Give a user premium.": "Give a user premium."
+	"Give a user premium.": "Give a user premium.",
+	"<": "cancel:1089776578797514792> You need to be in a voice channel to use this command."
 }

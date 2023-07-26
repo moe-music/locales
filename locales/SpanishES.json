@@ -237,7 +237,8 @@
 			"no-results": "### No se encontraron resultados para `{{{query}}}`.",
 			"playlist-loaded": "### Cargadas `{{{count}}}` pistas de la lista de reproducción **[{{{name}}}]({{{url}}})**",
 			"footer": "Gracias por usar {{{bot}}}",
-			"added": "### Añadida **[{{{title}}}]({{{uri}}})** a la cola (solicitada por <@{{{requester}}}>) en la posición `#{{{position}}}`"
+			"added": "### Añadida **[{{{title}}}]({{{uri}}})** a la cola (solicitada por <@{{{requester}}}>) en la posición `#{{{position}}}`",
+			"youtube-not-supported": "### Lo siento, pero YouTube no es compatible con los TOS de MoE para Discord. No podemos usar la API de YouTube para escuchar música. Pedimos disculpas por cualquier inconveniente que esto pueda causarle."
 		},
 		"playprevious": {
 			"description": "Reproducir la canción anterior.",
@@ -727,7 +728,8 @@
 			"newName": "### Ingresa el nuevo nombre de la lista de reproducción.",
 			"cancelled": "### {{{emoji}}} Se canceló el cambio de nombre de la lista de reproducción.",
 			"playlist": "### Ingresa el nombre de la lista de reproducción.",
-			"selectVisibility": "### Selecciona la visibilidad de la lista de reproducción de los botones de abajo."
+			"selectVisibility": "### Selecciona la visibilidad de la lista de reproducción de los botones de abajo.",
+			"liked": "### {{{emoji}}} No puedes editar la lista de reproducción de favoritos."
 		},
 		"import": {
 			"description": "Importa una lista de reproducción usando su identificador.",

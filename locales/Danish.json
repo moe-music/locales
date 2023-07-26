@@ -237,7 +237,8 @@
 			"no-results": "### Ingen resultater fundet for `{{{query}}}`.",
 			"playlist-loaded": "### Indlæste `{{{count}}}` numre fra spilleliste **[{{{name}}}]({{{url}}})**",
 			"footer": "Tak fordi du bruger {{{bot}}}",
-			"added": "### Tilføjede **[{{{title}}}]({{{uri}}})** til køen (anmodet af <@{{{requester}}}>) på køposition `#{{{position}}}`"
+			"added": "### Tilføjede **[{{{title}}}]({{{uri}}})** til køen (anmodet af <@{{{requester}}}>) på køposition `#{{{position}}}`",
+			"youtube-not-supported": "### Jeg beklager at informere dig om, at YouTube ikke er understøttet i MoE for Discord TOS. Vi kan ikke bruge YouTube's API til at lytte til musik. Vi beklager eventuelle ulemper, dette måtte have forårsaget dig."
 		},
 		"playprevious": {
 			"description": "Afspil den forrige sang.",
@@ -727,7 +728,8 @@
 			"newName": "### Indtast det nye navn på spillelisten.",
 			"cancelled": "### {{{emoji}}} Ændringen af spillelistens navn blev annulleret.",
 			"playlist": "### Indtast navnet på spillelisten.",
-			"selectVisibility": "### Vælg synligheden af spillelisten fra knapperne nedenfor."
+			"selectVisibility": "### Vælg synligheden af spillelisten fra knapperne nedenfor.",
+			"liked": "### {{{emoji}}} Du kan ikke redigere den 'kan lide'-spilleliste."
 		},
 		"import": {
 			"description": "Importer en spilleliste fra spilleliste-id.",

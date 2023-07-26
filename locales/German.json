@@ -237,7 +237,8 @@
 			"no-results": "### Keine Ergebnisse für `{{{query}}}` gefunden.",
 			"playlist-loaded": "### `{{{count}}}` Tracks von der Playlist **[{{{name}}}]({{{url}}})** geladen",
 			"footer": "Danke, dass Sie {{{bot}}} verwenden",
-			"added": "### **[{{{title}}}]({{{uri}}})** wurde zur Warteschlange hinzugefügt (angefordert von <@{{{requester}}}>) an Position `#{{{position}}}`"
+			"added": "### **[{{{title}}}]({{{uri}}})** wurde zur Warteschlange hinzugefügt (angefordert von <@{{{requester}}}>) an Position `#{{{position}}}`",
+			"youtube-not-supported": "### Ich bedaure, Ihnen mitteilen zu müssen, dass YouTube in den MoE für Discord TOS nicht unterstützt wird. Wir können die YouTube-API nicht verwenden, um Musik zu hören. Wir entschuldigen uns für die Unannehmlichkeiten, die Ihnen dadurch entstanden sind."
 		},
 		"playprevious": {
 			"description": "Spiele das vorherige Lied.",
@@ -727,7 +728,8 @@
 			"newName": "### Gib den neuen Namen der Playlist ein.",
 			"cancelled": "### {{{emoji}}} Die Änderung des Playlist-Namens wurde abgebrochen.",
 			"playlist": "### Gib den Namen der Playlist ein.",
-			"selectVisibility": "### Wähle die Sichtbarkeit der Playlist über die unten stehenden Schaltflächen aus."
+			"selectVisibility": "### Wähle die Sichtbarkeit der Playlist über die unten stehenden Schaltflächen aus.",
+			"liked": "### {{{emoji}}} Du kannst die Playlist **Gefällt mir** nicht bearbeiten."
 		},
 		"import": {
 			"description": "Importiere eine Playlist anhand ihrer ID.",

@@ -237,7 +237,8 @@
 			"no-results": "### Nincs találat a `{{{query}}}` keresésre.",
 			"playlist-loaded": "### Betöltve `{{{count}}}` szám a lejátszási listából: **[{{{name}}}]({{{url}}})**",
 			"footer": "Köszönöm, hogy használod a(z) {{{bot}}} botot!",
-			"added": "### Hozzáadva a lejátszási sorhoz: **[{{{title}}}]({{{uri}}})** (kérte: <@{{{requester}}}>) a sorban a(z) `#{{{position}}}` helyen"
+			"added": "### Hozzáadva a lejátszási sorhoz: **[{{{title}}}]({{{uri}}})** (kérte: <@{{{requester}}}>) a sorban a(z) `#{{{position}}}` helyen",
+			"youtube-not-supported": "### Sajnálom, hogy értesítelek, de a YouTube nem támogatott a MoE for Discord TOS-ban. Nem használhatjuk a YouTube API-ját a zenehallgatáshoz. Elnézést kérünk a kellemetlenségért."
 		},
 		"playprevious": {
 			"description": "Lejátssza az előző dalt.",
@@ -727,7 +728,8 @@
 			"newName": "### Add meg az új lejátszási lista nevét.",
 			"cancelled": "### {{{emoji}}} Lemondtad a lejátszási lista nevének megváltoztatását.",
 			"playlist": "### Add meg a lejátszási lista nevét.",
-			"selectVisibility": "### Válaszd ki a lejátszási lista láthatóságát az alábbi gombok közül."
+			"selectVisibility": "### Válaszd ki a lejátszási lista láthatóságát az alábbi gombok közül.",
+			"liked": "### {{{emoji}}} Nem szerkesztheted a kedvenc lejátszási listát."
 		},
 		"import": {
 			"description": "Lejátszási lista importálása lejátszási lista azonosítója alapján.",

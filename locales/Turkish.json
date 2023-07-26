@@ -237,7 +237,8 @@
 			"no-results": "### `{{{query}}}` için sonuç bulunamadı.",
 			"playlist-loaded": "### **[{{{name}}}]({{{url}}})** adlı çalma listesinden `{{{count}}}` parça yüklendi",
 			"footer": "{{{bot}}} kullanmak için teşekkürler",
-			"added": "### **[{{{title}}}]({{{uri}}})** şarkısı kuyruğa eklendi (talep eden <@{{{requester}}}>) kuyruk pozisyonu: `#{{{position}}}`"
+			"added": "### **[{{{title}}}]({{{uri}}})** şarkısı kuyruğa eklendi (talep eden <@{{{requester}}}>) kuyruk pozisyonu: `#{{{position}}}`",
+			"youtube-not-supported": "### Üzgünüm, YouTube'u MoE'de desteklemediğimizi bildirmekten memnuniyet duyuyorum. YouTube'un API'sini müzik dinlemek için kullanamıyoruz. Bu size neden olduğu herhangi bir rahatsızlıktan dolayı özür dileriz."
 		},
 		"playprevious": {
 			"description": "Önceki şarkıyı çal.",
@@ -727,7 +728,8 @@
 			"newName": "### Yeni çalma listesi adını girin.",
 			"cancelled": "### {{{emoji}}} Çalma listesi adı değiştirme işlemi iptal edildi.",
 			"playlist": "### Çalma listesi adını girin.",
-			"selectVisibility": "### Aşağıdaki düğmelerden çalma listesi görünürlüğünü seçin."
+			"selectVisibility": "### Aşağıdaki düğmelerden çalma listesi görünürlüğünü seçin.",
+			"liked": "### {{{emoji}}} Beğenilen çalma listesini düzenleyemezsiniz."
 		},
 		"import": {
 			"description": "Çalma listesini bir çalma listesi kimliğinden içe aktar.",

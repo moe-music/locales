@@ -237,7 +237,8 @@
 			"no-results": "### Niciun rezultat găsit pentru `{{{query}}}`.",
 			"playlist-loaded": "### Încărcate `{{{count}}}` melodii din lista de redare **[{{{name}}}]({{{url}}})**",
 			"footer": "Mulțumim că folosești {{{bot}}}",
-			"added": "### Adăugat **[{{{title}}}]({{{uri}}})** în coadă (cerută de <@{{{requester}}}>) la poziția `#{{{position}}}`"
+			"added": "### Adăugat **[{{{title}}}]({{{uri}}})** în coadă (cerută de <@{{{requester}}}>) la poziția `#{{{position}}}`",
+			"youtube-not-supported": "### Îmi pare rău să vă informez că YouTube nu este acceptat în MoE pentru Discord TOS. Nu putem folosi API-ul YouTube pentru a asculta muzică. Ne cerem scuze pentru orice neplăcere pe care am putea să v-o fi cauzat."
 		},
 		"playprevious": {
 			"description": "Redă melodia anterioară.",
@@ -727,7 +728,8 @@
 			"newName": "### Introduceți noul nume al listei de redare.",
 			"cancelled": "### {{{emoji}}} Modificarea numelui listei de redare a fost anulată.",
 			"playlist": "### Introduceți numele listei de redare.",
-			"selectVisibility": "### Selectați vizibilitatea listei de redare din butoanele de mai jos."
+			"selectVisibility": "### Selectați vizibilitatea listei de redare din butoanele de mai jos.",
+			"liked": "### {{{emoji}}} Nu puteți edita lista de redare preferată."
 		},
 		"import": {
 			"description": "Importă o listă de redare prin id-ul listei.",

@@ -237,7 +237,8 @@
 			"no-results": "### `{{{query}}}`에 대한 검색 결과가 없습니다.",
 			"playlist-loaded": "### **[{{{name}}}]({{{url}}})** 플레이리스트에서 `{{{count}}}`곡을 로드했습니다.",
 			"footer": "{{{bot}}} 사용해 주셔서 감사합니다.",
-			"added": "### 대기열에 **[{{{title}}}]({{{uri}}})** 곡을 추가했습니다. (신청자: <@{{{requester}}}>) 대기열 위치 `#{{{position}}}`"
+			"added": "### 대기열에 **[{{{title}}}]({{{uri}}})** 곡을 추가했습니다. (신청자: <@{{{requester}}}>) 대기열 위치 `#{{{position}}}`",
+			"youtube-not-supported": "### 죄송합니다. MoE는 YouTube를 지원하지 않습니다. YouTube API를 사용하여 음악을 들을 수 없습니다. 이로 인해 발생할 수 있는 불편함에 대해 사과드립니다."
 		},
 		"playprevious": {
 			"description": "이전 곡 재생",
@@ -727,7 +728,8 @@
 			"newName": "### 새로운 재생 목록의 이름을 입력하세요.",
 			"cancelled": "### {{{emoji}}} 재생 목록 이름 변경이 취소되었습니다.",
 			"playlist": "### 재생 목록의 이름을 입력하세요.",
-			"selectVisibility": "### 아래 버튼 중에서 재생 목록의 가시성을 선택하세요."
+			"selectVisibility": "### 아래 버튼 중에서 재생 목록의 가시성을 선택하세요.",
+			"liked": "### {{{emoji}}} 좋아요 재생 목록은 편집할 수 없습니다."
 		},
 		"import": {
 			"description": "재생 목록을 재생 목록 ID로 가져옵니다.",

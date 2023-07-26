@@ -237,7 +237,8 @@
 			"no-results": "### Nema rezultata za `{{{query}}}`.",
 			"playlist-loaded": "### Učitano `{{{count}}}` pjesama s popisa pjesama **[{{{name}}}]({{{url}}})**",
 			"footer": "Hvala što koristite {{{bot}}}",
-			"added": "### Dodano **[{{{title}}}]({{{uri}}})** u red čekanja (zahtijevao <@{{{requester}}}>) na poziciji u redu `#{{{position}}}`"
+			"added": "### Dodano **[{{{title}}}]({{{uri}}})** u red čekanja (zahtijevao <@{{{requester}}}>) na poziciji u redu `#{{{position}}}`",
+			"youtube-not-supported": "### Ispričavamo se, ali YouTube nije podržan u MoE-u zbog Discord TOS-a. Ne možemo koristiti YouTube API za slušanje glazbe. Ispričavamo se zbog mogućih neugodnosti."
 		},
 		"playprevious": {
 			"description": "Pusti prethodnu pjesmu.",
@@ -727,7 +728,8 @@
 			"newName": "### Unesite novi naziv popisa pjesama.",
 			"cancelled": "### {{{emoji}}} Otkazana promjena naziva popisa pjesama.",
 			"playlist": "### Unesite naziv popisa pjesama.",
-			"selectVisibility": "### Odaberite vidljivost popisa pjesama s gumba ispod."
+			"selectVisibility": "### Odaberite vidljivost popisa pjesama s gumba ispod.",
+			"liked": "### {{{emoji}}} Ne možete uređivati popis pjesama koje ste označili kao omiljene."
 		},
 		"import": {
 			"description": "Uvoz popisa pjesama putem ID-a.",

@@ -237,7 +237,8 @@
 			"no-results": "### Nenhum resultado encontrado para `{{{query}}}`.",
 			"playlist-loaded": "### Carregadas `{{{count}}}` músicas da playlist **[{{{name}}}]({{{url}}})**",
 			"footer": "Obrigado por usar o(a) {{{bot}}}",
-			"added": "### Adicionado **[{{{title}}}]({{{uri}}})** à fila (solicitado por <@{{{requester}}}>) na posição `#{{{position}}}`"
+			"added": "### Adicionado **[{{{title}}}]({{{uri}}})** à fila (solicitado por <@{{{requester}}}>) na posição `#{{{position}}}`",
+			"youtube-not-supported": "### Desculpe, mas o YouTube não é suportado no MoE devido aos Termos de Serviço do Discord. Não podemos usar a API do YouTube para ouvir música. Pedimos desculpas por qualquer inconveniente que isso possa ter causado."
 		},
 		"playprevious": {
 			"description": "Toca a música anterior.",
@@ -727,7 +728,8 @@
 			"newName": "### Insira o novo nome da playlist.",
 			"cancelled": "### {{{emoji}}} Cancelou a mudança de nome da playlist.",
 			"playlist": "### Insira o nome da playlist.",
-			"selectVisibility": "### Selecione a visibilidade da playlist nos botões abaixo."
+			"selectVisibility": "### Selecione a visibilidade da playlist nos botões abaixo.",
+			"liked": "### {{{emoji}}} Você não pode editar a playlist curtidas."
 		},
 		"import": {
 			"description": "Importe uma playlist usando o id.",

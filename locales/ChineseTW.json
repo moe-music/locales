@@ -237,7 +237,8 @@
 			"no-results": "### 找不到 `{{{query}}}` 的結果。",
 			"playlist-loaded": "### 從播放列表 **[{{{name}}}]({{{url}}})** 載入了 `{{{count}}}` 首歌曲",
 			"footer": "感謝使用 {{{bot}}}",
-			"added": "### 已將 **[{{{title}}}]({{{uri}}})** 加入隊列（由 <@{{{requester}}}>) 請求，位置為 `#{{{position}}}`"
+			"added": "### 已將 **[{{{title}}}]({{{uri}}})** 加入隊列（由 <@{{{requester}}}>) 請求，位置為 `#{{{position}}}`",
+			"youtube-not-supported": "### 我很抱歉地通知您，由於 Discord 的 TOS，MoE 不支援 YouTube。我們無法使用 YouTube 的 API 來收聽音樂。對此造成的任何不便，我們深表歉意。"
 		},
 		"playprevious": {
 			"description": "播放上一首歌曲",
@@ -662,72 +663,73 @@
 			"success": "### {{{emoji}}} 已將 **{{{song}}}** 添加到 **{{{playlist}}}**。"
 		},
 		"addqueue": {
-			"description": "Add a playlist to the queue.",
+			"description": "將播放清單加入佇列。",
 			"options": {
-				"name": "The name of the playlist you want to add to the queue."
+				"name": "您想加入佇列的播放清單名稱。"
 			},
-			"noQueue": "### {{{emoji}}} There is no queue.",
-			"success": "### {{{emoji}}} Added the **{{{queueLength}}}** songs in the queue to the playlist **{{{playlistName}}}**."
+			"noQueue": "### {{{emoji}}} 目前沒有任何佇列。",
+			"success": "### {{{emoji}}} 成功將佇列中的 **{{{queueLength}}}** 首歌曲加入播放清單 **{{{playlistName}}}**。"
 		},
 		"create": {
-			"description": "Create a playlist.",
+			"description": "建立播放清單。",
 			"options": {
-				"playlist": "The name of the playlist you want to create.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "您要建立的播放清單名稱。",
+				"visibility": "播放清單的可見性。"
 			},
-			"playlist": "### {{{emoji}}} Please provide a playlist name.",
-			"visibility": "### {{{emoji}}} The visibility must be either `public` or `private`.",
-			"maxPlaylists": "### {{{emoji}}} You can create up to 10 playlists.",
-			"playlistExists": "### {{{emoji}}} You already have a playlist with the name **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully created the playlist **{{{playlist}}}**."
+			"playlist": "### {{{emoji}}} 請提供播放清單名稱。",
+			"visibility": "### {{{emoji}}} 可見性必須是 `public` 或 `private`。",
+			"maxPlaylists": "### {{{emoji}}} 您最多可以建立 10 個播放清單。",
+			"playlistExists": "### {{{emoji}}} 您已有一個名為 **{{{playlist}}}** 的播放清單。",
+			"success": "### {{{emoji}}} 成功建立播放清單 **{{{playlist}}}**。"
 		},
 		"delete": {
-			"description": "Delete a playlist.",
+			"description": "刪除播放清單。",
 			"options": {
-				"playlist": "The name of the playlist you want to delete."
+				"playlist": "您要刪除的播放清單名稱。"
 			},
-			"noPlaylists": "### {{{emoji}}} You don't have a playlist named **{{{playlist}}}**.",
+			"noPlaylists": "### {{{emoji}}} 您沒有名為 **{{{playlist}}}** 的播放清單。",
 			"buttons": {
-				"confirm": "Confirm",
-				"cancel": "Cancel"
+				"confirm": "確認",
+				"cancel": "取消"
 			},
-			"confirm": "### Are you sure you want to delete the playlist **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Successfully deleted the playlist **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Cancelled the deletion of the playlist **{{{playlist}}}**."
+			"confirm": "### 您確定要刪除播放清單 **{{{playlist}}}** 嗎？",
+			"success": "### {{{emoji}}} 成功刪除播放清單 **{{{playlist}}}**。",
+			"cancel": "### {{{emoji}}} 取消刪除播放清單 **{{{playlist}}}**。"
 		},
 		"dupes": {
-			"description": "Remove all duplicate songs from a playlist.",
+			"description": "從播放清單中移除所有重複的歌曲。",
 			"options": {
-				"playlist": "The name of the playlist you want to remove the duplicates from."
+				"playlist": "您想從中移除重複歌曲的播放清單名稱。"
 			},
-			"noDupes": "### {{{emoji}}} There are no duplicate songs in the playlist **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Successfully removed **{{{count}}}** duplicate songs from the playlist **{{{playlist}}}**."
+			"noDupes": "### {{{emoji}}} 播放清單 **{{{playlist}}}** 中沒有重複的歌曲。",
+			"success": "### {{{emoji}}} 成功從播放清單 **{{{playlist}}}** 中移除 **{{{count}}}** 首重複歌曲。"
 		},
 		"edit": {
-			"description": "Edit a playlist.",
+			"description": "編輯播放清單。",
 			"options": {
-				"playlist": "The name of the playlist you want to edit.",
-				"old-name": "The old name of the playlist.",
-				"new-name": "The new name of the playlist.",
-				"playlist-visibility": "Change the visibility of the playlist.",
-				"visibility": "The visibility of the playlist."
+				"playlist": "您想編輯的播放清單名稱。",
+				"old-name": "播放清單的舊名稱。",
+				"new-name": "播放清單的新名稱。",
+				"playlist-visibility": "變更播放清單的可見性。",
+				"visibility": "播放清單的可見性。"
 			},
-			"sameName": "### {{{emoji}}} The new name must be different from the old name.",
-			"successName": "### {{{emoji}}} Successfully renamed the playlist **{{{oldName}}}** to **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} The playlist **{{{playlist}}}** is already **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Successfully changed the visibility of the playlist **{{{playlist}}}** to **{{{visibility}}}**.",
+			"sameName": "### {{{emoji}}} 新名稱必須與舊名稱不同。",
+			"successName": "### {{{emoji}}} 成功將播放清單 **{{{oldName}}}** 更名為 **{{{newName}}}**。",
+			"sameVisibility": "### {{{emoji}}} 播放清單 **{{{playlist}}}** 的可見性已經是 **{{{visibility}}}**。",
+			"successVisibility": "### {{{emoji}}} 成功將播放清單 **{{{playlist}}}** 的可見性更改為 **{{{visibility}}}**。",
 			"buttons": {
-				"playlist": "Playlist name",
-				"visibility": "Playlist visibility",
-				"public": "Public",
-				"private": "Private"
+				"playlist": "播放清單名稱",
+				"visibility": "播放清單可見性",
+				"public": "公開",
+				"private": "私人"
 			},
-			"selectOption": "### Select an option to edit your playlist from the buttons below.",
-			"oldName": "### Enter the old name of the playlist.",
-			"newName": "### Enter the new name of the playlist.",
-			"cancelled": "### {{{emoji}}} Cancelled the playlist name change.",
-			"playlist": "### Enter the name of the playlist.",
-			"selectVisibility": "### Select the visibility of the playlist from the buttons below."
+			"selectOption": "### 請從下方按鈕中選擇編輯播放清單的選項。",
+			"oldName": "### 輸入播放清單的舊名稱。",
+			"newName": "### 輸入播放清單的新名稱。",
+			"cancelled": "### {{{emoji}}} 取消播放清單名稱更改。",
+			"playlist": "### 輸入播放清單名稱。",
+			"selectVisibility": "### 請從下方按鈕中選擇播放清單的可見性。",
+			"liked": "### {{{emoji}}} 您無法編輯喜歡的播放清單。"
 		},
 		"import": {
 			"description": "匯入播放清單，使用播放清單 ID。",

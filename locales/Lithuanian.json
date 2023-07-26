@@ -237,7 +237,8 @@
 			"no-results": "### Paieška „{{{query}}}“ nerado rezultatų.",
 			"playlist-loaded": "### Įkeltas `{{{count}}}` takų iš grojaraščio **[{{{name}}}]({{{url}}})**",
 			"footer": "Ačiū, kad naudojatės „{{{bot}}}“.",
-			"added": "### Pridėta **[{{{title}}}]({{{uri}}})** į sąrašą (užsakė <@{{{requester}}}>) eilėje `#{{{position}}}`"
+			"added": "### Pridėta **[{{{title}}}]({{{uri}}})** į sąrašą (užsakė <@{{{requester}}}>) eilėje `#{{{position}}}`",
+			"youtube-not-supported": "### Aš apgailestauju, kad informuoju, jog „YouTube“ nepalaikomas „MoE“ dėl „Discord“ TOS. Mes negalime naudoti „YouTube“ API, kad klausytume muzikos. Atsiprašome už bet kokį nepatogumą, kurį tai jums sukėlė."
 		},
 		"playprevious": {
 			"description": "Groti ankstesnę dainą.",
@@ -727,7 +728,8 @@
 			"newName": "### Įveskite naują grojaraščio pavadinimą.",
 			"cancelled": "### {{{emoji}}} Atšaukėte grojaraščio pavadinimo pakeitimą.",
 			"playlist": "### Įveskite grojaraščio pavadinimą.",
-			"selectVisibility": "### Pasirinkite grojaraščio matomumą iš apačioje esančių mygtukų."
+			"selectVisibility": "### Pasirinkite grojaraščio matomumą iš apačioje esančių mygtukų.",
+			"liked": "### {{{emoji}}} Negalite redaguoti patikusių kūrinių grojaraščio."
 		},
 		"import": {
 			"description": "Importuokite grojaraštį iš grojaraščio id.",
