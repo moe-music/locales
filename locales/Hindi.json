@@ -250,10 +250,10 @@
 			"options": {
 				"page": "देखने के लिए पृष्ठ नंबर"
 			},
-			"queue": "### {{{guild}}} के लिए कतार ({{{songs}}} गाने)",
+			"queue": "{{{guild}}} के लिए कतार ({{{songs}}} गाने)",
 			"nowPlaying": "### अभी चल रहा है: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### अगले में: {{{str}}}",
-			"noSongs": "### अभी तक कतार में कोई गाना नहीं है! कृपया {{{cmd}}} का उपयोग करके एक जोड़ें।",
+			"noSongs": " अभी तक कतार में कोई गाना नहीं है! कृपया {{{cmd}}} का उपयोग करके एक जोड़ें।",
 			"page": "पृष्ठ {{{page}}} | {{{songs}}} गाना(गाने) | कुल समय {{{duration}}}",
 			"notNumber": "### {{{emoji}}} पृष्ठ नंबर एक नंबर होना चाहिए।",
 			"pageLimit": "### {{{emoji}}} पृष्ठ नंबर {{{pages}}} से कम या बराबर होना चाहिए।",
@@ -778,6 +778,28 @@
 				"previous": "पिछला",
 				"stop": "रुकें",
 				"next": "अगला"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

@@ -250,10 +250,10 @@
 			"options": {
 				"page": "Номерът на страницата за преглед"
 			},
-			"queue": "### Опашка за {{{guild}}} ({{{songs}}} песни)",
+			"queue": "Опашка за {{{guild}}} ({{{songs}}} песни)",
 			"nowPlaying": "### В момента се възпроизвежда: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### Следва: {{{str}}}",
-			"noSongs": "### В опашката все още няма песни! Добавете една с помощта на {{{cmd}}}",
+			"noSongs": " В опашката все още няма песни! Добавете една с помощта на {{{cmd}}}",
 			"page": "Страница {{{page}}} | {{{songs}}} песен(и) | Обща продължителност {{{duration}}}",
 			"notNumber": "### {{{emoji}}} Номерът на страницата трябва да бъде число.",
 			"pageLimit": "### {{{emoji}}} Номерът на страницата трябва да бъде по-малък или равен на {{{pages}}}.",
@@ -778,6 +778,28 @@
 				"previous": "Предишно",
 				"stop": "Спиране",
 				"next": "Следващо"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

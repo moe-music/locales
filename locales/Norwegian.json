@@ -250,10 +250,10 @@
 			"options": {
 				"page": "Sidenummeret å se"
 			},
-			"queue": "### Kø for {{{guild}}} ({{{songs}}} sanger)",
+			"queue": "Kø for {{{guild}}} ({{{songs}}} sanger)",
 			"nowPlaying": "### Spiller nå: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### Neste: {{{str}}}",
-			"noSongs": "### Det er ingen sanger i køen enda! Legg til en ved å bruke {{{cmd}}}",
+			"noSongs": " Det er ingen sanger i køen enda! Legg til en ved å bruke {{{cmd}}}",
 			"page": "Side {{{page}}} | {{{songs}}} sang(er) | {{{duration}}} total varighet",
 			"notNumber": "### {{{emoji}}} Sidenummeret må være et tall.",
 			"pageLimit": "### {{{emoji}}} Sidenummeret må være mindre enn eller lik {{{pages}}}.",
@@ -778,6 +778,28 @@
 				"previous": "Forrige",
 				"stop": "Stopp",
 				"next": "Neste"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

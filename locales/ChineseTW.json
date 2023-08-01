@@ -250,10 +250,10 @@
 			"options": {
 				"page": "要查看的頁碼"
 			},
-			"queue": "### {{{guild}}} 的播放佇列（{{{songs}}} 首歌曲）",
+			"queue": "{{{guild}}} 的播放佇列（{{{songs}}} 首歌曲）",
 			"nowPlaying": "### 正在播放：[{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### 接下來：{{{str}}}",
-			"noSongs": "### 目前佇列中沒有歌曲！請使用 {{{cmd}}} 指令新增一首歌曲。",
+			"noSongs": " 目前佇列中沒有歌曲！請使用 {{{cmd}}} 指令新增一首歌曲。",
 			"page": "第 {{{page}}} 頁 | {{{songs}}} 首歌曲 | 總時長 {{{duration}}}",
 			"notNumber": "### {{{emoji}}} 頁碼必須是數字。",
 			"pageLimit": "### {{{emoji}}} 頁碼必須小於或等於 {{{pages}}}。",
@@ -778,6 +778,28 @@
 				"previous": "上一頁",
 				"stop": "停止",
 				"next": "下一頁"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

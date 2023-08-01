@@ -250,10 +250,10 @@
 			"options": {
 				"page": "The page number to view"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
+			"queue": "Queue for {{{guild}}} ({{{songs}}} songs)",
 			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
+			"noSongs": " There are no songs in the queue yet! Add one using {{{cmd}}}",
 			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
 			"notNumber": "### {{{emoji}}} The page number must be a number.",
 			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
@@ -779,6 +779,47 @@
 				"stop": "Stop",
 				"next": "Next"
 			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			},
+			"noName": "### {{{emoji}}} You need to enter the name of the emoji.",
+			"noSource": "### {{{emoji}}} You need to enter the source of the emoji.",
+			"added": "### {{{emoji}}} **|** Successfully added the emoji **{{{name}}}**.",
+			"error": "### {{{emoji}}} I couldn't add the emoji **{{{name}}}**."
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			},
+			"noUser": "### {{{emoji}}} You need to enter the user you want to add the role to.",
+			"noRole": "### {{{emoji}}} You need to enter the role you want to add to the user.",
+			"hasRole": "### {{{emoji}}} The user already has the role **{{{role}}}**.",
+			"selfRole": "### {{{emoji}}} You can't add a role to yourself.",
+			"userHigherRole": "### {{{emoji}}} You can't add the role {{{role}}} to the {{{user}}} because the role is higher than your highest role.",
+			"botHigherRole": "### {{{emoji}}} I can't add the role {{{role}}} to the {{{user}}} because the role is higher than my highest role.\n\nYou can fix this by moving my role higher than the role you want to add to the user.",
+			"success": "### {{{emoji}}} Successfully added the role {{{role}}} to {{{user}}}.",
+			"error": "### {{{emoji}}} I couldn't add the role {{{role}}} to {{{user}}}."
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
+			},
+			"userNotFound": "### {{{emoji}}} I couldn't find this user.",
+			"cannotBanSelf": "### {{{emoji}}} You can't ban yourself.",
+			"cannotBanBot": "### {{{emoji}}} You can't ban me.",
+			"cannotBanOwner": "### {{{emoji}}} You can't ban the owner of the server.",
+			"reasonTooLong": "### {{{emoji}}} The reason is too long.",
+			"success": "### {{{emoji}}} Successfully banned {{{user}}} for {{{reason}}}.\n\n**Messages deleted:** {{{quantity}}}",
+			"error": "### {{{emoji}}} I couldn't ban {{{user}}}"
 		}
 	},
 	"player": {
@@ -791,7 +832,10 @@
 			"endTitle": "Queue Concluded",
 			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
 		},
-		"error": "Track Error",
+		"error": {
+			"error": "player.error.error",
+			"description": "player.error.description"
+		},
 		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
 		"buttons": {
 			"resume": "Resume",

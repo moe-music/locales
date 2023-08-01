@@ -250,10 +250,10 @@
 			"options": {
 				"page": "表示するページ番号"
 			},
-			"queue": "### {{{guild}}} のキュー（{{{songs}}} 曲）",
+			"queue": "{{{guild}}} のキュー（{{{songs}}} 曲）",
 			"nowPlaying": "### 再生中： [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### 次に再生：{{{str}}}",
-			"noSongs": "### キューに曲がありません！ {{{cmd}}} を使用して曲を追加してください。",
+			"noSongs": " キューに曲がありません！ {{{cmd}}} を使用して曲を追加してください。",
 			"page": "ページ {{{page}}} | {{{songs}}} 曲 | 総再生時間：{{{duration}}}",
 			"notNumber": "### {{{emoji}}} ページ番号は数字でなければなりません。",
 			"pageLimit": "### {{{emoji}}} ページ番号は {{{pages}}} 以下でなければなりません。",
@@ -778,6 +778,28 @@
 				"previous": "前へ",
 				"stop": "停止",
 				"next": "次へ"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

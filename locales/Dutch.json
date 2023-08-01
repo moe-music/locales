@@ -250,10 +250,10 @@
 			"options": {
 				"page": "Het paginanummer om te bekijken"
 			},
-			"queue": "### Wachtrij voor {{{guild}}} ({{{songs}}} nummers)",
+			"queue": "Wachtrij voor {{{guild}}} ({{{songs}}} nummers)",
 			"nowPlaying": "### Nu aan het spelen: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### Hierna: {{{str}}}",
-			"noSongs": "### Er zijn nog geen nummers in de wachtrij! Voeg er een toe met behulp van {{{cmd}}}",
+			"noSongs": " Er zijn nog geen nummers in de wachtrij! Voeg er een toe met behulp van {{{cmd}}}",
 			"page": "Pagina {{{page}}} | {{{songs}}} nummer(s) | Totaalduur {{{duration}}}",
 			"notNumber": "### {{{emoji}}} Het paginanummer moet een nummer zijn.",
 			"pageLimit": "### {{{emoji}}} Het paginanummer moet kleiner zijn dan of gelijk aan {{{pages}}}.",
@@ -778,6 +778,28 @@
 				"previous": "Vorige",
 				"stop": "Stoppen",
 				"next": "Volgende"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

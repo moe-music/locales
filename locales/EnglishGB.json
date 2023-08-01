@@ -250,10 +250,10 @@
 			"options": {
 				"page": "The page number to view"
 			},
-			"queue": "### Queue for {{{guild}}} ({{{songs}}} songs)",
+			"queue": "Queue for {{{guild}}} ({{{songs}}} songs)",
 			"nowPlaying": "### Now Playing: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### Up Next: {{{str}}}",
-			"noSongs": "### There are no songs in the queue yet! Add one using {{{cmd}}}",
+			"noSongs": " There are no songs in the queue yet! Add one using {{{cmd}}}",
 			"page": "Page {{{page}}} | {{{songs}}} song(s) | {{{duration}}} total duration",
 			"notNumber": "### {{{emoji}}} The page number must be a number.",
 			"pageLimit": "### {{{emoji}}} The page number must be less than or equal to {{{pages}}}.",
@@ -778,6 +778,28 @@
 				"previous": "Previous",
 				"stop": "Stop",
 				"next": "Next"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

@@ -250,10 +250,10 @@
 			"options": {
 				"page": "보고 싶은 페이지 번호"
 			},
-			"queue": "### {{{guild}}} 대기열 ({{{songs}}} 곡)",
+			"queue": "{{{guild}}} 대기열 ({{{songs}}} 곡)",
 			"nowPlaying": "### 지금 재생 중: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### 다음 곡: {{{str}}}",
-			"noSongs": "### 아직 대기열에 곡이 없습니다! {{{cmd}}} 명령을 사용하여 곡을 추가해주세요.",
+			"noSongs": " 아직 대기열에 곡이 없습니다! {{{cmd}}} 명령을 사용하여 곡을 추가해주세요.",
 			"page": "페이지 {{{page}}} | {{{songs}}} 곡 | 총 재생 시간 {{{duration}}}",
 			"notNumber": "### {{{emoji}}} 페이지 번호는 숫자여야 합니다.",
 			"pageLimit": "### {{{emoji}}} 페이지 번호는 {{{pages}}} 이하여야 합니다.",
@@ -778,6 +778,28 @@
 				"previous": "이전",
 				"stop": "정지",
 				"next": "다음"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},

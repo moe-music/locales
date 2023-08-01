@@ -250,10 +250,10 @@
 			"options": {
 				"page": "Az oldalszám, amit meg szeretnél nézni"
 			},
-			"queue": "### Lejátszási sor a(z) {{{guild}}} szerveren ({{{songs}}} szám)",
+			"queue": "Lejátszási sor a(z) {{{guild}}} szerveren ({{{songs}}} szám)",
 			"nowPlaying": "### Most játszott: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
 			"upNext": "### Következik: {{{str}}}",
-			"noSongs": "### Még nincsenek dalok a lejátszási sorban! Adj hozzá egyet a(z) {{{cmd}}} paranccsal",
+			"noSongs": " Még nincsenek dalok a lejátszási sorban! Adj hozzá egyet a(z) {{{cmd}}} paranccsal",
 			"page": "Oldal {{{page}}} | {{{songs}}} dal | Összesített hossz: {{{duration}}}",
 			"notNumber": "### {{{emoji}}} Az oldalszám csak szám lehet.",
 			"pageLimit": "### {{{emoji}}} Az oldalszám nem lehet nagyobb, mint {{{pages}}}.",
@@ -778,6 +778,28 @@
 				"previous": "Előző",
 				"stop": "Megállítás",
 				"next": "Következő"
+			}
+		},
+		"addemoji": {
+			"description": "Add an emoji to the server.",
+			"options": {
+				"name": "The name of the emoji.",
+				"source": "The source of the emoji. (URL, Attachment, Emoji)"
+			}
+		},
+		"addrole": {
+			"description": "Add a role to a user.",
+			"options": {
+				"user": "The user you want to add the role to.",
+				"role": "The role you want to add to the user."
+			}
+		},
+		"ban": {
+			"description": "Ban a user from the server.",
+			"options": {
+				"user": "The user you want to ban.",
+				"reason": "The reason for banning the user.",
+				"quantity": "The time of delete messages from the user. (1h, 1d, 3d, 7d)"
 			}
 		}
 	},
