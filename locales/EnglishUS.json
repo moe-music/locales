@@ -832,10 +832,7 @@
 			"endTitle": "Queue Concluded",
 			"endDesc": "### Your music queue has now ended. You can add music again using {{{cmd}}}! Enjoying music with me? Consider [Voting for me]({{{link}}})!"
 		},
-		"error": {
-			"error": "player.error.error",
-			"description": "player.error.description"
-		},
+		"error": "Getting error",
 		"description": "### [{{{title}}}]({{{uri}}}) is not available in your country because it's age-restricted!",
 		"buttons": {
 			"resume": "Resume",
