@@ -820,6 +820,14 @@
 			"reasonTooLong": "### {{{emoji}}} The reason is too long.",
 			"success": "### {{{emoji}}} Successfully banned {{{user}}} for {{{reason}}}.\n\n**Messages deleted:** {{{quantity}}}",
 			"error": "### {{{emoji}}} I couldn't ban {{{user}}}"
+		},
+		"logger": {
+			"description": "cmd.logger.description",
+			"options": {
+				"enable": "cmd.logger.options.enable",
+				"channel": "cmd.logger.options.channel",
+				"disable": "cmd.logger.options.disable"
+			}
 		}
 	},
 	"player": {
