@@ -779,6 +779,23 @@
 				"stop": "Zatrzymaj",
 				"next": "Następna"
 			}
+		},
+		"playradio": {
+			"description": "Odtwórz stację radiową.",
+			"options": {
+				"station": "Nazwa stacji radiowej, którą chcesz odtworzyć.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Nie mogłem znaleźć stacji radiowej o tej nazwie.",
+			"country": "**Kraj:** {{{country}}}",
+			"votes": "**Głosy:** {{{votes}}}",
+			"codec": "**Kodek:** {{{codec}}}",
+			"bitrate": "**Przepływność:** {{{bitrate}}}",
+			"tags": "**Tagi:** {{{tags}}}",
+			"results": "### Oto wyniki Twojego wyszukiwania:\n\n{{{results}}}",
+			"select": "Wybierz stację od 1 do 10 w menu rozwijanym poniżej.",
+			"added": "### {{{emoji}}} Dodano [**{{{name}}}**]({{{homepage}}}) do kolejki."
 		}
 	},
 	"player": {

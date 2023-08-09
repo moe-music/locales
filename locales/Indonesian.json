@@ -779,6 +779,23 @@
 				"stop": "Berhenti",
 				"next": "Selanjutnya"
 			}
+		},
+		"playradio": {
+			"description": "Memutar stasiun radio.",
+			"options": {
+				"station": "Nama stasiun radio yang ingin Anda putar.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Saya tidak dapat menemukan stasiun radio dengan nama tersebut.",
+			"country": "**Negara:** {{{country}}}",
+			"votes": "**Suara:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tag:** {{{tags}}}",
+			"results": "### Berikut adalah hasil pencarian Anda:\n\n{{{results}}}",
+			"select": "Pilih stasiun antara 1 dan 10 dalam menu dropdown di bawah ini.",
+			"added": "### {{{emoji}}} Ditambahkan [**{{{name}}}**]({{{homepage}}}) ke antrian."
 		}
 	},
 	"player": {

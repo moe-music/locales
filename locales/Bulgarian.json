@@ -779,6 +779,23 @@
 				"stop": "Спиране",
 				"next": "Следващо"
 			}
+		},
+		"playradio": {
+			"description": "Пусни радио станция.",
+			"options": {
+				"station": "Името на радио станцията, която искате да пуснете.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Не успях да намеря радио станция с това име.",
+			"country": "**Държава:** {{{country}}}",
+			"votes": "**Гласове:** {{{votes}}}",
+			"codec": "**Кодек:** {{{codec}}}",
+			"bitrate": "**Битрейт:** {{{bitrate}}}",
+			"tags": "**Тагове:** {{{tags}}}",
+			"results": "### Ето резултатите от вашето търсене:\n\n{{{results}}}",
+			"select": "Изберете станция между 1 и 10 от падащото меню по-долу.",
+			"added": "### {{{emoji}}} Добавено [**{{{name}}}**]({{{homepage}}}) в опашката."
 		}
 	},
 	"player": {

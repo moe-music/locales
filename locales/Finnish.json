@@ -779,6 +779,23 @@
 				"stop": "Pysäytä",
 				"next": "Seuraava"
 			}
+		},
+		"playradio": {
+			"description": "Toista radiokanava.",
+			"options": {
+				"station": "Radiokanavan nimi, jonka haluat kuunnella.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} En löytänyt radiokanavaa tuolla nimellä.",
+			"country": "**Maa:** {{{country}}}",
+			"votes": "**Äänet:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tunnisteet:** {{{tags}}}",
+			"results": "### Tässä ovat hakutuloksesi:\n\n{{{results}}}",
+			"select": "Valitse kanava 1:n ja 10:n väliltä pudotusvalikosta.",
+			"added": "### {{{emoji}}} Lisätty [**{{{name}}}**]({{{homepage}}}) jonoon."
 		}
 	},
 	"player": {

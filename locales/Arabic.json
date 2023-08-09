@@ -779,6 +779,23 @@
 				"stop": "توقف",
 				"next": "التالي"
 			}
+		},
+		"playradio": {
+			"description": "تشغيل محطة إذاعية.",
+			"options": {
+				"station": "اسم المحطة الإذاعية التي ترغب في تشغيلها.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} لم أتمكن من العثور على محطة إذاعية بهذا الاسم.",
+			"country": "**البلد:** {{{country}}}",
+			"votes": "**التصويت:** {{{votes}}}",
+			"codec": "**الكوديك:** {{{codec}}}",
+			"bitrate": "**معدل البت:** {{{bitrate}}}",
+			"tags": "**الوسوم:** {{{tags}}}",
+			"results": "### إليك نتائج بحثك:\n\n{{{results}}}",
+			"select": "اختر محطة بين 1 و 10 من القائمة المنسدلة أدناه.",
+			"added": "### {{{emoji}}} تمت إضافة [**{{{name}}}**]({{{homepage}}}) إلى قائمة الانتظار."
 		}
 	},
 	"player": {

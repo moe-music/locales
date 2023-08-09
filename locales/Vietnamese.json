@@ -779,6 +779,23 @@
 				"stop": "Dừng",
 				"next": "Tiếp theo"
 			}
+		},
+		"playradio": {
+			"description": "Phát một đài phát thanh.",
+			"options": {
+				"station": "Tên của đài phát thanh bạn muốn phát.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Tôi không thể tìm thấy đài phát thanh có tên như vậy.",
+			"country": "**Quốc gia:** {{{country}}}",
+			"votes": "**Phiếu bầu:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Thẻ:** {{{tags}}}",
+			"results": "### Đây là kết quả của tìm kiếm của bạn:\n\n{{{results}}}",
+			"select": "Chọn một đài từ 1 đến 10 trong menu thả xuống dưới đây.",
+			"added": "### {{{emoji}}} Đã thêm [**{{{name}}}**]({{{homepage}}}) vào hàng đợi."
 		}
 	},
 	"player": {

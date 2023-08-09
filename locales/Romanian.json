@@ -779,6 +779,23 @@
 				"stop": "Oprire",
 				"next": "Următor"
 			}
+		},
+		"playradio": {
+			"description": "Redă o stație de radio.",
+			"options": {
+				"station": "Numele stației de radio pe care doriți să o redați.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Nu am putut găsi o stație de radio cu acest nume.",
+			"country": "**Țară:** {{{country}}}",
+			"votes": "**Voturi:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Etichete:** {{{tags}}}",
+			"results": "### Acestea sunt rezultatele căutării tale:\n\n{{{results}}}",
+			"select": "Selectați o stație între 1 și 10 în meniul de selecție de mai jos.",
+			"added": "### {{{emoji}}} Adăugat [**{{{name}}}**]({{{homepage}}}) în coadă."
 		}
 	},
 	"player": {

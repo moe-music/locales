@@ -779,6 +779,23 @@
 				"stop": "Durdur",
 				"next": "Sonraki"
 			}
+		},
+		"playradio": {
+			"description": "Bir radyo istasyonu çal.",
+			"options": {
+				"station": "Çalmak istediğiniz radyo istasyonunun adı.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Bu isimle bir radyo istasyonu bulamadım.",
+			"country": "**Ülke:** {{{country}}}",
+			"votes": "**Oylar:** {{{votes}}}",
+			"codec": "**Kod Çözücü:** {{{codec}}}",
+			"bitrate": "**Bit Oranı:** {{{bitrate}}}",
+			"tags": "**Etiketler:** {{{tags}}}",
+			"results": "### Aramanızın sonuçları aşağıda listelenmiştir:\n\n{{{results}}}",
+			"select": "Aşağıdaki açılır menüden 1 ile 10 arasında bir istasyon seçin.",
+			"added": "### {{{emoji}}} [**{{{name}}}**]({{{homepage}}}) sıraya eklendi."
 		}
 	},
 	"player": {

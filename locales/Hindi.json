@@ -779,6 +779,23 @@
 				"stop": "रुकें",
 				"next": "अगला"
 			}
+		},
+		"playradio": {
+			"description": "रेडियो स्टेशन चलाएं।",
+			"options": {
+				"station": "वह रेडियो स्टेशन का नाम जिसे आप चाहते हैं कि आप चलाएं।",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} मैं उस नाम के साथ कोई रेडियो स्टेशन नहीं ढूंढ सका।",
+			"country": "**देश:** {{{country}}}",
+			"votes": "**मत:** {{{votes}}}",
+			"codec": "**कोडेक:** {{{codec}}}",
+			"bitrate": "**बिटरेट:** {{{bitrate}}}",
+			"tags": "**टैग:** {{{tags}}}",
+			"results": "### यहाँ आपके खोज के परिणाम हैं:\n\n{{{results}}}",
+			"select": "ड्रॉपडाउन मेनू के नीचे 1 से 10 के बीच एक स्टेशन का चयन करें।",
+			"added": "### {{{emoji}}} कतार में [**{{{name}}}**]({{{homepage}}}) को जोड़ दिया गया।"
 		}
 	},
 	"player": {

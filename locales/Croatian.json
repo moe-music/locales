@@ -779,6 +779,23 @@
 				"stop": "Zaustavi",
 				"next": "Sljedeće"
 			}
+		},
+		"playradio": {
+			"description": "Pusti radijsku postaju.",
+			"options": {
+				"station": "Ime radijske postaje koju želite pustiti.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Nisam mogao pronaći radijsku postaju s tim imenom.",
+			"country": "**Zemlja:** {{{country}}}",
+			"votes": "**Glasovi:** {{{votes}}}",
+			"codec": "**Kodek:** {{{codec}}}",
+			"bitrate": "**Bit brzina:** {{{bitrate}}}",
+			"tags": "**Oznake:** {{{tags}}}",
+			"results": "### Evo rezultata vaše pretrage:\n\n{{{results}}}",
+			"select": "Odaberite postaju između 1 i 10 u padajućem izborniku ispod.",
+			"added": "### {{{emoji}}} Dodano [**{{{name}}}**]({{{homepage}}}) u red čekanja."
 		}
 	},
 	"player": {

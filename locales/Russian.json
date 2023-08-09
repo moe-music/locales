@@ -779,6 +779,23 @@
 				"stop": "Стоп",
 				"next": "Следующая"
 			}
+		},
+		"playradio": {
+			"description": "Воспроизведение радиостанции.",
+			"options": {
+				"station": "Название радиостанции, которую вы хотите воспроизвести.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Я не смог найти радиостанцию с таким названием.",
+			"country": "**Страна:** {{{country}}}",
+			"votes": "**Голоса:** {{{votes}}}",
+			"codec": "**Кодек:** {{{codec}}}",
+			"bitrate": "**Битрейт:** {{{bitrate}}}",
+			"tags": "**Теги:** {{{tags}}}",
+			"results": "### Вот результаты вашего поиска:\n\n{{{results}}}",
+			"select": "Выберите станцию с 1 по 10 в выпадающем меню ниже.",
+			"added": "### {{{emoji}}} Добавлено [**{{{name}}}**]({{{homepage}}}) в очередь."
 		}
 	},
 	"player": {

@@ -779,6 +779,23 @@
 				"stop": "หยุด",
 				"next": "ถัดไป"
 			}
+		},
+		"playradio": {
+			"description": "เล่นสถานีวิทยุ",
+			"options": {
+				"station": "ชื่อของสถานีวิทยุที่คุณต้องการเล่น",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} ฉันไม่สามารถค้นหาสถานีวิทยุด้วยชื่อนั้นได้.",
+			"country": "**ประเทศ:** {{{country}}}",
+			"votes": "**โหวต:** {{{votes}}}",
+			"codec": "**รหัสเสียง:** {{{codec}}}",
+			"bitrate": "**บิตเรต:** {{{bitrate}}}",
+			"tags": "**แท็ก:** {{{tags}}}",
+			"results": "### นี่คือผลลัพธ์จากการค้นหาของคุณ:\n\n{{{results}}}",
+			"select": "เลือกสถานีตั้งแต่ 1 ถึง 10 ในเมนูดรอปดาวน์ด้านล่าง",
+			"added": "### {{{emoji}}} เพิ่ม [**{{{name}}}**]({{{homepage}}}) เข้าคิวแล้ว."
 		}
 	},
 	"player": {

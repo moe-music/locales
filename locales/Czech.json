@@ -779,6 +779,23 @@
 				"stop": "Zastavit",
 				"next": "Další"
 			}
+		},
+		"playradio": {
+			"description": "Přehrát rádiovou stanici.",
+			"options": {
+				"station": "Název rádiové stanice, kterou chcete přehrát.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Nepodařilo se mi najít rádiovou stanici s tímto názvem.",
+			"country": "**Země:** {{{country}}}",
+			"votes": "**Hlasy:** {{{votes}}}",
+			"codec": "**Kodek:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tagy:** {{{tags}}}",
+			"results": "### Zde jsou výsledky vašeho hledání:\n\n{{{results}}}",
+			"select": "Vyberte stanici od 1 do 10 v rozbalovacím menu níže.",
+			"added": "### {{{emoji}}} Přidáno [**{{{name}}}**]({{{homepage}}}) do fronty."
 		}
 	},
 	"player": {

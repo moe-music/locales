@@ -779,6 +779,23 @@
 				"stop": "Stop",
 				"next": "Next"
 			}
+		},
+		"playradio": {
+			"description": "Play a radio station.",
+			"options": {
+				"station": "The name of the radio station you want to play.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} I couldn't find a radio station with that name.",
+			"country": "**Country:** {{{country}}}",
+			"votes": "**Votes:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tags:** {{{tags}}}",
+			"results": "### Here are the results of your search:\n\n{{{results}}}",
+			"select": "Select a station between 1 and 10 in the dropdown menu below.",
+			"added": "### {{{emoji}}} Added [**{{{name}}}**]({{{homepage}}}) to the queue."
 		}
 	},
 	"player": {

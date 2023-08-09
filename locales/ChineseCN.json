@@ -780,14 +780,22 @@
 				"next": "下一页"
 			}
 		},
-		"skipto": {
-			"description": "Skip to a specific song in the queue.",
+		"playradio": {
+			"description": "播放收音机电台。",
 			"options": {
-				"number": "The track number or track title to skip to."
-			}
-		},
-		"stop": {
-			"description": "Stop the player and clear the queue."
+				"station": "您想播放的收音机电台的名称。",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} 我找不到该名称的收音机电台。",
+			"country": "**国家：** {{{country}}}",
+			"votes": "**投票数：** {{{votes}}}",
+			"codec": "**编解码器：** {{{codec}}}",
+			"bitrate": "**比特率：** {{{bitrate}}}",
+			"tags": "**标签：** {{{tags}}}",
+			"results": "### 这是您搜索的结果：\n\n{{{results}}}",
+			"select": "在下面的下拉菜单中选择1至10之间的电台。",
+			"added": "### {{{emoji}}} 已将 [**{{{name}}}**]({{{homepage}}}) 添加到队列。"
 		},
 		"volume": {
 			"description": "Change the volume of the player.",
@@ -798,11 +806,20 @@
 		"voteskip": {
 			"description": "Vote to skip the current song."
 		},
-		"skip": {
-			"description": "Skip the current song."
+		"skipto": {
+			"description": "Skip to a specific song in the queue.",
+			"options": {
+				"number": "The track number or track title to skip to."
+			}
+		},
+		"stop": {
+			"description": "Stop the player and clear the queue."
 		},
 		"topsongs": {
 			"description": "Shows the top songs played by the bot."
+		},
+		"skip": {
+			"description": "Skip the current song."
 		}
 	},
 	"player": {

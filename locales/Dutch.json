@@ -779,6 +779,23 @@
 				"stop": "Stoppen",
 				"next": "Volgende"
 			}
+		},
+		"playradio": {
+			"description": "Speel een radiostation af.",
+			"options": {
+				"station": "De naam van het radiostation dat je wilt afspelen.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Ik kon geen radiostation vinden met die naam.",
+			"country": "**Land:** {{{country}}}",
+			"votes": "**Stemmen:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tags:** {{{tags}}}",
+			"results": "### Hier zijn de resultaten van je zoekopdracht:\n\n{{{results}}}",
+			"select": "Selecteer een station tussen 1 en 10 in het vervolgkeuzemenu hieronder.",
+			"added": "### {{{emoji}}} [**{{{name}}}**]({{{homepage}}}) toegevoegd aan de wachtrij."
 		}
 	},
 	"player": {

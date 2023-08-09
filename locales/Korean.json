@@ -779,6 +779,23 @@
 				"stop": "정지",
 				"next": "다음"
 			}
+		},
+		"playradio": {
+			"description": "라디오 스테이션을 재생합니다.",
+			"options": {
+				"station": "재생하려는 라디오 스테이션의 이름입니다.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} 해당 이름의 라디오 스테이션을 찾을 수 없습니다.",
+			"country": "**국가:** {{{country}}}",
+			"votes": "**투표:** {{{votes}}}",
+			"codec": "**코덱:** {{{codec}}}",
+			"bitrate": "**비트레이트:** {{{bitrate}}}",
+			"tags": "**태그:** {{{tags}}}",
+			"results": "### 검색 결과는 다음과 같습니다:\n\n{{{results}}}",
+			"select": "드롭다운 메뉴에서 1에서 10 사이의 스테이션을 선택하세요.",
+			"added": "### {{{emoji}}} [**{{{name}}}**]({{{homepage}}})을(를) 대기열에 추가했습니다."
 		}
 	},
 	"player": {

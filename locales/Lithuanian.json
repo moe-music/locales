@@ -779,6 +779,23 @@
 				"stop": "Stabdyti",
 				"next": "Sekantis"
 			}
+		},
+		"playradio": {
+			"description": "Leisti radijo stotį.",
+			"options": {
+				"station": "Radijo stoties, kurią norite paleisti, pavadinimas.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Nepavyko rasti radijo stoties su tokiu pavadinimu.",
+			"country": "**Šalis:** {{{country}}}",
+			"votes": "**Balsai:** {{{votes}}}",
+			"codec": "**Kodekas:** {{{codec}}}",
+			"bitrate": "**Bitrai:** {{{bitrate}}}",
+			"tags": "**Žymės:** {{{tags}}}",
+			"results": "### Štai jūsų paieškos rezultatai:\n\n{{{results}}}",
+			"select": "Pasirinkite stotį nuo 1 iki 10 iš iškrentančiojo meniu apačioje.",
+			"added": "### {{{emoji}}} Pridėjau [**{{{name}}}**]({{{homepage}}}) į eilę."
 		}
 	},
 	"player": {

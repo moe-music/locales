@@ -779,6 +779,23 @@
 				"stop": "停止",
 				"next": "次へ"
 			}
+		},
+		"playradio": {
+			"description": "ラジオ局を再生します。",
+			"options": {
+				"station": "再生したいラジオ局の名前。",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} その名前のラジオ局は見つかりませんでした。",
+			"country": "**国:** {{{country}}}",
+			"votes": "**投票数:** {{{votes}}}",
+			"codec": "**コーデック:** {{{codec}}}",
+			"bitrate": "**ビットレート:** {{{bitrate}}}",
+			"tags": "**タグ:** {{{tags}}}",
+			"results": "### 検索結果は以下の通りです:\n\n{{{results}}}",
+			"select": "ドロップダウンメニューから1から10の間で局を選択してください。",
+			"added": "### {{{emoji}}} キューに [**{{{name}}}**]({{{homepage}}}) を追加しました。"
 		}
 	},
 	"player": {

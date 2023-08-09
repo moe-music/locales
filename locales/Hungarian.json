@@ -779,6 +779,23 @@
 				"stop": "Megállítás",
 				"next": "Következő"
 			}
+		},
+		"playradio": {
+			"description": "Egy rádióállomás lejátszása.",
+			"options": {
+				"station": "A lejátszani kívánt rádióállomás neve.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Nem találtam rádióállomást ezen a néven.",
+			"country": "**Ország:** {{{country}}}",
+			"votes": "**Szavazatok:** {{{votes}}}",
+			"codec": "**Kodek:** {{{codec}}}",
+			"bitrate": "**Bitráta:** {{{bitrate}}}",
+			"tags": "**Címkék:** {{{tags}}}",
+			"results": "### Itt vannak a keresés eredményei:\n\n{{{results}}}",
+			"select": "Válassz egy állomást 1 és 10 között a legördülő menüben.",
+			"added": "### {{{emoji}}} Hozzáadva a [**{{{name}}}**]({{{homepage}}}) a várólistához."
 		}
 	},
 	"player": {

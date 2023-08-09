@@ -779,6 +779,23 @@
 				"stop": "Stop",
 				"next": "Weiter"
 			}
+		},
+		"playradio": {
+			"description": "Spielen Sie einen Radiosender ab.",
+			"options": {
+				"station": "Der Name des Radiosenders, den Sie abspielen möchten.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Ich konnte keinen Radiosender mit diesem Namen finden.",
+			"country": "**Land:** {{{country}}}",
+			"votes": "**Abstimmungen:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tags:** {{{tags}}}",
+			"results": "### Hier sind die Ergebnisse Ihrer Suche:\n\n{{{results}}}",
+			"select": "Wählen Sie einen Sender zwischen 1 und 10 im Dropdown-Menü unten aus.",
+			"added": "### {{{emoji}}} [**{{{name}}}**]({{{homepage}}}) zur Warteschlange hinzugefügt."
 		}
 	},
 	"player": {

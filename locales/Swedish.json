@@ -779,6 +779,23 @@
 				"stop": "Stoppa",
 				"next": "Nästa"
 			}
+		},
+		"playradio": {
+			"description": "Spela en radiostation.",
+			"options": {
+				"station": "Namnet på radiostationen du vill spela.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Jag kunde inte hitta en radiostation med det namnet.",
+			"country": "**Land:** {{{country}}}",
+			"votes": "**Röster:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Taggar:** {{{tags}}}",
+			"results": "### Här är resultaten av din sökning:\n\n{{{results}}}",
+			"select": "Välj en station mellan 1 och 10 i rullgardinsmenyn nedan.",
+			"added": "### {{{emoji}}} Lade till [**{{{name}}}**]({{{homepage}}}) i kön."
 		}
 	},
 	"player": {

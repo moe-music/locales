@@ -779,6 +779,23 @@
 				"stop": "Stop",
 				"next": "Næste"
 			}
+		},
+		"playradio": {
+			"description": "Afspil en radiostation.",
+			"options": {
+				"station": "Navnet på den radiostation, du vil afspille.",
+				"language": "cmd.playradio.options.language",
+				"country": "cmd.playradio.options.country"
+			},
+			"noStation": "### {{{emoji}}} Jeg kunne ikke finde en radiostation med det navn.",
+			"country": "**Land:** {{{country}}}",
+			"votes": "**Stemmer:** {{{votes}}}",
+			"codec": "**Codec:** {{{codec}}}",
+			"bitrate": "**Bitrate:** {{{bitrate}}}",
+			"tags": "**Tags:** {{{tags}}}",
+			"results": "### Her er resultaterne af din søgning:\n\n{{{results}}}",
+			"select": "Vælg en station mellem 1 og 10 i rullemenuen nedenfor.",
+			"added": "### {{{emoji}}} Tilføjede [**{{{name}}}**]({{{homepage}}}) til køen."
 		}
 	},
 	"player": {
