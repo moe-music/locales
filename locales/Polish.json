@@ -2,8 +2,8 @@
 	"cmd": {
 		"247": {
 			"description": "Włącz lub wyłącz tryb 24/7.",
-			"enabled": "### {{{emoji}}} Tryb 24/7 został włączony.",
-			"disabled": "### {{{emoji}}} Tryb 24/7 został wyłączony."
+			"enabled": " {{{emoji}}} Tryb 24/7 został włączony.",
+			"disabled": " {{{emoji}}} Tryb 24/7 został wyłączony."
 		},
 		"ping": {
 			"description": "Pokazuje opóźnienie bota.",
@@ -30,7 +30,7 @@
 			"footer": "Strona {{{page}}} z {{{pagesNum}}}",
 			"title2": "Pomoc - {{{cmd}}}",
 			"title3": "Pomoc",
-			"manContent": "### Oto lista wszystkich kategorii:\n{{{catagory}}}\n\n- Linki:\n[Serwer Wsparcia]({{{server}}}) | [Zaproszenie]({{{invite}}}) | [Głosowanie]({{{vote}}}) | [Patronite]({{{patreon}}}) | [Strona]({{{website}}}) | [Dokumenty]({{{docs}}})",
+			"manContent": " Oto lista wszystkich kategorii:\n{{{catagory}}}\n\n- Linki:\n[Serwer Wsparcia]({{{server}}}) | [Zaproszenie]({{{invite}}}) | [Głosowanie]({{{vote}}}) | [Patronite]({{{patreon}}}) | [Strona]({{{website}}}) | [Dokumenty]({{{docs}}})",
 			"footer2": "- Aby uzyskać więcej informacji o poleceniu: {{{prefix}}}help <polecenie> lub {{{prefix}}}help <kategoria>",
 			"cooldown": "Odnowienie",
 			"aliases": "Aliasy",
@@ -77,7 +77,7 @@
 			},
 			"noArg": "Podaj kod premium do zrealizowania.",
 			"invalidCode": "Podany kod premium jest nieprawidłowy.",
-			"confirmation": "### Czy na pewno chcesz zrealizować kod premium `{{{code}}}`?",
+			"confirmation": " Czy na pewno chcesz zrealizować kod premium `{{{code}}}`?",
 			"type": "Typ",
 			"expiresAt": "Wygasa",
 			"buttons": {
@@ -85,7 +85,7 @@
 				"no": "Nie"
 			},
 			"alreadyPremium": "Jesteś już członkiem premium.",
-			"success": "### Pomyślnie zrealizowano Twój kod premium. Teraz możesz korzystać z poleceń premium!",
+			"success": " Pomyślnie zrealizowano Twój kod premium. Teraz możesz korzystać z poleceń premium!",
 			"canceled": "Anulowano zrealizowanie kodu premium."
 		},
 		"stats": {
@@ -93,14 +93,14 @@
 		},
 		"support": {
 			"description": "Link do serwera wsparcia",
-			"content": "### Jeśli potrzebujesz pomocy z botem lub po prostu chcesz się z nami spotkać, dołącz na [serwer wsparcia]({{{link}}}).",
+			"content": " Jeśli potrzebujesz pomocy z botem lub po prostu chcesz się z nami spotkać, dołącz na [serwer wsparcia]({{{link}}}).",
 			"buttons": {
 				"support": "Serwer Wsparcia"
 			}
 		},
 		"vote": {
 			"description": "Link do głosowania na bota",
-			"content": "### Jeśli podoba Ci się bot, rozważ oddanie głosu na niego na [top.gg]({{{link}}}).",
+			"content": " Jeśli podoba Ci się bot, rozważ oddanie głosu na niego na [top.gg]({{{link}}}).",
 			"buttons": {
 				"vote": "Głosuj"
 			}
@@ -120,22 +120,22 @@
 		},
 		"autoplay": {
 			"description": "Włącz lub wyłącz tryb automatycznego odtwarzania.",
-			"enabled": "### Pomyślnie włączono tryb automatycznego odtwarzania.\nBot automatycznie dodawać podobne utwory do kolejki.",
-			"disabled": "### Pomyślnie wyłączono tryb automatycznego odtwarzania.\nBot nie będzie już automatycznie dodawał podobnych utworów do kolejki."
+			"enabled": " Pomyślnie włączono tryb automatycznego odtwarzania.\nBot automatycznie dodawać podobne utwory do kolejki.",
+			"disabled": " Pomyślnie wyłączono tryb automatycznego odtwarzania.\nBot nie będzie już automatycznie dodawał podobnych utworów do kolejki."
 		},
 		"clear": {
 			"description": "Wyczyść kolejkę lub filtry odtwarzacza.",
 			"options": {
 				"input": "Kolejka lub filtry do wyczyszczenia"
 			},
-			"content": "### Proszę wybrać kolejkę lub filtry do wyczyszczenia. (kolejka/filtry)",
+			"content": " Proszę wybrać kolejkę lub filtry do wyczyszczenia. (kolejka/filtry)",
 			"queue": {
 				"noSong": "W kolejce nie ma żadnych utworów do wyczyszczenia.",
-				"success": "### Pomyślnie wyczyszczono kolejkę."
+				"success": " Pomyślnie wyczyszczono kolejkę."
 			},
 			"filters": {
 				"noFilter": "Nie ma żadnych filtrów do wyczyszczenia.",
-				"success": "### Pomyślnie wyczyszczono filtry."
+				"success": " Pomyślnie wyczyszczono filtry."
 			},
 			"buttons": {
 				"queue": "Kolejka",
@@ -144,7 +144,7 @@
 		},
 		"forceskip": {
 			"description": "Wymuś pominięcie aktualnego utworu.",
-			"success": "### Wymuszono pominięcie utworu: {{{title}}}."
+			"success": " Wymuszono pominięcie utworu: {{{title}}}."
 		},
 		"forward": {
 			"description": "Przewiń aktualny utwór.",
@@ -153,55 +153,55 @@
 			},
 			"unseekable": "{{{emoji}}} Aktualny utwór nie może być przewijany.",
 			"tooLong": "{{{emoji}}} Nie możesz przewinąć dalej niż długość utworu.",
-			"success": "### {{{emoji}}} Pomyślnie przewinięto utwór o `{{{time}}}`."
+			"success": " {{{emoji}}} Pomyślnie przewinięto utwór o `{{{time}}}`."
 		},
 		"grab": {
 			"description": "Pobierz aktualny utwór.",
 			"dm": "{{{emoji}}} Nie mogę wysłać Ci utworu, ponieważ wyłączyłeś wiadomości prywatne.",
-			"grabbed": "### {{{emoji}}} Pomyślnie pobrano utwór."
+			"grabbed": " {{{emoji}}} Pomyślnie pobrano utwór."
 		},
 		"join": {
 			"description": "Sprowadź bota na Twój kanał głosowy.",
 			"no-perms": "{{{emoji}}} Nie mam wymaganych uprawnień, aby dołączyć do Twojego kanału głosowego! Potrzebuję uprawnień do 'Przeglądaj kanały', 'Podłącz' i 'Mów'. [Przykład uprawnień](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Jeśli problem się utrzymuje, zmień region kanału głosowego na 'Europe'",
 			"already-in": "{{{emoji}}} Już jestem na kanale głosowym!",
-			"joined": "### Pomyślnie dołączono do kanału głosowego: {{{channel}}}"
+			"joined": " Pomyślnie dołączono do kanału głosowego: {{{channel}}}"
 		},
 		"leave": {
 			"description": "Opuść kanał głosowy.",
 			"not-playing": "{{{emoji}}} Obecnie nic nie odtwarzam!",
-			"success": "### {{{emoji}}} Pomyślnie opuszczono kanał głosowy."
+			"success": " {{{emoji}}} Pomyślnie opuszczono kanał głosowy."
 		},
 		"leavecleanup": {
 			"description": "Usuwa wszystkie utwory od użytkowników, którzy nie są na kanale głosowym.",
-			"removing": "## Usuwanie utworów od użytkowników, którzy już nie są na kanale głosowym. Proszę czekać",
-			"removed": "### Pomyślnie usunięto `{{{count}}}` utworów od użytkowników, którzy już nie są na kanale głosowym."
+			"removing": " Usuwanie utworów od użytkowników, którzy już nie są na kanale głosowym. Proszę czekać",
+			"removed": " Pomyślnie usunięto `{{{count}}}` utworów od użytkowników, którzy już nie są na kanale głosowym."
 		},
 		"loop": {
 			"description": "Odtwarza bieżący utwór lub kolejkę w pętli.",
 			"options": {
 				"mode": "Tryb pętli do ustawienia"
 			},
-			"specify": "### Proszę określić tryb pętli. (utwór, kolejkę, wyłącz) z poniższych przycisków.",
+			"specify": " Proszę określić tryb pętli. (utwór, kolejkę, wyłącz) z poniższych przycisków.",
 			"buttons": {
 				"song": "Utwór",
 				"queue": "Kolejka",
 				"off": "Wyłącz"
 			},
-			"song": "### {{{emoji}}} Pomyślnie odtworzono bieżący utwór w pętli.",
-			"queue": "### {{{emoji}}} Pomyślnie odtworzono kolejkę w pętli.",
-			"off": "### {{{emoji}}} Pętla została pomyślnie wyłączona.",
-			"song_already": "### {{{emoji}}} Bieżący utwór jest już odtwarzany w pętli.",
-			"queue_already": "### {{{emoji}}} Kolejka jest już odtwarzana w pętli.",
-			"off_already": "### {{{emoji}}} Pętla jest już wyłączona.",
-			"invalid_mode": "### {{{emoji}}} Podano nieprawidłowy tryb pętli. Proszę podać prawidłowy tryb pętli. (utwór, kolejkę, wyłącz)"
+			"song": " {{{emoji}}} Pomyślnie odtworzono bieżący utwór w pętli.",
+			"queue": " {{{emoji}}} Pomyślnie odtworzono kolejkę w pętli.",
+			"off": " {{{emoji}}} Pętla została pomyślnie wyłączona.",
+			"song_already": " {{{emoji}}} Bieżący utwór jest już odtwarzany w pętli.",
+			"queue_already": " {{{emoji}}} Kolejka jest już odtwarzana w pętli.",
+			"off_already": " {{{emoji}}} Pętla jest już wyłączona.",
+			"invalid_mode": " {{{emoji}}} Podano nieprawidłowy tryb pętli. Proszę podać prawidłowy tryb pętli. (utwór, kolejkę, wyłącz)"
 		},
 		"lyrics": {
 			"description": "Pokazuje teksty bieżącego utworu lub utworu o podanej nazwie.",
 			"options": {
 				"song": "Nazwa utworu do wyszukania"
 			},
-			"noQuery": "### Proszę podać nazwę utworu do wyszukania.",
-			"noLyrics": "### Nie znaleziono tekstów dla tego utworu.",
+			"noQuery": " Proszę podać nazwę utworu do wyszukania.",
+			"noLyrics": " Nie znaleziono tekstów dla tego utworu.",
 			"page": "Strona {{{page}}} z {{{pages}}}"
 		},
 		"move": {
@@ -210,13 +210,13 @@
 				"song": "Utwór do przeniesienia",
 				"position": "Pozycja, na którą należy przenieść utwór"
 			},
-			"invalidNumber": "### Proszę podać prawidłową liczbę dla pozycji.",
-			"invalidPosition": "### Podano nieprawidłową pozycję. Proszę podać prawidłową pozycję.",
-			"success": "### Przeniesiono **[{{{title}}}]({{{uri}}})** z pozycji **{{{from}}}** na pozycję **{{{to}}}**."
+			"invalidNumber": " Proszę podać prawidłową liczbę dla pozycji.",
+			"invalidPosition": " Podano nieprawidłową pozycję. Proszę podać prawidłową pozycję.",
+			"success": " Przeniesiono **[{{{title}}}]({{{uri}}})** z pozycji **{{{from}}}** na pozycję **{{{to}}}**."
 		},
 		"nowplaying": {
 			"description": "Pokazuje bieżący odtwarzany utwór.",
-			"nowplaying": "### Teraz odtwarzane: [{{{title}}}]({{{uri}}})",
+			"nowplaying": " Teraz odtwarzane: [{{{title}}}]({{{uri}}})",
 			"author": "Autor",
 			"requester": "Zażądane przez",
 			"duration": "Czas trwania",
@@ -224,8 +224,8 @@
 		},
 		"pause": {
 			"description": "Wstrzymuje odtwarzanie bieżącego utworu.",
-			"alreadyPaused": "### Bieżący utwór jest już wstrzymany.",
-			"paused": "### Wstrzymano [{{{title}}}]({{{uri}}})"
+			"alreadyPaused": " Bieżący utwór jest już wstrzymany.",
+			"paused": " Wstrzymano [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
 			"description": "Odtwarza utwór z serwisów takich jak Spotify, SoundCloud, Deezer, itp...",
@@ -234,16 +234,16 @@
 				"source": "Źródło, z którego należy szukać"
 			},
 			"no-query": "Proszę podać nazwę utworu do wyszukania.",
-			"no-results": "### Brak wyników dla `{{{query}}}`.",
-			"playlist-loaded": "### Załadowano `{{{count}}}` utworów z listy odtwarzania **[{{{name}}}]({{{url}}})**",
+			"no-results": " Brak wyników dla `{{{query}}}`.",
+			"playlist-loaded": " Załadowano `{{{count}}}` utworów z listy odtwarzania **[{{{name}}}]({{{url}}})**",
 			"footer": "Dziękujemy za korzystanie z {{{bot}}}",
-			"added": "### Dodano **[{{{title}}}]({{{uri}}})** do kolejki (zażądane przez <@{{{requester}}}>) na pozycji `#{{{position}}}`",
-			"youtube-not-supported": "### Przepraszamy, ale YouTube nie jest obsługiwany w MoE z powodu TOS Discorda. Nie możemy używać API YouTube do odtwarzania muzyki. Przepraszamy za wszelkie niedogodności, jakie mogą Cię spotkać."
+			"added": " Dodano **[{{{title}}}]({{{uri}}})** do kolejki (zażądane przez <@{{{requester}}}>) na pozycji `#{{{position}}}`",
+			"youtube-not-supported": " Przepraszamy, ale YouTube nie jest obsługiwany w MoE z powodu TOS Discorda. Nie możemy używać API YouTube do odtwarzania muzyki. Przepraszamy za wszelkie niedogodności, jakie mogą Cię spotkać."
 		},
 		"playprevious": {
 			"description": "Odtwarza poprzedni utwór.",
-			"noPreviousTrack": "### {{{emoji}}} Nie ma poprzedniego utworu do odtworzenia.",
-			"success": "### {{{emoji}}} Teraz odtwarzany jest poprzedni utwór z twojej kolejki!"
+			"noPreviousTrack": " {{{emoji}}} Nie ma poprzedniego utworu do odtworzenia.",
+			"success": " {{{emoji}}} Teraz odtwarzany jest poprzedni utwór z twojej kolejki!"
 		},
 		"queue": {
 			"description": "Pokazuje kolejkę dla bieżącego serwera.",
@@ -251,16 +251,16 @@
 				"page": "Numer strony do wyświetlenia"
 			},
 			"queue": "Kolejka dla {{{guild}}} ({{{songs}}} utworów)",
-			"nowPlaying": "### Teraz odtwarzane: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Następne: {{{str}}}",
+			"nowPlaying": " Teraz odtwarzane: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": " Następne: {{{str}}}",
 			"noSongs": " W kolejce nie ma jeszcze żadnych utworów! Dodaj jeden za pomocą {{{cmd}}}",
 			"page": "Strona {{{page}}} | {{{songs}}} utwory | Czas trwania: {{{duration}}}",
-			"notNumber": "### {{{emoji}}} Numer strony musi być liczbą.",
-			"pageLimit": "### {{{emoji}}} Numer strony musi być mniejszy lub równy {{{pages}}}.",
+			"notNumber": " {{{emoji}}} Numer strony musi być liczbą.",
+			"pageLimit": " {{{emoji}}} Numer strony musi być mniejszy lub równy {{{pages}}}.",
 			"clearQueue": "Wyczyść Kolejkę",
-			"noTracks": "### W kolejce nie ma żadnych utworów.",
-			"noDjRole": "### Aby użyć tego przycisku, potrzebujesz roli DJ-a.",
-			"clearedQueue": "### {{{user}}} Wyczyścił(a) kolejkę."
+			"noTracks": " W kolejce nie ma żadnych utworów.",
+			"noDjRole": " Aby użyć tego przycisku, potrzebujesz roli DJ-a.",
+			"clearedQueue": " {{{user}}} Wyczyścił(a) kolejkę."
 		},
 		"remove": {
 			"description": "Usuwa utwór z kolejki.",
@@ -269,29 +269,29 @@
 				"number": "Numer utworu lub tytuł utworu do usunięcia.",
 				"dupes": "Usuń wszystkie duplikaty utworu."
 			},
-			"trackNotFound": "### Nie ma utworu o tym numerze w kolejce",
-			"invalidNumber": "### Proszę podać numer pomiędzy 1 a {{{length}}}.",
-			"removed": "### Usunięto **[{{{title}}}]({{{uri}}})** z kolejki.",
-			"noDupes": "### W kolejce nie ma żadnych zduplikowanych utworów.",
-			"removedDupes": "### Usunięto **{{{length}}}** zduplikowanych utworów z kolejki."
+			"trackNotFound": " Nie ma utworu o tym numerze w kolejce",
+			"invalidNumber": " Proszę podać numer pomiędzy 1 a {{{length}}}.",
+			"removed": " Usunięto **[{{{title}}}]({{{uri}}})** z kolejki.",
+			"noDupes": " W kolejce nie ma żadnych zduplikowanych utworów.",
+			"removedDupes": " Usunięto **{{{length}}}** zduplikowanych utworów z kolejki."
 		},
 		"replay": {
 			"description": "Odtwarza ponownie bieżący utwór.",
-			"replaying": "### Odtwarzanie ponownie [{{{title}}}]({{{uri}}})"
+			"replaying": " Odtwarzanie ponownie [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
 			"description": "Wznawia odtwarzanie bieżącego utworu.",
-			"notPaused": "### Bieżący utwór nie jest wstrzymany.",
-			"resumed": "### Wznowiono [{{{title}}}]({{{uri}}})"
+			"notPaused": " Bieżący utwór nie jest wstrzymany.",
+			"resumed": " Wznowiono [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
 			"description": "Przewija bieżący utwór wstecz.",
 			"options": {
 				"time": "Czas, do którego chcesz przewinąć utwór wstecz."
 			},
-			"notSeekable": "### {{{emoji}}} Bieżący utwór nie może być przewijany wstecz.",
-			"negativePosition": "### {{{emoji}}} Pozycja musi być pomiędzy 0 a {{{length}}}.",
-			"success": "### {{{emoji}}} Przewinięto utwór wstecz do {{{length}}}."
+			"notSeekable": " {{{emoji}}} Bieżący utwór nie może być przewijany wstecz.",
+			"negativePosition": " {{{emoji}}} Pozycja musi być pomiędzy 0 a {{{length}}}.",
+			"success": " {{{emoji}}} Przewinięto utwór wstecz do {{{length}}}."
 		},
 		"search": {
 			"description": "wyszukaj piosenkę na Spotify, SoundCloud lub Deezer",
@@ -299,69 +299,69 @@
 				"query": "Zapytanie wyszukiwania",
 				"source": "Źródło wyszukiwania"
 			},
-			"no-playlist": "### {{{emoji}}} Playlista nie jest obsługiwana! Wyszukaj polecenie {{{cmd}}}",
-			"no-track": "### {{{emoji}}} Ścieżki nie są obsługiwane! Wyszukaj polecenie {{{cmd}}}",
-			"results": "## Wyniki wyszukiwania dla `{{{query}}}`\n\n{{{results}}}",
+			"no-playlist": " {{{emoji}}} Playlista nie jest obsługiwana! Wyszukaj polecenie {{{cmd}}}",
+			"no-track": " {{{emoji}}} Ścieżki nie są obsługiwane! Wyszukaj polecenie {{{cmd}}}",
+			"results": " Wyniki wyszukiwania dla `{{{query}}}`\n\n{{{results}}}",
 			"footer": "Proszę wybrać ścieżkę z menu poniżej.",
 			"placeholder": "Wybierz ścieżkę z listy poniżej, aby ją odtworzyć.",
 			"footerTimeout": "Wyszukiwanie zakończone z powodu przekroczenia czasu.",
-			"no-voice": "### {{{emoji}}} Musisz znajdować się na kanale głosowym, aby korzystać z tego menu.",
-			"wrong-voice": "### {{{emoji}}} Musisz znajdować się na tym samym kanale głosowym co ja, aby korzystać z tego menu.",
-			"added": "### {{{emoji}}} Dodano {{{count}}} ścieżki(ek) do kolejki."
+			"no-voice": " {{{emoji}}} Musisz znajdować się na kanale głosowym, aby korzystać z tego menu.",
+			"wrong-voice": " {{{emoji}}} Musisz znajdować się na tym samym kanale głosowym co ja, aby korzystać z tego menu.",
+			"added": " {{{emoji}}} Dodano {{{count}}} ścieżki(ek) do kolejki."
 		},
 		"seek": {
 			"description": "Przesuwa do podanego czasu w bieżącej piosence.",
 			"options": {
 				"time": "Czas, do którego chcesz przesunąć piosenkę."
 			},
-			"invalidPosition": "### Czas musi być między 0 a {{{length}}}.",
-			"seeked": "### Przesunięto do `{{{position}}}` na `{{{time}}}`"
+			"invalidPosition": " Czas musi być między 0 a {{{length}}}.",
+			"seeked": " Przesunięto do `{{{position}}}` na `{{{time}}}`"
 		},
 		"shuffle": {
 			"description": "Losowo ustawia kolejkę.",
-			"success": "### Kolejka na serwerze została pomyślnie wymieszana (**{{{length}}}** piosenki).",
-			"unshuffle": "### Kolejka na serwerze została pomyślnie przywrócona do pierwotnego porządku (**{{{length}}}** piosenki)."
+			"success": " Kolejka na serwerze została pomyślnie wymieszana (**{{{length}}}** piosenki).",
+			"unshuffle": " Kolejka na serwerze została pomyślnie przywrócona do pierwotnego porządku (**{{{length}}}** piosenki)."
 		},
 		"skip": {
 			"description": "Pomiń bieżącą piosenkę.",
-			"nothing": "### W kolejce nie ma nic więcej. Użyj {{{queue}}} aby zobaczyć kolejkę serwera.\nChcesz spróbować autoplay? Użyj {{{autoplay}}}",
-			"paused": "### Odtwarzacz jest wstrzymany. Użyj komendy 'resume', aby wznowić odtwarzanie.\nChcesz wznowić? Użyj {{{resume}}}",
-			"voteSkip": "### {{{user}}} zażądał(a) pominięcia bieżącej piosenki.\n\n{{{voted}}}",
-			"skip": "### Pomijanie piosenki **{{{title}}}**."
+			"nothing": " W kolejce nie ma nic więcej. Użyj {{{queue}}} aby zobaczyć kolejkę serwera.\nChcesz spróbować autoplay? Użyj {{{autoplay}}}",
+			"paused": " Odtwarzacz jest wstrzymany. Użyj komendy 'resume', aby wznowić odtwarzanie.\nChcesz wznowić? Użyj {{{resume}}}",
+			"voteSkip": " {{{user}}} zażądał(a) pominięcia bieżącej piosenki.\n\n{{{voted}}}",
+			"skip": " Pomijanie piosenki **{{{title}}}**."
 		},
 		"skipto": {
 			"description": "Przeskakuj do konkretnej piosenki w kolejce.",
 			"options": {
 				"number": "Numer ścieżki lub tytuł do przeskoczenia."
 			},
-			"invalidNumber": "### {{{emoji}}} Podaj numer ścieżki między 1 a {{{length}}}.",
-			"success": "### {{{emoji}}} Przeskoczono do **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": " {{{emoji}}} Podaj numer ścieżki między 1 a {{{length}}}.",
+			"success": " {{{emoji}}} Przeskoczono do **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
 			"description": "Zatrzymaj odtwarzacz i wyczyść kolejkę.",
-			"stopped": "### {{{emoji}}} Zatrzymano odtwarzacz i wyczyszczono kolejkę."
+			"stopped": " {{{emoji}}} Zatrzymano odtwarzacz i wyczyszczono kolejkę."
 		},
 		"topsongs": {
 			"description": "Wyświetl topowe piosenki odtwarzane przez bota.",
-			"noTopSongs": "### Brak topowych piosenek w bazie danych.",
+			"noTopSongs": " Brak topowych piosenek w bazie danych.",
 			"timesPlayed": "Ilość odtworzeń",
 			"selectSong": "Wybierz piosenkę z listy poniżej, aby ją odtworzyć.",
-			"added": "### Dodano **[{{{title}}}]({{{uri}}})** do kolejki."
+			"added": " Dodano **[{{{title}}}]({{{uri}}})** do kolejki."
 		},
 		"volume": {
 			"description": "Zmień głośność odtwarzacza.",
 			"options": {
 				"volume": "Poziom głośności, który chcesz ustawić."
 			},
-			"invalidVolume": "### {{{emoji}}} Podaj liczbę między 0 a 100.",
-			"success": "### {{{emoji}}} Ustawiono głośność na **{{{volume}}}**."
+			"invalidVolume": " {{{emoji}}} Podaj liczbę między 0 a 100.",
+			"success": " {{{emoji}}} Ustawiono głośność na **{{{volume}}}**."
 		},
 		"voteskip": {
 			"description": "Oddaj głos na pominięcie bieżącej piosenki."
 		},
 		"filters": {
-			"filters": "### Wszystkie filtry zastosowane do aktualnie odtwarzanej piosenki:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} Określ wartość dla filtra pitch między 1 a 5.",
+			"filters": " Wszystkie filtry zastosowane do aktualnie odtwarzanej piosenki:\n\n{{{filters}}}",
+			"pitchNaN": " {{{emoji}}} Określ wartość dla filtra pitch między 1 a 5.",
 			"description": {
 				"8d": "Zastosuj filtr 8D do aktualnie odtwarzanej piosenki.",
 				"bassboost": "Zastosuj filtr bassboost do aktualnie odtwarzanej piosenki.",
@@ -384,9 +384,9 @@
 				"vaporwave": "Zastosuj filtr vaporwave do aktualnie odtwarzanej piosenki.",
 				"vibrato": "Zastosuj filtr vibrato do aktualnie odtwarzanej piosenki."
 			},
-			"enabled": "### {{{emoji}}} Filtr {{{name}}} został włączony.",
-			"disabled": "### {{{emoji}}} Filtr {{{name}}} został wyłączony.",
-			"speed": "### {{{emoji}}} Filtr speed został ustawiony na **{{{value}}}**.",
+			"enabled": " {{{emoji}}} Filtr {{{name}}} został włączony.",
+			"disabled": " {{{emoji}}} Filtr {{{name}}} został wyłączony.",
+			"speed": " {{{emoji}}} Filtr speed został ustawiony na **{{{value}}}**.",
 			"options": {
 				"speed": "Prędkość, którą chcesz ustawić.",
 				"pitch": "Wartość dla filtra pitch, którą chcesz zastosować."
@@ -401,15 +401,15 @@
 				"prunning": "Przełącz wycinanie wiadomości o rozpoczęciu ścieżki.",
 				"reset": "Zresetuj kanał, na który zostanie wysłana wiadomość o rozpoczęciu ścieżki."
 			},
-			"noChannel": "### {{{emoji}}} Podaj poprawny kanał tekstowy.",
-			"noTextChannel": "### {{{emoji}}} Podaj poprawny kanał tekstowy.",
-			"sameChannel": "### {{{emoji}}} Podany kanał już jest w bazie danych.",
-			"setChannel": "### {{{emoji}}} Pomyślnie ustawiono kanał ogłaszania na {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Kanał ogłaszania nie został skonfigurowany w bazie danych.",
-			"toggle": "### {{{emoji}}} Pomyślnie {{{status}}} ogłaszanie wiadomości o rozpoczęciu ścieżki.",
+			"noChannel": " {{{emoji}}} Podaj poprawny kanał tekstowy.",
+			"noTextChannel": " {{{emoji}}} Podaj poprawny kanał tekstowy.",
+			"sameChannel": " {{{emoji}}} Podany kanał już jest w bazie danych.",
+			"setChannel": " {{{emoji}}} Pomyślnie ustawiono kanał ogłaszania na {{{channel}}}.",
+			"noChannelInDB": " {{{emoji}}} Kanał ogłaszania nie został skonfigurowany w bazie danych.",
+			"toggle": " {{{emoji}}} Pomyślnie {{{status}}} ogłaszanie wiadomości o rozpoczęciu ścieżki.",
 			"enabled": "włączone",
 			"disabled": "wyłączone",
-			"reset": "### {{{emoji}}} Pomyślnie zresetowano kanał ogłaszania."
+			"reset": " {{{emoji}}} Pomyślnie zresetowano kanał ogłaszania."
 		},
 		"botchannel": {
 			"description": "Ustaw kanał bota do nasłuchiwania poleceń",
@@ -420,28 +420,28 @@
 				"clear": "Wyczyść listę kanałów bota",
 				"info": "Pobierz listę kanałów bota oraz informacje o kanale bota"
 			},
-			"noChannel": "### {{{emoji}}} Podaj poprawny kanał tekstowy.",
-			"noTextChannel": "### {{{emoji}}} Podaj poprawny kanał tekstowy.",
-			"sameChannel": "### {{{emoji}}} Podany kanał jest już w bazie danych.",
-			"maxChannel": "### {{{emoji}}} Nie możesz dodać więcej niż 5 kanałów do listy kanałów bota.",
-			"addedChannel": "### {{{emoji}}} Pomyślnie dodano kanał {{{channel}}} do listy kanałów bota.",
-			"noChannelInDB": "### {{{emoji}}} Brak kanałów bota w bazie danych.",
-			"removedChannel": "### {{{emoji}}} Pomyślnie usunięto kanał {{{channel}}} z listy kanałów bota.",
-			"clearedChannel": "### {{{emoji}}} Pomyślnie wyczyszczono listę kanałów bota.",
+			"noChannel": " {{{emoji}}} Podaj poprawny kanał tekstowy.",
+			"noTextChannel": " {{{emoji}}} Podaj poprawny kanał tekstowy.",
+			"sameChannel": " {{{emoji}}} Podany kanał jest już w bazie danych.",
+			"maxChannel": " {{{emoji}}} Nie możesz dodać więcej niż 5 kanałów do listy kanałów bota.",
+			"addedChannel": " {{{emoji}}} Pomyślnie dodano kanał {{{channel}}} do listy kanałów bota.",
+			"noChannelInDB": " {{{emoji}}} Brak kanałów bota w bazie danych.",
+			"removedChannel": " {{{emoji}}} Pomyślnie usunięto kanał {{{channel}}} z listy kanałów bota.",
+			"clearedChannel": " {{{emoji}}} Pomyślnie wyczyszczono listę kanałów bota.",
 			"info": ">>> **Kanał:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Dodano o:** {{{addedAt}}}",
 			"title": "Kanały bota ({{count}})"
 		},
 		"clean": {
 			"description": "Wyczyść moje wiadomości na kanale.",
-			"success": "### {{{emoji}}} Pomyślnie wyczyszczono **{{{count}}}** wiadomości."
+			"success": " {{{emoji}}} Pomyślnie wyczyszczono **{{{count}}}** wiadomości."
 		},
 		"defaultvolume": {
 			"description": "Ustaw domyślną głośność dla serwera",
 			"options": {
 				"number": "Liczba do ustawienia domyślnej głośności"
 			},
-			"invalidNumber": "### {{{emoji}}} Proszę podać liczbę z zakresu od 0 do 200.",
-			"success": "### {{{emoji}}} Pomyślnie ustawiono domyślną głośność na **{{{volume}}}**."
+			"invalidNumber": " {{{emoji}}} Proszę podać liczbę z zakresu od 0 do 200.",
+			"success": " {{{emoji}}} Pomyślnie ustawiono domyślną głośność na **{{{volume}}}**."
 		},
 		"disablecommands": {
 			"description": "Wyłącz komendy dla serwera",
@@ -452,16 +452,16 @@
 				"list": "Wyświetl listę wyłączonych komend",
 				"clear": "Wyczyść listę wyłączonych komend"
 			},
-			"noCommand": "### {{{emoji}}} Proszę podać nazwę komendy do wyłączenia/włączenia.",
-			"commandNotExist": "### {{{emoji}}} Ta komenda nie istnieje w bocie.",
-			"commandAlreadyDisabled": "### {{{emoji}}} Ta komenda jest już wyłączona.",
-			"commandDisabled": "### {{{emoji}}} Pomyślnie wyłączono komendę **{{{command}}}**.",
-			"noDisabledCommands": "### {{{emoji}}} Ta komenda nie jest wyłączona.",
-			"commandEnabled": "### {{{emoji}}} Pomyślnie włączono komendę **{{{command}}}**.",
+			"noCommand": " {{{emoji}}} Proszę podać nazwę komendy do wyłączenia/włączenia.",
+			"commandNotExist": " {{{emoji}}} Ta komenda nie istnieje w bocie.",
+			"commandAlreadyDisabled": " {{{emoji}}} Ta komenda jest już wyłączona.",
+			"commandDisabled": " {{{emoji}}} Pomyślnie wyłączono komendę **{{{command}}}**.",
+			"noDisabledCommands": " {{{emoji}}} Ta komenda nie jest wyłączona.",
+			"commandEnabled": " {{{emoji}}} Pomyślnie włączono komendę **{{{command}}}**.",
 			"disabledCommands": "Wyłączone Komendy",
 			"disabledCommandsForThisServer": "Wyłączone komendy dla tego serwera",
 			"total": "Razem: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Pomyślnie wyczyszczono listę wyłączonych komend."
+			"disabledCommandsCleared": " {{{emoji}}} Pomyślnie wyczyszczono listę wyłączonych komend."
 		},
 		"dj": {
 			"description": "Ustaw rolę DJ-a dla serwera",
@@ -474,18 +474,18 @@
 				"toggle": "Przełącz tryb roli DJ-a",
 				"info": "Wyświetl listę ról DJ-a i informacje o roli DJ-a"
 			},
-			"noRole": "### {{{emoji}}} Proszę podać prawidłową rolę do dodania/odjęcia.",
-			"maxRoles": "### {{{emoji}}} Nie możesz dodać więcej niż 5 ról do listy roli DJ-a.",
-			"alreadyInList": "### {{{emoji}}} Podana rola jest już w bazie danych.",
-			"addedRole": "### {{{emoji}}} Pomyślnie dodano rolę {{{role}}} do listy roli DJ-a.",
-			"noRolesSetup": "### {{{emoji}}} Nie ustawiono żadnych ról DJ-a na tym serwerze.",
-			"notInList": "### {{{emoji}}} Ta rola nie znajduje się na liście roli DJ-a.",
-			"removedRole": "### {{{emoji}}} Pomyślnie usunięto rolę {{{role}}} z listy roli DJ-a.",
+			"noRole": " {{{emoji}}} Proszę podać prawidłową rolę do dodania/odjęcia.",
+			"maxRoles": " {{{emoji}}} Nie możesz dodać więcej niż 5 ról do listy roli DJ-a.",
+			"alreadyInList": " {{{emoji}}} Podana rola jest już w bazie danych.",
+			"addedRole": " {{{emoji}}} Pomyślnie dodano rolę {{{role}}} do listy roli DJ-a.",
+			"noRolesSetup": " {{{emoji}}} Nie ustawiono żadnych ról DJ-a na tym serwerze.",
+			"notInList": " {{{emoji}}} Ta rola nie znajduje się na liście roli DJ-a.",
+			"removedRole": " {{{emoji}}} Pomyślnie usunięto rolę {{{role}}} z listy roli DJ-a.",
 			"list": ">>> **Rola:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Dodano:** {{{addedAt}}}",
-			"listTotal": "## Łącznie ról DJ-a: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Pomyślnie wyczyszczono listę roli DJ-a.",
-			"enabledToggle": "### {{{emoji}}} Pomyślnie włączono tryb roli DJ-a.",
-			"disabledToggle": "### {{{emoji}}} Pomyślnie wyłączono tryb roli DJ-a.",
+			"listTotal": " Łącznie ról DJ-a: {{{total}}}",
+			"clearedList": " {{{emoji}}} Pomyślnie wyczyszczono listę roli DJ-a.",
+			"enabledToggle": " {{{emoji}}} Pomyślnie włączono tryb roli DJ-a.",
+			"disabledToggle": " {{{emoji}}} Pomyślnie wyłączono tryb roli DJ-a.",
 			"info": {
 				"djRoles": "Role DJ-a",
 				"enabled": "Włączony",
@@ -497,15 +497,15 @@
 		},
 		"fixvoice": {
 			"description": "Napraw połączenie głosowe, jeśli bot nie odtwarza muzyki.",
-			"joining": "### Ponowne dołączanie do kanału głosowego i wznowienie odtwarzania muzyki.",
-			"failed": "### Nie udało się zmienić regionu głosowego. Proszę spróbować ponownie później.",
+			"joining": " Ponowne dołączanie do kanału głosowego i wznowienie odtwarzania muzyki.",
+			"failed": " Nie udało się zmienić regionu głosowego. Proszę spróbować ponownie później.",
 			"error": "{{{emoji}}} W tej chwili nie znalazłem żadnych rozwiązań. Może poproś o pomoc na [serwerze pomocy]({{{server}}}).",
-			"success": "### {{{emoji}}} Pomyślnie zmieniono region głosowy na **{{{region}}}**."
+			"success": " {{{emoji}}} Pomyślnie zmieniono region głosowy na **{{{region}}}**."
 		},
 		"forcejoin": {
 			"description": "Wymuś dołączenie bota do kanału głosowego.",
 			"already-in": "{{{emoji}}} Już znajduję się na kanale głosowym!",
-			"joined": "### {{{emoji}}} Pomyślnie dołączono do kanału głosowego **{{{channel}}}**."
+			"joined": " {{{emoji}}} Pomyślnie dołączono do kanału głosowego **{{{channel}}}**."
 		},
 		"languages": {
 			"description": "Ustaw język bota dla serwera",
@@ -516,25 +516,25 @@
 				"reset": "Zresetuj język do domyślnego",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Pomyślnie ustawiono język bota na {{{language}}} `({{{languageCode}}})`.",
-			"info": "### Aktualny język na tym serwerze to: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Pomyślnie zresetowano język bota do domyślnego.",
+			"success": " {{{emoji}}} Pomyślnie ustawiono język bota na {{{language}}} `({{{languageCode}}})`.",
+			"info": " Aktualny język na tym serwerze to: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": " {{{emoji}}} Pomyślnie zresetowano język bota do domyślnego.",
 			"translationProgress": "Postęp tłumaczenia: {{{progress}}}",
 			"selectLanguage": "Wybierz język, który chcesz ustawić z poniższego menu."
 		},
 		"noprefix": {
 			"description": "Przełącz tryb bezprefiksu dla użytkownika lub serwera.",
-			"toggle": "### Przełącz tryb bezprefiksu dla użytkownika lub serwera.",
+			"toggle": " Przełącz tryb bezprefiksu dla użytkownika lub serwera.",
 			"buttons": {
 				"server": "Serwer",
 				"user": "Użytkownik"
 			},
-			"premium": "### Aby użyć tej komendy, musisz być użytkownikiem premium.",
-			"disabledUser": "### {{{emoji}}} Pomyślnie wyłączono tryb bezprefiksu dla użytkownika.",
-			"enabledUser": "### {{{emoji}}} Pomyślnie włączono tryb bezprefiksu dla użytkownika.",
-			"noPerm": "### Nie masz wymaganych uprawnień do użycia tej komendy.",
-			"disabledServer": "### {{{emoji}}} Pomyślnie wyłączono tryb bezprefiksu dla serwera.",
-			"enabledServer": "### {{{emoji}}} Pomyślnie włączono tryb bezprefiksu dla serwera."
+			"premium": " Aby użyć tej komendy, musisz być użytkownikiem premium.",
+			"disabledUser": " {{{emoji}}} Pomyślnie wyłączono tryb bezprefiksu dla użytkownika.",
+			"enabledUser": " {{{emoji}}} Pomyślnie włączono tryb bezprefiksu dla użytkownika.",
+			"noPerm": " Nie masz wymaganych uprawnień do użycia tej komendy.",
+			"disabledServer": " {{{emoji}}} Pomyślnie wyłączono tryb bezprefiksu dla serwera.",
+			"enabledServer": " {{{emoji}}} Pomyślnie włączono tryb bezprefiksu dla serwera."
 		},
 		"prefix": {
 			"description": "Ustaw prefiks dla serwera",
@@ -546,16 +546,16 @@
 				"remove": "Usuń prefiks dla serwera"
 			},
 			"info": ">>> **Prefiks:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Dodano:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Proszę podać prefiks do ustawienia.",
-			"noPrefixAdded": "### {{{emoji}}} Nie dodano żadnego prefiksu do serwera.",
-			"prefixLength": "### {{{emoji}}} Prefiks nie może być dłuższy niż 5 znaków.",
-			"prefixLimit": "### {{{emoji}}} Osiągnięto limit prefiksów (maks. 4). Proszę usunąć niektóre prefiksy za pomocą `prefix remove`.",
-			"prefixCharacters": "### {{{emoji}}} Prefiks nie może zawierać żadnych z następujących znaków: `[]{}\\`",
-			"prefixExists": "### {{{emoji}}} Prefiks `{{{prefix}}}` jest już dodany przez {{{moderator}}}",
-			"prefixCleared": "### {{{emoji}}} Pomyślnie wyczyszczono wszystkie prefiksy do domyślnych.",
-			"prefixNotExists": "### {{{emoji}}} Prefiks `{{{prefix}}}` nie jest dodany.",
-			"prefixRemoved": "### {{{emoji}}} Pomyślnie usunięto prefiks `{{{prefix}}}`.",
-			"prefixAdded": "### {{{emoji}}} Pomyślnie dodano prefiks `{{{prefix}}}`."
+			"noPrefix": " {{{emoji}}} Proszę podać prefiks do ustawienia.",
+			"noPrefixAdded": " {{{emoji}}} Nie dodano żadnego prefiksu do serwera.",
+			"prefixLength": " {{{emoji}}} Prefiks nie może być dłuższy niż 5 znaków.",
+			"prefixLimit": " {{{emoji}}} Osiągnięto limit prefiksów (maks. 4). Proszę usunąć niektóre prefiksy za pomocą `prefix remove`.",
+			"prefixCharacters": " {{{emoji}}} Prefiks nie może zawierać żadnych z następujących znaków: `[]{}\\`",
+			"prefixExists": " {{{emoji}}} Prefiks `{{{prefix}}}` jest już dodany przez {{{moderator}}}",
+			"prefixCleared": " {{{emoji}}} Pomyślnie wyczyszczono wszystkie prefiksy do domyślnych.",
+			"prefixNotExists": " {{{emoji}}} Prefiks `{{{prefix}}}` nie jest dodany.",
+			"prefixRemoved": " {{{emoji}}} Pomyślnie usunięto prefiks `{{{prefix}}}`.",
+			"prefixAdded": " {{{emoji}}} Pomyślnie dodano prefiks `{{{prefix}}}`."
 		},
 		"profile": {
 			"description": "Pokaż swój profil lub profil innej osoby.",
@@ -567,16 +567,16 @@
 				"view": "Zobacz swój profil lub profil innej osoby.",
 				"user": "Użytkownik, którego profil chcesz zobaczyć."
 			},
-			"noBio": "### {{{emoji}}} Musisz podać opis profilu.",
-			"bioLength": "### {{{emoji}}} Twój opis profilu nie może być dłuższy niż 50 znaków.",
-			"bioSet": "### {{{emoji}}} Pomyślnie ustawiono opis profilu na `{{{bio}}}`.",
-			"noColor": "### {{{emoji}}} Proszę podać kod koloru w formacie szesnastkowym [Przykład: #FF0000](https://g.co/kgs/q5nhF7)\n\nMożesz także użyć nazw kolorów: {{{colors}}}",
-			"sameColor": "### {{{emoji}}} Twój kolor jest już ustawiony na `{{{color}}}`.",
-			"colorSet": "### {{{emoji}}} Pomyślnie ustawiono kolor profilu na `{{{color}}}`.",
-			"sameVisibility": "### {{{emoji}}} Twoja widoczność jest już ustawiona na `{{{visibility}}}`.",
-			"noVisibility": "### {{{emoji}}} Proszę podać widoczność (publiczna/prywatna).",
-			"visibilitySet": "### {{{emoji}}} Pomyślnie ustawiono widoczność profilu na `{{{visibility}}}`.",
-			"privateProfile": "### {{{emoji}}} Profil tej osoby jest prywatny."
+			"noBio": " {{{emoji}}} Musisz podać opis profilu.",
+			"bioLength": " {{{emoji}}} Twój opis profilu nie może być dłuższy niż 50 znaków.",
+			"bioSet": " {{{emoji}}} Pomyślnie ustawiono opis profilu na `{{{bio}}}`.",
+			"noColor": " {{{emoji}}} Proszę podać kod koloru w formacie szesnastkowym [Przykład: #FF0000](https://g.co/kgs/q5nhF7)\n\nMożesz także użyć nazw kolorów: {{{colors}}}",
+			"sameColor": " {{{emoji}}} Twój kolor jest już ustawiony na `{{{color}}}`.",
+			"colorSet": " {{{emoji}}} Pomyślnie ustawiono kolor profilu na `{{{color}}}`.",
+			"sameVisibility": " {{{emoji}}} Twoja widoczność jest już ustawiona na `{{{visibility}}}`.",
+			"noVisibility": " {{{emoji}}} Proszę podać widoczność (publiczna/prywatna).",
+			"visibilitySet": " {{{emoji}}} Pomyślnie ustawiono widoczność profilu na `{{{visibility}}}`.",
+			"privateProfile": " {{{emoji}}} Profil tej osoby jest prywatny."
 		},
 		"setting": {
 			"description": "Zmień ustawienia serwera lub uzyskaj informacje o ustawieniach serwera.",
@@ -584,8 +584,8 @@
 				"reset": "Zresetuj wszystkie ustawienia serwera do domyślnych",
 				"info": "Uzyskaj informacje o ustawieniach serwera"
 			},
-			"noPermission": "### {{{emoji}}} Nie masz uprawnień `manageGuild` do użycia tej komendy.",
-			"isSure": "### Czy na pewno chcesz zresetować ustawienia serwera?\nSpowoduje to zresetowanie wszystkich ustawień do wartości domyślnych\n\n**Jeśli jesteś pewien, kliknij przycisk poniżej**",
+			"noPermission": " {{{emoji}}} Nie masz uprawnień `manageGuild` do użycia tej komendy.",
+			"isSure": " Czy na pewno chcesz zresetować ustawienia serwera?\nSpowoduje to zresetowanie wszystkich ustawień do wartości domyślnych\n\n**Jeśli jesteś pewien, kliknij przycisk poniżej**",
 			"buttons": {
 				"reset": "Resetuj"
 			},
@@ -620,9 +620,9 @@
 				"disabled": "Wyłączony",
 				"none": "Brak"
 			},
-			"resetSuccess": "### {{{emoji}}} Pomyślnie zresetowano ustawienia serwera do domyślnych.",
-			"info": "## Oto informacje o konfiguracji dla tego serwera",
-			"noSettings": "### {{{emoji}}} Brak ustawień dla tego serwera."
+			"resetSuccess": " {{{emoji}}} Pomyślnie zresetowano ustawienia serwera do domyślnych.",
+			"info": " Oto informacje o konfiguracji dla tego serwera",
+			"noSettings": " {{{emoji}}} Brak ustawień dla tego serwera."
 		},
 		"voteskipsetting": {
 			"description": "Skonfiguruj ustawienia głosowania na pominięcie utworu.",
@@ -630,11 +630,11 @@
 				"set": "Ustaw tryb głosowania na pominięcie utworu.",
 				"action": "Działanie, które chcesz ustawić (włącz/wyłącz)."
 			},
-			"success": "### {{{emoji}}} Pomyślnie {{{action}}}d głosowanie na pominięcie utworu.",
-			"isConfirm": "### Czy chcesz włączyć czy wyłączyć głosowanie na pominięcie utworu?",
-			"canceled": "### {{{emoji}}} Ustawienia głosowania na pominięcie utworu zostały anulowane.",
-			"alreadyEnabled": "### Głosowanie na pominięcie utworu jest już włączone.",
-			"alreadyDisabled": "### Głosowanie na pominięcie utworu jest już wyłączone.",
+			"success": " {{{emoji}}} Pomyślnie {{{action}}}d głosowanie na pominięcie utworu.",
+			"isConfirm": " Czy chcesz włączyć czy wyłączyć głosowanie na pominięcie utworu?",
+			"canceled": " {{{emoji}}} Ustawienia głosowania na pominięcie utworu zostały anulowane.",
+			"alreadyEnabled": " Głosowanie na pominięcie utworu jest już włączone.",
+			"alreadyDisabled": " Głosowanie na pominięcie utworu jest już wyłączone.",
 			"buttons": {
 				"enable": "Włącz",
 				"disable": "Wyłącz",
@@ -647,28 +647,28 @@
 				"playlist": "Nazwa listy odtwarzania, do której chcesz dodać utwór.",
 				"song": "Utwór (nazwa/adres URL), który chcesz dodać do listy odtwarzania."
 			},
-			"playlistLength": "### {{{emoji}}} Nazwa listy odtwarzania musi zawierać od 3 do 50 znaków.",
-			"noPlaylists": "### {{{emoji}}} Nie znaleziono żadnych list odtwarzania w twoim koncie, proszę najpierw utwórz jedną.",
-			"noResults": "### {{{emoji}}} Nie znaleziono wyników dla `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Twoja lista odtwarzania jest pełna, proszę usunąć niektóre utwory przed dodaniem kolejnych.",
-			"playlistAdded": "### {{{emoji}}} Pomyślnie dodano **{{{count}}}** utworów do listy odtwarzania **{{{playlist}}}**."
+			"playlistLength": " {{{emoji}}} Nazwa listy odtwarzania musi zawierać od 3 do 50 znaków.",
+			"noPlaylists": " {{{emoji}}} Nie znaleziono żadnych list odtwarzania w twoim koncie, proszę najpierw utwórz jedną.",
+			"noResults": " {{{emoji}}} Nie znaleziono wyników dla `{{{song}}}`.",
+			"playlistFull": " {{{emoji}}} Twoja lista odtwarzania jest pełna, proszę usunąć niektóre utwory przed dodaniem kolejnych.",
+			"playlistAdded": " {{{emoji}}} Pomyślnie dodano **{{{count}}}** utworów do listy odtwarzania **{{{playlist}}}**."
 		},
 		"addnowplaying": {
 			"description": "Dodaj aktualnie odtwarzany utwór do listy odtwarzania.",
 			"options": {
 				"playlist": "Nazwa listy odtwarzania, do której chcesz dodać aktualnie odtwarzany utwór."
 			},
-			"noSong": "### {{{emoji}}} Obecnie nie jest odtwarzany żaden utwór.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} Ten utwór jest już na liście odtwarzania.",
-			"success": "### {{{emoji}}} Dodano **{{{song}}}** do **{{{playlist}}}**."
+			"noSong": " {{{emoji}}} Obecnie nie jest odtwarzany żaden utwór.",
+			"songAlreadyInPlaylist": " {{{emoji}}} Ten utwór jest już na liście odtwarzania.",
+			"success": " {{{emoji}}} Dodano **{{{song}}}** do **{{{playlist}}}**."
 		},
 		"addqueue": {
 			"description": "Dodaj listę odtwarzania do kolejki.",
 			"options": {
 				"name": "Nazwa listy odtwarzania, którą chcesz dodać do kolejki."
 			},
-			"noQueue": "### {{{emoji}}} Nie ma kolejki.",
-			"success": "### {{{emoji}}} Dodano **{{{queueLength}}}** utworów z kolejki do listy odtwarzania **{{{playlistName}}}**."
+			"noQueue": " {{{emoji}}} Nie ma kolejki.",
+			"success": " {{{emoji}}} Dodano **{{{queueLength}}}** utworów z kolejki do listy odtwarzania **{{{playlistName}}}**."
 		},
 		"create": {
 			"description": "Utwórz listę odtwarzania.",
@@ -676,33 +676,33 @@
 				"playlist": "Nazwa listy odtwarzania, którą chcesz utworzyć.",
 				"visibility": "Widoczność listy odtwarzania."
 			},
-			"playlist": "### {{{emoji}}} Podaj nazwę listy odtwarzania.",
-			"visibility": "### {{{emoji}}} Widoczność musi być `publiczna` lub `prywatna`.",
-			"maxPlaylists": "### {{{emoji}}} Możesz utworzyć maksymalnie 10 list odtwarzania.",
-			"playlistExists": "### {{{emoji}}} Masz już listę odtwarzania o nazwie **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Pomyślnie utworzono listę odtwarzania **{{{playlist}}}**."
+			"playlist": " {{{emoji}}} Podaj nazwę listy odtwarzania.",
+			"visibility": " {{{emoji}}} Widoczność musi być `publiczna` lub `prywatna`.",
+			"maxPlaylists": " {{{emoji}}} Możesz utworzyć maksymalnie 10 list odtwarzania.",
+			"playlistExists": " {{{emoji}}} Masz już listę odtwarzania o nazwie **{{{playlist}}}**.",
+			"success": " {{{emoji}}} Pomyślnie utworzono listę odtwarzania **{{{playlist}}}**."
 		},
 		"delete": {
 			"description": "Usuń listę odtwarzania.",
 			"options": {
 				"playlist": "Nazwa listy odtwarzania, którą chcesz usunąć."
 			},
-			"noPlaylists": "### {{{emoji}}} Nie masz listy odtwarzania o nazwie **{{{playlist}}}**.",
+			"noPlaylists": " {{{emoji}}} Nie masz listy odtwarzania o nazwie **{{{playlist}}}**.",
 			"buttons": {
 				"confirm": "Potwierdź",
 				"cancel": "Anuluj"
 			},
-			"confirm": "### Czy na pewno chcesz usunąć listę odtwarzania **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Pomyślnie usunięto listę odtwarzania **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Anulowano usunięcie listy odtwarzania **{{{playlist}}}**."
+			"confirm": " Czy na pewno chcesz usunąć listę odtwarzania **{{{playlist}}}**?",
+			"success": " {{{emoji}}} Pomyślnie usunięto listę odtwarzania **{{{playlist}}}**.",
+			"cancel": " {{{emoji}}} Anulowano usunięcie listy odtwarzania **{{{playlist}}}**."
 		},
 		"dupes": {
 			"description": "Usuń wszystkie zduplikowane utwory z listy odtwarzania.",
 			"options": {
 				"playlist": "Nazwa listy odtwarzania, z której chcesz usunąć zduplikowane utwory."
 			},
-			"noDupes": "### {{{emoji}}} Nie ma zduplikowanych utworów na liście odtwarzania **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Pomyślnie usunięto **{{{count}}}** zduplikowanych utworów z listy odtwarzania **{{{playlist}}}**."
+			"noDupes": " {{{emoji}}} Nie ma zduplikowanych utworów na liście odtwarzania **{{{playlist}}}**.",
+			"success": " {{{emoji}}} Pomyślnie usunięto **{{{count}}}** zduplikowanych utworów z listy odtwarzania **{{{playlist}}}**."
 		},
 		"edit": {
 			"description": "Edytuj listę odtwarzania.",
@@ -713,33 +713,33 @@
 				"playlist-visibility": "Zmień widoczność listy odtwarzania.",
 				"visibility": "Widoczność listy odtwarzania."
 			},
-			"sameName": "### {{{emoji}}} Nowa nazwa musi być inna niż stara nazwa.",
-			"successName": "### {{{emoji}}} Pomyślnie zmieniono nazwę listy odtwarzania z **{{{oldName}}}** na **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} Lista odtwarzania **{{{playlist}}}** ma już ustawioną widoczność jako **{{{visibility}}}**.",
-			"successVisibility": "### {{{emoji}}} Pomyślnie zmieniono widoczność listy odtwarzania **{{{playlist}}}** na **{{{visibility}}}**.",
+			"sameName": " {{{emoji}}} Nowa nazwa musi być inna niż stara nazwa.",
+			"successName": " {{{emoji}}} Pomyślnie zmieniono nazwę listy odtwarzania z **{{{oldName}}}** na **{{{newName}}}**.",
+			"sameVisibility": " {{{emoji}}} Lista odtwarzania **{{{playlist}}}** ma już ustawioną widoczność jako **{{{visibility}}}**.",
+			"successVisibility": " {{{emoji}}} Pomyślnie zmieniono widoczność listy odtwarzania **{{{playlist}}}** na **{{{visibility}}}**.",
 			"buttons": {
 				"playlist": "Nazwa listy odtwarzania",
 				"visibility": "Widoczność listy odtwarzania",
 				"public": "Publiczna",
 				"private": "Prywatna"
 			},
-			"selectOption": "### Wybierz opcję, którą chcesz edytować w liście odtwarzania z poniższych przycisków.",
-			"oldName": "### Wprowadź starą nazwę listy odtwarzania.",
-			"newName": "### Wprowadź nową nazwę listy odtwarzania.",
-			"cancelled": "### {{{emoji}}} Anulowano zmianę nazwy listy odtwarzania.",
-			"playlist": "### Wprowadź nazwę listy odtwarzania.",
-			"selectVisibility": "### Wybierz widoczność listy odtwarzania z poniższych przycisków.",
-			"liked": "### {{{emoji}}} Nie możesz edytować listy polubionych."
+			"selectOption": " Wybierz opcję, którą chcesz edytować w liście odtwarzania z poniższych przycisków.",
+			"oldName": " Wprowadź starą nazwę listy odtwarzania.",
+			"newName": " Wprowadź nową nazwę listy odtwarzania.",
+			"cancelled": " {{{emoji}}} Anulowano zmianę nazwy listy odtwarzania.",
+			"playlist": " Wprowadź nazwę listy odtwarzania.",
+			"selectVisibility": " Wybierz widoczność listy odtwarzania z poniższych przycisków.",
+			"liked": " {{{emoji}}} Nie możesz edytować listy polubionych."
 		},
 		"import": {
 			"description": "Importuj listę odtwarzania na podstawie identyfikatora listy.",
 			"options": {
 				"id": "Identyfikator listy odtwarzania, którą chcesz zaimportować."
 			},
-			"noPlaylist": "### {{{emoji}}} Nie znaleziono listy odtwarzania o identyfikatorze **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} Nie możesz importować własnej listy odtwarzania.",
-			"privatePlaylist": "### {{{emoji}}} Nie możesz importować prywatnej listy odtwarzania.",
-			"success": "### {{{emoji}}} Pomyślnie zaimportowano listę odtwarzania **{{{playlist}}}**."
+			"noPlaylist": " {{{emoji}}} Nie znaleziono listy odtwarzania o identyfikatorze **{{{id}}}**.",
+			"sameUser": " {{{emoji}}} Nie możesz importować własnej listy odtwarzania.",
+			"privatePlaylist": " {{{emoji}}} Nie możesz importować prywatnej listy odtwarzania.",
+			"success": " {{{emoji}}} Pomyślnie zaimportowano listę odtwarzania **{{{playlist}}}**."
 		},
 		"list": {
 			"description": "Wyświetl wszystkie swoje listy odtwarzania.",
@@ -752,12 +752,12 @@
 				"name": "Nazwa listy odtwarzania, którą chcesz wczytać.",
 				"track": "Numer utworu lub tytuł utworu do wczytania."
 			},
-			"noPlaylists": "### {{{emoji}}} Nie masz listy odtwarzania o nazwie **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} Nie ma utworów na liście odtwarzania **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} Nie znaleziono utworu o numerze lub tytule `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Wczytano utwór **{{{track}}}** z **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} Nie możesz wczytać prywatnej listy odtwarzania innego użytkownika.",
-			"playlistLoaded": "### {{{emoji}}} Wczytano **{{{count}}}** utworów z listy odtwarzania **{{{playlist}}}**."
+			"noPlaylists": " {{{emoji}}} Nie masz listy odtwarzania o nazwie **{{{playlist}}}**.",
+			"noTracks": " {{{emoji}}} Nie ma utworów na liście odtwarzania **{{{playlist}}}**.",
+			"noTrackFound": " {{{emoji}}} Nie znaleziono utworu o numerze lub tytule `{{{track}}}`.",
+			"trackLoaded": " {{{emoji}}} Wczytano utwór **{{{track}}}** z **{{{playlist}}}**.",
+			"privatePlaylist": " {{{emoji}}} Nie możesz wczytać prywatnej listy odtwarzania innego użytkownika.",
+			"playlistLoaded": " {{{emoji}}} Wczytano **{{{count}}}** utworów z listy odtwarzania **{{{playlist}}}**."
 		},
 		"pl-remove": {
 			"description": "Usuń utwór z listy odtwarzania.",
@@ -765,8 +765,8 @@
 				"playlist": "Nazwa listy odtwarzania, z której chcesz usunąć utwór.",
 				"track": "Numer utworu lub tytuł utworu do usunięcia."
 			},
-			"notFound": "### {{{emoji}}} Nie znaleziono utworu o podanym numerze lub tytule.",
-			"success": "### {{{emoji}}} Pomyślnie usunięto **{{{track}}}** z **{{{playlist}}}**."
+			"notFound": " {{{emoji}}} Nie znaleziono utworu o podanym numerze lub tytule.",
+			"success": " {{{emoji}}} Pomyślnie usunięto **{{{track}}}** z **{{{playlist}}}**."
 		},
 		"view": {
 			"description": "Wyświetl listę odtwarzania.",
@@ -787,29 +787,29 @@
 				"language": "cmd.playradio.options.language",
 				"country": "cmd.playradio.options.country"
 			},
-			"noStation": "### {{{emoji}}} Nie mogłem znaleźć stacji radiowej o tej nazwie.",
+			"noStation": " {{{emoji}}} Nie mogłem znaleźć stacji radiowej o tej nazwie.",
 			"country": "**Kraj:** {{{country}}}",
 			"votes": "**Głosy:** {{{votes}}}",
 			"codec": "**Kodek:** {{{codec}}}",
 			"bitrate": "**Przepływność:** {{{bitrate}}}",
 			"tags": "**Tagi:** {{{tags}}}",
-			"results": "### Oto wyniki Twojego wyszukiwania:\n\n{{{results}}}",
+			"results": " Oto wyniki Twojego wyszukiwania:\n\n{{{results}}}",
 			"select": "Wybierz stację od 1 do 10 w menu rozwijanym poniżej.",
-			"added": "### {{{emoji}}} Dodano [**{{{name}}}**]({{{homepage}}}) do kolejki."
+			"added": " {{{emoji}}} Dodano [**{{{name}}}**]({{{homepage}}}) do kolejki."
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Ktoś mnie rozłączył z kanału głosowego, ale jestem nadal tutaj dzięki trybowi **24/7**!\n\nMożesz to wyłączyć, dezaktywując tryb **24/7** za pomocą komendy {{{cmd}}} lub używając komendy {{{cmd2}}}!",
+			"247": " Ktoś mnie rozłączył z kanału głosowego, ale jestem nadal tutaj dzięki trybowi **24/7**!\n\nMożesz to wyłączyć, dezaktywując tryb **24/7** za pomocą komendy {{{cmd}}} lub używając komendy {{{cmd2}}}!",
 			"nowPlaying": "Teraz odtwarzane",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** - Wykonawca: [{{{songAuthor}}}]({{{songAuthorUrl}}}) - Żądający: {{{requester}}}",
+			"nowPlayingDesc": " **[{{{songName}}}]({{{songUrl}}})** - Wykonawca: [{{{songAuthor}}}]({{{songAuthorUrl}}}) - Żądający: {{{requester}}}",
 			"footer": "Czas trwania: {{{duration}}} | Kolejka: {{{queue}}} | Głośność: {{{volume}}}%",
-			"end": "### Nikt nie słuchał przez ostatnią minutę, opuszczam kanał.\n\nMożesz to wyłączyć, aktywując tryb **24/7** za pomocą komendy {{{cmd}}}!",
+			"end": " Nikt nie słuchał przez ostatnią minutę, opuszczam kanał.\n\nMożesz to wyłączyć, aktywując tryb **24/7** za pomocą komendy {{{cmd}}}!",
 			"endTitle": "Koniec kolejki",
-			"endDesc": "### Twoja kolejka muzyczna została zakończona. Możesz dodać kolejne utwory używając komendy {{{cmd}}}! Podoba Ci się muzyka ze mną? Rozważ [zagłosowanie na mnie]({{{link}}})!"
+			"endDesc": " Twoja kolejka muzyczna została zakończona. Możesz dodać kolejne utwory używając komendy {{{cmd}}}! Podoba Ci się muzyka ze mną? Rozważ [zagłosowanie na mnie]({{{link}}})!"
 		},
 		"error": "Błąd utworu",
-		"description": "### [{{{title}}}]({{{uri}}}) nie jest dostępny w Twoim kraju ze względu na ograniczenia wiekowe!",
+		"description": " [{{{title}}}]({{{uri}}}) nie jest dostępny w Twoim kraju ze względu na ograniczenia wiekowe!",
 		"buttons": {
 			"resume": "Wznów",
 			"pause": "Zatrzymaj",
@@ -822,8 +822,8 @@
 			"loop": "Pętla",
 			"like": "Lubię to"
 		},
-		"noDispatcher": "### Obecnie nic nie jest odtwarzane..",
-		"nothingPlaying": "### Obecnie nic nie jest odtwarzane.."
+		"noDispatcher": " Obecnie nic nie jest odtwarzane..",
+		"nothingPlaying": " Obecnie nic nie jest odtwarzane.."
 	},
 	"events": {
 		"buttonHandle": {
@@ -839,15 +839,15 @@
 			"voteSkipLabel2": "Głosuj, aby pominąć obecny utwór! ({{{count}}}/{{{n}}})",
 			"needVoice": "{{{user}}} Musisz dołączyć do kanału głosowego {{{channel}}} aby użyć tego przycisku!",
 			"voteSkipTrack": "{{{user}}} pomija utwór pozytywnie zatwierdzony przez {{{count}}} głosów!",
-			"notEnoughVote": "### Nie ma wystarczającej liczby głosów, aby pominąć obecny utwór.",
+			"notEnoughVote": " Nie ma wystarczającej liczby głosów, aby pominąć obecny utwór.",
 			"skipTrack": "{{{user}}} pominął obecny utwór.",
 			"playTrack": "{{{user}}} {{{paused}}} obecny utwór.",
 			"paused": "Zatrzymany",
 			"resumed": "Wznowiony",
 			"stopTrack": "{{{user}}} zatrzymał obecny utwór.",
-			"volMax": "### Głośność jest już na maksymalnym poziomie.",
+			"volMax": " Głośność jest już na maksymalnym poziomie.",
 			"volUp": "{{{user}}} zwiększył głośność do **{{{vol}}}**%.",
-			"volMin": "### Głośność jest już na minimalnym poziomie.",
+			"volMin": " Głośność jest już na minimalnym poziomie.",
 			"volDown": "{{{user}}} zmniejszył głośność do **{{{vol}}}**%.",
 			"shuffleError": "{{{user}}} W kolejce jest zbyt mało utworów, aby je wymieszać.",
 			"shuffleDisabled": "{{{user}}} Wymieszanie wyłączone.",
@@ -860,17 +860,17 @@
 			"unliked": "{{{user}}} Nie lubię **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hej! Próbowałem odpowiedzieć na Twoją komendę, ale nie mam uprawnień do wysyłania wiadomości. Poproś kogoś z administracji o przyznanie mi uprawnienia `Wysyłanie wiadomości` na serwerze: **{{{guildName}}}**\nKomenda: **{{{commandName}}}**\nPotrzebna pomoc z uprawnieniami? Dołącz na serwer wsparcia: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} Bot musi mieć uprawnienie `Osadzanie linków` aby działać poprawnie! Poproś kogoś z administracji o przyznanie tego uprawnienia.",
-			"noBotChannel": "### Nie mam pozwolenia na odpowiadanie na komendy na tym kanale. Użyj {{{emoji}}} <#{{{botChannel}}}> dla poleceń bota. Dziękujemy za współpracę.",
+			"noSendMessages": " Hej! Próbowałem odpowiedzieć na Twoją komendę, ale nie mam uprawnień do wysyłania wiadomości. Poproś kogoś z administracji o przyznanie mi uprawnienia `Wysyłanie wiadomości` na serwerze: **{{{guildName}}}**\nKomenda: **{{{commandName}}}**\nPotrzebna pomoc z uprawnieniami? Dołącz na serwer wsparcia: {{{supportServer}}}",
+			"noEmbedLinks": " {{{emoji}}} Bot musi mieć uprawnienie `Osadzanie linków` aby działać poprawnie! Poproś kogoś z administracji o przyznanie tego uprawnienia.",
+			"noBotChannel": " Nie mam pozwolenia na odpowiadanie na komendy na tym kanale. Użyj {{{emoji}}} <#{{{botChannel}}}> dla poleceń bota. Dziękujemy za współpracę.",
 			"deleteFooter": "• Ta wiadomość zostanie usunięta za 5 sekund",
-			"disabledCommand": "### Ta komenda jest wyłączona na tym serwerze dla wszystkich. Tylko DJ może jej użyć.",
+			"disabledCommand": " Ta komenda jest wyłączona na tym serwerze dla wszystkich. Tylko DJ może jej użyć.",
 			"disabledCommandList": "Lista wyłączonych komend",
-			"noBotPermissions": "### {{{emoji}}} Nie mam uprawnień **{{{permissions}}}**, aby wykonać tę komendę.",
-			"noUserPermissions": "### {{{emoji}}} Nie masz uprawnień **{{{permissions}}}**, aby wykonać tę komendę.",
+			"noBotPermissions": " {{{emoji}}} Nie mam uprawnień **{{{permissions}}}**, aby wykonać tę komendę.",
+			"noUserPermissions": " {{{emoji}}} Nie masz uprawnień **{{{permissions}}}**, aby wykonać tę komendę.",
 			"voteLocks": [
-				"### Musisz zagłosować na mnie, aby użyć tej komendy. Możesz zagłosować na [Top.gg]({{{link}}})",
-				"### Musisz zagłosować na mnie, aby użyć tej komendy. Możesz zagłosować na [Top.gg]({{{link}}}) lub\nMożesz również uzyskać wersję premium, wpłacając darowiznę [tutaj]({{{link2}}})"
+				" Musisz zagłosować na mnie, aby użyć tej komendy. Możesz zagłosować na [Top.gg]({{{link}}})",
+				" Musisz zagłosować na mnie, aby użyć tej komendy. Możesz zagłosować na [Top.gg]({{{link}}}) lub\nMożesz również uzyskać wersję premium, wpłacając darowiznę [tutaj]({{{link2}}})"
 			],
 			"buttons": {
 				"vote": "Zagłosuj",
@@ -878,22 +878,22 @@
 				"invite": "Zaproś",
 				"support": "Wsparcie"
 			},
-			"cooldown": "### Poczekaj **{{{timeLeft}}}** sekund przed ponownym użyciem komendy **{{{command}}}**.",
-			"noDjRole": "### {{{emoji}}} Musisz posiadać rolę DJ-a, aby użyć tej komendy.",
-			"noPremium": "### Musisz mieć premium bota, aby użyć tej komendy. Możesz je uzyskać, wpłacając darowiznę [tutaj]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} Nie mam odpowiednich uprawnień, aby dołączyć do Twojego kanału głosowego! Potrzebuję uprawnień: `Wyświetl kanały`, `Podłącz`, i `Mów`. [Przykład uprawnień](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nJeśli problem będzie się powtarzał, zmień region kanału głosowego na `Europę`.",
-			"voiceJoin": "### {{{emoji}}} Musisz być podłączony do kanału głosowego na tym serwerze, aby użyć tej komendy!\n\nJak dołączyć do kanału głosowego? Po prostu kliknij na kanał z ikoną głośnika (na przykład tutaj:  {{{channel}}}) [Zobacz oficjalny przewodnik Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} Musisz być w kanale głosowym **{{{channel}}}**, aby użyć tej komendy.",
-			"noPlayer": "### {{{emoji}}} Nie jestem podłączony do żadnego kanału głosowego. Użyj komendy {{{command}}} żeby mnie przywołać.",
-			"noQueue": "### {{{emoji}}} Nie ma kolejki. Użyj komendy {{{command}}} żeby dodać utwór do kolejki.",
-			"noSong": "### {{{emoji}}} Nic nie jest odtwarzane. Użyj komendy {{{command}}} żeby dodać utwór do kolejki.",
-			"error": "### {{{emoji}}} Wystąpił błąd podczas wykonywania komendy. Proszę zgłoś ten błąd na [serwerze wsparcia]({{{link}}})"
+			"cooldown": " Poczekaj **{{{timeLeft}}}** sekund przed ponownym użyciem komendy **{{{command}}}**.",
+			"noDjRole": " {{{emoji}}} Musisz posiadać rolę DJ-a, aby użyć tej komendy.",
+			"noPremium": " Musisz mieć premium bota, aby użyć tej komendy. Możesz je uzyskać, wpłacając darowiznę [tutaj]({{{link}}})",
+			"voicePerm": " {{{emoji}}} Nie mam odpowiednich uprawnień, aby dołączyć do Twojego kanału głosowego! Potrzebuję uprawnień: `Wyświetl kanały`, `Podłącz`, i `Mów`. [Przykład uprawnień](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nJeśli problem będzie się powtarzał, zmień region kanału głosowego na `Europę`.",
+			"voiceJoin": " {{{emoji}}} Musisz być podłączony do kanału głosowego na tym serwerze, aby użyć tej komendy!\n\nJak dołączyć do kanału głosowego? Po prostu kliknij na kanał z ikoną głośnika (na przykład tutaj:  {{{channel}}}) [Zobacz oficjalny przewodnik Discord](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": " {{{emoji}}} Musisz być w kanale głosowym **{{{channel}}}**, aby użyć tej komendy.",
+			"noPlayer": " {{{emoji}}} Nie jestem podłączony do żadnego kanału głosowego. Użyj komendy {{{command}}} żeby mnie przywołać.",
+			"noQueue": " {{{emoji}}} Nie ma kolejki. Użyj komendy {{{command}}} żeby dodać utwór do kolejki.",
+			"noSong": " {{{emoji}}} Nic nie jest odtwarzane. Użyj komendy {{{command}}} żeby dodać utwór do kolejki.",
+			"error": " {{{emoji}}} Wystąpił błąd podczas wykonywania komendy. Proszę zgłoś ten błąd na [serwerze wsparcia]({{{link}}})"
 		}
 	},
 	"get_started": {
 		"embed_title": "Moe Bot | Zacznijmy",
-		"embed_description": "### Hej <@{{{user}}}>! Mój prefiks(y) to: `{{{prefixList}}}`\nNa przykład: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hej <@{{{user}}}>! Mój prefiks to: `brak`, co oznacza, że możesz używać komend bez prefiksu.\nNa przykład: `help`, `ping`"
+		"embed_description": " Hej <@{{{user}}}>! Mój prefiks(y) to: `{{{prefixList}}}`\nNa przykład: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": " Hej <@{{{user}}}>! Mój prefiks to: `brak`, co oznacza, że możesz używać komend bez prefiksu.\nNa przykład: `help`, `ping`"
 	},
 	"options": {
 		"title": "Opcje dla {{{commandName}}}",

@@ -2,8 +2,8 @@
 	"cmd": {
 		"247": {
 			"description": "Omogući ili onemogući 24/7 način rada.",
-			"enabled": "### {{{emoji}}} 24/7 način rada je omogućen.",
-			"disabled": "### {{{emoji}}} 24/7 način rada je onemogućen."
+			"enabled": " {{{emoji}}} 24/7 način rada je omogućen.",
+			"disabled": " {{{emoji}}} 24/7 način rada je onemogućen."
 		},
 		"ping": {
 			"description": "Prikaži latenciju bota.",
@@ -30,7 +30,7 @@
 			"footer": "Stranica {{{page}}} od {{{pagesNum}}}",
 			"title2": "Pomoć - {{{cmd}}}",
 			"title3": "Pomoć",
-			"manContent": "### Ovdje je popis svih kategorija\n{{{catagory}}}\n\n- Poveznice:\n[Poslužitelj podrške]({{{server}}}) | [Pozivnica]({{{invite}}}) | [Glasovanje]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Web stranica]({{{website}}}) | [Dokumentacija]({{{docs}}})",
+			"manContent": " Ovdje je popis svih kategorija\n{{{catagory}}}\n\n- Poveznice:\n[Poslužitelj podrške]({{{server}}}) | [Pozivnica]({{{invite}}}) | [Glasovanje]({{{vote}}}) | [Patreon]({{{patreon}}}) | [Web stranica]({{{website}}}) | [Dokumentacija]({{{docs}}})",
 			"footer2": "- Za više informacija o naredbi: {{{prefix}}}pomoć <naredba> ili {{{prefix}}}pomoć <kategorija>",
 			"cooldown": "Zadržavanje",
 			"aliases": "Nadimci",
@@ -77,7 +77,7 @@
 			},
 			"noArg": "Molimo unesi premium kod koji želiš unijeti.",
 			"invalidCode": "Unesen je neispravan premium kod.",
-			"confirmation": "### Jeste li sigurni da želite unijeti premium kod `{{{code}}}`?",
+			"confirmation": " Jeste li sigurni da želite unijeti premium kod `{{{code}}}`?",
 			"type": "Vrsta",
 			"expiresAt": "Ističe",
 			"buttons": {
@@ -85,7 +85,7 @@
 				"no": "Ne"
 			},
 			"alreadyPremium": "Već imaš premium članstvo.",
-			"success": "### Uspješno si unio svoj premium kod. Sada možeš koristiti premium naredbe!",
+			"success": " Uspješno si unio svoj premium kod. Sada možeš koristiti premium naredbe!",
 			"canceled": "Poništen je unos premium koda."
 		},
 		"stats": {
@@ -93,14 +93,14 @@
 		},
 		"support": {
 			"description": "Poveznica na poslužitelj za podršku",
-			"content": "### Ako trebaš pomoć s botom ili se jednostavno želiš družiti s nama, pridruži se na [poslužitelj za podršku]({{{link}}}).",
+			"content": " Ako trebaš pomoć s botom ili se jednostavno želiš družiti s nama, pridruži se na [poslužitelj za podršku]({{{link}}}).",
 			"buttons": {
 				"support": "Poslužitelj podrške"
 			}
 		},
 		"vote": {
 			"description": "Poveznica za glasanje bota",
-			"content": "### Ako ti se sviđa bot, molimo razmisli o glasanju za njega na [top.gg]({{{link}}}).",
+			"content": " Ako ti se sviđa bot, molimo razmisli o glasanju za njega na [top.gg]({{{link}}}).",
 			"buttons": {
 				"vote": "Glasaj"
 			}
@@ -120,22 +120,22 @@
 		},
 		"autoplay": {
 			"description": "Omogući ili onemogući način automatske reprodukcije.",
-			"enabled": "### Uspješno je promijenjen način automatske reprodukcije u `Omogućen`\nBot će sada automatski dodavati slične pjesme u red.",
-			"disabled": "### Uspješno je promijenjen način automatske reprodukcije u `Onemogućen`\nBot više neće automatski dodavati slične pjesme u red."
+			"enabled": " Uspješno je promijenjen način automatske reprodukcije u `Omogućen`\nBot će sada automatski dodavati slične pjesme u red.",
+			"disabled": " Uspješno je promijenjen način automatske reprodukcije u `Onemogućen`\nBot više neće automatski dodavati slične pjesme u red."
 		},
 		"clear": {
 			"description": "Očistite redoslijed ili filtre s reproduktora.",
 			"options": {
 				"input": "Redoslijed ili filtri koje treba očistiti"
 			},
-			"content": "### Molimo odaberite redoslijed ili filter za čišćenje. (redoslijed/filtri)",
+			"content": " Molimo odaberite redoslijed ili filter za čišćenje. (redoslijed/filtri)",
 			"queue": {
 				"noSong": "Nema pjesama u redoslijedu za čišćenje.",
-				"success": "### Uspješno očišćen redoslijed."
+				"success": " Uspješno očišćen redoslijed."
 			},
 			"filters": {
 				"noFilter": "Nema filtara za čišćenje.",
-				"success": "### Uspješno očišćeni filtri."
+				"success": " Uspješno očišćeni filtri."
 			},
 			"buttons": {
 				"queue": "Redoslijed",
@@ -144,7 +144,7 @@
 		},
 		"forceskip": {
 			"description": "Sila preskoči trenutnu pjesmu.",
-			"success": "### Preskočena je pjesma '{{{title}}}' pomoću sile."
+			"success": " Preskočena je pjesma '{{{title}}}' pomoću sile."
 		},
 		"forward": {
 			"description": "Premotajte trenutnu pjesmu.",
@@ -153,55 +153,55 @@
 			},
 			"unseekable": "{{{emoji}}} Trenutna pjesma se ne može premotati.",
 			"tooLong": "{{{emoji}}} Ne možete premotati više od duljine pjesme.",
-			"success": "### {{{emoji}}} Uspješno premotana pjesma za `{{{time}}}`."
+			"success": " {{{emoji}}} Uspješno premotana pjesma za `{{{time}}}`."
 		},
 		"grab": {
 			"description": "Zabilježite trenutnu pjesmu.",
 			"dm": "{{{emoji}}} Ne mogu vam poslati pjesmu jer ste onemogućili izravne poruke (DM).",
-			"grabbed": "### {{{emoji}}} Uspješno zabilježena pjesma."
+			"grabbed": " {{{emoji}}} Uspješno zabilježena pjesma."
 		},
 		"join": {
 			"description": "Pozovite bota u svoj glasovni kanal.",
 			"no-perms": "{{{emoji}}} Nemam potrebne dozvole za pridruživanje vašem glasovnom kanalu! Potrebne su mi dozvole `Pregledavanje kanala`, `Povezivanje` i `Govor`. [Primjer dozvola](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\n Ako se problem nastavi, promijenite regiju glasovnog kanala na `Europe`.",
 			"already-in": "{{{emoji}}} Već sam u glasovnom kanalu!",
-			"joined": "### Uspješno sam se pridružio glasovnom kanalu {{{channel}}}"
+			"joined": " Uspješno sam se pridružio glasovnom kanalu {{{channel}}}"
 		},
 		"leave": {
 			"description": "Napustite glasovni kanal.",
 			"not-playing": "{{{emoji}}} Trenutno ništa ne reproduciram!",
-			"success": "### {{{emoji}}} Uspješno sam napustio glasovni kanal."
+			"success": " {{{emoji}}} Uspješno sam napustio glasovni kanal."
 		},
 		"leavecleanup": {
 			"description": "Uklonite sve pjesme od korisnika koji nisu u glasovnom kanalu.",
-			"removing": "## Uklanjanje pjesama od korisnika koji više nisu u VC-u. Molimo pričekajte",
-			"removed": "### Uspješno uklonjeno `{{{count}}}` pjesama od korisnika koji više nisu u VC-u."
+			"removing": " Uklanjanje pjesama od korisnika koji više nisu u VC-u. Molimo pričekajte",
+			"removed": " Uspješno uklonjeno `{{{count}}}` pjesama od korisnika koji više nisu u VC-u."
 		},
 		"loop": {
 			"description": "Ponovno reproducirajte trenutnu pjesmu ili redoslijed.",
 			"options": {
 				"mode": "Način petljanja za postavljanje"
 			},
-			"specify": "### Molimo navedite način petljanja. (pjesma, redoslijed, isključeno) pomoću donjih gumba.",
+			"specify": " Molimo navedite način petljanja. (pjesma, redoslijed, isključeno) pomoću donjih gumba.",
 			"buttons": {
 				"song": "Pjesma",
 				"queue": "Redoslijed",
 				"off": "Isključeno"
 			},
-			"song": "### {{{emoji}}} Uspješno petljana trenutna pjesma.",
-			"queue": "### {{{emoji}}} Uspješno petljan redoslijed.",
-			"off": "### {{{emoji}}} Uspješno onemogućena petlja.",
-			"song_already": "### {{{emoji}}} Trenutna pjesma već je u petlji.",
-			"queue_already": "### {{{emoji}}} Redoslijed već petlja.",
-			"off_already": "### {{{emoji}}} Petlja je već isključena.",
-			"invalid_mode": "### {{{emoji}}} Naveden je nevaljani način petljanja. Molimo navedite valjani način petljanja. (pjesma, redoslijed, isključeno)"
+			"song": " {{{emoji}}} Uspješno petljana trenutna pjesma.",
+			"queue": " {{{emoji}}} Uspješno petljan redoslijed.",
+			"off": " {{{emoji}}} Uspješno onemogućena petlja.",
+			"song_already": " {{{emoji}}} Trenutna pjesma već je u petlji.",
+			"queue_already": " {{{emoji}}} Redoslijed već petlja.",
+			"off_already": " {{{emoji}}} Petlja je već isključena.",
+			"invalid_mode": " {{{emoji}}} Naveden je nevaljani način petljanja. Molimo navedite valjani način petljanja. (pjesma, redoslijed, isključeno)"
 		},
 		"lyrics": {
 			"description": "Prikažite tekst trenutne pjesme ili pjesme pretraživanjem po imenu.",
 			"options": {
 				"song": "Naziv pjesme za pretragu"
 			},
-			"noQuery": "### Molimo navedite naziv pjesme za pretragu.",
-			"noLyrics": "### Nisam uspio pronaći tekst za ovu pjesmu.",
+			"noQuery": " Molimo navedite naziv pjesme za pretragu.",
+			"noLyrics": " Nisam uspio pronaći tekst za ovu pjesmu.",
 			"page": "Stranica {{{page}}} od {{{pages}}}"
 		},
 		"move": {
@@ -210,13 +210,13 @@
 				"song": "Pjesma za premještanje",
 				"position": "Pozicija na koju premjestiti pjesmu"
 			},
-			"invalidNumber": "### Molimo navedite valjani broj za poziciju.",
-			"invalidPosition": "### Navedena je nevaljana pozicija. Molimo navedite valjanu poziciju.",
-			"success": "### Premještena pjesma **[{{{title}}}]({{{uri}}})** s pozicije **{{{from}}}** na **{{{to}}}**."
+			"invalidNumber": " Molimo navedite valjani broj za poziciju.",
+			"invalidPosition": " Navedena je nevaljana pozicija. Molimo navedite valjanu poziciju.",
+			"success": " Premještena pjesma **[{{{title}}}]({{{uri}}})** s pozicije **{{{from}}}** na **{{{to}}}**."
 		},
 		"nowplaying": {
 			"description": "Prikažite trenutno reproduciranu pjesmu.",
-			"nowplaying": "### Trenutno se reproducira: [{{{title}}}]({{{uri}}})",
+			"nowplaying": " Trenutno se reproducira: [{{{title}}}]({{{uri}}})",
 			"author": "Autor",
 			"requester": "Zatražio",
 			"duration": "Trajanje",
@@ -224,8 +224,8 @@
 		},
 		"pause": {
 			"description": "Pauzirajte trenutnu pjesmu.",
-			"alreadyPaused": "### Trenutna pjesma već je pauzirana.",
-			"paused": "### Pauzirano [{{{title}}}]({{{uri}}})"
+			"alreadyPaused": " Trenutna pjesma već je pauzirana.",
+			"paused": " Pauzirano [{{{title}}}]({{{uri}}})"
 		},
 		"play": {
 			"description": "pusti pjesmu s Spotifyja, SoundClouda, Deezer-a, itd...",
@@ -234,16 +234,16 @@
 				"source": "Izvor pretraživanja"
 			},
 			"no-query": "Molim vas, navedite naziv pjesme za pretraživanje.",
-			"no-results": "### Nema rezultata za `{{{query}}}`.",
-			"playlist-loaded": "### Učitano `{{{count}}}` pjesama s popisa pjesama **[{{{name}}}]({{{url}}})**",
+			"no-results": " Nema rezultata za `{{{query}}}`.",
+			"playlist-loaded": " Učitano `{{{count}}}` pjesama s popisa pjesama **[{{{name}}}]({{{url}}})**",
 			"footer": "Hvala što koristite {{{bot}}}",
-			"added": "### Dodano **[{{{title}}}]({{{uri}}})** u red čekanja (zahtijevao <@{{{requester}}}>) na poziciji u redu `#{{{position}}}`",
-			"youtube-not-supported": "### Ispričavamo se, ali YouTube nije podržan u MoE-u zbog Discord TOS-a. Ne možemo koristiti YouTube API za slušanje glazbe. Ispričavamo se zbog mogućih neugodnosti."
+			"added": " Dodano **[{{{title}}}]({{{uri}}})** u red čekanja (zahtijevao <@{{{requester}}}>) na poziciji u redu `#{{{position}}}`",
+			"youtube-not-supported": " Ispričavamo se, ali YouTube nije podržan u MoE-u zbog Discord TOS-a. Ne možemo koristiti YouTube API za slušanje glazbe. Ispričavamo se zbog mogućih neugodnosti."
 		},
 		"playprevious": {
 			"description": "Pusti prethodnu pjesmu.",
-			"noPreviousTrack": "### {{{emoji}}} Nema prethodne pjesme za reprodukciju.",
-			"success": "### {{{emoji}}} Sada se reproducira prethodna pjesma iz vašeg reda čekanja!"
+			"noPreviousTrack": " {{{emoji}}} Nema prethodne pjesme za reprodukciju.",
+			"success": " {{{emoji}}} Sada se reproducira prethodna pjesma iz vašeg reda čekanja!"
 		},
 		"queue": {
 			"description": "Prikaži red čekanja za trenutni poslužitelj.",
@@ -251,16 +251,16 @@
 				"page": "Broj stranice za prikaz"
 			},
 			"queue": "Red čekanja za {{{guild}}} ({{{songs}}} pjesama)",
-			"nowPlaying": "### Trenutno se reproducira: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
-			"upNext": "### Slijedi: {{{str}}}",
+			"nowPlaying": " Trenutno se reproducira: [{{{title}}}]({{{uri}}}) `[{{{length}}}]`- (<@{{{requester}}})>\n\n",
+			"upNext": " Slijedi: {{{str}}}",
 			"noSongs": " Trenutno nema pjesama u redu čekanja! Dodajte jednu pomoću {{{cmd}}}",
 			"page": "Stranica {{{page}}} | {{{songs}}} pjesama | Ukupno trajanje: {{{duration}}}",
-			"notNumber": "### {{{emoji}}} Broj stranice mora biti broj.",
-			"pageLimit": "### {{{emoji}}} Broj stranice mora biti manji ili jednak od {{{pages}}}.",
+			"notNumber": " {{{emoji}}} Broj stranice mora biti broj.",
+			"pageLimit": " {{{emoji}}} Broj stranice mora biti manji ili jednak od {{{pages}}}.",
 			"clearQueue": "Isprazni red",
-			"noTracks": "### Nema pjesama u redu čekanja.",
-			"noDjRole": "### Potreban vam je DJ status za korištenje ove naredbe.",
-			"clearedQueue": "### {{{user}}} Ispraznio/la je red čekanja."
+			"noTracks": " Nema pjesama u redu čekanja.",
+			"noDjRole": " Potreban vam je DJ status za korištenje ove naredbe.",
+			"clearedQueue": " {{{user}}} Ispraznio/la je red čekanja."
 		},
 		"remove": {
 			"description": "Ukloni pjesmu iz reda čekanja.",
@@ -269,29 +269,29 @@
 				"number": "Broj pjesme ili naslov pjesme za uklanjanje.",
 				"dupes": "Ukloni sve duplicirane pjesme."
 			},
-			"trackNotFound": "### Nema pjesme s tim brojem u redu čekanja.",
-			"invalidNumber": "### Unesite broj između 1 i {{{length}}}.",
-			"removed": "### Uklonjeno **[{{{title}}}]({{{uri}}})** iz reda čekanja.",
-			"noDupes": "### Nema dupliciranih pjesama u redu čekanja.",
-			"removedDupes": "### Uklonjeno **{{{length}}}** dupliciranih pjesama iz reda čekanja."
+			"trackNotFound": " Nema pjesme s tim brojem u redu čekanja.",
+			"invalidNumber": " Unesite broj između 1 i {{{length}}}.",
+			"removed": " Uklonjeno **[{{{title}}}]({{{uri}}})** iz reda čekanja.",
+			"noDupes": " Nema dupliciranih pjesama u redu čekanja.",
+			"removedDupes": " Uklonjeno **{{{length}}}** dupliciranih pjesama iz reda čekanja."
 		},
 		"replay": {
 			"description": "Ponovi trenutnu pjesmu.",
-			"replaying": "### Ponavljanje [{{{title}}}]({{{uri}}})"
+			"replaying": " Ponavljanje [{{{title}}}]({{{uri}}})"
 		},
 		"resume": {
 			"description": "Nastavi trenutnu pjesmu.",
-			"notPaused": "### Trenutna pjesma nije pauzirana.",
-			"resumed": "### Nastavljeno [{{{title}}}]({{{uri}}})"
+			"notPaused": " Trenutna pjesma nije pauzirana.",
+			"resumed": " Nastavljeno [{{{title}}}]({{{uri}}})"
 		},
 		"rewind": {
 			"description": "Prebaci na početak trenutne pjesme.",
 			"options": {
 				"time": "Vrijeme na koje želite prebaciti pjesmu."
 			},
-			"notSeekable": "### {{{emoji}}} Trenutnu pjesmu nije moguće premotati.",
-			"negativePosition": "### {{{emoji}}} Položaj mora biti između 0 i {{{length}}}.",
-			"success": "### {{{emoji}}} Premotana pjesma na početak, dužina pjesme je {{{length}}}."
+			"notSeekable": " {{{emoji}}} Trenutnu pjesmu nije moguće premotati.",
+			"negativePosition": " {{{emoji}}} Položaj mora biti između 0 i {{{length}}}.",
+			"success": " {{{emoji}}} Premotana pjesma na početak, dužina pjesme je {{{length}}}."
 		},
 		"search": {
 			"description": "Pretraži pjesmu na Spotifyju, SoundCloudu ili Deezeru",
@@ -299,69 +299,69 @@
 				"query": "Upit za pretraživanje",
 				"source": "Izvor pretraživanja"
 			},
-			"no-playlist": "### {{{emoji}}} Popisi pjesama nisu podržani! U naredbi za pretraživanje koristite naredbu {{{cmd}}}",
-			"no-track": "### {{{emoji}}} Pjesme nisu podržane! U naredbi za pretraživanje koristite naredbu {{{cmd}}}",
-			"results": "## Rezultati pretraživanja za `{{{query}}}`\n\n{{{results}}}",
+			"no-playlist": " {{{emoji}}} Popisi pjesama nisu podržani! U naredbi za pretraživanje koristite naredbu {{{cmd}}}",
+			"no-track": " {{{emoji}}} Pjesme nisu podržane! U naredbi za pretraživanje koristite naredbu {{{cmd}}}",
+			"results": " Rezultati pretraživanja za `{{{query}}}`\n\n{{{results}}}",
 			"footer": "Odaberite pjesmu iz izbornika ispod.",
 			"placeholder": "Odaberite pjesmu s popisa u nastavku kako biste je pustili.",
 			"footerTimeout": "Isteklo je vrijeme za prikaz rezultata pretraživanja.",
-			"no-voice": "### {{{emoji}}} Morate biti u glasovnom kanalu kako biste koristili ovaj izbornik.",
-			"wrong-voice": "### {{{emoji}}} Morate biti u istom glasovnom kanalu kao i ja kako biste koristili ovaj izbornik.",
-			"added": "### {{{emoji}}} Dodano {{{count}}} pjesama u red čekanja."
+			"no-voice": " {{{emoji}}} Morate biti u glasovnom kanalu kako biste koristili ovaj izbornik.",
+			"wrong-voice": " {{{emoji}}} Morate biti u istom glasovnom kanalu kao i ja kako biste koristili ovaj izbornik.",
+			"added": " {{{emoji}}} Dodano {{{count}}} pjesama u red čekanja."
 		},
 		"seek": {
 			"description": "Pretražuje trenutačnu pjesmu na zadano vrijeme.",
 			"options": {
 				"time": "Vrijeme na koje želite pretražiti pjesmu."
 			},
-			"invalidPosition": "### Vrijeme mora biti između 0 i {{{length}}}.",
-			"seeked": "### Pretraženo `{{{position}}}` na `{{{time}}}`"
+			"invalidPosition": " Vrijeme mora biti između 0 i {{{length}}}.",
+			"seeked": " Pretraženo `{{{position}}}` na `{{{time}}}`"
 		},
 		"shuffle": {
 			"description": "Izmiješaj redoslijed pjesama u redu čekanja.",
-			"success": "### Red čekanja na poslužitelju uspješno izmiješan (**{{{length}}}** pjesama).",
-			"unshuffle": "### Red čekanja na poslužitelju uspješno vraćen na originalni redoslijed (**{{{length}}}** pjesama)."
+			"success": " Red čekanja na poslužitelju uspješno izmiješan (**{{{length}}}** pjesama).",
+			"unshuffle": " Red čekanja na poslužitelju uspješno vraćen na originalni redoslijed (**{{{length}}}** pjesama)."
 		},
 		"skip": {
 			"description": "Preskoči trenutačnu pjesmu.",
-			"nothing": "### Nema pjesama u redu čekanja. Upotrijebite {{{queue}}} za pregled reda čekanja na poslužitelju.\nŽelite li isprobati automatski odabir pjesama? Upotrijebite {{{autoplay}}}.",
-			"paused": "### Pauzirano je. Upotrijebite naredbu za nastavak reprodukcije kako biste nastavili s reprodukcijom.\nŽelite li nastaviti reprodukciju? Upotrijebite {{{resume}}}.",
-			"voteSkip": "### {{{user}}} je zatražio preskakanje trenutačne pjesme.\n\n{{{voted}}}",
-			"skip": "### Preskakanje pjesme **{{{title}}}**."
+			"nothing": " Nema pjesama u redu čekanja. Upotrijebite {{{queue}}} za pregled reda čekanja na poslužitelju.\nŽelite li isprobati automatski odabir pjesama? Upotrijebite {{{autoplay}}}.",
+			"paused": " Pauzirano je. Upotrijebite naredbu za nastavak reprodukcije kako biste nastavili s reprodukcijom.\nŽelite li nastaviti reprodukciju? Upotrijebite {{{resume}}}.",
+			"voteSkip": " {{{user}}} je zatražio preskakanje trenutačne pjesme.\n\n{{{voted}}}",
+			"skip": " Preskakanje pjesme **{{{title}}}**."
 		},
 		"skipto": {
 			"description": "Preskoči na određenu pjesmu u redu čekanja.",
 			"options": {
 				"number": "Redni broj ili naslov pjesme na koji želite preskočiti."
 			},
-			"invalidNumber": "### {{{emoji}}} Molimo unesite broj pjesme između 1 i {{{length}}}.",
-			"success": "### {{{emoji}}} Preskočeno na **[{{{title}}}]({{{uri}}})**."
+			"invalidNumber": " {{{emoji}}} Molimo unesite broj pjesme između 1 i {{{length}}}.",
+			"success": " {{{emoji}}} Preskočeno na **[{{{title}}}]({{{uri}}})**."
 		},
 		"stop": {
 			"description": "Zaustavi reprodukciju i očisti red čekanja.",
-			"stopped": "### {{{emoji}}} Reprodukcija je zaustavljena, a red čekanja je očišćen."
+			"stopped": " {{{emoji}}} Reprodukcija je zaustavljena, a red čekanja je očišćen."
 		},
 		"topsongs": {
 			"description": "Prikaži najpopularnije pjesme koje je bot puštao.",
-			"noTopSongs": "### Nema najpopularnijih pjesama u bazi podataka.",
+			"noTopSongs": " Nema najpopularnijih pjesama u bazi podataka.",
 			"timesPlayed": "Broj puta puštanja",
 			"selectSong": "Odaberite pjesmu s popisa ispod za reprodukciju.",
-			"added": "### Dodano **[{{{title}}}]({{{uri}}})** u red čekanja."
+			"added": " Dodano **[{{{title}}}]({{{uri}}})** u red čekanja."
 		},
 		"volume": {
 			"description": "Promijeni glasnoću reprodukcije.",
 			"options": {
 				"volume": "Željena glasnoća."
 			},
-			"invalidVolume": "### {{{emoji}}} Molimo unesite broj između 0 i 100.",
-			"success": "### {{{emoji}}} Postavljena glasnoća na **{{{volume}}}**."
+			"invalidVolume": " {{{emoji}}} Molimo unesite broj između 0 i 100.",
+			"success": " {{{emoji}}} Postavljena glasnoća na **{{{volume}}}**."
 		},
 		"voteskip": {
 			"description": "Glasaj za preskakanje trenutačne pjesme."
 		},
 		"filters": {
-			"filters": "### Svi filteri primijenjeni na trenutačnu pjesmu:\n\n{{{filters}}}",
-			"pitchNaN": "### {{{emoji}}} Odstojanje tonova mora biti broj između 1 i 5.",
+			"filters": " Svi filteri primijenjeni na trenutačnu pjesmu:\n\n{{{filters}}}",
+			"pitchNaN": " {{{emoji}}} Odstojanje tonova mora biti broj između 1 i 5.",
 			"description": {
 				"8d": "Primijeni 8D filter na trenutačnu pjesmu.",
 				"bassboost": "Primijeni pojačavanje basa na trenutačnu pjesmu.",
@@ -384,9 +384,9 @@
 				"vaporwave": "Primijeni vaporwave filter na trenutačnu pjesmu.",
 				"vibrato": "Primijeni vibrato filter na trenutačnu pjesmu."
 			},
-			"enabled": "### {{{emoji}}} Filter {{{name}}} je omogućen.",
-			"disabled": "### {{{emoji}}} Filter {{{name}}} je onemogućen.",
-			"speed": "### {{{emoji}}} Brzina filtera postavljena na **{{{value}}}**.",
+			"enabled": " {{{emoji}}} Filter {{{name}}} je omogućen.",
+			"disabled": " {{{emoji}}} Filter {{{name}}} je onemogućen.",
+			"speed": " {{{emoji}}} Brzina filtera postavljena na **{{{value}}}**.",
 			"options": {
 				"speed": "Željena brzina.",
 				"pitch": "Ton koji želite primijeniti."
@@ -401,15 +401,15 @@
 				"prunning": "Uključite/isključite skraćivanje poruke o početku pjesme.",
 				"reset": "Vratite postavke kanala za objavu poruke o početku pjesme."
 			},
-			"noChannel": "### {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
-			"noTextChannel": "### {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
-			"sameChannel": "### {{{emoji}}} Kanal koji ste naveli već postoji u bazi podataka.",
-			"setChannel": "### {{{emoji}}} Uspješno postavljen kanal za objavu na {{{channel}}}.",
-			"noChannelInDB": "### {{{emoji}}} Kanal za objavu nije postavljen u bazi podataka.",
-			"toggle": "### {{{emoji}}} Uspješno {{{status}}} objavu poruke o početku pjesme.",
+			"noChannel": " {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
+			"noTextChannel": " {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
+			"sameChannel": " {{{emoji}}} Kanal koji ste naveli već postoji u bazi podataka.",
+			"setChannel": " {{{emoji}}} Uspješno postavljen kanal za objavu na {{{channel}}}.",
+			"noChannelInDB": " {{{emoji}}} Kanal za objavu nije postavljen u bazi podataka.",
+			"toggle": " {{{emoji}}} Uspješno {{{status}}} objavu poruke o početku pjesme.",
 			"enabled": "omogućeno",
 			"disabled": "onemogućeno",
-			"reset": "### {{{emoji}}} Kanal za objavu poruke o početku pjesme je uspješno vraćen na zadane postavke."
+			"reset": " {{{emoji}}} Kanal za objavu poruke o početku pjesme je uspješno vraćen na zadane postavke."
 		},
 		"botchannel": {
 			"description": "Postavljanje kanala za bot za slušanje naredbi",
@@ -420,28 +420,28 @@
 				"clear": "Očistite popis kanala za bot",
 				"info": "Dohvatite popis kanala za bot i informacije o tim kanalima"
 			},
-			"noChannel": "### {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
-			"noTextChannel": "### {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
-			"sameChannel": "### {{{emoji}}} Kanal koji ste naveli već postoji u bazi podataka.",
-			"maxChannel": "### {{{emoji}}} Ne možete dodati više od 5 kanala na popis kanala za bot.",
-			"addedChannel": "### {{{emoji}}} Uspješno dodan kanal {{{channel}}} na popis kanala za bot.",
-			"noChannelInDB": "### {{{emoji}}} Nema kanala za bota u bazi podataka.",
-			"removedChannel": "### {{{emoji}}} Uspješno uklonjen kanal {{{channel}}} s popisa kanala za bot.",
-			"clearedChannel": "### {{{emoji}}} Popis kanala za bot uspješno očišćen.",
+			"noChannel": " {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
+			"noTextChannel": " {{{emoji}}} Molimo vas da unesete valjani tekstualni kanal.",
+			"sameChannel": " {{{emoji}}} Kanal koji ste naveli već postoji u bazi podataka.",
+			"maxChannel": " {{{emoji}}} Ne možete dodati više od 5 kanala na popis kanala za bot.",
+			"addedChannel": " {{{emoji}}} Uspješno dodan kanal {{{channel}}} na popis kanala za bot.",
+			"noChannelInDB": " {{{emoji}}} Nema kanala za bota u bazi podataka.",
+			"removedChannel": " {{{emoji}}} Uspješno uklonjen kanal {{{channel}}} s popisa kanala za bot.",
+			"clearedChannel": " {{{emoji}}} Popis kanala za bot uspješno očišćen.",
 			"info": ">>> **Kanal:** {{{channel}}}\n**Moderator:** {{{moderator}}}\n**Dodano u:** {{{addedAt}}}",
 			"title": "Kanali za bota ({{count}})"
 		},
 		"clean": {
 			"description": "Očistite moje poruke na kanalu.",
-			"success": "### {{{emoji}}} Uspješno obrisano **{{{count}}}** poruka."
+			"success": " {{{emoji}}} Uspješno obrisano **{{{count}}}** poruka."
 		},
 		"defaultvolume": {
 			"description": "Postavljanje zadane glasnoće za poslužitelj",
 			"options": {
 				"number": "Broj na koji postaviti zadanu glasnoću"
 			},
-			"invalidNumber": "### {{{emoji}}} Molimo unesite broj između 0 i 200.",
-			"success": "### {{{emoji}}} Uspješno postavljena zadanu glasnoću na **{{{volume}}}**."
+			"invalidNumber": " {{{emoji}}} Molimo unesite broj između 0 i 200.",
+			"success": " {{{emoji}}} Uspješno postavljena zadanu glasnoću na **{{{volume}}}**."
 		},
 		"disablecommands": {
 			"description": "Onemogućite naredbe za poslužitelj",
@@ -452,16 +452,16 @@
 				"list": "Dohvatite popis onemogućenih naredbi",
 				"clear": "Očistite popis onemogućenih naredbi"
 			},
-			"noCommand": "### {{{emoji}}} Molimo vas da navedete ime naredbe koju želite onemogućiti/omogućiti.",
-			"commandNotExist": "### {{{emoji}}} Ta naredba ne postoji u botu.",
-			"commandAlreadyDisabled": "### {{{emoji}}} Ta naredba je već onemogućena.",
-			"commandDisabled": "### {{{emoji}}} Uspješno onemogućena naredba **{{{command}}}**.",
-			"noDisabledCommands": "### {{{emoji}}} Ova naredba nije onemogućena.",
-			"commandEnabled": "### {{{emoji}}} Uspješno omogućena naredba **{{{command}}}**.",
+			"noCommand": " {{{emoji}}} Molimo vas da navedete ime naredbe koju želite onemogućiti/omogućiti.",
+			"commandNotExist": " {{{emoji}}} Ta naredba ne postoji u botu.",
+			"commandAlreadyDisabled": " {{{emoji}}} Ta naredba je već onemogućena.",
+			"commandDisabled": " {{{emoji}}} Uspješno onemogućena naredba **{{{command}}}**.",
+			"noDisabledCommands": " {{{emoji}}} Ova naredba nije onemogućena.",
+			"commandEnabled": " {{{emoji}}} Uspješno omogućena naredba **{{{command}}}**.",
 			"disabledCommands": "Onemogućene naredbe",
 			"disabledCommandsForThisServer": "Onemogućene naredbe za ovaj poslužitelj",
 			"total": "Ukupno: {{{total}}}",
-			"disabledCommandsCleared": "### {{{emoji}}} Popis onemogućenih naredbi uspješno očišćen."
+			"disabledCommandsCleared": " {{{emoji}}} Popis onemogućenih naredbi uspješno očišćen."
 		},
 		"dj": {
 			"description": "Postavljanje DJ uloge za poslužitelj",
@@ -474,18 +474,18 @@
 				"toggle": "Uključite/isključite DJ ulogu",
 				"info": "Dohvatite popis DJ uloga i informacije o DJ ulogama"
 			},
-			"noRole": "### {{{emoji}}} Molimo vas da unesete valjanu ulogu za (dodavanje/uklanjanje).",
-			"maxRoles": "### {{{emoji}}} Ne možete dodati više od 5 uloga na popis DJ uloga.",
-			"alreadyInList": "### {{{emoji}}} Uloga koju ste naveli već se nalazi u bazi podataka.",
-			"addedRole": "### {{{emoji}}} Uspješno dodana uloga {{{role}}} na popis DJ uloga.",
-			"noRolesSetup": "### {{{emoji}}} Nema postavljenih DJ uloga na ovom poslužitelju.",
-			"notInList": "### {{{emoji}}} Ova uloga nije na popisu DJ uloga.",
-			"removedRole": "### {{{emoji}}} Uspješno uklonjena uloga {{{role}}} s popisa DJ uloga.",
+			"noRole": " {{{emoji}}} Molimo vas da unesete valjanu ulogu za (dodavanje/uklanjanje).",
+			"maxRoles": " {{{emoji}}} Ne možete dodati više od 5 uloga na popis DJ uloga.",
+			"alreadyInList": " {{{emoji}}} Uloga koju ste naveli već se nalazi u bazi podataka.",
+			"addedRole": " {{{emoji}}} Uspješno dodana uloga {{{role}}} na popis DJ uloga.",
+			"noRolesSetup": " {{{emoji}}} Nema postavljenih DJ uloga na ovom poslužitelju.",
+			"notInList": " {{{emoji}}} Ova uloga nije na popisu DJ uloga.",
+			"removedRole": " {{{emoji}}} Uspješno uklonjena uloga {{{role}}} s popisa DJ uloga.",
 			"list": ">>> **Uloga:** {{{role}}}\n**Moderator:** {{{moderator}}}\n**Dodano u:** {{{addedAt}}}",
-			"listTotal": "## Ukupno DJ uloga: {{{total}}}",
-			"clearedList": "### {{{emoji}}} Popis DJ uloga uspješno očišćen.",
-			"enabledToggle": "### {{{emoji}}} Uspješno omogućen način DJ prebacivanja.",
-			"disabledToggle": "### {{{emoji}}} Uspješno onemogućen način DJ prebacivanja.",
+			"listTotal": " Ukupno DJ uloga: {{{total}}}",
+			"clearedList": " {{{emoji}}} Popis DJ uloga uspješno očišćen.",
+			"enabledToggle": " {{{emoji}}} Uspješno omogućen način DJ prebacivanja.",
+			"disabledToggle": " {{{emoji}}} Uspješno onemogućen način DJ prebacivanja.",
 			"info": {
 				"djRoles": "DJ Uloge",
 				"enabled": "Omogućeno",
@@ -497,15 +497,15 @@
 		},
 		"fixvoice": {
 			"description": "Popravi glasovnu vezu ako bot ne reproducira glazbu.",
-			"joining": "### Ponovno povezivanje na glasovni kanal i nastavak reprodukcije glazbe.",
-			"failed": "### Neuspjelo mijenjanje regije glasovnog kanala. Molimo pokušajte ponovno kasnije.",
+			"joining": " Ponovno povezivanje na glasovni kanal i nastavak reprodukcije glazbe.",
+			"failed": " Neuspjelo mijenjanje regije glasovnog kanala. Molimo pokušajte ponovno kasnije.",
 			"error": "{{{emoji}}} Trenutno ne mogu pronaći nikakvo rješenje. Možda potražite pomoć na [serveru za podršku]({{{server}}}).",
-			"success": "### {{{emoji}}} Uspješno promijenjena regija glasovnog kanala na **{{{region}}}**."
+			"success": " {{{emoji}}} Uspješno promijenjena regija glasovnog kanala na **{{{region}}}**."
 		},
 		"forcejoin": {
 			"description": "Prisili bota da se pridruži glasovnom kanalu.",
 			"already-in": "{{{emoji}}} Već sam povezan s glasovnim kanalom!",
-			"joined": "### {{{emoji}}} Uspješno sam se pridružio glasovnom kanalu **{{{channel}}}**."
+			"joined": " {{{emoji}}} Uspješno sam se pridružio glasovnom kanalu **{{{channel}}}**."
 		},
 		"languages": {
 			"description": "Postavi jezik bota za ovaj server",
@@ -516,25 +516,25 @@
 				"reset": "Vrati jezik na zadanu postavku",
 				"set": "cmd.languages.options.set"
 			},
-			"success": "### {{{emoji}}} Uspješno postavljen jezik bota na {{{language}}} `({{{languageCode}}})`.",
-			"info": "### Trenutni jezik na ovom serveru je: **{{{language}}}** `({{{languageCode}}})`.",
-			"reset": "### {{{emoji}}} Uspješno vraćen jezik bota na zadanu postavku.",
+			"success": " {{{emoji}}} Uspješno postavljen jezik bota na {{{language}}} `({{{languageCode}}})`.",
+			"info": " Trenutni jezik na ovom serveru je: **{{{language}}}** `({{{languageCode}}})`.",
+			"reset": " {{{emoji}}} Uspješno vraćen jezik bota na zadanu postavku.",
 			"translationProgress": "Napredak prijevoda: {{{progress}}}",
 			"selectLanguage": "Odaberite jezik koji želite postaviti iz izbornika ispod."
 		},
 		"noprefix": {
 			"description": "Prebacuje no-prefix način rada za korisnika ili server.",
-			"toggle": "### Prebaci no-prefix način rada za korisnika ili server.",
+			"toggle": " Prebaci no-prefix način rada za korisnika ili server.",
 			"buttons": {
 				"server": "Server",
 				"user": "Korisnik"
 			},
-			"premium": "### Morate biti premium korisnik da biste koristili ovu naredbu.",
-			"disabledUser": "### {{{emoji}}} Uspješno onemogućen no-prefix način rada za korisnika.",
-			"enabledUser": "### {{{emoji}}} Uspješno omogućen no-prefix način rada za korisnika.",
-			"noPerm": "### Nemate potrebne ovlasti za korištenje ove naredbe.",
-			"disabledServer": "### {{{emoji}}} Uspješno onemogućen no-prefix način rada za server.",
-			"enabledServer": "### {{{emoji}}} Uspješno omogućen no-prefix način rada za server."
+			"premium": " Morate biti premium korisnik da biste koristili ovu naredbu.",
+			"disabledUser": " {{{emoji}}} Uspješno onemogućen no-prefix način rada za korisnika.",
+			"enabledUser": " {{{emoji}}} Uspješno omogućen no-prefix način rada za korisnika.",
+			"noPerm": " Nemate potrebne ovlasti za korištenje ove naredbe.",
+			"disabledServer": " {{{emoji}}} Uspješno onemogućen no-prefix način rada za server.",
+			"enabledServer": " {{{emoji}}} Uspješno omogućen no-prefix način rada za server."
 		},
 		"prefix": {
 			"description": "Postavi prefiks za ovaj server",
@@ -546,16 +546,16 @@
 				"remove": "Ukloni prefiks za ovaj server"
 			},
 			"info": ">>> **Prefiks:** `{{{prefix}}}`\n**Moderator:** {{{moderator}}}\n**Dodano u:** {{{timestamp}}}",
-			"noPrefix": "### {{{emoji}}} Molimo unesite prefiks koji želite postaviti.",
-			"noPrefixAdded": "### {{{emoji}}} Nema postavljenog prefiksa na ovom serveru.",
-			"prefixLength": "### {{{emoji}}} Prefiks ne može biti dulji od 5 znakova.",
-			"prefixLimit": "### {{{emoji}}} Maksimalno dopušteno 4 prefiksa, molimo uklonite neke prefikse pomoću `prefix remove`.",
-			"prefixCharacters": "### {{{emoji}}} Prefiks ne smije sadržavati sljedeće znakove `[]{}\\`.",
-			"prefixExists": "### {{{emoji}}} Prefiks `{{{prefix}}}` je već postavljen od strane {{{moderator}}}.",
-			"prefixCleared": "### {{{emoji}}} Uspješno obrisani svi prefiksi, vraćeni na zadane postavke.",
-			"prefixNotExists": "### {{{emoji}}} Prefiks `{{{prefix}}}` nije postavljen.",
-			"prefixRemoved": "### {{{emoji}}} Uspješno uklonjen prefiks `{{{prefix}}}`.",
-			"prefixAdded": "### {{{emoji}}} Uspješno dodan prefiks `{{{prefix}}}`."
+			"noPrefix": " {{{emoji}}} Molimo unesite prefiks koji želite postaviti.",
+			"noPrefixAdded": " {{{emoji}}} Nema postavljenog prefiksa na ovom serveru.",
+			"prefixLength": " {{{emoji}}} Prefiks ne može biti dulji od 5 znakova.",
+			"prefixLimit": " {{{emoji}}} Maksimalno dopušteno 4 prefiksa, molimo uklonite neke prefikse pomoću `prefix remove`.",
+			"prefixCharacters": " {{{emoji}}} Prefiks ne smije sadržavati sljedeće znakove `[]{}\\`.",
+			"prefixExists": " {{{emoji}}} Prefiks `{{{prefix}}}` je već postavljen od strane {{{moderator}}}.",
+			"prefixCleared": " {{{emoji}}} Uspješno obrisani svi prefiksi, vraćeni na zadane postavke.",
+			"prefixNotExists": " {{{emoji}}} Prefiks `{{{prefix}}}` nije postavljen.",
+			"prefixRemoved": " {{{emoji}}} Uspješno uklonjen prefiks `{{{prefix}}}`.",
+			"prefixAdded": " {{{emoji}}} Uspješno dodan prefiks `{{{prefix}}}`."
 		},
 		"profile": {
 			"description": "Prikaži svoj ili tuđi profil.",
@@ -567,16 +567,16 @@
 				"view": "Pregledaj vaš ili tuđi profil.",
 				"user": "Korisnik čiji profil želite pregledati."
 			},
-			"noBio": "### {{{emoji}}} Molimo unesite opis profila.",
-			"bioLength": "### {{{emoji}}} Vaš opis profila ne može biti dulji od 50 znakova.",
-			"bioSet": "### {{{emoji}}} Uspješno postavljen opis vašeg profila na `{{{bio}}}`.",
-			"noColor": "### {{{emoji}}} Molimo unesite šifru boje u heksadecimalnom formatu [Primjer: #FF0000](https://g.co/kgs/q5nhF7).\n\nMožete koristiti i sljedeće nazive boja: {{{colors}}}.",
-			"sameColor": "### {{{emoji}}} Vaša boja već je postavljena na `{{{color}}}`.",
-			"colorSet": "### {{{emoji}}} Uspješno postavljena boja vašeg profila na `{{{color}}}`.",
-			"sameVisibility": "### {{{emoji}}} Vaša vidljivost već je postavljena na `{{{visibility}}}`.",
-			"noVisibility": "### {{{emoji}}} Molimo odredite vidljivost (javno/privatno).",
-			"visibilitySet": "### {{{emoji}}} Uspješno postavljena vidljivost vašeg profila na `{{{visibility}}}`.",
-			"privateProfile": "### {{{emoji}}} Profil ovog korisnika je privatni."
+			"noBio": " {{{emoji}}} Molimo unesite opis profila.",
+			"bioLength": " {{{emoji}}} Vaš opis profila ne može biti dulji od 50 znakova.",
+			"bioSet": " {{{emoji}}} Uspješno postavljen opis vašeg profila na `{{{bio}}}`.",
+			"noColor": " {{{emoji}}} Molimo unesite šifru boje u heksadecimalnom formatu [Primjer: #FF0000](https://g.co/kgs/q5nhF7).\n\nMožete koristiti i sljedeće nazive boja: {{{colors}}}.",
+			"sameColor": " {{{emoji}}} Vaša boja već je postavljena na `{{{color}}}`.",
+			"colorSet": " {{{emoji}}} Uspješno postavljena boja vašeg profila na `{{{color}}}`.",
+			"sameVisibility": " {{{emoji}}} Vaša vidljivost već je postavljena na `{{{visibility}}}`.",
+			"noVisibility": " {{{emoji}}} Molimo odredite vidljivost (javno/privatno).",
+			"visibilitySet": " {{{emoji}}} Uspješno postavljena vidljivost vašeg profila na `{{{visibility}}}`.",
+			"privateProfile": " {{{emoji}}} Profil ovog korisnika je privatni."
 		},
 		"setting": {
 			"description": "Promijeni postavke servera ili dohvati informacije o postavkama",
@@ -584,8 +584,8 @@
 				"reset": "Resetiraj sve postavke servera na zadane postavke",
 				"info": "Dohvati informacije o postavkama servera"
 			},
-			"noPermission": "### {{{emoji}}} Nemate dopuštenje `manageGuild` za korištenje ove naredbe.",
-			"isSure": "### Jeste li sigurni da želite resetirati postavke servera?\nOvo će resetirati sve postavke na zadane vrijednosti.\n\n**ako ste sigurni, pritisnite donju tipku**",
+			"noPermission": " {{{emoji}}} Nemate dopuštenje `manageGuild` za korištenje ove naredbe.",
+			"isSure": " Jeste li sigurni da želite resetirati postavke servera?\nOvo će resetirati sve postavke na zadane vrijednosti.\n\n**ako ste sigurni, pritisnite donju tipku**",
 			"buttons": {
 				"reset": "Resetiraj"
 			},
@@ -620,9 +620,9 @@
 				"disabled": "Onemogućeno",
 				"none": "Nema"
 			},
-			"resetSuccess": "### {{{emoji}}} Uspješno resetirane postavke servera na zadane vrijednosti.",
-			"info": "## Ovdje su informacije o konfiguraciji za ovaj server",
-			"noSettings": "### {{{emoji}}} Nema postavki za ovaj server."
+			"resetSuccess": " {{{emoji}}} Uspješno resetirane postavke servera na zadane vrijednosti.",
+			"info": " Ovdje su informacije o konfiguraciji za ovaj server",
+			"noSettings": " {{{emoji}}} Nema postavki za ovaj server."
 		},
 		"voteskipsetting": {
 			"description": "Konfiguriraj postavke glasanja za preskakanje.",
@@ -630,11 +630,11 @@
 				"set": "Postavi način glasanja za preskakanje.",
 				"action": "Radnja koju želite postaviti (omogućiti/onemogućiti)."
 			},
-			"success": "### {{{emoji}}} Uspješno {{{action}}} glasanje za preskakanje.",
-			"isConfirm": "### Želite li omogućiti ili onemogućiti glasanje za preskakanje?",
-			"canceled": "### {{{emoji}}} Postavke glasanja za preskakanje su otkazane.",
-			"alreadyEnabled": "### Glasanje za preskakanje je već omogućeno.",
-			"alreadyDisabled": "### Glasanje za preskakanje je već onemogućeno.",
+			"success": " {{{emoji}}} Uspješno {{{action}}} glasanje za preskakanje.",
+			"isConfirm": " Želite li omogućiti ili onemogućiti glasanje za preskakanje?",
+			"canceled": " {{{emoji}}} Postavke glasanja za preskakanje su otkazane.",
+			"alreadyEnabled": " Glasanje za preskakanje je već omogućeno.",
+			"alreadyDisabled": " Glasanje za preskakanje je već onemogućeno.",
 			"buttons": {
 				"enable": "Omogući",
 				"disable": "Onemogući",
@@ -647,28 +647,28 @@
 				"playlist": "Popis pjesama na koji želite dodati pjesmu.",
 				"song": "Pjesma (naziv/URL) koju želite dodati na popis pjesama."
 			},
-			"playlistLength": "### {{{emoji}}} Naziv popisa pjesama mora imati između 3 i 50 znakova.",
-			"noPlaylists": "### {{{emoji}}} Nisam pronašao nijedan popis pjesama u vašem računu, molim vas prvo kreirajte jedan.",
-			"noResults": "### {{{emoji}}} Nisam pronašao rezultate za `{{{song}}}`.",
-			"playlistFull": "### {{{emoji}}} Vaš popis pjesama je pun, molim vas uklonite neke pjesme prije dodavanja novih.",
-			"playlistAdded": "### {{{emoji}}} Uspješno dodano **{{{count}}}** pjesama na popis pjesama **{{{playlist}}}**."
+			"playlistLength": " {{{emoji}}} Naziv popisa pjesama mora imati između 3 i 50 znakova.",
+			"noPlaylists": " {{{emoji}}} Nisam pronašao nijedan popis pjesama u vašem računu, molim vas prvo kreirajte jedan.",
+			"noResults": " {{{emoji}}} Nisam pronašao rezultate za `{{{song}}}`.",
+			"playlistFull": " {{{emoji}}} Vaš popis pjesama je pun, molim vas uklonite neke pjesme prije dodavanja novih.",
+			"playlistAdded": " {{{emoji}}} Uspješno dodano **{{{count}}}** pjesama na popis pjesama **{{{playlist}}}**."
 		},
 		"addnowplaying": {
 			"description": "Dodaj trenutnu pjesmu na popis pjesama.",
 			"options": {
 				"playlist": "Popis pjesama na koji želite dodati trenutnu pjesmu."
 			},
-			"noSong": "### {{{emoji}}} Trenutno nema pjesme.",
-			"songAlreadyInPlaylist": "### {{{emoji}}} Ova pjesma već se nalazi na popisu pjesama.",
-			"success": "### {{{emoji}}} Dodano **{{{song}}}** na **{{{playlist}}}**."
+			"noSong": " {{{emoji}}} Trenutno nema pjesme.",
+			"songAlreadyInPlaylist": " {{{emoji}}} Ova pjesma već se nalazi na popisu pjesama.",
+			"success": " {{{emoji}}} Dodano **{{{song}}}** na **{{{playlist}}}**."
 		},
 		"addqueue": {
 			"description": "Dodaj popis pjesama u red čekanja.",
 			"options": {
 				"name": "Naziv popisa pjesama koji želite dodati u red čekanja."
 			},
-			"noQueue": "### {{{emoji}}} Nema reda čekanja.",
-			"success": "### {{{emoji}}} Dodano **{{{queueLength}}}** pjesama iz reda čekanja na popis pjesama **{{{playlistName}}}**."
+			"noQueue": " {{{emoji}}} Nema reda čekanja.",
+			"success": " {{{emoji}}} Dodano **{{{queueLength}}}** pjesama iz reda čekanja na popis pjesama **{{{playlistName}}}**."
 		},
 		"create": {
 			"description": "Kreiraj popis pjesama.",
@@ -676,33 +676,33 @@
 				"playlist": "Naziv popisa pjesama koji želite kreirati.",
 				"visibility": "Vidljivost popisa pjesama."
 			},
-			"playlist": "### {{{emoji}}} Molim unesite naziv popisa pjesama.",
-			"visibility": "### {{{emoji}}} Vidljivost mora biti ili `public` ili `private`.",
-			"maxPlaylists": "### {{{emoji}}} Možete kreirati do 10 popisa pjesama.",
-			"playlistExists": "### {{{emoji}}} Već imate popis pjesama s imenom **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Uspješno kreiran popis pjesama **{{{playlist}}}**."
+			"playlist": " {{{emoji}}} Molim unesite naziv popisa pjesama.",
+			"visibility": " {{{emoji}}} Vidljivost mora biti ili `public` ili `private`.",
+			"maxPlaylists": " {{{emoji}}} Možete kreirati do 10 popisa pjesama.",
+			"playlistExists": " {{{emoji}}} Već imate popis pjesama s imenom **{{{playlist}}}**.",
+			"success": " {{{emoji}}} Uspješno kreiran popis pjesama **{{{playlist}}}**."
 		},
 		"delete": {
 			"description": "Obriši popis pjesama.",
 			"options": {
 				"playlist": "Naziv popisa pjesama koji želite obrisati."
 			},
-			"noPlaylists": "### {{{emoji}}} Nemate popis pjesama s imenom **{{{playlist}}}**.",
+			"noPlaylists": " {{{emoji}}} Nemate popis pjesama s imenom **{{{playlist}}}**.",
 			"buttons": {
 				"confirm": "Potvrdi",
 				"cancel": "Odustani"
 			},
-			"confirm": "### Jeste li sigurni da želite obrisati popis pjesama **{{{playlist}}}**?",
-			"success": "### {{{emoji}}} Uspješno obrisan popis pjesama **{{{playlist}}}**.",
-			"cancel": "### {{{emoji}}} Odustali ste od brisanja popisa pjesama **{{{playlist}}}**."
+			"confirm": " Jeste li sigurni da želite obrisati popis pjesama **{{{playlist}}}**?",
+			"success": " {{{emoji}}} Uspješno obrisan popis pjesama **{{{playlist}}}**.",
+			"cancel": " {{{emoji}}} Odustali ste od brisanja popisa pjesama **{{{playlist}}}**."
 		},
 		"dupes": {
 			"description": "Ukloni sve duplicirane pjesme s popisa pjesama.",
 			"options": {
 				"playlist": "Naziv popisa pjesama iz kojeg želite ukloniti duplicirane pjesme."
 			},
-			"noDupes": "### {{{emoji}}} Nema dupliciranih pjesama na popisu pjesama **{{{playlist}}}**.",
-			"success": "### {{{emoji}}} Uspješno uklonjene **{{{count}}}** duplicirane pjesme s popisa pjesama **{{{playlist}}}**."
+			"noDupes": " {{{emoji}}} Nema dupliciranih pjesama na popisu pjesama **{{{playlist}}}**.",
+			"success": " {{{emoji}}} Uspješno uklonjene **{{{count}}}** duplicirane pjesme s popisa pjesama **{{{playlist}}}**."
 		},
 		"edit": {
 			"description": "Uredi popis pjesama.",
@@ -713,33 +713,33 @@
 				"playlist-visibility": "Promijenite vidljivost popisa pjesama.",
 				"visibility": "Vidljivost popisa pjesama."
 			},
-			"sameName": "### {{{emoji}}} Novi naziv mora biti različit od starog naziva.",
-			"successName": "### {{{emoji}}} Uspješno preimenovan popis pjesama **{{{oldName}}}** u **{{{newName}}}**.",
-			"sameVisibility": "### {{{emoji}}} Popis pjesama **{{{playlist}}}** već ima **{{{visibility}}}** vidljivost.",
-			"successVisibility": "### {{{emoji}}} Uspješno promijenjena vidljivost popisa pjesama **{{{playlist}}}** u **{{{visibility}}}**.",
+			"sameName": " {{{emoji}}} Novi naziv mora biti različit od starog naziva.",
+			"successName": " {{{emoji}}} Uspješno preimenovan popis pjesama **{{{oldName}}}** u **{{{newName}}}**.",
+			"sameVisibility": " {{{emoji}}} Popis pjesama **{{{playlist}}}** već ima **{{{visibility}}}** vidljivost.",
+			"successVisibility": " {{{emoji}}} Uspješno promijenjena vidljivost popisa pjesama **{{{playlist}}}** u **{{{visibility}}}**.",
 			"buttons": {
 				"playlist": "Naziv popisa pjesama",
 				"visibility": "Vidljivost popisa pjesama",
 				"public": "Javno",
 				"private": "Privatno"
 			},
-			"selectOption": "### Odaberite opciju za uređivanje vašeg popisa pjesama s gumba ispod.",
-			"oldName": "### Unesite stari naziv popisa pjesama.",
-			"newName": "### Unesite novi naziv popisa pjesama.",
-			"cancelled": "### {{{emoji}}} Otkazana promjena naziva popisa pjesama.",
-			"playlist": "### Unesite naziv popisa pjesama.",
-			"selectVisibility": "### Odaberite vidljivost popisa pjesama s gumba ispod.",
-			"liked": "### {{{emoji}}} Ne možete uređivati popis pjesama koje ste označili kao omiljene."
+			"selectOption": " Odaberite opciju za uređivanje vašeg popisa pjesama s gumba ispod.",
+			"oldName": " Unesite stari naziv popisa pjesama.",
+			"newName": " Unesite novi naziv popisa pjesama.",
+			"cancelled": " {{{emoji}}} Otkazana promjena naziva popisa pjesama.",
+			"playlist": " Unesite naziv popisa pjesama.",
+			"selectVisibility": " Odaberite vidljivost popisa pjesama s gumba ispod.",
+			"liked": " {{{emoji}}} Ne možete uređivati popis pjesama koje ste označili kao omiljene."
 		},
 		"import": {
 			"description": "Uvoz popisa pjesama putem ID-a.",
 			"options": {
 				"id": "ID popisa pjesama koji želite uvesti."
 			},
-			"noPlaylist": "### {{{emoji}}} Nisam pronašao popis pjesama s ID-om **{{{id}}}**.",
-			"sameUser": "### {{{emoji}}} Ne možete uvesti vlastiti popis pjesama.",
-			"privatePlaylist": "### {{{emoji}}} Ne možete uvesti privatni popis pjesama.",
-			"success": "### {{{emoji}}} Uspješno uvezen popis pjesama **{{{playlist}}}**."
+			"noPlaylist": " {{{emoji}}} Nisam pronašao popis pjesama s ID-om **{{{id}}}**.",
+			"sameUser": " {{{emoji}}} Ne možete uvesti vlastiti popis pjesama.",
+			"privatePlaylist": " {{{emoji}}} Ne možete uvesti privatni popis pjesama.",
+			"success": " {{{emoji}}} Uspješno uvezen popis pjesama **{{{playlist}}}**."
 		},
 		"list": {
 			"description": "Popis svih vaših popisa pjesama.",
@@ -752,12 +752,12 @@
 				"name": "Naziv popisa pjesama koji želite učitati.",
 				"track": "Redni broj pjesme ili naziv pjesme za učitavanje."
 			},
-			"noPlaylists": "### {{{emoji}}} Nemate popis pjesama s nazivom **{{{playlist}}}**.",
-			"noTracks": "### {{{emoji}}} Nema pjesama u popisu pjesama **{{{playlist}}}**.",
-			"noTrackFound": "### {{{emoji}}} Nema pronađene pjesme s tim rednim brojem ili nazivom `{{{track}}}`.",
-			"trackLoaded": "### {{{emoji}}} Učitano **{{{track}}}** iz **{{{playlist}}}**.",
-			"privatePlaylist": "### {{{emoji}}} Ne možete učitati privatni popis pjesama od drugog korisnika.",
-			"playlistLoaded": "### {{{emoji}}} Učitano **{{{count}}}** pjesama iz **{{{playlist}}}**."
+			"noPlaylists": " {{{emoji}}} Nemate popis pjesama s nazivom **{{{playlist}}}**.",
+			"noTracks": " {{{emoji}}} Nema pjesama u popisu pjesama **{{{playlist}}}**.",
+			"noTrackFound": " {{{emoji}}} Nema pronađene pjesme s tim rednim brojem ili nazivom `{{{track}}}`.",
+			"trackLoaded": " {{{emoji}}} Učitano **{{{track}}}** iz **{{{playlist}}}**.",
+			"privatePlaylist": " {{{emoji}}} Ne možete učitati privatni popis pjesama od drugog korisnika.",
+			"playlistLoaded": " {{{emoji}}} Učitano **{{{count}}}** pjesama iz **{{{playlist}}}**."
 		},
 		"pl-remove": {
 			"description": "Uklonite pjesmu iz popisa pjesama.",
@@ -765,8 +765,8 @@
 				"playlist": "Naziv popisa pjesama iz kojeg želite ukloniti pjesmu.",
 				"track": "Redni broj pjesme ili naziv pjesme za uklanjanje."
 			},
-			"notFound": "### {{{emoji}}} Nisam pronašao pjesmu s tim rednim brojem ili nazivom.",
-			"success": "### {{{emoji}}} Uspješno uklonjena pjesma **{{{track}}}** iz **{{{playlist}}}**."
+			"notFound": " {{{emoji}}} Nisam pronašao pjesmu s tim rednim brojem ili nazivom.",
+			"success": " {{{emoji}}} Uspješno uklonjena pjesma **{{{track}}}** iz **{{{playlist}}}**."
 		},
 		"view": {
 			"description": "Pregled popisa pjesama.",
@@ -787,29 +787,29 @@
 				"language": "cmd.playradio.options.language",
 				"country": "cmd.playradio.options.country"
 			},
-			"noStation": "### {{{emoji}}} Nisam mogao pronaći radijsku postaju s tim imenom.",
+			"noStation": " {{{emoji}}} Nisam mogao pronaći radijsku postaju s tim imenom.",
 			"country": "**Zemlja:** {{{country}}}",
 			"votes": "**Glasovi:** {{{votes}}}",
 			"codec": "**Kodek:** {{{codec}}}",
 			"bitrate": "**Bit brzina:** {{{bitrate}}}",
 			"tags": "**Oznake:** {{{tags}}}",
-			"results": "### Evo rezultata vaše pretrage:\n\n{{{results}}}",
+			"results": " Evo rezultata vaše pretrage:\n\n{{{results}}}",
 			"select": "Odaberite postaju između 1 i 10 u padajućem izborniku ispod.",
-			"added": "### {{{emoji}}} Dodano [**{{{name}}}**]({{{homepage}}}) u red čekanja."
+			"added": " {{{emoji}}} Dodano [**{{{name}}}**]({{{homepage}}}) u red čekanja."
 		}
 	},
 	"player": {
 		"embed": {
-			"247": "### Netko me isključio iz glasovnog kanala, ali još uvijek sam ovdje zbog **24/7 načina rada**!\n\nTo možete isključiti koristeći naredbu {{{cmd}}} ili naredbu {{{cmd2}}}!",
+			"247": " Netko me isključio iz glasovnog kanala, ali još uvijek sam ovdje zbog **24/7 načina rada**!\n\nTo možete isključiti koristeći naredbu {{{cmd}}} ili naredbu {{{cmd2}}}!",
 			"nowPlaying": "Trenutno se reproducira",
-			"nowPlayingDesc": "## **[{{{songName}}}]({{{songUrl}}})** Od [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
+			"nowPlayingDesc": " **[{{{songName}}}]({{{songUrl}}})** Od [{{{songAuthor}}}]({{{songAuthorUrl}}}) - {{{requester}}}",
 			"footer": "Trajanje: {{{duration}}} | Red čekanja: {{{queue}}} | Glasnoća: {{{volume}}}%",
-			"end": "### Nitko nije slušao u posljednju minutu, napuštam kanal.\n\nTo možete isključiti omogućivši **24/7 način rada** koristeći naredbu {{{cmd}}}!",
+			"end": " Nitko nije slušao u posljednju minutu, napuštam kanal.\n\nTo možete isključiti omogućivši **24/7 način rada** koristeći naredbu {{{cmd}}}!",
 			"endTitle": "Red čekanja završen",
-			"endDesc": "### Vaša lista pjesama je završena. Možete ponovno dodati glazbu koristeći naredbu {{{cmd}}}! Uživate u glazbi sa mnom? Razmislite o [glasanju za mene]({{{link}}})!"
+			"endDesc": " Vaša lista pjesama je završena. Možete ponovno dodati glazbu koristeći naredbu {{{cmd}}}! Uživate u glazbi sa mnom? Razmislite o [glasanju za mene]({{{link}}})!"
 		},
 		"error": "Greška pjesme",
-		"description": "### [{{{title}}}]({{{uri}}}) nije dostupna u vašoj zemlji zbog ograničenja sadržaja!",
+		"description": " [{{{title}}}]({{{uri}}}) nije dostupna u vašoj zemlji zbog ograničenja sadržaja!",
 		"buttons": {
 			"resume": "Nastavi",
 			"pause": "Pauziraj",
@@ -822,8 +822,8 @@
 			"loop": "Petlja",
 			"like": "Sviđa mi se"
 		},
-		"noDispatcher": "### Trenutno ništa ne svira..",
-		"nothingPlaying": "### Trenutno ništa ne svira.."
+		"noDispatcher": " Trenutno ništa ne svira..",
+		"nothingPlaying": " Trenutno ništa ne svira.."
 	},
 	"events": {
 		"buttonHandle": {
@@ -839,15 +839,15 @@
 			"voteSkipLabel2": "Glasajte za preskakanje trenutne pjesme! ({{{count}}}/{{{n}}})",
 			"needVoice": "{{{user}}} Morate se pridružiti glasovnom kanalu {{{channel}}} da biste koristili ovaj gumb!",
 			"voteSkipTrack": "{{{user}}} preskače pjesmu nakon što je dobila {{{count}}} pozitivnih glasova!",
-			"notEnoughVote": "### Nema dovoljno glasova za preskakanje trenutne pjesme.",
+			"notEnoughVote": " Nema dovoljno glasova za preskakanje trenutne pjesme.",
 			"skipTrack": "{{{user}}} preskočio je trenutnu pjesmu.",
 			"playTrack": "{{{user}}} {{{paused}}} trenutnu pjesmu.",
 			"paused": "Pauzirano",
 			"resumed": "Nastavljeno",
 			"stopTrack": "{{{user}}} zaustavio trenutnu pjesmu.",
-			"volMax": "### Glasnoća je već na maksimalnoj razini.",
+			"volMax": " Glasnoća je već na maksimalnoj razini.",
 			"volUp": "{{{user}}} povećao je glasnoću na **{{{vol}}}**%.",
-			"volMin": "### Glasnoća je već na minimalnoj razini.",
+			"volMin": " Glasnoća je već na minimalnoj razini.",
 			"volDown": "{{{user}}} smanjio je glasnoću na **{{{vol}}}**%.",
 			"shuffleError": "{{{user}}} Nema dovoljno pjesama u redu čekanja za slučajni redoslijed.",
 			"shuffleDisabled": "{{{user}}} Slučajni redoslijed isključen.",
@@ -860,17 +860,17 @@
 			"unliked": "{{{user}}} Više se ne sviđa **{{{title}}}**."
 		},
 		"int": {
-			"noSendMessages": "### Hej! Pokušao/la sam odgovoriti na vašu naredbu, ali nemam dozvolu za slanje poruka. Molimo nekog iz osoblja da mi omogući Discord dozvolu **Slanje poruka**.\n\nServer: **{{{guildName}}}**\nNaredba: **{{{commandName}}}**\nTreba vam pomoć s dozvolama? Pridružite se serveru za podršku: {{{supportServer}}}",
-			"noEmbedLinks": "### {{{emoji}}} Bot mora imati Discord dozvolu **Ugradnja poveznica** da bi pravilno funkcionirao! Molimo nekog iz osoblja da mi omogući ovu dozvolu.",
-			"noBotChannel": "### Nije mi dopušteno odgovarati na naredbe u ovom kanalu. Molimo koristite {{{emoji}}} <#{{{botChannel}}}> za naredbe. Hvala na suradnji.",
+			"noSendMessages": " Hej! Pokušao/la sam odgovoriti na vašu naredbu, ali nemam dozvolu za slanje poruka. Molimo nekog iz osoblja da mi omogući Discord dozvolu **Slanje poruka**.\n\nServer: **{{{guildName}}}**\nNaredba: **{{{commandName}}}**\nTreba vam pomoć s dozvolama? Pridružite se serveru za podršku: {{{supportServer}}}",
+			"noEmbedLinks": " {{{emoji}}} Bot mora imati Discord dozvolu **Ugradnja poveznica** da bi pravilno funkcionirao! Molimo nekog iz osoblja da mi omogući ovu dozvolu.",
+			"noBotChannel": " Nije mi dopušteno odgovarati na naredbe u ovom kanalu. Molimo koristite {{{emoji}}} <#{{{botChannel}}}> za naredbe. Hvala na suradnji.",
 			"deleteFooter": "• Ova poruka će biti izbrisana za 5 sekundi",
-			"disabledCommand": "### Ova naredba je onemogućena za sve korisnike na ovom serveru. Samo DJ-evi mogu koristiti ovu naredbu.",
+			"disabledCommand": " Ova naredba je onemogućena za sve korisnike na ovom serveru. Samo DJ-evi mogu koristiti ovu naredbu.",
 			"disabledCommandList": "Onemogućeni popis",
-			"noBotPermissions": "### {{{emoji}}} Nemam dozvolu **{{{permissions}}}** za izvršenje ove naredbe.",
-			"noUserPermissions": "### {{{emoji}}} Nemate dozvolu **{{{permissions}}}** za izvršenje ove naredbe.",
+			"noBotPermissions": " {{{emoji}}} Nemam dozvolu **{{{permissions}}}** za izvršenje ove naredbe.",
+			"noUserPermissions": " {{{emoji}}} Nemate dozvolu **{{{permissions}}}** za izvršenje ove naredbe.",
 			"voteLocks": [
-				"### Morate glasovati za mene da biste koristili ovu naredbu. Možete glasati na [Top.gg]({{{link}}})",
-				"### Morate glasovati za mene da biste koristili ovu naredbu. Možete glasati na [Top.gg]({{{link}}}) ili\nTakođer možete postati premium korisnik donacijom [ovdje]({{{link2}}})"
+				" Morate glasovati za mene da biste koristili ovu naredbu. Možete glasati na [Top.gg]({{{link}}})",
+				" Morate glasovati za mene da biste koristili ovu naredbu. Možete glasati na [Top.gg]({{{link}}}) ili\nTakođer možete postati premium korisnik donacijom [ovdje]({{{link2}}})"
 			],
 			"buttons": {
 				"vote": "Glasaj",
@@ -878,22 +878,22 @@
 				"invite": "Pozovi",
 				"support": "Podrška"
 			},
-			"cooldown": "### Pričekajte još **{{{timeLeft}}}** sekundi prije ponovne uporabe naredbe **{{{command}}}**.",
-			"noDjRole": "### {{{emoji}}} Trebate DJ ulogu da biste koristili ovu naredbu.",
-			"noPremium": "### Trebate premium verziju bota da biste koristili ovu naredbu. Možete postati premium korisnik donacijom [ovdje]({{{link}}})",
-			"voicePerm": "### {{{emoji}}} Nemam potrebne dozvole za pridruživanje vašem glasovnom kanalu! Potrebne su mi dozvole **Prikazivanje kanala**, **Povezivanje** i **Govor**. [Primjer dozvola](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nAko problem i dalje postoji, promijenite regiju glasovnog kanala na **Europe**.",
-			"voiceJoin": "### {{{emoji}}} Morate biti povezani na glasovni kanal na ovom serveru da biste koristili ovu naredbu!\n\nKako se pridružiti glasovnom kanalu? Samo kliknite na kanal sa zvučnikom (na primjer, kliknite ovdje: {{{channel}}}) [Pogledajte službeni Discord vodič](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
-			"voiceChannel": "### {{{emoji}}} Morate biti u glasovnom kanalu **{{{channel}}}** da biste koristili ovu naredbu.",
-			"noPlayer": "### {{{emoji}}} Nisam povezan s glasovnim kanalom. Molimo koristite naredbu {{{command}}} da biste me pozvali.",
-			"noQueue": "### {{{emoji}}} Nema reda čekanja. Molimo koristite naredbu {{{command}}} da biste dodali pjesmu u red čekanja.",
-			"noSong": "### {{{emoji}}} Trenutno ništa ne svira. Molimo koristite naredbu {{{command}}} da biste dodali pjesmu u red čekanja.",
-			"error": "### {{{emoji}}} Došlo je do pogreške prilikom izvršenja naredbe. Molimo prijavite ovu grešku na [Support Server]({{{link}}})"
+			"cooldown": " Pričekajte još **{{{timeLeft}}}** sekundi prije ponovne uporabe naredbe **{{{command}}}**.",
+			"noDjRole": " {{{emoji}}} Trebate DJ ulogu da biste koristili ovu naredbu.",
+			"noPremium": " Trebate premium verziju bota da biste koristili ovu naredbu. Možete postati premium korisnik donacijom [ovdje]({{{link}}})",
+			"voicePerm": " {{{emoji}}} Nemam potrebne dozvole za pridruživanje vašem glasovnom kanalu! Potrebne su mi dozvole **Prikazivanje kanala**, **Povezivanje** i **Govor**. [Primjer dozvola](https://cdn.discordapp.com/attachments/979364157541462066/1123321728123285624/moe-voice-perm.png)\nAko problem i dalje postoji, promijenite regiju glasovnog kanala na **Europe**.",
+			"voiceJoin": " {{{emoji}}} Morate biti povezani na glasovni kanal na ovom serveru da biste koristili ovu naredbu!\n\nKako se pridružiti glasovnom kanalu? Samo kliknite na kanal sa zvučnikom (na primjer, kliknite ovdje: {{{channel}}}) [Pogledajte službeni Discord vodič](https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord#h_9de92bc2-3bca-459f-8efd-e1e2739ca4f4)",
+			"voiceChannel": " {{{emoji}}} Morate biti u glasovnom kanalu **{{{channel}}}** da biste koristili ovu naredbu.",
+			"noPlayer": " {{{emoji}}} Nisam povezan s glasovnim kanalom. Molimo koristite naredbu {{{command}}} da biste me pozvali.",
+			"noQueue": " {{{emoji}}} Nema reda čekanja. Molimo koristite naredbu {{{command}}} da biste dodali pjesmu u red čekanja.",
+			"noSong": " {{{emoji}}} Trenutno ništa ne svira. Molimo koristite naredbu {{{command}}} da biste dodali pjesmu u red čekanja.",
+			"error": " {{{emoji}}} Došlo je do pogreške prilikom izvršenja naredbe. Molimo prijavite ovu grešku na [Support Server]({{{link}}})"
 		}
 	},
 	"get_started": {
 		"embed_title": "Moe Bot | Početak",
-		"embed_description": "### Hej <@{{{user}}}>! Moj prefiks je/jesu: `{{{prefixList}}}`\nPrimjer: `{{{prefix}}}help`, `{{{prefix}}}ping`",
-		"embed_description2": "### Hej <@{{{user}}}>! Moj prefiks je: `bez prefiksa`, što znači da možete koristiti bilo koju naredbu bez prefiksa.\nPrimjer: `help`, `ping`"
+		"embed_description": " Hej <@{{{user}}}>! Moj prefiks je/jesu: `{{{prefixList}}}`\nPrimjer: `{{{prefix}}}help`, `{{{prefix}}}ping`",
+		"embed_description2": " Hej <@{{{user}}}>! Moj prefiks je: `bez prefiksa`, što znači da možete koristiti bilo koju naredbu bez prefiksa.\nPrimjer: `help`, `ping`"
 	},
 	"options": {
 		"title": "Opcije za {{{commandName}}}",
